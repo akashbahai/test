@@ -144,8 +144,8 @@ function showDetail(id){
   <div class="dialog-actions"><button class="button" data-save="${esc(e.id)}" aria-pressed="${saved.has(e.id)}">${saved.has(e.id)?'★ Saved to shortlist':'☆ Save to shortlist'}</button><button class="button" data-calendar="${esc(e.id)}">Export deadlines</button><a class="button primary-button" href="${esc(safeUrl(e.source))}" target="_blank" rel="noopener noreferrer">Open official page</a></div>`;
   if(!$('detail').open)$('detail').showModal();
 }
-function download(text,name,type){const u=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000);}
-function calendar(events){if(!events.some(e=>eligibleDeadlines(e).length)){notify('No upcoming dated deadlines to export.');return;}download(exportCalendar(events),'research-radar-deadlines.ics','text/calendar;charset=utf-8');notify('Calendar snapshot downloaded. Date-only cutoffs are all-day reminders.');}
+function download(text,name,type){if(window.RadarAndroid?.saveFile){window.RadarAndroid.saveFile(text,name,type);return;}const u=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000);}
+function calendar(events){if(!events.some(e=>eligibleDeadlines(e).length)){notify('No upcoming dated deadlines to export.');return;}download(exportCalendar(events),'research-radar-deadlines.ics','text/calendar;charset=utf-8');notify(window.RadarAndroid?'Choose where to save the calendar snapshot.':'Calendar snapshot downloaded. Date-only cutoffs are all-day reminders.');}
 function reset(){for(const id of filters)$(id).value=id==='sort'?'deadline':'';$('past').checked=false;worldMap.reset();render();}
 document.addEventListener('click',ev=>{
   const b=ev.target.closest('button');if(!b)return;
@@ -159,7 +159,7 @@ for(const id of filters)$(id).addEventListener(id==='search'?'input':'change',re
 $('past').addEventListener('change',render);
 $('reset').onclick=reset;$('empty-reset').onclick=reset;
 $('refresh').onclick=()=>loadData(true);
-$('csv').onclick=()=>{download(exportCsv(visible),'research-radar-events.csv','text/csv;charset=utf-8');notify('Filtered events exported.');};
+$('csv').onclick=()=>{download(exportCsv(visible),'research-radar-events.csv','text/csv;charset=utf-8');notify(window.RadarAndroid?'Choose where to save your CSV.':'Filtered events exported.');};
 $('ics').onclick=()=>calendar(visible);
 $('close-detail').onclick=()=>$('detail').close();
 $('detail').addEventListener('click',e=>{if(e.target===$('detail')){const r=$('detail').getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)$('detail').close();}});
@@ -167,3 +167,5 @@ document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','TEXTAREA','SE
 loadData();
 setInterval(()=>{if(!document.hidden)loadData();},15*60*1000);
 setInterval(()=>{if(catalog&&!document.hidden)render();},60*1000);
+
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)loadData();});

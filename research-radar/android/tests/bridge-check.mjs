@@ -1,0 +1,22 @@
+import {JSDOM} from 'jsdom';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import * as core from '../../core.js';
+const root=new URL('../../',import.meta.url);
+const dom=new JSDOM(fs.readFileSync(new URL('index.html',root),'utf8'),{url:'https://appassets.androidplatform.net/assets/index.html',runScripts:'outside-only'});
+const {window:w}=dom;w.__core=core;
+const calls=[];w.RadarAndroid={saveFile:(...args)=>calls.push(args)};
+w.createWorldMap=()=>({update(){},render(){},resize(){},reset(){}});
+w.fetch=async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(new URL('events.json',root),'utf8'))});
+w.AbortSignal=AbortSignal;
+w.eval('const {TZ,localDay,formatDate,deadlineInstant,singaporeTime,remainingDays,nextDeadline,status,eventDates,primaryDeadline,escapeText:esc,safeUrl,exportCsv,exportCalendar,eligibleDeadlines,isPast}=window.__core;'+fs.readFileSync(new URL('app.js',root),'utf8').replace(/^import .*;$/gm,''));
+await new Promise(r=>setTimeout(r,100));
+assert.equal(w.document.getElementById('nav-count').textContent,'77');
+w.document.getElementById('country').value='Singapore';w.document.getElementById('country').dispatchEvent(new w.Event('change'));
+w.document.getElementById('csv').click();
+assert.equal(calls.length,1);assert.equal(calls[0][1],'research-radar-events.csv');assert.ok(calls[0][0].includes('Singapore'));assert.ok(!calls[0][0].includes('Sydney'));
+w.document.getElementById('reset').click();w.document.getElementById('ics').click();
+assert.equal(calls.length,2);assert.equal(calls[1][1],'research-radar-deadlines.ics');assert.match(calls[1][0],/^BEGIN:VCALENDAR/);
+w.document.querySelector('[data-save]').click();assert.equal(JSON.parse(w.localStorage.getItem('research-radar-saved')).length,1);
+
+w.close();console.log('Android bridge integration passed: offline seed, filters, native CSV/ICS payloads and local shortlist.');

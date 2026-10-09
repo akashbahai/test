@@ -64,3 +64,7 @@ Public repository contents contain only public event facts and generic research 
 ## Map data
 
 Natural Earth 1:110m Admin 0 countries, public domain: https://www.naturalearthdata.com/about/terms-of-use/ . Geometry derived from https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson with coordinates rounded to two decimal places and Antarctica omitted. The map requires no geocoding service, third-party tiles or API key. City coordinates are approximate; unknown locations are never guessed. Country/territory labels are for travel filtering.
+
+## Android app
+
+The [Android project](android/README.md) packages this dashboard with offline assets and native CSV/calendar export. See [store release instructions](android/store/publication-checklist.md). Google Play publication is pending account access and device testing.

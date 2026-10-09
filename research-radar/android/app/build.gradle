@@ -1,0 +1,27 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.akashbahai.researchradar'
+ compileSdk 36
+ buildToolsVersion "36.0.0"
+ defaultConfig { applicationId 'com.akashbahai.researchradar'; minSdk 28; targetSdk 36; versionCode 1; versionName '1.0.0' }
+ signingConfigs {
+  release {
+   if (System.getenv('RADAR_KEYSTORE')) {
+    storeFile file(System.getenv('RADAR_KEYSTORE'))
+    storePassword System.getenv('RADAR_KEY_PASSWORD')
+    keyAlias 'radar-upload'
+    keyPassword System.getenv('RADAR_KEY_PASSWORD')
+   }
+  }
+ }
+ buildTypes { release { minifyEnabled false; if (System.getenv('RADAR_KEYSTORE')) signingConfig signingConfigs.release } }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+ sourceSets { main { assets.srcDir layout.buildDirectory.dir('generated/radarAssets') } }
+}
+dependencies { implementation 'androidx.webkit:webkit:1.14.0'; implementation 'androidx.activity:activity:1.10.1' }
+tasks.register('syncRadarAssets', Copy) {
+ from('../..') { include 'index.html','app.js','core.js','map.js','styles.css','events.json','world.json','privacy.html' }
+ into layout.buildDirectory.dir('generated/radarAssets')
+ filesMatching('index.html') { filter { it.replace('AKASH’S WORKSPACE','YOUR WORKSPACE') } }
+}
+tasks.named('preBuild').configure { dependsOn 'syncRadarAssets' }
