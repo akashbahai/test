@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research Radar · AI & Biology</title>
+  <meta name="description" content="Conference deadlines and advanced training for biomedical AI, proteomics, genomics and foundation models.">
+  <meta name="theme-color" content="#102b40"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23102b40'/%3E%3Ccircle cx='20' cy='20' r='12' fill='none' stroke='%2344d7bb' stroke-width='2'/%3E%3Cpath d='M20 20V8M20 20l9 8' stroke='%2344d7bb' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css"><script type="module" src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to events</a>
+<aside class="sidebar">
+  <a class="brand" href="./"><span class="brand-icon" aria-hidden="true">◎</span><span>RESEARCH<br><b>RADAR</b></span></a>
+  <div class="workspace-label">AKASH’S WORKSPACE</div>
+  <nav aria-label="Dashboard sections">
+    <button data-view="all" class="nav active"><span aria-hidden="true">▦</span> All opportunities <span class="nav-count" id="nav-count">—</span></button>
+    <button data-view="shortlist" class="nav"><span aria-hidden="true">☆</span> My shortlist <span class="nav-count" id="saved-count">0</span></button>
+    <button data-view="timeline" class="nav"><span aria-hidden="true">◷</span> Deadline timeline</button>
+    <button data-view="sources" class="nav"><span aria-hidden="true">↻</span> Sources & updates</button>
+  </nav>
+  <div class="focus-label">YOUR RESEARCH FOCUS</div>
+  <div class="focus-tags"><span>Biomedical AI</span><span>Proteomics</span><span>Multi-omics</span><span>Foundation models</span><span>Medical imaging</span><span>Genomics</span></div>
+  <div class="sidebar-bottom"><div class="update-icon" aria-hidden="true">↻</div><b id="schedule-title">Source review</b><p id="schedule-text">Loading update schedule…</p><div class="zone">Singapore · UTC+8</div></div>
+</aside>
+<div class="page">
+  <header class="topbar"><span>AI & BIOLOGY <span class="slash">/</span> OPPORTUNITY TRACKER</span><span id="today"></span></header>
+  <main id="main">
+    <div class="title-row"><div><div class="eyebrow">PLAN YOUR NEXT SUBMISSION</div><h1 id="page-title">Research radar<span>.</span></h1><p class="intro">Conferences, workshops & advanced training matched to your work.</p></div><button id="refresh" class="button subtle">↻ <span>Refresh data</span></button></div>
+    <div id="notice" class="notice" hidden role="status"></div>
+    <section class="stats" aria-label="Catalog overview">
+      <button class="stat" data-quick="all"><span>Opportunities tracked</span><strong id="stat-total">—</strong><small>Conferences + training</small></button>
+      <button class="stat" data-quick="soon"><span>Deadlines within 30 days</span><strong id="stat-soon" class="orange">—</strong><small>Time to plan a submission</small></button>
+      <button class="stat" data-quick="high"><span>High relevance</span><strong id="stat-high">—</strong><small>Closest to your research</small></button>
+      <button class="stat" data-quick="unknown"><span>Waiting for dates</span><strong id="stat-unknown">—</strong><small>On the announcement watchlist</small></button>
+    </section>
+    <section id="next-section" class="next-section"><div class="section-caption"><b>COMING UP NEXT</b><span>Nearest actionable deadlines</span></div><div id="next-deadlines" class="next-grid"></div></section>
+    <section id="controls" aria-label="Filter opportunities">
+      <div class="toolbar"><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="Search events" placeholder="Search conferences, topics, locations…"><kbd>/</kbd></div><button class="button" id="csv">Export CSV</button><button class="button" id="ics">Add to calendar</button></div>
+      <div class="filters"><label>Topic<select id="topic"><option value="">All research areas</option></select></label><label>Type<select id="type"><option value="">All event types</option><option>Conference</option><option>Workshop</option><option>Course</option></select></label><label>Deadline<select id="status"><option value="">All statuses</option><option value="soon">Due within 30 days</option><option value="upcoming">Known upcoming deadlines</option><option value="unknown">Awaiting dates / not open</option><option value="closed">Submissions closed</option><option value="waitlist">Waitlist only</option></select></label><label>Relevance<select id="fit"><option value="">All relevance levels</option><option>High</option><option>Relevant</option><option>Selective</option></select></label><label>Sort by<select id="sort"><option value="deadline">Next deadline</option><option value="date">Event date</option><option value="fit">Relevance</option><option value="name">Name</option></select></label><button id="reset" class="reset">Reset</button></div>
+    </section>
+    <section id="results-section"><div class="results-heading"><h2 id="results-label">All opportunities</h2><span id="result-count" aria-live="polite"></span><label class="past-toggle"><input type="checkbox" id="past"> Include past events</label></div>
+      <div id="table-view" class="table-wrap"><table><thead><tr><th scope="col" class="save-col"><span class="sr-only">Save</span></th><th scope="col">Conference / training</th><th scope="col">Location & event dates</th><th scope="col">Relevance</th><th scope="col">Abstract / application deadline</th><th scope="col">Submission status</th></tr></thead><tbody id="events-body"><tr><td colspan="6" class="empty">Loading opportunities…</td></tr></tbody></table></div>
+      <div id="timeline-view" hidden></div><div id="empty" class="empty" hidden><strong>No matching opportunities</strong><p>Try another topic or clear your filters.</p><button class="button" id="empty-reset">Clear filters</button></div>
+    </section>
+    <section id="sources-view" hidden></section>
+    <footer><span id="verified-summary">Loading source information…</span><span>Relevance is a research-fit assessment. Confirm with the organizer before submitting.</span><a href="https://github.com/akashbahai/test/tree/master/research-radar" target="_blank" rel="noopener noreferrer">View source code</a></footer>
+  </main>
+</div>
+<dialog id="detail"><div class="dialog-top"><span class="eyebrow">OPPORTUNITY DETAILS</span><button id="close-detail" class="icon-button" aria-label="Close details">×</button></div><div id="detail-content"></div></dialog>
+<div id="toast" class="toast" role="status" hidden></div>
+</body></html>

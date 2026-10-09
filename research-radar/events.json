@@ -1,0 +1,1796 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-09T11:47:32.235004Z",
+  "coverage": "Major AI, bioinformatics, biomedical imaging and omics conferences, plus selected advanced training. Primarily late 2026–2027; next-edition watchlists are included. Curated coverage, not an exhaustive worldwide directory.",
+  "timezone": "Asia/Singapore",
+  "updatePolicy": {
+    "enabled": false,
+    "cadence": "Daily morning source review",
+    "note": "Scheduling is being configured."
+  },
+  "events": [
+    {
+      "id": "recomb-2027",
+      "name": "RECOMB 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "AI & ML",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Strong fit for new computational methods for omics, sequence analysis and biological models.",
+      "location": "Toronto, Canada",
+      "start": "2027-05-17",
+      "end": "2027-05-20",
+      "source": "https://recomb.org/recomb2027/keydates_and_deadlines.html",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-10-28",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-11-04",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        },
+        {
+          "label": "Poster abstract",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Research in Computational Molecular Biology",
+      "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline."
+    },
+    {
+      "id": "cvpr-2027",
+      "name": "CVPR 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Computer vision methods, image segmentation and multimodal models; a strong target for methodological imaging work.",
+      "location": "Seattle, USA",
+      "start": "2027-06-20",
+      "end": "2027-06-25",
+      "source": "https://cvpr.thecvf.com/Conferences/2027/Dates",
+      "deadlines": [
+        {
+          "label": "Paper / abstract registration",
+          "date": "2026-11-10",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-11-16",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    },
+    {
+      "id": "midl-2027",
+      "name": "MIDL 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Direct fit for deep learning in medical images, segmentation, phenotyping and foundation models.",
+      "location": "Porto, Portugal",
+      "start": "2027-07-14",
+      "end": "2027-07-16",
+      "source": "https://2027.midl.io/important-dates",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-11-30",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-12-04",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        },
+        {
+          "label": "Short paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Medical Imaging with Deep Learning",
+      "notes": "Doctoral symposium is 13 July; main conference is 14–16 July."
+    },
+    {
+      "id": "ismb-eccb-2027",
+      "name": "ISMB / ECCB 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Proteomics",
+        "Genomics",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Flagship computational biology venue with methods, ML, multi-omics and protein-focused communities.",
+      "location": "Copenhagen, Denmark · hybrid",
+      "start": "2027-07-18",
+      "end": "2027-07-22",
+      "source": "https://www.iscb.org/ismbeccb2027/key-dates",
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2027-04-08",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Proceedings paper",
+          "date": "2027-01-14",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Late-breaking poster",
+          "date": "2027-05-06",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Intelligent Systems for Molecular Biology / European Conference on Computational Biology",
+      "sources": [
+        "https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/abstracts?keydate=",
+        "https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/proceedings?keydate="
+      ],
+      "notes": "Proceedings and abstract tracks have independent deadlines. Late-breaking submissions are posters only."
+    },
+    {
+      "id": "isbi-2027",
+      "name": "IEEE ISBI 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Biomedical image analysis and computational imaging across scales.",
+      "location": "Lausanne, Switzerland",
+      "start": "2027-05-25",
+      "end": "2027-05-28",
+      "source": "https://biomedicalimaging.org/2027/",
+      "deadlines": [
+        {
+          "label": "One-page abstract",
+          "date": "2027-02-01",
+          "zone": "EDT as published",
+          "time": "23:59"
+        },
+        {
+          "label": "Four-page paper",
+          "date": "2026-10-26",
+          "zone": "EDT",
+          "time": "23:59"
+        },
+        {
+          "label": "Workshop paper",
+          "date": "2027-01-26",
+          "zone": "EDT as published",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "fullName": "International Symposium on Biomedical Imaging",
+      "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation."
+    },
+    {
+      "id": "naacl-2027",
+      "name": "NAACL 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs",
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Useful for language-model methods, biomedical NLP and evaluation research.",
+      "location": "San Francisco, USA",
+      "start": "2027-06-01",
+      "end": "2027-06-05",
+      "source": "https://2027.naacl.org/",
+      "deadlines": [
+        {
+          "label": "ARR paper submission",
+          "date": "2026-10-12",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Industry paper",
+          "date": "2026-10-31",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "System demonstration",
+          "date": "2026-12-04",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Commitment to NAACL",
+          "date": "2026-12-23",
+          "zone": "AoE",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "ARR is a full-paper review deadline, not an abstract-only deadline. Conference commitment is a separate step for reviewed papers.",
+      "abstractNote": "No separate abstract date listed"
+    },
+    {
+      "id": "acl-2027",
+      "name": "ACL 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs",
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Major NLP venue for language models, biological sequence analogies with methodological novelty and biomedical text.",
+      "location": "Kyoto, Japan",
+      "start": "2027-08-17",
+      "end": "2027-08-22",
+      "source": "https://2027.aclweb.org/",
+      "deadlines": [
+        {
+          "label": "ARR paper submission",
+          "date": "2027-01-04",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Main conference 20–22 August; tutorials and workshops 17–19 August. Commitment deadline is not yet announced.",
+      "abstractNote": "No separate abstract date listed"
+    },
+    {
+      "id": "iclr-2027",
+      "name": "ICLR 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Foundation models",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "A leading target for representation learning, foundation models and deep learning methods for biology.",
+      "location": "San Francisco, USA",
+      "start": "2027-04-26",
+      "end": "2027-04-30",
+      "source": "https://iclr.cc/Conferences/2027/AuthorGuidelines",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-09-18",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-09-25",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "notes": "Main paper deadline has passed. Individual 2027 workshop calls are tracked separately. Official dates page still has placeholder text; verify travel dates before booking.",
+      "sources": [
+        "https://iclr.cc/Conferences/2027/CallForWorkshops"
+      ]
+    },
+    {
+      "id": "icml-2027",
+      "name": "ICML 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Foundation models",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Major target for rigorous ML methods, multimodal learning and biological foundation models.",
+      "location": "South America · city TBA",
+      "start": null,
+      "end": null,
+      "source": "https://icml.cc/Conferences/FutureMeetings",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "International Conference on Machine Learning",
+      "notes": "Official source currently confirms the region only. No extrapolated deadlines are used."
+    },
+    {
+      "id": "neurips-2027",
+      "name": "NeurIPS 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Foundation models",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Leading venue for new ML methods, benchmarks and AI for science.",
+      "location": "Europe · city TBA",
+      "start": null,
+      "end": null,
+      "source": "https://neurips.cc/Conferences/FutureMeetings",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Conference on Neural Information Processing Systems"
+    },
+    {
+      "id": "neurips-2026",
+      "name": "NeurIPS 2026",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Current-year networking and workshop attendance; next main submission cycle is 2027.",
+      "location": "Sydney, Australia",
+      "start": "2026-12-06",
+      "end": "2026-12-12",
+      "source": "https://neurips.cc/Conferences/2026/Dates",
+      "deadlines": [],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "2026 main submissions are closed. Individual workshops have separate calls; no universal workshop paper deadline is assumed."
+    },
+    {
+      "id": "aistats-2027",
+      "name": "AISTATS 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "High",
+      "relevance": "Strong fit for statistical ML, uncertainty, causal methods and rigorous cohort modelling.",
+      "location": "Montréal, Canada",
+      "start": "2027-05-03",
+      "end": "2027-05-06",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-09-29",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-10-06",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Artificial Intelligence and Statistics",
+      "notes": "Main submissions are closed. The CFP's October workshop date is a workshop-proposal deadline, not an attendee paper deadline."
+    },
+    {
+      "id": "aaai-2027",
+      "name": "AAAI 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Broad AI methods and applications; relevant when the contribution generalizes beyond a single biomedical task.",
+      "location": "Montréal, Canada",
+      "start": "2027-02-16",
+      "end": "2027-02-23",
+      "source": "https://aaai.org/conference/aaai/aaai-27/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-07-21",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-07-28",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://openreview.net/group?id=AAAI.org/2027/Conference"
+      ]
+    },
+    {
+      "id": "ijcai-2027",
+      "name": "IJCAI 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "General AI methodology including knowledge representation, learning and reasoning.",
+      "location": "Kyoto, Japan; Hengqin, China",
+      "start": "2027-08-07",
+      "end": "2027-08-17",
+      "source": "https://www.ijcai.org/future_conferences",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Kyoto 7–13 August; Hengqin 15–17 August. Submission dates are not verified."
+    },
+    {
+      "id": "kdd-2027",
+      "name": "KDD 2027 · cycle 2",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Large-scale data science and an AI for Sciences track are relevant to population-scale biomedical modelling.",
+      "location": "San Jose, USA",
+      "start": "2027-08-01",
+      "end": "2027-08-05",
+      "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+      "deadlines": [
+        {
+          "label": "Cycle 2 abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Cycle 2 full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Cycle 1 closed in July 2026. The official CFP mentions a February 2027 cycle but gives no exact date. Check AI for Sciences separately.",
+      "sources": [
+        "https://kdd2027.kdd.org/"
+      ]
+    },
+    {
+      "id": "iccv-2027",
+      "name": "ICCV 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Major computer vision venue for generalizable imaging and multimodal methodology.",
+      "location": "Hong Kong, China",
+      "start": null,
+      "end": null,
+      "source": "https://iccv.thecvf.com/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "notes": "Official homepage says 2–8 October 2027, but the official Dates page says 19–23 October. Dates remain unresolved rather than silently choosing one.",
+      "sources": [
+        "https://iccv.thecvf.com/Conferences/2027/Dates"
+      ]
+    },
+    {
+      "id": "miccai-2027",
+      "name": "MICCAI 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Direct fit for medical-image segmentation, population imaging and AI phenotyping.",
+      "location": "Auckland, New Zealand",
+      "start": "2027-09-27",
+      "end": "2027-10-01",
+      "source": "https://conferences.miccai.org/2027/en/",
+      "deadlines": [
+        {
+          "label": "Paper / abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Event homepage starts 27 September; the society listing includes 26 September. Use the final programme for satellite-day travel planning.",
+      "sources": [
+        "https://miccai.org/upcoming-conferences/"
+      ]
+    },
+    {
+      "id": "colm-2027",
+      "name": "COLM · next edition",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Language-model architecture, training and evaluation; potentially relevant to biological language models.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://colm.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "The official site still describes the 2026 edition. Next-edition dates and deadlines await announcement."
+    },
+    {
+      "id": "emnlp-2027",
+      "name": "EMNLP 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs"
+      ],
+      "fit": "Relevant",
+      "relevance": "Empirical NLP and biomedical text modelling.",
+      "location": "Mexico or Central America · tentative",
+      "start": null,
+      "end": null,
+      "source": "https://2027.eacl.org/calls/workshops/",
+      "deadlines": [
+        {
+          "label": "ARR paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "The joint official workshop call describes a tentative early-November meeting. Exact host, dates and author deadline are unannounced."
+    },
+    {
+      "id": "eacl-2027",
+      "name": "EACL 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs"
+      ],
+      "fit": "Relevant",
+      "relevance": "NLP methods and clinical or biomedical text research.",
+      "location": "Athens, Greece",
+      "start": "2027-03-09",
+      "end": "2027-03-14",
+      "source": "https://2027.eacl.org/calls/papers/",
+      "deadlines": [],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Main ARR cycle has passed; monitor individual workshop calls."
+    },
+    {
+      "id": "uai-next",
+      "name": "UAI · next edition",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Relevant",
+      "relevance": "Uncertainty, probabilistic modelling and causal inference for biomedical prediction.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://www.auai.org/uai2026/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Next-edition details are not verified. The linked source is the latest confirmed edition."
+    },
+    {
+      "id": "colt-2027",
+      "name": "COLT 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Selective",
+      "relevance": "Best for a theory-led contribution with proofs or new statistical learning guarantees.",
+      "location": "Tokyo, Japan",
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "source": "https://learningtheory.org/colt2027/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Conference on Learning Theory"
+    },
+    {
+      "id": "eccv-next",
+      "name": "ECCV · next edition",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Major European computer vision venue; relevant to foundational image-analysis methods.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://eccv.ecva.net/",
+      "deadlines": [
+        {
+          "label": "Paper / abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Watch the next biennial edition. Do not treat the past 2026 submission dates as a new call."
+    },
+    {
+      "id": "chil-next",
+      "name": "CHIL · next edition",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Excellent fit for health prediction, clinical ML evaluation and translation to biomedical use.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://chil.ahli.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Conference on Health, Inference, and Learning",
+      "notes": "The official site still shows 2026. Watch for the next call."
+    },
+    {
+      "id": "ml4h-2026",
+      "name": "ML4H 2026",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Focused community for machine learning in health and biomedical applications.",
+      "location": "Sydney, Australia",
+      "start": "2026-12-06",
+      "end": "2026-12-07",
+      "source": "https://ml4h.ahli.cc/",
+      "deadlines": [
+        {
+          "label": "Paper / extended abstract",
+          "date": "2026-09-10",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Machine Learning for Health",
+      "notes": "Paper and demonstration submissions are closed. Career mentorship applications remain open until 26 October."
+    },
+    {
+      "id": "psb-2027",
+      "name": "PSB 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Computational biology and precision medicine; posters offer a remaining presentation route.",
+      "location": "Big Island, Hawaii, USA",
+      "start": "2027-01-03",
+      "end": "2027-01-07",
+      "source": "https://psb.stanford.edu/keydates/",
+      "deadlines": [
+        {
+          "label": "Poster abstract",
+          "date": "2026-12-01",
+          "zone": "America/Los_Angeles",
+          "time": "23:59"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-08-03",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Pacific Symposium on Biocomputing",
+      "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past."
+    },
+    {
+      "id": "hupo-2027",
+      "name": "HUPO 2027",
+      "type": "Conference",
+      "topics": [
+        "Proteomics",
+        "Multi-omics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Direct fit for platform comparisons, plasma proteomics, harmonization and proteomic biomarkers.",
+      "location": "Milan, Italy",
+      "start": "2027-10-11",
+      "end": "2027-10-15",
+      "source": "https://2026.hupo.org/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Human Proteome Organization World Congress",
+      "sources": [
+        "https://2027.hupo.org/"
+      ],
+      "notes": "Dates are announced on the 2026 organizer site. The 2027 site could not be retrieved during this check; abstract deadline is unverified."
+    },
+    {
+      "id": "ashg-2027",
+      "name": "ASHG 2027",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Multi-omics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Human genetics, population cohorts and genotype-to-phenotype links with proteomic traits.",
+      "location": "Nashville, Tennessee, USA",
+      "start": "2027-10-26",
+      "end": "2027-10-30",
+      "source": "https://www.ashg.org/meetings/future-past/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "American Society of Human Genetics Annual Meeting"
+    },
+    {
+      "id": "eshg-2027",
+      "name": "ESHG 2027",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Human genetics and genomic medicine; useful for population-scale association studies.",
+      "location": "Rotterdam, Netherlands · hybrid",
+      "start": "2027-06-12",
+      "end": "2027-06-15",
+      "source": "https://2027.eshg.org/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "notes": "The abstract page still contains 2026 dates. The FAQ anticipates opening in December 2026; no 2027 deadline is confirmed.",
+      "sources": [
+        "https://2027.eshg.org/abstracts/",
+        "https://2027.eshg.org/myconference/faqs/?include_category=abstract-submission"
+      ]
+    },
+    {
+      "id": "glbio-2027",
+      "name": "GLBIO 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Multi-omics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Bioinformatics methods, ML/LLMs in bioscience and omics analysis.",
+      "location": "Grand Rapids, Michigan, USA",
+      "start": "2027-05-24",
+      "end": "2027-05-27",
+      "source": "https://www.iscb.org/glbio2027/call-for-submissions/abstracts",
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2027-03-11",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Late-breaking poster",
+          "date": "2027-04-01",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Great Lakes Bioinformatics Conference",
+      "sources": [
+        "https://transition.iscb.org/cms_addon/conferences/glbio2027/schedule/abstracts?keydate="
+      ]
+    },
+    {
+      "id": "bibm-2026",
+      "name": "IEEE BIBM 2026",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Bioinformatics algorithms, biomedical data science and AI applications.",
+      "location": "Dallas, USA",
+      "start": "2026-12-01",
+      "end": "2026-12-04",
+      "source": "https://www3.cs.stonybrook.edu/~bibm2026/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": "2026-07-05",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Bioinformatics and Biomedicine",
+      "notes": "Main submissions closed. Workshop calls may have their own dates."
+    },
+    {
+      "id": "acmbcb-next",
+      "name": "ACM-BCB · next edition",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Computational biology algorithms and health informatics.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://acm-bcb.org/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Official website currently describes the completed 2026 edition; monitor the next call."
+    },
+    {
+      "id": "iclr-workshops-2027",
+      "name": "ICLR 2027 · relevant workshops",
+      "type": "Workshop",
+      "topics": [
+        "Foundation models",
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Watch for biological foundation models, AI for science, genomics and medical-imaging workshops.",
+      "location": "San Francisco, USA",
+      "start": null,
+      "end": null,
+      "source": "https://iclr.cc/Conferences/2027/CallForWorkshops",
+      "deadlines": [
+        {
+          "label": "Workshop paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Discovery watchlist, not a confirmed individual workshop. Workshop paper deadlines differ; proposal deadlines are not author deadlines.",
+      "watchlist": true
+    },
+    {
+      "id": "cshl-probgen",
+      "name": "CSHL · Probabilistic Modeling in Genomics",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Statistical methods",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Probabilistic models for genomic variation and large biological datasets.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-03-01",
+      "end": "2027-03-04",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-01-08",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-network",
+      "name": "CSHL · Network Biology",
+      "type": "Conference",
+      "topics": [
+        "Multi-omics",
+        "Proteomics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Biological networks, systems modelling and cross-omics integration.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-03-09",
+      "end": "2027-03-13",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-01-08",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetings.aspx?meet=network"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-genome",
+      "name": "CSHL · Biology of Genomes",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Population genetics, functional genomics and large-scale cohort analyses.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-05-11",
+      "end": "2027-05-15",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-02-19",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetings.aspx?meet=genome"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-singlecell",
+      "name": "CSHL · Single Cell Analyses",
+      "type": "Conference",
+      "topics": [
+        "Multi-omics",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Single-cell methods and integration across molecular measurements.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-11-10",
+      "end": "2027-11-13",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-08-20",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetingshome.aspx"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-rnapr",
+      "name": "CSHL · Eukaryotic mRNA Processing",
+      "type": "Conference",
+      "topics": [
+        "RNA & structure",
+        "Genomics"
+      ],
+      "fit": "Relevant",
+      "relevance": "RNA processing biology to inform sequence and structure modelling.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-08-24",
+      "end": "2027-08-28",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-06-18",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetings.aspx?meet=rnapr"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-data",
+      "name": "CSHL · Biological Data Science 2026",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "AI & ML",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Large biological datasets, scientific software and analysis algorithms.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2026-11-04",
+      "end": "2026-11-07",
+      "source": "https://meetings.cshl.edu/meetingshome.aspx",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2026-10-01",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/meetings.aspx?meet=data"
+      ],
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+    },
+    {
+      "id": "cshl-course-c-data",
+      "name": "CSHL · Statistical Analysis of Genome Scale Data",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Statistical methods",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Hands-on statistical analysis for large genomic data.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-06-11",
+      "end": "2027-06-25",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=c-data",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-03-05",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+    },
+    {
+      "id": "cshl-course-c-qicm",
+      "name": "CSHL · Quantitative Imaging: From Acquisition to Analysis",
+      "type": "Course",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Quantitative microscopy, measurement and image-analysis workflows.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2027-04-05",
+      "end": "2027-04-20",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=c-qicm",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-01-22",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+    },
+    {
+      "id": "cshl-course-c-ecg",
+      "name": "CSHL · Computational Genomics 2026",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Bioinformatics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Computational genomics training; application deadline is already past.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2026-11-14",
+      "end": "2026-11-21",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=c-ecg",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-08-30",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+    },
+    {
+      "id": "cshl-course-tgac2",
+      "name": "CSHL · RNA-seq Analysis 2026",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "RNA & structure"
+      ],
+      "fit": "Relevant",
+      "relevance": "Practical RNA-seq analysis tutorial.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "start": "2026-11-08",
+      "end": "2026-11-10",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=tgac2",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-10-02",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+    },
+    {
+      "id": "ebi-multiomics-2027",
+      "name": "EMBL-EBI · Multi-omics integration",
+      "type": "Course",
+      "topics": [
+        "Multi-omics",
+        "Proteomics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Directly relevant to integrating plasma proteomics with other omics and biological annotations.",
+      "location": "Hinxton, UK",
+      "start": "2027-03-08",
+      "end": "2027-03-12",
+      "source": "https://www.ebi.ac.uk/training/events/introduction-multi-omics-data-integration-and-visualisation-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-11-22",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official"
+    },
+    {
+      "id": "embl-proteomics-2027",
+      "name": "EMBL · Quantitative proteomics",
+      "type": "Course",
+      "topics": [
+        "Proteomics",
+        "Statistical methods",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Quantification, statistical analysis and AI use in mass-spectrometry proteomics.",
+      "location": "Heidelberg, Germany",
+      "start": "2027-03-07",
+      "end": "2027-03-12",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/qpr27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-11-23",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Requires a motivation letter. Confirm the exact cutoff time on the application page."
+    },
+    {
+      "id": "ebi-sc-2027",
+      "name": "EMBL-EBI · Single-cell RNA-seq with Python",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Multi-omics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Practical Python methods for single-cell analysis and integration.",
+      "location": "Online",
+      "start": "2027-04-12",
+      "end": "2027-04-16",
+      "source": "https://www.ebi.ac.uk/training/events/single-cell-rna-seq-analysis-python-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-01-10",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "format": "Online"
+    },
+    {
+      "id": "embl-integrate-2027",
+      "name": "EMBL · Transcriptome–proteome integration",
+      "type": "Course",
+      "topics": [
+        "Proteomics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Especially relevant to comparing and integrating molecular assay layers.",
+      "location": "Heidelberg, Germany",
+      "start": "2027-04-25",
+      "end": "2027-04-30",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/pro27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "not-open",
+      "fullName": "Analysis and integration of transcriptome and proteome data"
+    },
+    {
+      "id": "embl-aibio-2027",
+      "name": "EMBO | EMBL · AI and biology",
+      "type": "Conference",
+      "topics": [
+        "Foundation models",
+        "AI & ML",
+        "Multi-omics",
+        "RNA & structure"
+      ],
+      "fit": "High",
+      "relevance": "One of the strongest interdisciplinary matches for biological foundation models and multimodal ML.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-05-11",
+      "end": "2027-05-14",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/ees27-12/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "not-open"
+    },
+    {
+      "id": "embl-dl-2027",
+      "name": "EMBL · Advanced deep learning for image analysis",
+      "type": "Course",
+      "topics": [
+        "Imaging",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Hands-on model training and deployment for segmentation and quantitative biological imaging.",
+      "location": "Heidelberg, Germany",
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/mac27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "not-open"
+    },
+    {
+      "id": "ebi-proteomics-2027",
+      "name": "EMBL-EBI · Proteomics bioinformatics",
+      "type": "Course",
+      "topics": [
+        "Proteomics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "MS processing, quantification, DIA, proteogenomics and protein annotations.",
+      "location": "Hinxton, UK",
+      "start": "2027-07-12",
+      "end": "2027-07-16",
+      "source": "https://www.ebi.ac.uk/training/events/proteomics-bioinformatics-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-03-14",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "opens": "2026-12-14",
+      "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July."
+    },
+    {
+      "id": "embl-spatial-2027",
+      "name": "EMBO | EMBL · Imaging-based spatial-omics",
+      "type": "Course",
+      "topics": [
+        "Multi-omics",
+        "Imaging",
+        "Genomics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Connects spatial transcriptomics and multiplex protein imaging; includes wet-lab components.",
+      "location": "Heidelberg, Germany",
+      "start": "2027-08-29",
+      "end": "2027-09-03",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/iso27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "not-open"
+    },
+    {
+      "id": "embl-structural-2027",
+      "name": "EMBO | EMBL · Computational structural biology",
+      "type": "Workshop",
+      "topics": [
+        "RNA & structure",
+        "Foundation models",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Protein and nucleic-acid modelling, machine-learned dynamics and biomolecular design.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-10-26",
+      "end": "2027-10-29",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/csb27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "not-open"
+    },
+    {
+      "id": "ebi-variants-2026",
+      "name": "EMBL-EBI · Variant effects on protein structure",
+      "type": "Course",
+      "topics": [
+        "RNA & structure",
+        "Genomics",
+        "Proteomics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Connects variants to protein function using VEP, UniProt and AlphaFold resources.",
+      "location": "Online",
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "source": "https://www.ebi.ac.uk/training/events/interpreting-effects-genetic-variants-protein-structure-and-function-2026/",
+      "deadlines": [
+        {
+          "label": "Listed registration deadline",
+          "date": "2026-10-25",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "waitlist",
+      "format": "Online",
+      "notes": "The course page says it is currently full: waiting list only. The overview calendar's 25 October date does not imply seats are available.",
+      "sources": [
+        "https://www.embl.org/events/"
+      ]
+    },
+    {
+      "id": "embl-predictive-2027",
+      "name": "EMBL · Future of predictive biology",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Multi-omics",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Computational and systems biology across molecular scales.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-02-16",
+      "end": "2027-02-19",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/pbs27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2026-11-10",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
+      "sources": [
+        "https://www.embl.org/events/"
+      ]
+    },
+    {
+      "id": "embl-insitu-2027",
+      "name": "EMBO | EMBL · In situ structural biology",
+      "type": "Workshop",
+      "topics": [
+        "RNA & structure",
+        "Proteomics",
+        "Imaging"
+      ],
+      "fit": "Relevant",
+      "relevance": "Integrative structural and system-wide biological approaches.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-02-09",
+      "end": "2027-02-12",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/iss27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2026-11-03",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.embl.org/events/"
+      ]
+    },
+    {
+      "id": "wellcome-watch",
+      "name": "Wellcome Sanger · genomics & AI training",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Monitor advanced genomics, computational methods and AI/ML training from the former Connecting Science programme.",
+      "location": "Hinxton, UK / online / partner sites",
+      "start": null,
+      "end": null,
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/technologies-and-approaches-courses-conferences-and-training/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "watchlist": true,
+      "notes": "Provider watchlist: next suitable course must be verified individually. This is not a confirmed event or application window."
+    },
+    {
+      "id": "csama-watch",
+      "name": "CSAMA 2027 · Biological Data Science",
+      "type": "Course",
+      "topics": [
+        "Statistical methods",
+        "Bioinformatics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Bioconductor and statistical methods for high-dimensional biological data.",
+      "location": "Brixen / Bressanone, Italy",
+      "start": null,
+      "end": null,
+      "source": "https://www.huber.embl.de/group/events.html",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Host group lists July 2027; exact course range and application deadline have not been verified."
+    },
+    {
+      "id": "asms-2027",
+      "name": "ASMS 2027",
+      "fullName": "ASMS Conference on Mass Spectrometry and Allied Topics",
+      "type": "Conference",
+      "topics": [
+        "Proteomics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Major venue for mass-spectrometry methods, computational proteomics and assay benchmarking.",
+      "location": "Houston, Texas, USA",
+      "start": "2027-06-06",
+      "end": "2027-06-10",
+      "source": "https://www.asms.org/conferences/annual-conference/future-annual-conferences",
+      "sources": [
+        "https://www.asms.org/conferences/annual-conference/conference-program/abstracts"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Future-conferences page confirms the meeting. A year-specific 2027 abstract deadline has not been verified."
+    }
+  ]
+}

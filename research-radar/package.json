@@ -1,0 +1,7 @@
+{
+  "name": "research-radar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"test": "node --test tests/core.test.mjs && node scripts/validate.mjs", "validate": "node scripts/validate.mjs"}
+}
