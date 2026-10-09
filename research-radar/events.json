@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T11:47:32.235004Z",
+  "updatedAt": "2026-10-09T11:51:28.216185Z",
   "coverage": "Major AI, bioinformatics, biomedical imaging and omics conferences, plus selected advanced training. Primarily late 2026–2027; next-edition watchlists are included. Curated coverage, not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
-    "enabled": false,
-    "cadence": "Daily morning source review",
-    "note": "Scheduling is being configured."
+    "enabled": true,
+    "cadence": "Daily, around 08:00 Singapore time",
+    "note": "Daily official-source review is scheduled, beginning 10 October 2026. The dashboard checks the published catalog every 15 minutes. Individual source verification dates appear on each entry."
   },
   "events": [
     {
