@@ -19,9 +19,11 @@ There are no npm runtime dependencies, API keys, paid AI calls, build step or da
 
 ## What works
 
-- Search and filter by topic, event type, deadline status and research relevance.
+- Search and filter by topic, event type, deadline status, country/territory, field tier, workshop origins and research relevance. Sort by country or tier as well as dates and name.
+- Explore a dynamic world map with pan/zoom, region shortcuts, clustered city pins, linked event names and a list for online/unannounced locations. All filters apply to the map.
+- Compare explicit editorial field tiers (T1 flagship, T2 leading specialist, T3 regional/emerging); workshops and courses are unranked. Tiers measure standing within a field, independently of research fit.
 - Compare event location, dates, abstract/application deadlines and paper deadlines.
-- View official sources, last verification dates, uncertainties and Singapore time conversions.
+- View official sources, a single footer update timestamp, uncertainties and Singapore time conversions.
 - Save a shortlist in browser local storage.
 - Export filtered CSV and upcoming deadlines as iCalendar. The calendar export is a snapshot, not a live subscription. Unknown cutoff times remain all-day reminders.
 - Refresh the published catalog on opening, via the Refresh data button and every 15 minutes while the page is visible.
@@ -43,6 +45,8 @@ An external ChatGPT scheduled research task checks official sources daily around
 | `index.html`, `styles.css` | Accessible responsive interface |
 | `app.js` | Catalog loading, filters, shortlist, detail dialog and exports |
 | `core.js` | Date/status logic, CSV safety and iCalendar generation |
+| `map.js`, `world.json` | Interactive city map and vendored public-domain Natural Earth country geometry |
+| `archived-events.json` | Broad AI planning entries removed from active scope at user request |
 | `events.json` | Verified events and explicit next-edition/provider watchlists |
 | `maintenance.md` | Research/update procedure and schedule metadata |
 | `scripts/validate.mjs` | Catalog integrity checks |
@@ -56,3 +60,7 @@ Dates come from official organizers. Missing dates are `null`, never estimated f
 Relevance is an editorial assessment against biomedical AI, proteomics, multi-omics, genomic cohorts, biological foundation models and medical imaging. This is a curated tracker, not an exhaustive global directory. Provider watchlists and future editions are labelled separately from confirmed events.
 
 Public repository contents contain only public event facts and generic research interests. No biomedical data or credentials are required. Shortlist preferences stay in the browser.
+
+## Map data
+
+Natural Earth 1:110m Admin 0 countries, public domain: https://www.naturalearthdata.com/about/terms-of-use/ . Geometry derived from https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson with coordinates rounded to two decimal places and Antarctica omitted. The map requires no geocoding service, third-party tiles or API key. City coordinates are approximate; unknown locations are never guessed. Country/territory labels are for travel filtering.

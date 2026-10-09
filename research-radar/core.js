@@ -75,8 +75,8 @@ export function csvCell(value) {
   return '"'+s.replaceAll('"','""')+'"';
 }
 export function exportCsv(events) {
-  const header=['Event','Type','Location','Start','End','Relevance','Why relevant','Deadline type','Deadline date','Time','Timezone','Singapore time','Source','Verified on','Notes'];
-  const rows=events.flatMap(e=>(e.deadlines.length?e.deadlines:[{}]).map(d=>[e.name,e.type,e.location,e.start,e.end,e.fit,e.relevance,d.label,d.date,d.time,d.zone,singaporeTime(d),e.source,e.checkedAt,e.notes]));
+  const header=['Event','Type','Location','Country / territory','Field tier','Tier field','Tier rationale','Workshop origins','Start','End','Relevance','Why relevant','Deadline type','Deadline date','Time','Timezone','Singapore time','Source','Verified on','Notes'];
+  const rows=events.flatMap(e=>(e.deadlines.length?e.deadlines:[{}]).map(d=>[e.name,e.type,e.location,e.country,e.tier,e.tierField,e.tierReason,e.lineage?.detail,e.start,e.end,e.fit,e.relevance,d.label,d.date,d.time,d.zone,singaporeTime(d),e.source,e.checkedAt,e.notes]));
   return [header,...rows].map(r=>r.map(csvCell).join(',')).join('\r\n');
 }
 const icsEscape=s=>String(s??'').replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,');

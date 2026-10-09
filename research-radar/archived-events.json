@@ -1,0 +1,297 @@
+{
+  "reason": "Removed from active coverage at user request to focus on AI \u00d7 biology, structural bioinformatics and biomedical imaging. Broad methodological relevance alone is insufficient. These are not quality judgements.",
+  "events": [
+    {
+      "id": "naacl-2027",
+      "name": "NAACL 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs",
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Useful for language-model methods, biomedical NLP and evaluation research.",
+      "location": "San Francisco, USA",
+      "start": "2027-06-01",
+      "end": "2027-06-05",
+      "source": "https://2027.naacl.org/",
+      "deadlines": [
+        {
+          "label": "ARR paper submission",
+          "date": "2026-10-12",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Industry paper",
+          "date": "2026-10-31",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "System demonstration",
+          "date": "2026-12-04",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Commitment to NAACL",
+          "date": "2026-12-23",
+          "zone": "AoE",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "ARR is a full-paper review deadline, not an abstract-only deadline. Conference commitment is a separate step for reviewed papers.",
+      "abstractNote": "No separate abstract date listed"
+    },
+    {
+      "id": "aistats-2027",
+      "name": "AISTATS 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "High",
+      "relevance": "Strong fit for statistical ML, uncertainty, causal methods and rigorous cohort modelling.",
+      "location": "Montr\u00e9al, Canada",
+      "start": "2027-05-03",
+      "end": "2027-05-06",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-09-29",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-10-06",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Artificial Intelligence and Statistics",
+      "notes": "Main submissions are closed. The CFP's October workshop date is a workshop-proposal deadline, not an attendee paper deadline."
+    },
+    {
+      "id": "aaai-2027",
+      "name": "AAAI 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Broad AI methods and applications; relevant when the contribution generalizes beyond a single biomedical task.",
+      "location": "Montr\u00e9al, Canada",
+      "start": "2027-02-16",
+      "end": "2027-02-23",
+      "source": "https://aaai.org/conference/aaai/aaai-27/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-07-21",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-07-28",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://openreview.net/group?id=AAAI.org/2027/Conference"
+      ]
+    },
+    {
+      "id": "ijcai-2027",
+      "name": "IJCAI 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "General AI methodology including knowledge representation, learning and reasoning.",
+      "location": "Kyoto, Japan; Hengqin, China",
+      "start": "2027-08-07",
+      "end": "2027-08-17",
+      "source": "https://www.ijcai.org/future_conferences",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Kyoto 7\u201313 August; Hengqin 15\u201317 August. Submission dates are not verified."
+    },
+    {
+      "id": "kdd-2027",
+      "name": "KDD 2027 \u00b7 cycle 2",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Large-scale data science and an AI for Sciences track are relevant to population-scale biomedical modelling.",
+      "location": "San Jose, USA",
+      "start": "2027-08-01",
+      "end": "2027-08-05",
+      "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+      "deadlines": [
+        {
+          "label": "Cycle 2 abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Cycle 2 full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Cycle 1 closed in July 2026. The official CFP mentions a February 2027 cycle but gives no exact date. Check AI for Sciences separately.",
+      "sources": [
+        "https://kdd2027.kdd.org/"
+      ]
+    },
+    {
+      "id": "colm-2027",
+      "name": "COLM \u00b7 next edition",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Language-model architecture, training and evaluation; potentially relevant to biological language models.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://colm.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "The official site still describes the 2026 edition. Next-edition dates and deadlines await announcement."
+    },
+    {
+      "id": "eacl-2027",
+      "name": "EACL 2027",
+      "type": "Conference",
+      "topics": [
+        "NLP & LLMs"
+      ],
+      "fit": "Relevant",
+      "relevance": "NLP methods and clinical or biomedical text research.",
+      "location": "Athens, Greece",
+      "start": "2027-03-09",
+      "end": "2027-03-14",
+      "source": "https://2027.eacl.org/calls/papers/",
+      "deadlines": [],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Main ARR cycle has passed; monitor individual workshop calls."
+    },
+    {
+      "id": "uai-next",
+      "name": "UAI \u00b7 next edition",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Relevant",
+      "relevance": "Uncertainty, probabilistic modelling and causal inference for biomedical prediction.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://www.auai.org/uai2026/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Next-edition details are not verified. The linked source is the latest confirmed edition."
+    },
+    {
+      "id": "colt-2027",
+      "name": "COLT 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Selective",
+      "relevance": "Best for a theory-led contribution with proofs or new statistical learning guarantees.",
+      "location": "Tokyo, Japan",
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "source": "https://learningtheory.org/colt2027/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Conference on Learning Theory"
+    }
+  ]
+}

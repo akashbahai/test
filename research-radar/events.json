@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T11:51:28.216185Z",
-  "coverage": "Major AI, bioinformatics, biomedical imaging and omics conferences, plus selected advanced training. Primarily late 2026–2027; next-edition watchlists are included. Curated coverage, not an exhaustive worldwide directory.",
+  "updatedAt": "2026-10-09T15:32:44.660866Z",
+  "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
     "enabled": true,
     "cadence": "Daily, around 08:00 Singapore time",
-    "note": "Daily official-source review is scheduled, beginning 10 October 2026. The dashboard checks the published catalog every 15 minutes. Individual source verification dates appear on each entry."
+    "note": "Daily official-source review is scheduled, beginning 10 October 2026. The dashboard checks the published catalog every 15 minutes. Individual verification history is retained in the data and CSV; the catalog update timestamp is shown once in the footer."
   },
   "events": [
     {
@@ -49,7 +49,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
-      "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline."
+      "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline.",
+      "tier": "T1",
+      "tierField": "Algorithmic computational biology",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Canada",
+      "geo": {
+        "lat": 43.65,
+        "lon": -79.38,
+        "label": "Toronto",
+        "precision": "city"
+      }
     },
     {
       "id": "cvpr-2027",
@@ -60,7 +70,7 @@
         "AI & ML"
       ],
       "fit": "High",
-      "relevance": "Computer vision methods, image segmentation and multimodal models; a strong target for methodological imaging work.",
+      "relevance": "Computer-vision flagship retained for new medical/bioimage methods: segmentation, representation learning, multimodal imaging or foundation models; not for a purely clinical result.",
       "location": "Seattle, USA",
       "start": "2027-06-20",
       "end": "2027-06-25",
@@ -83,7 +93,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "tier": "T1",
+      "tierField": "Computer vision",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 47.61,
+        "lon": -122.33,
+        "label": "Seattle",
+        "precision": "city"
+      }
     },
     {
       "id": "midl-2027",
@@ -124,7 +144,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
-      "notes": "Doctoral symposium is 13 July; main conference is 14–16 July."
+      "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
+      "tier": "T2",
+      "tierField": "Medical imaging AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Portugal",
+      "geo": {
+        "lat": 41.16,
+        "lon": -8.63,
+        "label": "Porto",
+        "precision": "city"
+      }
     },
     {
       "id": "ismb-eccb-2027",
@@ -134,7 +164,9 @@
         "Bioinformatics",
         "Proteomics",
         "Genomics",
-        "AI & ML"
+        "AI & ML",
+        "Structural bioinformatics",
+        "Protein & RNA"
       ],
       "fit": "High",
       "relevance": "Flagship computational biology venue with methods, ML, multi-omics and protein-focused communities.",
@@ -167,9 +199,20 @@
       "fullName": "Intelligent Systems for Molecular Biology / European Conference on Computational Biology",
       "sources": [
         "https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/abstracts?keydate=",
-        "https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/proceedings?keydate="
+        "https://transition.iscb.org/cms_addon/conferences/ismbeccb2027/schedule/proceedings?keydate=",
+        "https://www.iscb.org/ismb2026/whats-happening/track-details"
       ],
-      "notes": "Proceedings and abstract tracks have independent deadlines. Late-breaking submissions are posters only."
+      "notes": "Proceedings and abstract tracks have independent deadlines. Late-breaking submissions are posters only. Relevant COSI communities include 3DSIG, MLCSB and CompMS. Their prior tracks establish scientific fit; verify the 2027 program and track-specific instructions before submission.",
+      "tier": "T1",
+      "tierField": "Bioinformatics & computational biology",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Denmark",
+      "geo": {
+        "lat": 55.68,
+        "lon": 12.57,
+        "label": "Copenhagen",
+        "precision": "city"
+      }
     },
     {
       "id": "isbi-2027",
@@ -208,53 +251,17 @@
       "checkedAt": "2026-10-09",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
-      "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation."
-    },
-    {
-      "id": "naacl-2027",
-      "name": "NAACL 2027",
-      "type": "Conference",
-      "topics": [
-        "NLP & LLMs",
-        "AI & ML"
-      ],
-      "fit": "Relevant",
-      "relevance": "Useful for language-model methods, biomedical NLP and evaluation research.",
-      "location": "San Francisco, USA",
-      "start": "2027-06-01",
-      "end": "2027-06-05",
-      "source": "https://2027.naacl.org/",
-      "deadlines": [
-        {
-          "label": "ARR paper submission",
-          "date": "2026-10-12",
-          "zone": "AoE",
-          "time": "23:59"
-        },
-        {
-          "label": "Industry paper",
-          "date": "2026-10-31",
-          "zone": "AoE",
-          "time": "23:59"
-        },
-        {
-          "label": "System demonstration",
-          "date": "2026-12-04",
-          "zone": "AoE",
-          "time": "23:59"
-        },
-        {
-          "label": "Commitment to NAACL",
-          "date": "2026-12-23",
-          "zone": "AoE",
-          "time": "23:59",
-          "actionable": false
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "ARR is a full-paper review deadline, not an abstract-only deadline. Conference commitment is a separate step for reviewed papers.",
-      "abstractNote": "No separate abstract date listed"
+      "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
+      "tier": "T2",
+      "tierField": "Medical imaging AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Switzerland",
+      "geo": {
+        "lat": 46.52,
+        "lon": 6.63,
+        "label": "Lausanne",
+        "precision": "city"
+      }
     },
     {
       "id": "acl-2027",
@@ -281,7 +288,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "notes": "Main conference 20–22 August; tutorials and workshops 17–19 August. Commitment deadline is not yet announced.",
-      "abstractNote": "No separate abstract date listed"
+      "abstractNote": "No separate abstract date listed",
+      "tier": "T1",
+      "tierField": "NLP",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Japan",
+      "geo": {
+        "lat": 35.01,
+        "lon": 135.77,
+        "label": "Kyoto",
+        "precision": "city"
+      }
     },
     {
       "id": "iclr-2027",
@@ -293,7 +310,7 @@
         "Biomedical AI"
       ],
       "fit": "High",
-      "relevance": "A leading target for representation learning, foundation models and deep learning methods for biology.",
+      "relevance": "Broad ML flagship retained for novel biological foundation models, protein/RNA learning, multi-omics methods or rigorous biomedical ML. A routine application alone may be a weak main-track fit.",
       "location": "San Francisco, USA",
       "start": "2027-04-26",
       "end": "2027-04-30",
@@ -319,7 +336,17 @@
       "notes": "Main paper deadline has passed. Individual 2027 workshop calls are tracked separately. Official dates page still has placeholder text; verify travel dates before booking.",
       "sources": [
         "https://iclr.cc/Conferences/2027/CallForWorkshops"
-      ]
+      ],
+      "tier": "T1",
+      "tierField": "Machine learning",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 37.77,
+        "lon": -122.42,
+        "label": "San Francisco",
+        "precision": "city"
+      }
     },
     {
       "id": "icml-2027",
@@ -331,7 +358,7 @@
         "Biomedical AI"
       ],
       "fit": "High",
-      "relevance": "Major target for rigorous ML methods, multimodal learning and biological foundation models.",
+      "relevance": "Broad ML flagship retained for novel biological foundation models, protein/RNA learning, multi-omics methods or rigorous biomedical ML. A routine application alone may be a weak main-track fit.",
       "location": "South America · city TBA",
       "start": null,
       "end": null,
@@ -353,7 +380,15 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "International Conference on Machine Learning",
-      "notes": "Official source currently confirms the region only. No extrapolated deadlines are used."
+      "notes": "Official source currently confirms the region only. No extrapolated deadlines are used.",
+      "sources": [
+        "https://media.icml.cc/Conferences/ICML2026/ICML2026_Fact_Sheet.pdf"
+      ],
+      "tier": "T1",
+      "tierField": "Machine learning",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "neurips-2027",
@@ -365,7 +400,7 @@
         "Biomedical AI"
       ],
       "fit": "High",
-      "relevance": "Leading venue for new ML methods, benchmarks and AI for science.",
+      "relevance": "Broad ML flagship retained for novel biological foundation models, protein/RNA learning, multi-omics methods or rigorous biomedical ML. A routine application alone may be a weak main-track fit.",
       "location": "Europe · city TBA",
       "start": null,
       "end": null,
@@ -386,7 +421,12 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "fullName": "Conference on Neural Information Processing Systems"
+      "fullName": "Conference on Neural Information Processing Systems",
+      "tier": "T1",
+      "tierField": "Machine learning",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "neurips-2026",
@@ -397,7 +437,7 @@
         "Foundation models"
       ],
       "fit": "High",
-      "relevance": "Current-year networking and workshop attendance; next main submission cycle is 2027.",
+      "relevance": "Broad ML flagship retained for novel biological foundation models, protein/RNA learning, multi-omics methods or rigorous biomedical ML. A routine application alone may be a weak main-track fit.",
       "location": "Sydney, Australia",
       "start": "2026-12-06",
       "end": "2026-12-12",
@@ -406,144 +446,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "submissionState": "closed",
-      "notes": "2026 main submissions are closed. Individual workshops have separate calls; no universal workshop paper deadline is assumed."
-    },
-    {
-      "id": "aistats-2027",
-      "name": "AISTATS 2027",
-      "type": "Conference",
-      "topics": [
-        "AI & ML",
-        "Statistical methods"
-      ],
-      "fit": "High",
-      "relevance": "Strong fit for statistical ML, uncertainty, causal methods and rigorous cohort modelling.",
-      "location": "Montréal, Canada",
-      "start": "2027-05-03",
-      "end": "2027-05-06",
-      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
-      "deadlines": [
-        {
-          "label": "Abstract registration",
-          "date": "2026-09-29",
-          "zone": "AoE",
-          "time": "23:59",
-          "id": "abstract"
-        },
-        {
-          "label": "Full paper",
-          "date": "2026-10-06",
-          "zone": "AoE",
-          "time": "23:59",
-          "requires": "abstract"
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "fullName": "Artificial Intelligence and Statistics",
-      "notes": "Main submissions are closed. The CFP's October workshop date is a workshop-proposal deadline, not an attendee paper deadline."
-    },
-    {
-      "id": "aaai-2027",
-      "name": "AAAI 2027",
-      "type": "Conference",
-      "topics": [
-        "AI & ML"
-      ],
-      "fit": "Relevant",
-      "relevance": "Broad AI methods and applications; relevant when the contribution generalizes beyond a single biomedical task.",
-      "location": "Montréal, Canada",
-      "start": "2027-02-16",
-      "end": "2027-02-23",
-      "source": "https://aaai.org/conference/aaai/aaai-27/",
-      "deadlines": [
-        {
-          "label": "Abstract registration",
-          "date": "2026-07-21",
-          "zone": "AoE",
-          "time": "23:59",
-          "id": "abstract"
-        },
-        {
-          "label": "Full paper",
-          "date": "2026-07-28",
-          "zone": "AoE",
-          "time": "23:59",
-          "requires": "abstract"
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "sources": [
-        "https://openreview.net/group?id=AAAI.org/2027/Conference"
-      ]
-    },
-    {
-      "id": "ijcai-2027",
-      "name": "IJCAI 2027",
-      "type": "Conference",
-      "topics": [
-        "AI & ML"
-      ],
-      "fit": "Relevant",
-      "relevance": "General AI methodology including knowledge representation, learning and reasoning.",
-      "location": "Kyoto, Japan; Hengqin, China",
-      "start": "2027-08-07",
-      "end": "2027-08-17",
-      "source": "https://www.ijcai.org/future_conferences",
-      "deadlines": [
-        {
-          "label": "Abstract registration",
-          "date": null,
-          "zone": null,
-          "time": null
-        },
-        {
-          "label": "Full paper",
-          "date": null,
-          "zone": null,
-          "time": null
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "Kyoto 7–13 August; Hengqin 15–17 August. Submission dates are not verified."
-    },
-    {
-      "id": "kdd-2027",
-      "name": "KDD 2027 · cycle 2",
-      "type": "Conference",
-      "topics": [
-        "AI & ML",
-        "Biomedical AI",
-        "Foundation models"
-      ],
-      "fit": "High",
-      "relevance": "Large-scale data science and an AI for Sciences track are relevant to population-scale biomedical modelling.",
-      "location": "San Jose, USA",
-      "start": "2027-08-01",
-      "end": "2027-08-05",
-      "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
-      "deadlines": [
-        {
-          "label": "Cycle 2 abstract registration",
-          "date": null,
-          "zone": null,
-          "time": null
-        },
-        {
-          "label": "Cycle 2 full paper",
-          "date": null,
-          "zone": null,
-          "time": null
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "Cycle 1 closed in July 2026. The official CFP mentions a February 2027 cycle but gives no exact date. Check AI for Sciences separately.",
-      "sources": [
-        "https://kdd2027.kdd.org/"
-      ]
+      "notes": "2026 main submissions are closed. Individual workshops have separate calls; no universal workshop paper deadline is assumed.",
+      "tier": "T1",
+      "tierField": "Machine learning",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      }
     },
     {
       "id": "iccv-2027",
@@ -554,7 +467,7 @@
         "AI & ML"
       ],
       "fit": "High",
-      "relevance": "Major computer vision venue for generalizable imaging and multimodal methodology.",
+      "relevance": "Computer-vision flagship retained for new medical/bioimage methods: segmentation, representation learning, multimodal imaging or foundation models; not for a purely clinical result.",
       "location": "Hong Kong, China",
       "start": null,
       "end": null,
@@ -578,7 +491,17 @@
       "notes": "Official homepage says 2–8 October 2027, but the official Dates page says 19–23 October. Dates remain unresolved rather than silently choosing one.",
       "sources": [
         "https://iccv.thecvf.com/Conferences/2027/Dates"
-      ]
+      ],
+      "tier": "T1",
+      "tierField": "Computer vision",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Hong Kong",
+      "geo": {
+        "lat": 22.32,
+        "lon": 114.17,
+        "label": "Hong Kong",
+        "precision": "city"
+      }
     },
     {
       "id": "miccai-2027",
@@ -613,39 +536,17 @@
       "notes": "Event homepage starts 27 September; the society listing includes 26 September. Use the final programme for satellite-day travel planning.",
       "sources": [
         "https://miccai.org/upcoming-conferences/"
-      ]
-    },
-    {
-      "id": "colm-2027",
-      "name": "COLM · next edition",
-      "type": "Conference",
-      "topics": [
-        "NLP & LLMs",
-        "Foundation models"
       ],
-      "fit": "High",
-      "relevance": "Language-model architecture, training and evaluation; potentially relevant to biological language models.",
-      "location": "To be announced",
-      "start": null,
-      "end": null,
-      "source": "https://colm.cc/",
-      "deadlines": [
-        {
-          "label": "Abstract registration",
-          "date": null,
-          "zone": null,
-          "time": null
-        },
-        {
-          "label": "Full paper",
-          "date": null,
-          "zone": null,
-          "time": null
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "The official site still describes the 2026 edition. Next-edition dates and deadlines await announcement."
+      "tier": "T1",
+      "tierField": "Medical image computing",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "New Zealand",
+      "geo": {
+        "lat": -36.85,
+        "lon": 174.76,
+        "label": "Auckland",
+        "precision": "city"
+      }
     },
     {
       "id": "emnlp-2027",
@@ -655,7 +556,7 @@
         "NLP & LLMs"
       ],
       "fit": "Relevant",
-      "relevance": "Empirical NLP and biomedical text modelling.",
+      "relevance": "Retained for the clinical/biomedical NLP area, biomedical text mining and language-model evaluation; protein/RNA models need a clear language-method contribution.",
       "location": "Mexico or Central America · tentative",
       "start": null,
       "end": null,
@@ -670,84 +571,15 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "The joint official workshop call describes a tentative early-November meeting. Exact host, dates and author deadline are unannounced."
-    },
-    {
-      "id": "eacl-2027",
-      "name": "EACL 2027",
-      "type": "Conference",
-      "topics": [
-        "NLP & LLMs"
+      "notes": "The joint official workshop call describes a tentative early-November meeting. Exact host, dates and author deadline are unannounced.",
+      "sources": [
+        "https://2026.emnlp.org/calls/main_conference_papers/"
       ],
-      "fit": "Relevant",
-      "relevance": "NLP methods and clinical or biomedical text research.",
-      "location": "Athens, Greece",
-      "start": "2027-03-09",
-      "end": "2027-03-14",
-      "source": "https://2027.eacl.org/calls/papers/",
-      "deadlines": [],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "submissionState": "closed",
-      "notes": "Main ARR cycle has passed; monitor individual workshop calls."
-    },
-    {
-      "id": "uai-next",
-      "name": "UAI · next edition",
-      "type": "Conference",
-      "topics": [
-        "AI & ML",
-        "Statistical methods"
-      ],
-      "fit": "Relevant",
-      "relevance": "Uncertainty, probabilistic modelling and causal inference for biomedical prediction.",
-      "location": "To be announced",
-      "start": null,
-      "end": null,
-      "source": "https://www.auai.org/uai2026/",
-      "deadlines": [
-        {
-          "label": "Abstract registration",
-          "date": null,
-          "zone": null,
-          "time": null
-        },
-        {
-          "label": "Full paper",
-          "date": null,
-          "zone": null,
-          "time": null
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "Next-edition details are not verified. The linked source is the latest confirmed edition."
-    },
-    {
-      "id": "colt-2027",
-      "name": "COLT 2027",
-      "type": "Conference",
-      "topics": [
-        "AI & ML",
-        "Statistical methods"
-      ],
-      "fit": "Selective",
-      "relevance": "Best for a theory-led contribution with proofs or new statistical learning guarantees.",
-      "location": "Tokyo, Japan",
-      "start": "2027-06-28",
-      "end": "2027-07-02",
-      "source": "https://learningtheory.org/colt2027/",
-      "deadlines": [
-        {
-          "label": "Full paper",
-          "date": null,
-          "zone": null,
-          "time": null
-        }
-      ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
-      "fullName": "Conference on Learning Theory"
+      "tier": "T1",
+      "tierField": "NLP",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "eccv-next",
@@ -758,7 +590,7 @@
         "AI & ML"
       ],
       "fit": "High",
-      "relevance": "Major European computer vision venue; relevant to foundational image-analysis methods.",
+      "relevance": "Computer-vision flagship retained for new medical/bioimage methods: segmentation, representation learning, multimodal imaging or foundation models; not for a purely clinical result.",
       "location": "To be announced",
       "start": null,
       "end": null,
@@ -779,7 +611,12 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "Watch the next biennial edition. Do not treat the past 2026 submission dates as a new call."
+      "notes": "Watch the next biennial edition. Do not treat the past 2026 submission dates as a new call.",
+      "tier": "T1",
+      "tierField": "Computer vision",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "chil-next",
@@ -812,7 +649,12 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Conference on Health, Inference, and Learning",
-      "notes": "The official site still shows 2026. Watch for the next call."
+      "notes": "The official site still shows 2026. Watch for the next call.",
+      "tier": "T2",
+      "tierField": "Biomedical AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "ml4h-2026",
@@ -839,7 +681,22 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Machine Learning for Health",
-      "notes": "Paper and demonstration submissions are closed. Career mentorship applications remain open until 26 October."
+      "notes": "Paper and demonstration submissions are closed. Career mentorship applications remain open until 26 October.",
+      "lineage": {
+        "label": "NeurIPS workshop → symposium",
+        "detail": "Started as a NeurIPS workshop in 2015; became an independent standalone symposium in 2021.",
+        "source": "https://ml4h.ahli.cc/about/history/"
+      },
+      "tier": "T2",
+      "tierField": "Biomedical AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      }
     },
     {
       "id": "psb-2027",
@@ -873,7 +730,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
-      "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past."
+      "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 19.64,
+        "lon": -155.99,
+        "label": "Big Island",
+        "precision": "city"
+      }
     },
     {
       "id": "hupo-2027",
@@ -904,7 +771,17 @@
       "sources": [
         "https://2027.hupo.org/"
       ],
-      "notes": "Dates are announced on the 2026 organizer site. The 2027 site could not be retrieved during this check; abstract deadline is unverified."
+      "notes": "Dates are announced on the 2026 organizer site. The 2027 site could not be retrieved during this check; abstract deadline is unverified.",
+      "tier": "T1",
+      "tierField": "Proteomics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Italy",
+      "geo": {
+        "lat": 45.46,
+        "lon": 9.19,
+        "label": "Milan",
+        "precision": "city"
+      }
     },
     {
       "id": "ashg-2027",
@@ -931,7 +808,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "fullName": "American Society of Human Genetics Annual Meeting"
+      "fullName": "American Society of Human Genetics Annual Meeting",
+      "tier": "T1",
+      "tierField": "Human genetics & genomics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 36.16,
+        "lon": -86.78,
+        "label": "Nashville",
+        "precision": "city"
+      }
     },
     {
       "id": "eshg-2027",
@@ -961,7 +848,17 @@
       "sources": [
         "https://2027.eshg.org/abstracts/",
         "https://2027.eshg.org/myconference/faqs/?include_category=abstract-submission"
-      ]
+      ],
+      "tier": "T1",
+      "tierField": "Human genetics & genomics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Netherlands",
+      "geo": {
+        "lat": 51.92,
+        "lon": 4.48,
+        "label": "Rotterdam",
+        "precision": "city"
+      }
     },
     {
       "id": "glbio-2027",
@@ -997,7 +894,17 @@
       "fullName": "Great Lakes Bioinformatics Conference",
       "sources": [
         "https://transition.iscb.org/cms_addon/conferences/glbio2027/schedule/abstracts?keydate="
-      ]
+      ],
+      "tier": "T3",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
+      "country": "United States",
+      "geo": {
+        "lat": 42.96,
+        "lon": -85.67,
+        "label": "Grand Rapids",
+        "precision": "city"
+      }
     },
     {
       "id": "bibm-2026",
@@ -1024,7 +931,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "fullName": "Bioinformatics and Biomedicine",
-      "notes": "Main submissions closed. Workshop calls may have their own dates."
+      "notes": "Main submissions closed. Workshop calls may have their own dates.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 32.78,
+        "lon": -96.8,
+        "label": "Dallas",
+        "precision": "city"
+      }
     },
     {
       "id": "acmbcb-next",
@@ -1050,11 +967,16 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "Official website currently describes the completed 2026 edition; monitor the next call."
+      "notes": "Official website currently describes the completed 2026 edition; monitor the next call.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "To be announced",
+      "geo": null
     },
     {
       "id": "iclr-workshops-2027",
-      "name": "ICLR 2027 · relevant workshops",
+      "name": "ICLR 2027 · biology workshops",
       "type": "Workshop",
       "topics": [
         "Foundation models",
@@ -1078,7 +1000,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "notes": "Discovery watchlist, not a confirmed individual workshop. Workshop paper deadlines differ; proposal deadlines are not author deadlines.",
-      "watchlist": true
+      "watchlist": true,
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "United States",
+      "geo": {
+        "lat": 37.77,
+        "lon": -122.42,
+        "label": "San Francisco",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-probgen",
@@ -1108,7 +1040,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-network",
@@ -1138,7 +1080,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-genome",
@@ -1167,7 +1119,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-singlecell",
@@ -1196,7 +1158,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetingshome.aspx"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-rnapr",
@@ -1225,7 +1197,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=rnapr"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-data",
@@ -1255,7 +1237,17 @@
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=data"
       ],
-      "notes": "Deadline date is published; cutoff time and timezone have not been verified."
+      "notes": "Deadline date is published; cutoff time and timezone have not been verified.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-course-c-data",
@@ -1285,7 +1277,17 @@
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-course-c-qicm",
@@ -1314,7 +1316,17 @@
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-course-c-ecg",
@@ -1343,7 +1355,17 @@
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "cshl-course-tgac2",
@@ -1372,7 +1394,17 @@
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified."
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-multiomics-2027",
@@ -1398,7 +1430,17 @@
         }
       ],
       "checkedAt": "2026-10-09",
-      "verification": "official"
+      "verification": "official",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-proteomics-2027",
@@ -1425,7 +1467,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "Requires a motivation letter. Confirm the exact cutoff time on the application page."
+      "notes": "Requires a motivation letter. Confirm the exact cutoff time on the application page.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-sc-2027",
@@ -1452,7 +1504,12 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "format": "Online"
+      "format": "Online",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Online",
+      "geo": null
     },
     {
       "id": "embl-integrate-2027",
@@ -1479,7 +1536,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "submissionState": "not-open",
-      "fullName": "Analysis and integration of transcriptome and proteome data"
+      "fullName": "Analysis and integration of transcriptome and proteome data",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-aibio-2027",
@@ -1507,7 +1574,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "submissionState": "not-open"
+      "submissionState": "not-open",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-dl-2027",
@@ -1533,7 +1610,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "submissionState": "not-open"
+      "submissionState": "not-open",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-proteomics-2027",
@@ -1560,7 +1647,17 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "opens": "2026-12-14",
-      "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July."
+      "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-spatial-2027",
@@ -1587,7 +1684,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "submissionState": "not-open"
+      "submissionState": "not-open",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-structural-2027",
@@ -1614,7 +1721,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "submissionState": "not-open"
+      "submissionState": "not-open",
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-variants-2026",
@@ -1646,7 +1763,12 @@
       "notes": "The course page says it is currently full: waiting list only. The overview calendar's 25 October date does not imply seats are available.",
       "sources": [
         "https://www.embl.org/events/"
-      ]
+      ],
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Online",
+      "geo": null
     },
     {
       "id": "embl-predictive-2027",
@@ -1676,7 +1798,17 @@
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
         "https://www.embl.org/events/"
-      ]
+      ],
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "embl-insitu-2027",
@@ -1705,7 +1837,17 @@
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
-      ]
+      ],
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "wellcome-watch",
@@ -1733,7 +1875,12 @@
       "checkedAt": "2026-10-09",
       "verification": "official",
       "watchlist": true,
-      "notes": "Provider watchlist: next suitable course must be verified individually. This is not a confirmed event or application window."
+      "notes": "Provider watchlist: next suitable course must be verified individually. This is not a confirmed event or application window.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Multiple / online",
+      "geo": null
     },
     {
       "id": "csama-watch",
@@ -1760,7 +1907,17 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "Host group lists July 2027; exact course range and application deadline have not been verified."
+      "notes": "Host group lists July 2027; exact course range and application deadline have not been verified.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Italy",
+      "geo": {
+        "lat": 46.72,
+        "lon": 11.66,
+        "label": "Brixen",
+        "precision": "city"
+      }
     },
     {
       "id": "asms-2027",
@@ -1790,7 +1947,1137 @@
       ],
       "checkedAt": "2026-10-09",
       "verification": "official",
-      "notes": "Future-conferences page confirms the meeting. A year-specific 2027 abstract deadline has not been verified."
+      "notes": "Future-conferences page confirms the meeting. A year-specific 2027 abstract deadline has not been verified.",
+      "tier": "T1",
+      "tierField": "Mass spectrometry",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 29.76,
+        "lon": -95.37,
+        "label": "Houston",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "mlcb-2026",
+      "name": "MLCB 2026",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Foundation models",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "A direct fit for new ML methods in genomics, proteomics, biological sequences and noisy multi-omics data.",
+      "location": "New York City, USA · hybrid",
+      "start": "2026-11-16",
+      "end": "2026-11-17",
+      "source": "https://www.mlcb.org/home",
+      "deadlines": [
+        {
+          "label": "Paper / two-page abstract",
+          "date": "2026-07-05",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.mlcb.org/submit"
+      ],
+      "lineage": {
+        "label": "NeurIPS workshop → conference",
+        "detail": "MLCB ran as a NeurIPS workshop from 2004–2017 and became an independent conference in 2019.",
+        "source": "https://www.mlcb.org/home"
+      },
+      "notes": "2026 submissions closed. Full papers have an optional archival PMLR route; two-page poster abstracts are non-archival. Watch the next edition after this meeting.",
+      "tier": "T2",
+      "tierField": "Biomedical AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 40.71,
+        "lon": -74.01,
+        "label": "New York City",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "mlhc-2027",
+      "name": "MLHC 2027",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Focused healthcare ML venue for risk prediction, multimodal clinical models, biomarkers and evaluation.",
+      "location": "Zurich, Switzerland",
+      "start": "2027-08-11",
+      "end": "2027-08-13",
+      "source": "https://mlhc.org/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "ETH Zurich confirmed; submission tracks and deadlines not yet announced. MLHC is distinct from ML4H and CHIL.",
+      "tier": "T2",
+      "tierField": "Biomedical AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Switzerland",
+      "geo": {
+        "lat": 47.38,
+        "lon": 8.54,
+        "label": "Zurich",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "moml-2026",
+      "name": "MoML @ MIT 2026",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI",
+        "Drug discovery",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Highly focused molecular ML community for protein design, molecular interactions and generative models for biology.",
+      "location": "Cambridge, Massachusetts, USA",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "source": "https://www.moml.mit.edu/",
+      "deadlines": [
+        {
+          "label": "Short paper for poster",
+          "date": "2026-09-11",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.moml.mit.edu/submit"
+      ],
+      "fullName": "Molecular Machine Learning Conference",
+      "notes": "Submission deadline has passed. This is a focused molecular-ML meeting, not a claimed NeurIPS workshop spin-off. Watch MIT and Mila editions for the next call.",
+      "tier": "T2",
+      "tierField": "Structural bioinformatics",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 42.36,
+        "lon": -71.09,
+        "label": "Cambridge, Massachusetts",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "log-2026",
+      "name": "LoG 2026",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Include for graph/geometric learning on molecules, proteins, drug discovery and health, explicitly listed in the call.",
+      "location": "Boston, USA",
+      "start": "2026-11-20",
+      "end": "2026-11-22",
+      "source": "https://logconference.org/cfp/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-08-05",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper / extended abstract",
+          "date": "2026-08-07",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://logconference.org/"
+      ],
+      "fullName": "Learning on Graphs Conference",
+      "notes": "2026 new-submission routes have closed. Independent graph-learning conference; no workshop-to-conference origin is asserted.",
+      "tier": "T2",
+      "tierField": "Structural bioinformatics",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "United States",
+      "geo": {
+        "lat": 42.36,
+        "lon": -71.06,
+        "label": "Boston",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "3dbioinfo-2026",
+      "name": "3D-BioInfo / 3DSIG 2026",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "A direct structural bioinformatics forum on predicted structures, benchmarking, computational biophysics and data integration.",
+      "location": "Rome, Italy",
+      "start": "2026-11-25",
+      "end": "2026-11-27",
+      "source": "https://www.iscb.org/3dbioinfo2026/home",
+      "deadlines": [
+        {
+          "label": "Talk abstract",
+          "date": "2026-08-31",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Poster abstract",
+          "date": "2026-09-07",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Joint ELIXIR 3D-BioInfo / ISCB 3DSIG community meeting. Abstract routes are closed. Distinct from the 3DSIG track at ISMB.",
+      "tier": "T2",
+      "tierField": "Structural bioinformatics",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Italy",
+      "geo": {
+        "lat": 41.9,
+        "lon": 12.5,
+        "label": "Rome",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "casp17-2026",
+      "name": "CASP17",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Central community benchmark meeting for protein, complex and RNA structure prediction; particularly relevant to RNA-model development.",
+      "location": "Rome, Italy",
+      "start": "2026-12-01",
+      "end": "2026-12-05",
+      "source": "https://events.humanitix.com/casp17",
+      "deadlines": [
+        {
+          "label": "Methods abstract",
+          "date": "2026-09-25",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "sources": [
+        "https://predictioncenter.org/casp17/",
+        "https://predictioncenter.org/news.cgi"
+      ],
+      "submissionState": "closed",
+      "notes": "Methods abstracts are for CASP participating prediction groups. Organizer-linked registration and September announcement specify 1–5 December (sessions through 4 December); homepage also mentions 30 November. Verify itinerary with organizers.",
+      "tier": "T1",
+      "tierField": "Structure prediction & benchmarking",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Italy",
+      "geo": {
+        "lat": 41.9,
+        "lon": 12.5,
+        "label": "Rome",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "ipmi-2027",
+      "name": "IPMI 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Strong target for methodological medical imaging: segmentation, geometric learning, foundation models and imaging–omics integration.",
+      "location": "Lake Stukely, Orford, Quebec, Canada",
+      "start": "2027-06-27",
+      "end": "2027-07-02",
+      "source": "https://2027.ipmi-conf.org/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-12-07",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-12-14",
+          "zone": null,
+          "time": null,
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "fullName": "Information Processing in Medical Imaging",
+      "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
+      "tier": "T1",
+      "tierField": "Medical image computing",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Canada",
+      "geo": {
+        "lat": 45.38,
+        "lon": -72.24,
+        "label": "Lake Stukely",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "ismrm-2027",
+      "name": "ISMRM 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Flagship MR community for AI reconstruction, imaging biomarkers and computational MRI; best when the work is MR-specific.",
+      "location": "Vancouver, Canada",
+      "start": "2027-05-08",
+      "end": "2027-05-13",
+      "source": "https://www.ismrm.org/27m/call/",
+      "deadlines": [
+        {
+          "label": "Scientific abstract",
+          "date": "2026-10-28",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.ismrm.org/27m/"
+      ],
+      "notes": "This record tracks ISMRM scientific abstracts, not the ISMRT technologist-only track. Cutoff time not verified.",
+      "tier": "T1",
+      "tierField": "Magnetic resonance imaging",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Canada",
+      "geo": {
+        "lat": 49.28,
+        "lon": -123.12,
+        "label": "Vancouver",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "ohbm-2027",
+      "name": "OHBM 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "Neuroimaging"
+      ],
+      "fit": "Relevant",
+      "relevance": "Major neuroimaging audience for imaging biomarkers, harmonization and population-scale brain models.",
+      "location": "Toronto, Canada",
+      "start": "2027-06-26",
+      "end": "2027-06-30",
+      "source": "https://www.humanbrainmapping.org/ohbm-2027/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Official page gives a December 2026 submission month but no verified day. Exact deadline remains unannounced; third-party dates are not substituted.",
+      "tier": "T1",
+      "tierField": "Human neuroimaging",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Canada",
+      "geo": {
+        "lat": 43.65,
+        "lon": -79.38,
+        "label": "Toronto",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "siim-2027",
+      "name": "SIIM 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Clinical imaging-informatics venue for AI evaluation, translation, reproducibility and integration into imaging workflows.",
+      "location": "Nashville, Tennessee, USA",
+      "start": "2027-06-17",
+      "end": "2027-06-19",
+      "source": "https://annualmeeting.siim.org/call-for-abstracts-overview/",
+      "deadlines": [
+        {
+          "label": "Scientific / applied informatics abstract",
+          "date": "2026-12-14",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://siim.org/event/siim27-annual-meeting-informaticstech-expo/"
+      ],
+      "notes": "Distinct scientific and applied-informatics tracks; exact cutoff time not verified.",
+      "tier": "T1",
+      "tierField": "Imaging informatics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 36.16,
+        "lon": -86.78,
+        "label": "Nashville",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "wabi-2027",
+      "name": "WABI 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Leading specialist venue for algorithmic bioinformatics, sequence analysis and efficient ML methods for biological problems.",
+      "location": "Tokyo, Japan",
+      "start": null,
+      "end": null,
+      "source": "https://wabi2027.hgc.jp/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Official site plans August–September 2027 near the University of Tokyo; exact days and submission deadlines are not announced. WABI originated as the Workshop on Algorithms in Bioinformatics and is now styled a conference.",
+      "lineage": {
+        "label": "Workshop series → conference",
+        "detail": "Established in 2001 as the Workshop on Algorithms in Bioinformatics; the 2027 organizer names it the WABI Conference.",
+        "source": "https://wabi2027.hgc.jp/"
+      },
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Japan",
+      "geo": {
+        "lat": 35.68,
+        "lon": 139.69,
+        "label": "Tokyo",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "apbjc-2027",
+      "name": "APBJC 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Strong local opportunity connecting Asia-Pacific bioinformatics communities; convenient for NTU-based participation.",
+      "location": "Singapore",
+      "start": "2027-09-28",
+      "end": "2027-10-01",
+      "source": "https://apbjc.iscb.org/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.iscb.org/component/content/article/home-uk-2027"
+      ],
+      "fullName": "Asia & Pacific Bioinformatics Joint Conference",
+      "notes": "Suntec Convention Center announced. Exact abstract deadline not yet verified; do not reuse APBC or InCoB 2026 deadlines.",
+      "tier": "T3",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
+      "country": "Singapore",
+      "geo": {
+        "lat": 1.29,
+        "lon": 103.85,
+        "label": "Singapore",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "apbc-2026",
+      "name": "APBC 2026",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Structural bioinformatics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Established Asia-Pacific bioinformatics meeting explicitly covering AI, multi-omics, proteomics and structural modelling.",
+      "location": "Hsinchu, Taiwan",
+      "start": "2026-10-21",
+      "end": "2026-10-24",
+      "source": "https://www.apbc2026.com/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "notes": "Conference and accepted-paper program announced. The homepage retains a call-for-submissions banner but no verified author cutoff; check the organizer rather than treating that banner as an open call.",
+      "tier": "T3",
+      "tierField": "Structural bioinformatics",
+      "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
+      "country": "Taiwan",
+      "geo": {
+        "lat": 24.81,
+        "lon": 120.97,
+        "label": "Hsinchu",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "iscbuk-2027",
+      "name": "ISCB-UK 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Structural bioinformatics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Biology in the Age of AI: explicit tracks in AI/ML, multi-omics, structural biology and precision medicine.",
+      "location": "Glasgow, UK",
+      "start": "2027-04-20",
+      "end": "2027-04-22",
+      "source": "https://www.iscb.org/uk2027/call-for-submissions/abstracts",
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2027-02-16",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Late-breaking poster",
+          "date": "2027-03-22",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.iscb.org/uk2027/home"
+      ],
+      "tier": "T3",
+      "tierField": "Structural bioinformatics",
+      "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 55.86,
+        "lon": -4.25,
+        "label": "Glasgow",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "recombseq-2027",
+      "name": "RECOMB-SEQ 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Genomics",
+        "Protein & RNA"
+      ],
+      "fit": "High",
+      "relevance": "Focused sequence-analysis satellite for genomics algorithms and biological sequence models.",
+      "location": "Toronto, Canada",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "source": "https://recomb-seq.github.io/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Satellite conference with its own call; the main RECOMB abstract deadline must not be applied here.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Canada",
+      "geo": {
+        "lat": 43.65,
+        "lon": -79.38,
+        "label": "Toronto",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "recombccb-next",
+      "name": "RECOMB-CCB · next call",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI",
+        "Genomics",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Computational cancer biology and tumour multi-omics, useful for disease models and biomarker discovery.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://recomb.org/satellites/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://recomb.org/recomb2027/committees"
+      ],
+      "watchlist": true,
+      "notes": "RECOMB 2027 lists CCB satellite chairs; exact CCB event dates and submission cutoff remain unverified. Main-conference deadlines do not apply.",
+      "tier": "T2",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "To be announced",
+      "geo": null
+    },
+    {
+      "id": "bionlp-next",
+      "name": "BioNLP workshop · next edition",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "NLP & LLMs"
+      ],
+      "fit": "High",
+      "relevance": "Direct biomedical NLP community for clinical text, literature mining and biomedical language-model evaluation.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://www.aclweb.org/aclwiki/BioNLP_Workshop",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "watchlist": true,
+      "sources": [
+        "https://aclanthology.org/venues/bionlp/"
+      ],
+      "notes": "Long-running ACL SIGBIOMED workshop, still a workshop. Next-edition dates and host await verification; it does not inherit the main ACL/EMNLP conference tier.",
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "To be announced",
+      "geo": null
+    },
+    {
+      "id": "ebi-structural-2027",
+      "name": "EMBL-EBI · Structural bioinformatics",
+      "type": "Course",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Practical interpretation of experimental and AI-predicted structures, function and macromolecular interactions.",
+      "location": "Online",
+      "start": "2027-09-13",
+      "end": "2027-09-17",
+      "source": "https://www.ebi.ac.uk/training/events/structural-bioinformatics-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-06-13",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "opens": "2027-03-02",
+      "notes": "Virtual course; opens for applications on 2 March 2027.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Online",
+      "geo": null
+    },
+    {
+      "id": "protein-society-2027",
+      "name": "Protein Society Symposium 2027",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Broad protein-science flagship suited to biologically grounded protein design, structure and function work.",
+      "location": "San Francisco, USA",
+      "start": "2027-07-09",
+      "end": "2027-07-12",
+      "source": "https://www.proteinsociety.org/annual-symposium",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "41st annual symposium. Abstract deadline not verified; not every session is computational or AI-focused.",
+      "tier": "T1",
+      "tierField": "Protein science",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 37.77,
+        "lon": -122.42,
+        "label": "San Francisco",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "rna-2027",
+      "name": "RNA Society Meeting 2027",
+      "type": "Conference",
+      "topics": [
+        "Protein & RNA",
+        "Structural bioinformatics",
+        "Genomics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Major RNA-science audience for structure, function and biological validation of RNA language models.",
+      "location": "Strasbourg, France",
+      "start": "2027-06-08",
+      "end": "2027-06-13",
+      "source": "https://www.rnasociety.org/meetings/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "32nd annual meeting. Broad RNA biology meeting; prioritize computational/structural themes. Submission deadline unannounced in the reviewed society calendar.",
+      "tier": "T1",
+      "tierField": "RNA science",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "France",
+      "geo": {
+        "lat": 48.58,
+        "lon": 7.75,
+        "label": "Strasbourg",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "bps-2027",
+      "name": "Biophysical Society 2027",
+      "type": "Conference",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Computational biophysics, RNA conformations, molecular dynamics and an explicitly advertised AI-in-biophysics workshop.",
+      "location": "Philadelphia, USA",
+      "start": "2027-02-20",
+      "end": "2027-02-24",
+      "source": "https://www.biophysics.org/2027meeting",
+      "deadlines": [
+        {
+          "label": "Late abstract",
+          "date": "2027-01-05",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://www.biophysics.org/2027meeting/abstracts/submission-guidelines",
+        "https://www.biophysics.org/2027meeting/exhibits/exhibitor-information/important-dates"
+      ],
+      "notes": "Late abstracts are not published, according to the current submission guidelines. Member sponsorship conditions apply. Main-round cutoff is not independently verified here; this record tracks the published late route.",
+      "tier": "T1",
+      "tierField": "Biophysics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "United States",
+      "geo": {
+        "lat": 39.95,
+        "lon": -75.17,
+        "label": "Philadelphia",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "aime-2027",
+      "name": "AIME 2027",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Established AI-in-medicine conference for biomedical methods, decision support, molecular medicine and healthcare AI.",
+      "location": "Amsterdam, Netherlands",
+      "start": "2027-07-05",
+      "end": "2027-07-08",
+      "source": "https://aime27.aimedicine.info/call-for-papers/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2027-01-31",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full / short / demo paper",
+          "date": "2027-02-07",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://aime27.aimedicine.info/"
+      ],
+      "opens": "2026-11-02",
+      "notes": "Main research conference is 6–7 July; full program runs 5–8 July. The explicit important-dates list gives 31 January abstract / 7 February paper; some duplicated decorative date blocks on the page are misordered.",
+      "tier": "T2",
+      "tierField": "Biomedical AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "Netherlands",
+      "geo": {
+        "lat": 52.37,
+        "lon": 4.9,
+        "label": "Amsterdam",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "ai4x-2027",
+      "name": "AI4X 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Biomedical AI",
+        "AI for science"
+      ],
+      "fit": "Relevant",
+      "relevance": "Include specifically for the advertised AI for biotech, medicine/healthcare and scientific-agent themes.",
+      "location": "Bremen, Germany",
+      "start": "2027-06-14",
+      "end": "2027-06-17",
+      "source": "https://ai4x.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "notes": "Emerging AI-for-science conference, not assigned flagship status. Tutorial weekend 12–13 June; author submission deadlines not yet verified.",
+      "tier": "T3",
+      "tierField": "Bioinformatics & molecular biology",
+      "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
+      "country": "Germany",
+      "geo": {
+        "lat": 53.08,
+        "lon": 8.8,
+        "label": "Bremen",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "embc-2027",
+      "name": "IEEE EMBC 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "Biomedical engineering"
+      ],
+      "fit": "High",
+      "relevance": "IEEE EMBS flagship with imaging, AI/data science and biomedical informatics tracks; a practical Singapore venue.",
+      "location": "Singapore",
+      "start": "2027-07-11",
+      "end": "2027-07-15",
+      "source": "https://embc.embs.org/2027/important-dates/",
+      "deadlines": [
+        {
+          "label": "Full contributed paper",
+          "date": "2027-01-24",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "One-page research poster",
+          "date": "2027-04-23",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "sources": [
+        "https://embc.embs.org/2027/"
+      ],
+      "notes": "Workshop proposal date is not a paper-to-workshop deadline. No separate abstract-registration gate or exact cutoff time is verified.",
+      "tier": "T1",
+      "tierField": "Biomedical engineering",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
+      "country": "Singapore",
+      "geo": {
+        "lat": 1.29,
+        "lon": 103.85,
+        "label": "Singapore",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "spie-mi-next",
+      "name": "SPIE Medical Imaging · next call",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Established medical image-processing, computer-aided diagnosis and image-guided intervention community.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "watchlist": true,
+      "notes": "The official event page could not be read reliably during this review. Kept as a series watchlist; next-edition dates and abstract cutoff require organizer confirmation.",
+      "tier": "T2",
+      "tierField": "Medical imaging AI",
+      "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
+      "country": "To be announced",
+      "geo": null
+    },
+    {
+      "id": "icml-bio-workshops",
+      "name": "ICML · biology workshops",
+      "type": "Workshop",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Discovery watch for focused biological, molecular or medical AI workshop calls relevant to your methods. Follow each workshop’s own submission rules.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://blog.icml.cc/2026/04/06/announcing-the-icml-2026-workshops-and-affinity-workshops/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "watchlist": true,
+      "notes": "Series discovery entry, not a confirmed new workshop edition. No parent-conference deadline is substituted for a workshop author deadline.",
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "To be announced",
+      "geo": null
+    },
+    {
+      "id": "neurips-bio-workshops",
+      "name": "NeurIPS · biology workshops",
+      "type": "Workshop",
+      "topics": [
+        "Bioinformatics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Discovery watch for focused biological, molecular or medical AI workshop calls relevant to your methods. Follow each workshop’s own submission rules.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "watchlist": true,
+      "notes": "Series discovery entry, not a confirmed new workshop edition. No parent-conference deadline is substituted for a workshop author deadline.",
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "To be announced",
+      "geo": null
+    },
+    {
+      "id": "miccai-workshops",
+      "name": "MICCAI · medical imaging workshops",
+      "type": "Workshop",
+      "topics": [
+        "Imaging",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Discovery watch for focused biological, molecular or medical AI workshop calls relevant to your methods. Follow each workshop’s own submission rules.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://miccai.org/",
+      "deadlines": [
+        {
+          "label": "Abstract / paper submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "official",
+      "watchlist": true,
+      "notes": "Series discovery entry, not a confirmed new workshop edition. No parent-conference deadline is substituted for a workshop author deadline.",
+      "tier": "Workshop",
+      "tierField": "Focused research community",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "To be announced",
+      "geo": null
     }
-  ]
+  ],
+  "tierPolicy": {
+    "note": "Editorial, field-specific guidance for choosing a venue; not an official CORE/CCF ranking, acceptance-rate ranking or guarantee of quality. Different communities publish in different ways. Tiers are independent of relevance.",
+    "labels": {
+      "T1": "Flagship in its field",
+      "T2": "Leading specialist",
+      "T3": "Regional / emerging",
+      "Workshop": "Workshop · unranked",
+      "Training": "Training · unranked"
+    }
+  },
+  "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
+  "lastRun": {
+    "summary": "Expanded biomedical and structural coverage with 28 new entries; removed 9 broad AI-only planning entries, added country/map coordinates and field-specific tier assessments. New entries were source-reviewed; existing deadline dates were preserved unless explicitly reviewed."
+  }
 }

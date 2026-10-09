@@ -1,8 +1,12 @@
+import {createWorldMap} from './map.js';
 import {TZ,localDay,formatDate,deadlineInstant,singaporeTime,remainingDays,nextDeadline,status,eventDates,primaryDeadline,escapeText as esc,safeUrl,exportCsv,exportCalendar,eligibleDeadlines,isPast} from './core.js';
 
 const DATA_URL='https://raw.githubusercontent.com/akashbahai/test/master/research-radar/events.json';
 const $=id=>document.getElementById(id);
-const filters=['search','topic','type','status','fit','sort'];
+const filters=['search','topic','type','status','fit','country','tier','lineage','sort'];
+const worldMap=createWorldMap();
+const tierLabels={T1:'T1 · Field flagship',T2:'T2 · Leading specialist',T3:'T3 · Regional / emerging',Workshop:'Workshop · unranked',Training:'Training · unranked'};
+const tierOrder={T1:0,T2:1,T3:2,Workshop:3,Training:4};
 let catalog=null, currentView='all', saved=new Set(), visible=[], toastTimer, loadGeneration=0;
 try {saved=new Set(JSON.parse(localStorage.getItem('research-radar-saved')||'[]'));} catch {}
 const now=()=>new Date();
@@ -18,6 +22,9 @@ function accept(c,origin){
   const topic=$('topic').value;
   $('topic').innerHTML='<option value="">All research areas</option>'+[...new Set(c.events.flatMap(e=>e.topics))].sort().map(t=>`<option>${esc(t)}</option>`).join('');
   $('topic').value=topic;
+  const country=$('country').value;
+  $('country').innerHTML='<option value="">All locations</option>'+[...new Set(c.events.map(e=>e.country||'To be announced'))].sort().map(t=>`<option>${esc(t)}</option>`).join('');
+  $('country').value=country;
   render();
 }
 async function fetchJson(url){const r=await fetch(url,{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
@@ -35,12 +42,13 @@ async function loadData(manual=false){
   if(manual)notify('Latest available catalog loaded. Source checks run on the daily schedule.');
 }
 function selectedEvents(){
-  const q=$('search').value.toLowerCase().trim(),topic=$('topic').value,type=$('type').value,st=$('status').value,fit=$('fit').value;
+  const q=$('search').value.toLowerCase().trim(),topic=$('topic').value,type=$('type').value,st=$('status').value,fit=$('fit').value,country=$('country').value,tier=$('tier').value,lineage=$('lineage').value;
   let list=catalog.events.filter(e=>{
     if(!$('past').checked&&e.end&&e.end<localDay())return false;
     if(currentView==='shortlist'&&!saved.has(e.id))return false;
-    if(q&&!`${e.name} ${e.fullName||''} ${e.location} ${e.topics.join(' ')} ${e.relevance} ${e.notes||''}`.toLowerCase().includes(q))return false;
+    if(q&&!`${e.name} ${e.fullName||''} ${e.location} ${e.country||''} ${e.tierField||''} ${e.topics.join(' ')} ${e.relevance} ${e.notes||''}`.toLowerCase().includes(q))return false;
     if(topic&&!e.topics.includes(topic)||type&&type!==e.type||fit&&fit!==e.fit)return false;
+    if(country&&country!==e.country||tier&&tier!==e.tier||lineage&&!e.lineage)return false;
     const s=status(e).key;
     if(st==='soon'&&s!=='soon')return false;
     if(st==='upcoming'&&!nextDeadline(e))return false;
@@ -49,7 +57,7 @@ function selectedEvents(){
     return true;
   });
   const sort=$('sort').value;
-  return list.sort(sort==='name'?(a,b)=>a.name.localeCompare(b.name):sort==='date'?(a,b)=>(a.start||'9999').localeCompare(b.start||'9999'):sort==='fit'?(a,b)=>({High:0,Relevant:1,Selective:2}[a.fit]-{High:0,Relevant:1,Selective:2}[b.fit]||byDeadline(a,b)):byDeadline);
+  return list.sort(sort==='country'?(a,b)=>{const key=e=>['Online','To be announced','Multiple / online'].includes(e.country)?'zz'+e.country:e.country||'zz';return key(a).localeCompare(key(b))||a.name.localeCompare(b.name);}:sort==='tier'?(a,b)=>(tierOrder[a.tier]??9)-(tierOrder[b.tier]??9)||byDeadline(a,b):sort==='name'?(a,b)=>a.name.localeCompare(b.name):sort==='date'?(a,b)=>(a.start||'9999').localeCompare(b.start||'9999'):sort==='fit'?(a,b)=>({High:0,Relevant:1,Selective:2}[a.fit]-{High:0,Relevant:1,Selective:2}[b.fit]||byDeadline(a,b)):byDeadline);
 }
 function badge(e){const s=status(e);return `<span class="status ${esc(s.key)}">${esc(s.label)}</span>`;}
 function deadlineCell(e){
@@ -65,11 +73,11 @@ function deadlineCell(e){
 function renderRows(){
   $('events-body').innerHTML=visible.map(e=>`<tr>
     <td><button class="save-button ${saved.has(e.id)?'saved':''}" data-save="${esc(e.id)}" aria-label="${saved.has(e.id)?'Unsave':'Save'} ${esc(e.name)}" aria-pressed="${saved.has(e.id)}">${saved.has(e.id)?'★':'☆'}</button></td>
-    <td><button class="event-name" data-detail="${esc(e.id)}">${esc(e.name)}</button><div class="event-meta">${esc(e.type)}${e.watchlist?' · Discovery watchlist':''}</div><div class="topics">${e.topics.slice(0,3).map(t=>`<span>${esc(t)}</span>`).join('')}</div></td>
+    <td><button class="event-name" data-detail="${esc(e.id)}">${esc(e.name)}</button><div class="event-meta">${esc(e.type)}${e.lineage?' · '+esc(e.lineage.label):''}${e.watchlist?' · Discovery watchlist':''}</div><div class="topics">${e.topics.slice(0,3).map(t=>`<span>${esc(t)}</span>`).join('')}</div></td>
     <td><div>${esc(e.location)}</div><div class="secondary">${esc(eventDates(e))}</div></td>
-    <td><span class="fit ${esc(e.fit)}">${esc(e.fit)}</span><div class="secondary">${esc(e.relevance)}</div></td>
+    <td><span class="tier ${esc(e.tier||'')}">${esc(tierLabels[e.tier]||'Unranked')}</span><div class="tier-field">${esc(e.tierField||'')}</div><span class="fit ${esc(e.fit)}">${esc(e.fit)}</span><div class="secondary">${esc(e.relevance)}</div></td>
     <td>${deadlineCell(e)}</td>
-    <td>${badge(e)}${e.verification==='needs-review'?'<div class="review-flag">△ Needs review · see details</div>':''}<div class="secondary">Verified ${formatDate(e.checkedAt)}</div><a class="source-link" href="${esc(safeUrl(e.source))}" target="_blank" rel="noopener noreferrer">Official source</a></td>
+    <td>${badge(e)}${e.verification==='needs-review'?'<div class="review-flag">△ Needs review · see details</div>':''}<a class="source-link" href="${esc(safeUrl(e.source))}" target="_blank" rel="noopener noreferrer">Official source</a></td>
     </tr>`).join('');
 }
 function renderTimeline(){
@@ -82,10 +90,11 @@ function renderTimeline(){
 }
 function renderSources(){
   const needs=catalog.events.filter(e=>e.verification==='needs-review');
-  $('sources-view').innerHTML=`<div class="source-panel"><h2>Updates you can trace</h2><p>${esc(catalog.coverage)}</p><p><strong>Latest catalog review:</strong> ${esc(new Intl.DateTimeFormat('en-SG',{timeZone:TZ,dateStyle:'medium',timeStyle:'short'}).format(new Date(catalog.updatedAt)))} SGT<br><strong>Loaded from:</strong> ${esc(catalog.origin)}<br><strong>Scheduled review:</strong> ${catalog.updatePolicy.enabled?'Daily, around 08:00 Singapore time':'Not yet active'}</p><p>The scheduled research task checks official calls, course calendars and newly announced editions, then saves verified changes to the GitHub catalog. This page reloads that catalog on opening and every 15 minutes. Refresh data retrieves the catalog; it does not start a new web search.</p><p>Individual records retain their own last-verified date. If a source fails, its previous deadline is retained and the failure is recorded. A timestamp is advanced only after a successful source review.</p></div>
+  $('sources-view').innerHTML=`<div class="source-panel"><h2>Updates you can trace</h2><p>${esc(catalog.coverage)}</p><p><strong>Loaded from:</strong> ${esc(catalog.origin)}<br><strong>Scheduled review:</strong> ${catalog.updatePolicy.enabled?'Daily, around 08:00 Singapore time':'Not yet active'}</p><p>The scheduled research task checks official calls, course calendars and newly announced editions, then saves verified changes to the GitHub catalog. This page reloads that catalog on opening and every 15 minutes. Refresh data retrieves the catalog; it does not start a new web search.</p><p>Verification history is retained in the source data. The latest catalog update appears in the page footer. If a source fails, its previous deadline is retained and the failure is recorded. Records that could not be checked keep their previous verification date.</p></div>
   <div class="source-panel"><h2>Official discovery sources</h2><div class="source-cards">${[
     ['CSHL meetings','https://meetings.cshl.edu/meetingshome.aspx','Genomics, data science, networks'],['CSHL courses','https://meetings.cshl.edu/courses','Advanced practical training'],['EMBL events','https://www.embl.org/events/','AI, proteomics, imaging and omics'],['EMBL-EBI training','https://www.ebi.ac.uk/training/live-events/','Bioinformatics courses and webinars'],['ISCB conferences','https://www.iscb.org/conferences-events','ISMB/ECCB, GLBIO and communities'],['Wellcome Sanger training','https://coursesandconferences.wellcomeconnectingscience.org/','Genomics and computational training']
   ].map(([n,u,t])=>`<a href="${u}" target="_blank" rel="noopener noreferrer">${n}<span>${t}</span></a>`).join('')}</div></div>
+  <div class="source-panel"><h2>Field tiers, research fit & origins</h2><p>${esc(catalog.tierPolicy?.note||'Tiers are editorial judgements within each field.')}</p><div class="tier-guide"><p><b>T1 · Field flagship</b><br>A central international venue in its own discipline.</p><p><b>T2 · Leading specialist</b><br>A focused, well-established research community.</p><p><b>T3 · Regional / emerging</b><br>Useful regional communities or newer focused meetings.</p></div><p>Workshops and courses are unranked. A workshop at NeurIPS does not inherit NeurIPS’s main-conference tier. MLCB and ML4H have documented NeurIPS workshop origins; WABI evolved from a workshop series. Other independent specialist conferences are not labelled spin-offs without evidence.</p><p>ICLR, ICML, NeurIPS, CVPR, ICCV, ECCV, ACL and EMNLP are retained for specific biomedical ML, imaging or NLP routes. Broad AI planning entries with weaker direct fit have been removed from the active catalog.</p><p>${esc(catalog.researchNotes||'')}</p></div>
   <div class="source-panel"><h2>Reading the deadlines</h2><ul><li><strong>Abstract registration</strong> often gates a later full-paper submission. Missing that first deadline can close the entire track.</li><li><strong>Poster abstracts</strong> and proceedings papers are separate routes. Course applications are labelled explicitly.</li><li><strong>Not announced</strong> means no verified date was available; it is never filled from last year’s calendar.</li><li><strong>AoE</strong> is UTC−12. A 23:59 AoE cutoff is 19:59 Singapore time on the following day.</li><li>Exact cutoffs are converted to Singapore time in event details. Date-only deadlines export as all-day calendar reminders, with the time uncertainty preserved.</li><li>High relevance means a close match to biomedical AI, proteomics, multi-omics, imaging or foundation-model work; it is not a conference ranking.</li><li>Your shortlist is saved only in this browser. Calendar export is a snapshot, not a subscribed live calendar.</li></ul></div>
   ${needs.length?`<div class="source-panel"><h2>Items needing organizer clarification</h2>${needs.map(e=>`<p><button class="event-name" data-detail="${esc(e.id)}">${esc(e.name)}</button><br>${esc(e.notes)}</p>`).join('')}</div>`:''}
   ${catalog.lastRun?`<div class="source-panel"><h2>Latest review</h2><p>${esc(catalog.lastRun.summary||'')}</p></div>`:''}`;
@@ -102,19 +111,20 @@ function render(){
   $('today').textContent=new Intl.DateTimeFormat('en-GB',{timeZone:TZ,day:'numeric',month:'short',year:'numeric'}).format(now());
   $('schedule-title').textContent=catalog.updatePolicy.enabled?'Daily source review':'Source review';
   $('schedule-text').textContent=catalog.updatePolicy.enabled?'Official sources checked each morning, around 08:00 SGT.':'Schedule not active yet.';
-  $('verified-summary').textContent=`Catalog reviewed ${formatDate(catalog.updatedAt.slice(0,10))} · ${catalog.events.length} entries`;
+  $('verified-summary').textContent=`Last catalog update: ${new Intl.DateTimeFormat('en-SG',{timeZone:TZ,dateStyle:'medium',timeStyle:'short'}).format(new Date(catalog.updatedAt))} SGT · ${catalog.events.length} entries · individual source history in CSV`;
   const upcoming=live.filter(e=>nextDeadline(e)&&!['not-open','waitlist','closed'].includes(status(e).key)).sort(byDeadline).slice(0,3);
   $('next-deadlines').innerHTML=upcoming.map(e=>{const d=nextDeadline(e);return `<button class="deadline-card" data-detail="${esc(e.id)}"><span class="date-block">${+d.date.slice(-2)}<small>${new Intl.DateTimeFormat('en-GB',{month:'short',timeZone:'UTC'}).format(new Date(d.date+'T12:00:00Z'))}</small></span><span><b>${esc(e.name)}</b><p>${esc(d.label)} · ${remainingDays(d)} days</p></span></button>`;}).join('');
   visible=selectedEvents();
   $('result-count').textContent=`${visible.length} shown`;
-  $('results-label').textContent=currentView==='shortlist'?'My shortlist':currentView==='timeline'?'Upcoming deadlines':'All opportunities';
-  $('page-title').innerHTML=currentView==='sources'?'Sources & updates<span>.</span>':'Research radar<span>.</span>';
-  $('results-section').hidden=currentView==='sources';$('controls').hidden=currentView==='sources';$('sources-view').hidden=currentView!=='sources';$('next-section').hidden=currentView==='sources';
-  $('table-view').hidden=currentView==='timeline'||!visible.length;
+  $('results-label').textContent=currentView==='shortlist'?'My shortlist':currentView==='timeline'?'Upcoming deadlines':currentView==='map'?'World map':'All opportunities';
+  $('page-title').innerHTML=currentView==='sources'?'Sources & updates<span>.</span>':currentView==='map'?'Your research, worldwide<span>.</span>':'Research radar<span>.</span>';
+  $('results-section').hidden=currentView==='sources';$('controls').hidden=currentView==='sources';$('sources-view').hidden=currentView!=='sources';$('next-section').hidden=['sources','map'].includes(currentView);document.querySelector('.stats').hidden=currentView==='map';
+  $('table-view').hidden=['timeline','map'].includes(currentView)||!visible.length;
+  $('map-view').hidden=currentView!=='map';
   $('timeline-view').hidden=currentView!=='timeline';
-  $('empty').hidden=visible.length>0||currentView==='timeline';
+  $('empty').hidden=visible.length>0||['timeline','map'].includes(currentView);
   document.querySelectorAll('[data-view]').forEach(b=>{b.classList.toggle('active',b.dataset.view===currentView);b.setAttribute('aria-current',b.dataset.view===currentView?'page':'false');});
-  renderRows();renderTimeline();renderSources();
+  renderRows();renderTimeline();renderSources();if(currentView==='map')worldMap.update(visible);
 }
 function toggleSave(id){
   saved.has(id)?saved.delete(id):saved.add(id);
@@ -126,17 +136,17 @@ function showDetail(id){
   const e=catalog.events.find(x=>x.id===id);if(!e)return;
   const sources=[...new Set([e.source,...(e.sources||[])])];
   $('detail-content').innerHTML=`<h2>${esc(e.name)}</h2>${e.fullName?`<p>${esc(e.fullName)}</p>`:''}<span class="fit ${esc(e.fit)}">${esc(e.fit)} relevance</span> ${badge(e)}
-  <div class="detail-facts"><strong>${esc(e.location)}</strong><br>${esc(eventDates(e))}<br>${esc(e.type)}${e.watchlist?' · Discovery watchlist':''}</div>
-  <h3>Why it fits your work</h3><p>${esc(e.relevance)}</p>
+  <div class="detail-facts"><strong>${esc(e.location)}</strong><br>${esc(eventDates(e))}<br>${esc(e.type)}${e.lineage?' · '+esc(e.lineage.label):''}${e.watchlist?' · Discovery watchlist':''}</div>
+  <h3>Standing in its field</h3><p><span class="tier ${esc(e.tier||'')}">${esc(tierLabels[e.tier]||'Unranked')}</span> · ${esc(e.tierField||'')}</p><p>${esc(e.tierReason||'')}</p>${e.lineage?`<h3>Workshop origins</h3><p>${esc(e.lineage.detail)} <a href="${esc(safeUrl(e.lineage.source))}" target="_blank" rel="noopener noreferrer">History source</a></p>`:''}<h3>Why it fits your work</h3><p>${esc(e.relevance)}</p>
   <h3>Submission & application dates</h3>${e.deadlines.length?e.deadlines.map(d=>`<div class="deadline-detail"><div><b>${esc(d.label)}</b>${d.requires?'<div class="secondary">Requires earlier abstract registration</div>':''}${d.actionable===false?'<div class="secondary">For previously reviewed / accepted work</div>':''}</div><div><strong>${d.date?formatDate(d.date):'Not announced'}</strong><div class="secondary">${d.date?esc(d.time&&d.zone?d.time+' '+d.zone:'Cutoff time / timezone unverified'):''}</div>${singaporeTime(d)?`<div class="secondary">${esc(singaporeTime(d))}</div>`:''}${d.date&&isPast(d)?'<div class="secondary">Deadline passed</div>':''}</div></div>`).join(''):'<p>No remaining main-track submission deadline has been verified.</p>'}
   ${e.opens?`<p>Applications open ${formatDate(e.opens)}.</p>`:''}${e.notes?`<h3>${e.verification==='needs-review'?'Source clarification needed':'Important details'}</h3><p>${esc(e.notes)}</p>`:''}
-  <h3>Official sources</h3><div class="source-list">${sources.map(u=>`<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener noreferrer">${esc(u)}</a>`).join('')}</div><p class="secondary">Last successfully reviewed: ${formatDate(e.checkedAt)}${e.checkError?' · Latest check failed: '+esc(e.checkError):''}</p>
+  <h3>Official sources</h3><div class="source-list">${sources.map(u=>`<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener noreferrer">${esc(u)}</a>`).join('')}</div>${e.checkError?`<p class="secondary">Latest source check failed: ${esc(e.checkError)}</p>`:''}
   <div class="dialog-actions"><button class="button" data-save="${esc(e.id)}" aria-pressed="${saved.has(e.id)}">${saved.has(e.id)?'★ Saved to shortlist':'☆ Save to shortlist'}</button><button class="button" data-calendar="${esc(e.id)}">Export deadlines</button><a class="button primary-button" href="${esc(safeUrl(e.source))}" target="_blank" rel="noopener noreferrer">Open official page</a></div>`;
   if(!$('detail').open)$('detail').showModal();
 }
 function download(text,name,type){const u=URL.createObjectURL(new Blob([text],{type}));const a=document.createElement('a');a.href=u;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000);}
 function calendar(events){if(!events.some(e=>eligibleDeadlines(e).length)){notify('No upcoming dated deadlines to export.');return;}download(exportCalendar(events),'research-radar-deadlines.ics','text/calendar;charset=utf-8');notify('Calendar snapshot downloaded. Date-only cutoffs are all-day reminders.');}
-function reset(){for(const id of filters)$(id).value=id==='sort'?'deadline':'';$('past').checked=false;render();}
+function reset(){for(const id of filters)$(id).value=id==='sort'?'deadline':'';$('past').checked=false;worldMap.reset();render();}
 document.addEventListener('click',ev=>{
   const b=ev.target.closest('button');if(!b)return;
   if(b.dataset.save){toggleSave(b.dataset.save);return;}
