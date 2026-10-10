@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T15:32:44.660866Z",
+  "updatedAt": "2026-10-10T00:38:12Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -46,7 +46,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline.",
@@ -91,7 +91,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -141,7 +141,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -194,7 +194,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "Intelligent Systems for Molecular Biology / European Conference on Computational Biology",
       "sources": [
@@ -248,7 +248,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -486,7 +486,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "needs-review",
       "notes": "Official homepage says 2–8 October 2027, but the official Dates page says 19–23 October. Dates remain unresolved rather than silently choosing one.",
       "sources": [
@@ -1035,7 +1035,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1075,7 +1075,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
@@ -1114,7 +1114,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
@@ -1153,7 +1153,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetingshome.aspx"
@@ -1192,7 +1192,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=rnapr"
@@ -1232,7 +1232,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=data"
@@ -1429,7 +1429,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1440,7 +1440,8 @@
         "lon": 0.19,
         "label": "Hinxton",
         "precision": "city"
-      }
+      },
+      "notes": "Introductory, practice-oriented integration and visualisation course. The organizer says this is not a machine-learning or systems-biology modelling course; listed practical methods include MOFA and pathway/network tools. Consider the level when choosing advanced training."
     },
     {
       "id": "embl-proteomics-2027",
@@ -1465,7 +1466,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "notes": "Requires a motivation letter. Confirm the exact cutoff time on the application page.",
       "tier": "Training",
@@ -1533,7 +1534,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "submissionState": "not-open",
       "fullName": "Analysis and integration of transcriptome and proteome data",
@@ -1572,7 +1573,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1608,7 +1609,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Training",
@@ -1644,7 +1645,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -1793,7 +1794,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -1808,7 +1809,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Only in-person participants can submit abstracts and present posters; virtual attendance does not provide a submission route."
     },
     {
       "id": "embl-insitu-2027",
@@ -1872,15 +1874,19 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "watchlist": true,
-      "notes": "Provider watchlist: next suitable course must be verified individually. This is not a confirmed event or application window.",
+      "notes": "Provider discovery watchlist, not an application window. Concrete Genome Informatics 2026 and Cancer Genomic Epidemiology 2027 entries are now tracked separately. Current course and conference calendars reviewed; future advanced AI/ML training remains on watch.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
       "country": "Multiple / online",
-      "geo": null
+      "geo": null,
+      "sources": [
+        "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/",
+        "https://coursesandconferences.wellcomeconnectingscience.org/our-events/conferences/"
+      ]
     },
     {
       "id": "csama-watch",
@@ -2251,7 +2257,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -2588,7 +2594,7 @@
     },
     {
       "id": "recombccb-next",
-      "name": "RECOMB-CCB · next call",
+      "name": "RECOMB-CCB 2027",
       "type": "Conference",
       "topics": [
         "Bioinformatics",
@@ -2599,9 +2605,9 @@
       "fit": "High",
       "relevance": "Computational cancer biology and tumour multi-omics, useful for disease models and biomarker discovery.",
       "location": "To be announced",
-      "start": null,
-      "end": null,
-      "source": "https://recomb.org/satellites/",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "source": "https://recomb.org/recomb2027/keydates_and_deadlines.html",
       "deadlines": [
         {
           "label": "Abstract / paper submission",
@@ -2611,17 +2617,20 @@
         }
       ],
       "checkedAt": "2026-10-09",
-      "verification": "official",
+      "verification": "needs-review",
       "sources": [
-        "https://recomb.org/recomb2027/committees"
+        "https://recomb.org/recomb2027/committees",
+        "https://recomb.org/recomb2027/venue_satellites",
+        "https://recomb.org/recomb-ccb2027"
       ],
-      "watchlist": true,
-      "notes": "RECOMB 2027 lists CCB satellite chairs; exact CCB event dates and submission cutoff remain unverified. Main-conference deadlines do not apply.",
+      "watchlist": false,
+      "notes": "The main RECOMB organizer calendar confirms CCB on 15–16 May 2027. The satellite venue page remains TBA and the linked CCB-specific page returns 404. Location and author deadlines remain unverified; main RECOMB deadlines must not be applied to CCB.",
       "tier": "T2",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
-      "geo": null
+      "geo": null,
+      "checkError": "2026-10-10: Partial check. Organizer-linked https://recomb.org/recomb-ccb2027 returned HTTP 404. Dates verified separately on the main calendar; prior checkedAt retained because the full satellite call could not be checked."
     },
     {
       "id": "bionlp-next",
@@ -2681,7 +2690,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -2782,19 +2791,26 @@
       "source": "https://www.biophysics.org/2027meeting",
       "deadlines": [
         {
+          "label": "Early abstract",
+          "date": "2026-10-01",
+          "zone": null,
+          "time": null
+        },
+        {
           "label": "Late abstract",
           "date": "2027-01-05",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "sources": [
         "https://www.biophysics.org/2027meeting/abstracts/submission-guidelines",
-        "https://www.biophysics.org/2027meeting/exhibits/exhibitor-information/important-dates"
+        "https://www.biophysics.org/2027meeting/exhibits/exhibitor-information/important-dates",
+        "https://www.biophysics.org/2027meeting/abstracts/submission-instructions"
       ],
-      "notes": "Late abstracts are not published, according to the current submission guidelines. Member sponsorship conditions apply. Main-round cutoff is not independently verified here; this record tracks the published late route.",
+      "notes": "Early abstract deadline was 1 October 2026. Late abstracts close 5 January 2027 and are not published. Member sponsorship requirements apply. The stated 23:59 US Eastern time explicitly governs revisions/withdrawals; the new-submission cutoff time is left unverified.",
       "tier": "T1",
       "tierField": "Biophysics",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2967,7 +2983,8 @@
       "tierField": "Medical imaging AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
-      "geo": null
+      "geo": null,
+      "checkError": "2026-10-10: Official SPIE Medical Imaging page returned no usable event or deadline text. Previous facts and checkedAt retained."
     },
     {
       "id": "icml-bio-workshops",
@@ -3023,10 +3040,10 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-10",
       "verification": "official",
       "watchlist": true,
-      "notes": "Series discovery entry, not a confirmed new workshop edition. No parent-conference deadline is substituted for a workshop author deadline.",
+      "notes": "Series discovery watchlist retained for other biology workshops and future calls. Concrete NeurIPS 2026 AI4DD, SIMBIOCHEM II, AgenticLS and ASCI entries are tracked separately after checking the accepted-workshop list and each organizer site. Their author submission deadlines have passed; camera-ready dates are not new submission routes.",
       "tier": "Workshop",
       "tierField": "Focused research community",
       "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
@@ -3064,6 +3081,287 @@
       "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
       "country": "To be announced",
       "geo": null
+    },
+    {
+      "id": "neurips-ai4dd-2026",
+      "name": "NeurIPS 2026 · AI for Drug Discovery",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Molecular and protein design, biomolecular interaction models, assay shifts and prospective validation.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Focused biomedical AI community",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS main conference.",
+      "start": null,
+      "end": null,
+      "source": "https://ai4dd-neurips2026.github.io/",
+      "sources": [
+        "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/"
+      ],
+      "deadlines": [
+        {
+          "label": "Full / short paper",
+          "date": "2026-09-05",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Camera-ready — accepted papers only",
+          "date": "2026-10-29",
+          "zone": "AoE",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Author deadline was extended from 29 August to 5 September and has passed. Non-archival workshop. Sydney is confirmed; the workshop day is still TBA on its site. Organizers mark deadlines as tentative pending final scheduling."
+    },
+    {
+      "id": "neurips-simbiochem-2026",
+      "name": "NeurIPS 2026 · SIMBIOCHEM II",
+      "type": "Workshop",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Molecular dynamics, conformational ensembles, learned force fields and generative molecular models.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Focused biomedical AI community",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS main conference.",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "source": "https://www.simbiochem.com/",
+      "sources": [
+        "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/"
+      ],
+      "deadlines": [
+        {
+          "label": "Workshop paper",
+          "date": "2026-09-04",
+          "zone": "AoE",
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Submissions are closed and decisions published. Organizer confirms 11 December in Sydney. Deadline timezone is published as AoE; exact submission cutoff time is not specified."
+    },
+    {
+      "id": "neurips-agenticls-2026",
+      "name": "NeurIPS 2026 · AgenticLS",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "Foundation models",
+        "Protein & RNA",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Biological foundation models, tool-using scientific agents and closed-loop experimental discovery.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Focused biomedical AI community",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS main conference.",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "source": "https://agenticls.github.io/",
+      "sources": [
+        "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/",
+        "https://agenticls.github.io/cfp.html"
+      ],
+      "deadlines": [
+        {
+          "label": "Full paper / extended abstract",
+          "date": "2026-09-26",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Camera-ready — accepted papers only",
+          "date": null,
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "New submissions have closed. Camera-ready is described only as mid-October; no exact day is invented. Workshop day is confirmed as 11 December in Sydney."
+    },
+    {
+      "id": "neurips-asci-2026",
+      "name": "NeurIPS 2026 · ASCI pathology foundation models",
+      "type": "Workshop",
+      "topics": [
+        "Medical imaging",
+        "Foundation models",
+        "Multi-omics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Clinical pathology foundation models integrating histology, omics, spatial biology and text.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Focused biomedical AI community",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS main conference.",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "source": "https://asci.artificialintelligencepathology.org/",
+      "sources": [
+        "https://blog.neurips.cc/2026/08/10/announcing-the-neurips-2026-workshops/"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-08-29",
+          "zone": "UTC",
+          "time": "00:00",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-09-08",
+          "zone": "UTC",
+          "time": "00:00",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Abstract and full-paper routes are closed. Midnight UTC is transcribed as 00:00 on the stated date. Workshop at ICC Sydney on 11 December; organizer advertises PMLR publication, but this remains an unranked workshop."
+    },
+    {
+      "id": "sanger-cancer-epidemiology-2027",
+      "name": "Wellcome Sanger · Cancer Genomic Epidemiology 2027",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Statistical methods",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Population genomics, mutational signatures and exposure–disease associations complement cohort-based biomarker research.",
+      "location": "Hinxton, UK",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "Genomic epidemiology training",
+      "tierReason": "Course; conference prestige tiers do not apply.",
+      "start": "2027-03-15",
+      "end": "2027-03-18",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-11-16",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. Cutoff time and timezone are unverified."
+    },
+    {
+      "id": "sanger-genome-informatics-2026",
+      "name": "Wellcome Sanger · Genome Informatics 2026",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "Multi-omics",
+        "Biomedical AI"
+      ],
+      "fit": "High",
+      "relevance": "Algorithms for large genomic datasets, pangenomes, single-cell and spatial omics; the organizer explicitly welcomes ML and AI-driven methods.",
+      "location": "Hinxton, UK · hybrid",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "Genome informatics",
+      "tierReason": "Editorial assessment: an established specialist meeting for genome algorithms and informatics, alternating between Wellcome Genome Campus and CSHL.",
+      "start": "2026-12-02",
+      "end": "2026-12-04",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/event/genome-informatics-20261202/",
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2026-10-05",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Late in-person registration",
+          "date": "2026-11-02",
+          "zone": "Europe/London",
+          "time": "23:59",
+          "actionable": false
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2026-11-23",
+          "zone": "Europe/London",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-10",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "Abstract submissions are closed. Attendance registration remains available but is not a new abstract route. Header and programme confirm 2–4 December; an accommodation paragraph mistakenly says November, so confirm lodging dates separately."
     }
   ],
   "tierPolicy": {
@@ -3078,6 +3376,86 @@
   },
   "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Expanded biomedical and structural coverage with 28 new entries; removed 9 broad AI-only planning entries, added country/map coordinates and field-specific tier assessments. New entries were source-reviewed; existing deadline dates were preserved unless explicitly reviewed."
+    "summary": "Partial catalogue review: rechecked 24 existing records and added 6 organizer-verified events (83 total). Confirmed RECOMB-CCB dates from the main calendar, with its call page still unavailable. Added four biomedical NeurIPS workshops, Genome Informatics and Cancer Genomic Epidemiology. Existing deadlines otherwise unchanged except recording the already-past BPS early abstract round. SPIE text unavailable; ICCV date conflict persists. No known actionable High-relevance deadline falls within 10–24 October 2026.",
+    "reviewedAt": "2026-10-10T00:38:12Z",
+    "partial": true,
+    "reviewedExistingCount": 24,
+    "addedCount": 6,
+    "partialRecordCount": 1,
+    "failedRecordCount": 1,
+    "notReviewedCount": 51,
+    "reviewedIds": [
+      "recomb-2027",
+      "ipmi-2027",
+      "midl-2027",
+      "cshl-probgen",
+      "cshl-network",
+      "cshl-genome",
+      "cshl-singlecell",
+      "cshl-rnapr",
+      "cshl-data",
+      "ebi-multiomics-2027",
+      "ebi-proteomics-2027",
+      "ebi-structural-2027",
+      "embl-integrate-2027",
+      "embl-aibio-2027",
+      "embl-dl-2027",
+      "embl-proteomics-2027",
+      "embl-predictive-2027",
+      "isbi-2027",
+      "bps-2027",
+      "wellcome-watch",
+      "iccv-2027",
+      "cvpr-2027",
+      "ismb-eccb-2027",
+      "neurips-bio-workshops"
+    ],
+    "addedIds": [
+      "neurips-ai4dd-2026",
+      "neurips-simbiochem-2026",
+      "neurips-agenticls-2026",
+      "neurips-asci-2026",
+      "sanger-cancer-epidemiology-2027",
+      "sanger-genome-informatics-2026"
+    ],
+    "changedIds": [
+      "ebi-multiomics-2027",
+      "embl-predictive-2027",
+      "wellcome-watch",
+      "recombccb-next",
+      "bps-2027",
+      "neurips-bio-workshops",
+      "neurips-ai4dd-2026",
+      "neurips-simbiochem-2026",
+      "neurips-agenticls-2026",
+      "neurips-asci-2026",
+      "sanger-cancer-epidemiology-2027",
+      "sanger-genome-informatics-2026"
+    ],
+    "partialIds": [
+      "recombccb-next"
+    ],
+    "failedIds": [
+      "spie-mi-next"
+    ],
+    "unresolvedConflictIds": [
+      "iccv-2027"
+    ],
+    "failedSources": [
+      {
+        "url": "https://recomb.org/recomb-ccb2027",
+        "reason": "HTTP 404; dates independently confirmed on the main RECOMB calendar. Satellite venue remains TBA."
+      },
+      {
+        "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+        "reason": "No usable event/deadline text returned."
+      },
+      {
+        "url": "https://www.ebi.ac.uk/training/live-events/",
+        "reason": "Index returned no text; three individual 2027 course pages were successfully checked instead."
+      }
+    ],
+    "discoveryNotes": "Official CSHL, EMBL/EBI, Wellcome Sanger calendars and accepted NeurIPS workshop list used for discovery. Indexed X search returned no usable deadline evidence. Wellcome Cancer Genomic Epidemiology is complementary population-genomics training, explicitly not advanced computational methods.",
+    "highRelevanceWithin14Days": []
   }
 }
