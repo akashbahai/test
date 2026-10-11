@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T00:38:12Z",
+  "updatedAt": "2026-10-11T00:12:28Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -46,7 +46,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline.",
@@ -248,7 +248,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-11",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -486,7 +486,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-11",
       "verification": "needs-review",
       "notes": "Official homepage says 2–8 October 2027, but the official Dates page says 19–23 October. Dates remain unresolved rather than silently choosing one.",
       "sources": [
@@ -546,7 +546,8 @@
         "lon": 174.76,
         "label": "Auckland",
         "precision": "city"
-      }
+      },
+      "checkError": "2026-10-11: official homepage indexed search excerpt confirms Auckland and 27 September–1 October 2027, but direct page checks returned retrieval errors; no deadline verification possible. Prior facts and checkedAt retained."
     },
     {
       "id": "emnlp-2027",
@@ -646,7 +647,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "fullName": "Conference on Health, Inference, and Learning",
       "notes": "The official site still shows 2026. Watch for the next call.",
@@ -672,16 +673,22 @@
       "source": "https://ml4h.ahli.cc/",
       "deadlines": [
         {
-          "label": "Paper / extended abstract",
+          "label": "Proceedings paper",
           "date": "2026-09-10",
-          "zone": null,
-          "time": null
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Findings paper (non-archival)",
+          "date": "2026-09-10",
+          "zone": "AoE",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "fullName": "Machine Learning for Health",
-      "notes": "Paper and demonstration submissions are closed. Career mentorship applications remain open until 26 October.",
+      "notes": "Paper and demonstration submissions are closed. Career mentorship applications remain open until 26 October. The CFP specifies papers for both Proceedings and Findings tracks, with no separate abstract-registration deadline.",
       "lineage": {
         "label": "NeurIPS workshop → symposium",
         "detail": "Started as a NeurIPS workshop in 2015; became an independent standalone symposium in 2021.",
@@ -696,7 +703,11 @@
         "lon": 151.21,
         "label": "Sydney",
         "precision": "city"
-      }
+      },
+      "submissionState": "closed",
+      "sources": [
+        "https://ml4h.ahli.cc/submit/call-for-papers/"
+      ]
     },
     {
       "id": "psb-2027",
@@ -725,12 +736,19 @@
           "date": "2026-08-03",
           "zone": null,
           "time": null
+        },
+        {
+          "label": "Travel support application (registered attendees)",
+          "date": "2026-10-15",
+          "zone": "America/Los_Angeles",
+          "time": "23:59",
+          "actionable": false
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
-      "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past.",
+      "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
       "tier": "T2",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -740,7 +758,10 @@
         "lon": -155.99,
         "label": "Big Island",
         "precision": "city"
-      }
+      },
+      "sources": [
+        "https://psb.stanford.edu/travel_open.html"
+      ]
     },
     {
       "id": "hupo-2027",
@@ -1272,12 +1293,12 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
+      "checkedAt": "2026-10-11",
+      "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified. Course page displays a stale 'past event' banner despite the future dates corroborated by the current course calendar; verify application availability before arranging travel.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -1311,12 +1332,12 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
+      "checkedAt": "2026-10-11",
+      "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified. Course page displays a stale 'past event' banner despite the future dates corroborated by the current course calendar; verify application availability before arranging travel.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -1350,12 +1371,12 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "official",
+      "checkedAt": "2026-10-11",
+      "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified. Conflicting organizer cutoffs: course calendar lists 30 August 2026 (retained above), while the detailed course page lists 11 September 2026 and explicitly says applications are closed. No active application route. The page also has a stale 'past event' banner.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -1365,7 +1386,8 @@
         "lon": -73.46,
         "label": "Cold Spring Harbor",
         "precision": "city"
-      }
+      },
+      "submissionState": "closed"
     },
     {
       "id": "cshl-course-tgac2",
@@ -1383,18 +1405,18 @@
       "source": "https://meetings.cshl.edu/courses.aspx?course=tgac2",
       "deadlines": [
         {
-          "label": "Course application",
+          "label": "Course registration",
           "date": "2026-10-02",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/courses"
       ],
-      "notes": "Application deadline, not a conference abstract deadline. Cutoff time and timezone unverified.",
+      "notes": "Course is full, with a waiting list available. Organizer gives 2 October 2026 or until full as the registration cutoff; no waiting-list cutoff is specified. Introductory bulk RNA-seq training, not an advanced ML course. Cutoff time and timezone unverified.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -1404,7 +1426,8 @@
         "lon": -73.46,
         "label": "Cold Spring Harbor",
         "precision": "city"
-      }
+      },
+      "submissionState": "waitlist"
     },
     {
       "id": "ebi-multiomics-2027",
@@ -1503,7 +1526,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "format": "Online",
       "tier": "Training",
@@ -1683,7 +1706,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Training",
@@ -1720,7 +1743,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Workshop",
@@ -1757,7 +1780,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "submissionState": "waitlist",
       "format": "Online",
@@ -1835,7 +1858,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -1849,7 +1872,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Only on-site participants may submit abstracts; virtual attendance does not provide an abstract route. Register first to receive the separate abstract-submission link. Abstract deadline remains 3 November 2026; cutoff time and timezone unverified."
     },
     {
       "id": "wellcome-watch",
@@ -1874,7 +1898,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "watchlist": true,
       "notes": "Provider discovery watchlist, not an application window. Concrete Genome Informatics 2026 and Cancer Genomic Epidemiology 2027 entries are now tracked separately. Current course and conference calendars reviewed; future advanced AI/ML training remains on watch.",
@@ -1900,7 +1924,7 @@
       "fit": "High",
       "relevance": "Bioconductor and statistical methods for high-dimensional biological data.",
       "location": "Brixen / Bressanone, Italy",
-      "start": null,
+      "start": "2027-07-10",
       "end": null,
       "source": "https://www.huber.embl.de/group/events.html",
       "deadlines": [
@@ -1911,9 +1935,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
-      "notes": "Host group lists July 2027; exact course range and application deadline have not been verified.",
+      "notes": "Host-group event page explicitly lists a start date of 10 July 2027 in Brixen/Bressanone. End date and application deadline are not announced; the page says more details will follow.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -1923,7 +1947,10 @@
         "lon": 11.66,
         "label": "Brixen",
         "precision": "city"
-      }
+      },
+      "sources": [
+        "https://www.huber.embl.de/group/events/csama2027.html"
+      ]
     },
     {
       "id": "asms-2027",
@@ -1983,13 +2010,19 @@
       "source": "https://www.mlcb.org/home",
       "deadlines": [
         {
-          "label": "Paper / two-page abstract",
+          "label": "Full paper (optional PMLR track)",
+          "date": "2026-07-05",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Two-page poster abstract (non-archival)",
           "date": "2026-07-05",
           "zone": "AoE",
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
         "https://www.mlcb.org/submit"
@@ -2009,7 +2042,8 @@
         "lon": -74.01,
         "label": "New York City",
         "precision": "city"
-      }
+      },
+      "submissionState": "closed"
     },
     {
       "id": "mlhc-2027",
@@ -2072,10 +2106,11 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
-        "https://www.moml.mit.edu/submit"
+        "https://www.moml.mit.edu/submit",
+        "https://www.moml.mit.edu/venue"
       ],
       "fullName": "Molecular Machine Learning Conference",
       "notes": "Submission deadline has passed. This is a focused molecular-ML meeting, not a claimed NeurIPS workshop spin-off. Watch MIT and Mila editions for the next call.",
@@ -2088,7 +2123,8 @@
         "lon": -71.09,
         "label": "Cambridge, Massachusetts",
         "precision": "city"
-      }
+      },
+      "submissionState": "closed"
     },
     {
       "id": "log-2026",
@@ -2290,16 +2326,16 @@
         {
           "label": "Scientific abstract",
           "date": "2026-10-28",
-          "zone": null,
-          "time": null
+          "zone": "UTC",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
       ],
-      "notes": "This record tracks ISMRM scientific abstracts, not the ISMRT technologist-only track. Cutoff time not verified.",
+      "notes": "Tracks ISMRM scientific abstracts, not the separate ISMRT track. Organizer CFP indexed text specifies 28 October 2026 at 23:59 UTC. In-person presentation is required; the date-only important-dates list independently confirms 28 October.",
       "tier": "T1",
       "tierField": "Magnetic resonance imaging",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2309,7 +2345,8 @@
         "lon": -123.12,
         "label": "Vancouver",
         "precision": "city"
-      }
+      },
+      "opens": "2026-10-01"
     },
     {
       "id": "ohbm-2027",
@@ -2328,15 +2365,15 @@
       "source": "https://www.humanbrainmapping.org/ohbm-2027/",
       "deadlines": [
         {
-          "label": "Abstract / paper submission",
-          "date": null,
+          "label": "Poster abstract / content submission",
+          "date": "2026-12-14",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
-      "notes": "Official page gives a December 2026 submission month but no verified day. Exact deadline remains unannounced; third-party dates are not substituted.",
+      "notes": "Organizer's Call for Content specifies submissions open 2 November and close 14 December 2026. Exact cutoff time and timezone remain unpublished. The meeting is 26–30 June 2027 at the Metro Toronto Convention Centre.",
       "tier": "T1",
       "tierField": "Human neuroimaging",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2346,7 +2383,12 @@
         "lon": -79.38,
         "label": "Toronto",
         "precision": "city"
-      }
+      },
+      "opens": "2026-11-02",
+      "submissionState": "not-open",
+      "sources": [
+        "https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=4324"
+      ]
     },
     {
       "id": "siim-2027",
@@ -2370,12 +2412,13 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-11",
       "verification": "official",
       "sources": [
-        "https://siim.org/event/siim27-annual-meeting-informaticstech-expo/"
+        "https://siim.org/event/siim27-annual-meeting-informaticstech-expo/",
+        "https://annualmeeting.siim.org/call-for-research-abstracts/"
       ],
-      "notes": "Distinct scientific and applied-informatics tracks; exact cutoff time not verified.",
+      "notes": "Distinct scientific and applied-informatics tracks; exact cutoff time not verified. Scientific abstracts explicitly welcome multimodal foundation models and clinical AI; accepted presentations require in-person attendance. Exact cutoff time and timezone remain unverified.",
       "tier": "T1",
       "tierField": "Imaging informatics",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2630,7 +2673,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-10: Partial check. Organizer-linked https://recomb.org/recomb-ccb2027 returned HTTP 404. Dates verified separately on the main calendar; prior checkedAt retained because the full satellite call could not be checked."
+      "checkError": "2026-10-11: dedicated https://recomb.org/recomb-ccb2027 returned an internal retrieval error. Main RECOMB calendar still confirms 15–16 May 2027; submission deadline remains unverified. Prior facts and checkedAt retained."
     },
     {
       "id": "bionlp-next",
@@ -2984,7 +3027,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-10: Official SPIE Medical Imaging page returned no usable event or deadline text. Previous facts and checkedAt retained."
+      "checkError": "2026-10-11: organizer page again returned no usable event or deadline text; prior facts and checkedAt retained."
     },
     {
       "id": "icml-bio-workshops",
@@ -3362,6 +3405,46 @@
       "verification": "official",
       "submissionState": "closed",
       "notes": "Abstract submissions are closed. Attendance registration remains available but is not a new abstract route. Header and programme confirm 2–4 December; an accommodation paragraph mistakenly says November, so confirm lodging dates separately."
+    },
+    {
+      "id": "cshl-course-cryoem-2027",
+      "name": "CSHL · Cryo-Electron Microscopy 2027",
+      "type": "Course",
+      "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Imaging"
+      ],
+      "fit": "Relevant",
+      "relevance": "Practical single-particle cryo-EM, 3D reconstruction and atomic model validation complement protein/RNA structure modelling; includes substantial experimental training.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "Structural biology training",
+      "tierReason": "Course; conference prestige tiers do not apply.",
+      "start": "2027-03-10",
+      "end": "2027-03-24",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=c-cryoem",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-01-08",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-11",
+      "verification": "needs-review",
+      "notes": "Course dates and application date agree between the detailed page and current calendar. Detailed page nevertheless displays a stale 'past event' banner; confirm application availability. Applicants should plan to apply cryo-EM directly in a suitable research environment. Cutoff time and timezone unverified."
     }
   ],
   "tierPolicy": {
@@ -3376,86 +3459,97 @@
   },
   "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: rechecked 24 existing records and added 6 organizer-verified events (83 total). Confirmed RECOMB-CCB dates from the main calendar, with its call page still unavailable. Added four biomedical NeurIPS workshops, Genome Informatics and Cancer Genomic Epidemiology. Existing deadlines otherwise unchanged except recording the already-past BPS early abstract round. SPIE text unavailable; ICCV date conflict persists. No known actionable High-relevance deadline falls within 10–24 October 2026.",
-    "reviewedAt": "2026-10-10T00:38:12Z",
+    "summary": "Partial catalogue review: 22 existing records rechecked, 1 course added (84 total), 1 partial record check and 2 failed record checks; 58 existing records not reviewed. Added OHBM's 14 December submission deadline, ISMRM's UTC cutoff, CSAMA's published start date and CSHL Cryo-EM training. Distinguished ML4H and MLCB submission tracks; recorded CSHL waitlist and source inconsistencies. PSB travel support closes 15 October and is not a submission route. No known actionable High-relevance submission/application deadline falls within 11–25 October 2026.",
+    "reviewedAt": "2026-10-11T00:12:28Z",
     "partial": true,
-    "reviewedExistingCount": 24,
-    "addedCount": 6,
+    "reviewedExistingCount": 22,
+    "addedCount": 1,
     "partialRecordCount": 1,
-    "failedRecordCount": 1,
-    "notReviewedCount": 51,
+    "failedRecordCount": 2,
+    "notReviewedCount": 58,
     "reviewedIds": [
-      "recomb-2027",
-      "ipmi-2027",
-      "midl-2027",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-genome",
-      "cshl-singlecell",
-      "cshl-rnapr",
-      "cshl-data",
-      "ebi-multiomics-2027",
-      "ebi-proteomics-2027",
-      "ebi-structural-2027",
-      "embl-integrate-2027",
-      "embl-aibio-2027",
-      "embl-dl-2027",
-      "embl-proteomics-2027",
-      "embl-predictive-2027",
-      "isbi-2027",
-      "bps-2027",
+      "ismrm-2027",
+      "ml4h-2026",
+      "psb-2027",
+      "mlcb-2026",
+      "moml-2026",
+      "chil-next",
+      "ohbm-2027",
+      "ebi-variants-2026",
+      "ebi-sc-2027",
+      "embl-spatial-2027",
+      "embl-structural-2027",
+      "embl-insitu-2027",
+      "csama-watch",
       "wellcome-watch",
+      "cshl-course-c-data",
+      "cshl-course-c-qicm",
+      "cshl-course-c-ecg",
+      "cshl-course-tgac2",
       "iccv-2027",
-      "cvpr-2027",
-      "ismb-eccb-2027",
-      "neurips-bio-workshops"
+      "recomb-2027",
+      "isbi-2027",
+      "siim-2027"
     ],
     "addedIds": [
-      "neurips-ai4dd-2026",
-      "neurips-simbiochem-2026",
-      "neurips-agenticls-2026",
-      "neurips-asci-2026",
-      "sanger-cancer-epidemiology-2027",
-      "sanger-genome-informatics-2026"
+      "cshl-course-cryoem-2027"
     ],
     "changedIds": [
-      "ebi-multiomics-2027",
-      "embl-predictive-2027",
-      "wellcome-watch",
-      "recombccb-next",
-      "bps-2027",
-      "neurips-bio-workshops",
-      "neurips-ai4dd-2026",
-      "neurips-simbiochem-2026",
-      "neurips-agenticls-2026",
-      "neurips-asci-2026",
-      "sanger-cancer-epidemiology-2027",
-      "sanger-genome-informatics-2026"
+      "ml4h-2026",
+      "psb-2027",
+      "cshl-course-c-data",
+      "cshl-course-c-qicm",
+      "cshl-course-c-ecg",
+      "cshl-course-tgac2",
+      "embl-insitu-2027",
+      "csama-watch",
+      "mlcb-2026",
+      "moml-2026",
+      "ismrm-2027",
+      "ohbm-2027",
+      "siim-2027",
+      "cshl-course-cryoem-2027"
     ],
     "partialIds": [
-      "recombccb-next"
+      "miccai-2027"
     ],
     "failedIds": [
-      "spie-mi-next"
+      "spie-mi-next",
+      "recombccb-next"
     ],
     "unresolvedConflictIds": [
-      "iccv-2027"
+      "iccv-2027",
+      "cshl-course-c-data",
+      "cshl-course-c-qicm",
+      "cshl-course-c-ecg",
+      "cshl-course-cryoem-2027"
     ],
     "failedSources": [
       {
-        "url": "https://recomb.org/recomb-ccb2027",
-        "reason": "HTTP 404; dates independently confirmed on the main RECOMB calendar. Satellite venue remains TBA."
-      },
-      {
         "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
-        "reason": "No usable event/deadline text returned."
+        "reason": "No readable event/deadline text. Prior facts and checkedAt retained."
       },
       {
-        "url": "https://www.ebi.ac.uk/training/live-events/",
-        "reason": "Index returned no text; three individual 2027 course pages were successfully checked instead."
+        "url": "https://recomb.org/recomb-ccb2027",
+        "reason": "Direct retrieval returned an internal error. Dates still supported by main RECOMB calendar; dedicated submission call unavailable. checkedAt retained."
+      },
+      {
+        "url": "https://conferences.miccai.org/2027/en/",
+        "reason": "Direct homepage and index.html retrieval failed; indexed official excerpt only reconfirmed dates and city. Prior facts and checkedAt retained."
       }
     ],
-    "discoveryNotes": "Official CSHL, EMBL/EBI, Wellcome Sanger calendars and accepted NeurIPS workshop list used for discovery. Indexed X search returned no usable deadline evidence. Wellcome Cancer Genomic Epidemiology is complementary population-genomics training, explicitly not advanced computational methods.",
-    "highRelevanceWithin14Days": []
+    "discoveryNotes": "Official CSHL course calendar and detailed pages, EMBL/EMBL-EBI event pages, Huber Group CSAMA announcement, Wellcome Sanger course/conference calendars and medical/biological ML organizer pages checked. Public indexed X searches supplied no usable discovery or deadline evidence. No broad-AI archive entries re-added. CSHL future course dates agree with calendar but several detailed pages show stale past-event banners.",
+    "highRelevanceWithin14Days": [],
+    "otherHighRelevanceDeadlinesWithin14Days": [
+      {
+        "eventId": "psb-2027",
+        "label": "Travel support application (not a submission route)",
+        "date": "2026-10-15",
+        "time": "23:59",
+        "zone": "America/Los_Angeles",
+        "singapore": "2026-10-16T14:59:00+08:00",
+        "eligibility": "Registered attendees; reimbursement only."
+      }
+    ]
   }
 }
