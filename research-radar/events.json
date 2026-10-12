@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-11T00:12:28Z",
+  "updatedAt": "2026-10-12T00:45:07Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -787,7 +787,7 @@
         }
       ],
       "checkedAt": "2026-10-09",
-      "verification": "official",
+      "verification": "needs-review",
       "fullName": "Human Proteome Organization World Congress",
       "sources": [
         "https://2027.hupo.org/"
@@ -802,7 +802,8 @@
         "lon": 9.19,
         "label": "Milan",
         "precision": "city"
-      }
+      },
+      "checkError": "The official 2026 congress page still supports Milan, 11–15 October 2027, but the linked 2027 site was not retrievable. Prior facts and checkedAt retained."
     },
     {
       "id": "ashg-2027",
@@ -828,7 +829,7 @@
         }
       ],
       "checkedAt": "2026-10-09",
-      "verification": "official",
+      "verification": "needs-review",
       "fullName": "American Society of Human Genetics Annual Meeting",
       "tier": "T1",
       "tierField": "Human genetics & genomics",
@@ -839,7 +840,8 @@
         "lon": -86.78,
         "label": "Nashville",
         "precision": "city"
-      }
+      },
+      "checkError": "The official future-meetings page reconfirmed Nashville, 26–30 October 2027, but the abstract-information page was not retrievable. Prior deadline state and checkedAt retained."
     },
     {
       "id": "eshg-2027",
@@ -854,21 +856,20 @@
       "location": "Rotterdam, Netherlands · hybrid",
       "start": "2027-06-12",
       "end": "2027-06-15",
-      "source": "https://2027.eshg.org/",
+      "source": "https://2027.eshg.org/abstracts/",
       "deadlines": [
         {
           "label": "Abstract submission",
-          "date": null,
-          "zone": null,
-          "time": null
+          "date": "2027-02-04",
+          "zone": "Europe/Amsterdam",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "needs-review",
-      "notes": "The abstract page still contains 2026 dates. The FAQ anticipates opening in December 2026; no 2027 deadline is confirmed.",
+      "checkedAt": "2026-10-12",
+      "verification": "official",
+      "notes": "Abstract submission will open in December 2026; the exact opening day is not published. The organizer states the cutoff as 23:59 CET (Europe/Amsterdam in February).",
       "sources": [
-        "https://2027.eshg.org/abstracts/",
-        "https://2027.eshg.org/myconference/faqs/?include_category=abstract-submission"
+        "https://2027.eshg.org/"
       ],
       "tier": "T1",
       "tierField": "Human genetics & genomics",
@@ -1966,21 +1967,22 @@
       "location": "Houston, Texas, USA",
       "start": "2027-06-06",
       "end": "2027-06-10",
-      "source": "https://www.asms.org/conferences/annual-conference/future-annual-conferences",
+      "source": "https://www.asms.org/conferences/annual-conference/annual-conference-homepage",
       "sources": [
+        "https://www.asms.org/conferences/annual-conference/future-annual-conferences",
         "https://www.asms.org/conferences/annual-conference/conference-program/abstracts"
       ],
       "deadlines": [
         {
           "label": "Abstract submission",
-          "date": null,
+          "date": "2027-02-05",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "Future-conferences page confirms the meeting. A year-specific 2027 abstract deadline has not been verified.",
+      "notes": "Abstract submission opens in December; the exact opening day and the deadline cutoff time/timezone are not published.",
       "tier": "T1",
       "tierField": "Mass spectrometry",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -1991,6 +1993,49 @@
         "label": "Houston",
         "precision": "city"
       }
+    },
+    {
+      "id": "aohupo-aps-2027",
+      "name": "AOHUPO & APS 2027",
+      "fullName": "13th AOHUPO Congress and 32nd Annual Australasian Proteomics Society Symposium",
+      "type": "Conference",
+      "topics": [
+        "Proteomics",
+        "Multi-omics",
+        "AI & ML",
+        "Structural bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Regional proteomics congress with explicit computational and AI proteomics, multi-omics, structural proteomics and single-cell/spatial proteomics categories.",
+      "location": "Melbourne, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -37.81,
+        "lon": 144.96,
+        "label": "Melbourne",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "Proteomics",
+      "tierReason": "Editorial assessment: a major Asia–Oceania regional proteomics congress; regional scope is reflected in T3 and does not diminish its strong topical relevance.",
+      "start": "2027-02-15",
+      "end": "2027-02-17",
+      "source": "https://aohupocongress2027.org/abstract-submission",
+      "sources": [
+        "https://aohupocongress2027.org/",
+        "https://aohupocongress2027.org/program"
+      ],
+      "deadlines": [
+        {
+          "label": "Oral / poster abstract",
+          "date": "2026-11-14",
+          "zone": "Australia/Melbourne",
+          "time": "00:00"
+        }
+      ],
+      "checkedAt": "2026-10-12",
+      "verification": "official",
+      "notes": "The organizer publishes the cutoff as 12:00am on 14 November 2026 AEDT; this is transcribed exactly and means midnight at the start of 14 November. Confirm the portal cutoff rather than assuming end-of-day. Accepted oral and poster presentations are in person."
     },
     {
       "id": "mlcb-2026",
@@ -2067,9 +2112,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "ETH Zurich confirmed; submission tracks and deadlines not yet announced. MLHC is distinct from ML4H and CHIL.",
+      "notes": "ETH Zurich and 11–13 August 2027 are confirmed; the organizer says details are coming soon and has not announced submission tracks or deadlines.",
       "tier": "T2",
       "tierField": "Biomedical AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -2453,9 +2498,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "Official site plans August–September 2027 near the University of Tokyo; exact days and submission deadlines are not announced. WABI originated as the Workshop on Algorithms in Bioinformatics and is now styled a conference.",
+      "notes": "The official call remains TBA. The announced venue is at or near the Institute of Medical Science, University of Tokyo; exact meeting days and submission deadlines are not published. WABI originated as the Workshop on Algorithms in Bioinformatics and is now styled a conference.",
       "lineage": {
         "label": "Workshop series → conference",
         "detail": "Established in 2001 as the Workshop on Algorithms in Bioinformatics; the 2027 organizer names it the WABI Conference.",
@@ -2495,13 +2540,13 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
       "sources": [
         "https://www.iscb.org/component/content/article/home-uk-2027"
       ],
       "fullName": "Asia & Pacific Bioinformatics Joint Conference",
-      "notes": "Suntec Convention Center announced. Exact abstract deadline not yet verified; do not reuse APBC or InCoB 2026 deadlines.",
+      "notes": "Suntec Convention Center and 28 September–1 October 2027 are confirmed. Exact abstract and paper deadlines are not yet published; APBC or InCoB 2026 deadlines are not carried forward.",
       "tier": "T3",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2581,7 +2626,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
       "sources": [
         "https://www.iscb.org/uk2027/home"
@@ -2766,9 +2811,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "41st annual symposium. Abstract deadline not verified; not every session is computational or AI-focused.",
+      "notes": "41st annual symposium at the Hilton San Francisco Union Square. Abstract deadline is not yet published; not every session is computational or AI-focused.",
       "tier": "T1",
       "tierField": "Protein science",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2803,9 +2848,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "32nd annual meeting. Broad RNA biology meeting; prioritize computational/structural themes. Submission deadline unannounced in the reviewed society calendar.",
+      "notes": "32nd annual meeting at the Strasbourg Convention Center. The society says more information is forthcoming; no submission deadline is published. Prioritize computational and structural themes.",
       "tier": "T1",
       "tierField": "RNA science",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2895,7 +2940,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
       "sources": [
         "https://aime27.aimedicine.info/"
@@ -2936,9 +2981,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
-      "notes": "Emerging AI-for-science conference, not assigned flagship status. Tutorial weekend 12–13 June; author submission deadlines not yet verified.",
+      "notes": "Emerging AI-for-science conference at Constructor University, not assigned flagship status. The official 2027 page confirms a four-day Bremen event; author submission deadlines remain unpublished.",
       "tier": "T3",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2979,12 +3024,12 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-12",
       "verification": "official",
       "sources": [
         "https://embc.embs.org/2027/"
       ],
-      "notes": "Workshop proposal date is not a paper-to-workshop deadline. No separate abstract-registration gate or exact cutoff time is verified.",
+      "notes": "The submission portal is scheduled to open in December 2026, but no exact opening day or cutoff time/timezone is published. Full contributed papers and one-page research posters remain distinct routes.",
       "tier": "T1",
       "tierField": "Biomedical engineering",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -3459,87 +3504,62 @@
   },
   "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: 22 existing records rechecked, 1 course added (84 total), 1 partial record check and 2 failed record checks; 58 existing records not reviewed. Added OHBM's 14 December submission deadline, ISMRM's UTC cutoff, CSAMA's published start date and CSHL Cryo-EM training. Distinguished ML4H and MLCB submission tracks; recorded CSHL waitlist and source inconsistencies. PSB travel support closes 15 October and is not a submission route. No known actionable High-relevance submission/application deadline falls within 11–25 October 2026.",
-    "reviewedAt": "2026-10-11T00:12:28Z",
+    "summary": "Partial catalogue review: 11 existing records rechecked, 1 conference added (85 total), 2 partial source checks and 71 existing records not reviewed. Added AOHUPO & APS 2027; published exact ESHG and ASMS abstract deadlines. ISBI's four-page paper is due 26 October; PSB travel support closes 15 October but is not a submission route.",
+    "reviewedAt": "2026-10-12T00:45:07Z",
     "partial": true,
-    "reviewedExistingCount": 22,
+    "reviewedExistingCount": 11,
     "addedCount": 1,
-    "partialRecordCount": 1,
-    "failedRecordCount": 2,
-    "notReviewedCount": 58,
+    "partialRecordCount": 2,
+    "failedRecordCount": 0,
+    "notReviewedCount": 71,
     "reviewedIds": [
-      "ismrm-2027",
-      "ml4h-2026",
-      "psb-2027",
-      "mlcb-2026",
-      "moml-2026",
-      "chil-next",
-      "ohbm-2027",
-      "ebi-variants-2026",
-      "ebi-sc-2027",
-      "embl-spatial-2027",
-      "embl-structural-2027",
-      "embl-insitu-2027",
-      "csama-watch",
-      "wellcome-watch",
-      "cshl-course-c-data",
-      "cshl-course-c-qicm",
-      "cshl-course-c-ecg",
-      "cshl-course-tgac2",
-      "iccv-2027",
-      "recomb-2027",
-      "isbi-2027",
-      "siim-2027"
+      "eshg-2027",
+      "asms-2027",
+      "aime-2027",
+      "iscbuk-2027",
+      "ai4x-2027",
+      "apbjc-2027",
+      "mlhc-2027",
+      "wabi-2027",
+      "protein-society-2027",
+      "rna-2027",
+      "embc-2027"
     ],
     "addedIds": [
-      "cshl-course-cryoem-2027"
+      "aohupo-aps-2027"
     ],
     "changedIds": [
-      "ml4h-2026",
-      "psb-2027",
-      "cshl-course-c-data",
-      "cshl-course-c-qicm",
-      "cshl-course-c-ecg",
-      "cshl-course-tgac2",
-      "embl-insitu-2027",
-      "csama-watch",
-      "mlcb-2026",
-      "moml-2026",
-      "ismrm-2027",
-      "ohbm-2027",
-      "siim-2027",
-      "cshl-course-cryoem-2027"
+      "eshg-2027",
+      "asms-2027",
+      "aohupo-aps-2027"
     ],
     "partialIds": [
-      "miccai-2027"
+      "ashg-2027",
+      "hupo-2027"
     ],
-    "failedIds": [
-      "spie-mi-next",
-      "recombccb-next"
-    ],
-    "unresolvedConflictIds": [
-      "iccv-2027",
-      "cshl-course-c-data",
-      "cshl-course-c-qicm",
-      "cshl-course-c-ecg",
-      "cshl-course-cryoem-2027"
-    ],
+    "failedIds": [],
+    "unresolvedConflictIds": [],
     "failedSources": [
       {
-        "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
-        "reason": "No readable event/deadline text. Prior facts and checkedAt retained."
+        "url": "https://www.ashg.org/membership/annual-meeting/abstracts/",
+        "reason": "The abstract-information page was not retrievable. Prior deadline state and checkedAt retained; the official future-meetings page still confirms dates and city."
       },
       {
-        "url": "https://recomb.org/recomb-ccb2027",
-        "reason": "Direct retrieval returned an internal error. Dates still supported by main RECOMB calendar; dedicated submission call unavailable. checkedAt retained."
-      },
-      {
-        "url": "https://conferences.miccai.org/2027/en/",
-        "reason": "Direct homepage and index.html retrieval failed; indexed official excerpt only reconfirmed dates and city. Prior facts and checkedAt retained."
+        "url": "https://2027.hupo.org/",
+        "reason": "Direct retrieval failed. Prior facts and checkedAt retained; dates and city remain supported by the official 2026 congress page."
       }
     ],
-    "discoveryNotes": "Official CSHL course calendar and detailed pages, EMBL/EMBL-EBI event pages, Huber Group CSAMA announcement, Wellcome Sanger course/conference calendars and medical/biological ML organizer pages checked. Public indexed X searches supplied no usable discovery or deadline evidence. No broad-AI archive entries re-added. CSHL future course dates agree with calendar but several detailed pages show stale past-event banners.",
-    "highRelevanceWithin14Days": [],
+    "discoveryNotes": "Official organizer pages for human genetics, mass spectrometry, proteomics, biomedical AI, bioinformatics, medical imaging and biomedical engineering were checked. Indexed public X searches produced no usable new deadline evidence; organizer pages remained authoritative. No broad-AI archive entries were re-added.",
+    "highRelevanceWithin14Days": [
+      {
+        "eventId": "isbi-2027",
+        "label": "Four-page paper",
+        "date": "2026-10-26",
+        "time": "23:59",
+        "zone": "EDT",
+        "singapore": "2026-10-27T11:59:00+08:00"
+      }
+    ],
     "otherHighRelevanceDeadlinesWithin14Days": [
       {
         "eventId": "psb-2027",
