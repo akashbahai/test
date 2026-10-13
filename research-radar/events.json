@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-12T00:45:07Z",
+  "updatedAt": "2026-10-13T00:19:43Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -46,7 +46,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline.",
@@ -248,7 +248,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -276,7 +276,7 @@
       "location": "Kyoto, Japan",
       "start": "2027-08-17",
       "end": "2027-08-22",
-      "source": "https://2027.aclweb.org/",
+      "source": "https://2027.aclweb.org/calls/main/",
       "deadlines": [
         {
           "label": "ARR paper submission",
@@ -285,9 +285,9 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "verification": "official",
-      "notes": "Main conference 20–22 August; tutorials and workshops 17–19 August. Commitment deadline is not yet announced.",
+      "notes": "The main call explicitly includes Clinical and Biomedical Applications, which is the biological route retained here. Main conference 20–22 August; tutorials and workshops 17–19 August. The ARR deadline is 4 January 2027 AoE; the ACL commitment deadline is not yet announced.",
       "abstractNote": "No separate abstract date listed",
       "tier": "T1",
       "tierField": "NLP",
@@ -298,7 +298,10 @@
         "lon": 135.77,
         "label": "Kyoto",
         "precision": "city"
-      }
+      },
+      "sources": [
+        "https://2027.aclweb.org/"
+      ]
     },
     {
       "id": "iclr-2027",
@@ -532,8 +535,8 @@
         }
       ],
       "checkedAt": "2026-10-09",
-      "verification": "official",
-      "notes": "Event homepage starts 27 September; the society listing includes 26 September. Use the final programme for satellite-day travel planning.",
+      "verification": "needs-review",
+      "notes": "The event homepage gives 27 September–1 October 2027; an earlier society listing included 26 September, likely for satellite planning. Paper and abstract deadlines remain unannounced and the submission page could not be retrieved.",
       "sources": [
         "https://miccai.org/upcoming-conferences/"
       ],
@@ -547,7 +550,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-11: official homepage indexed search excerpt confirms Auckland and 27 September–1 October 2027, but direct page checks returned retrieval errors; no deadline verification possible. Prior facts and checkedAt retained."
+      "checkError": "2026-10-13: official indexed pages reconfirm Auckland and 27 September–1 October 2027, but the paper-submission page returned a 520 retrieval error and the calls page remains under construction. Prior facts and checkedAt retained."
     },
     {
       "id": "emnlp-2027",
@@ -570,7 +573,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "notes": "The joint official workshop call describes a tentative early-November meeting. Exact host, dates and author deadline are unannounced.",
       "sources": [
@@ -745,7 +748,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -987,7 +990,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "notes": "Official website currently describes the completed 2026 edition; monitor the next call.",
       "tier": "T2",
@@ -1057,7 +1060,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1097,7 +1100,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
@@ -1136,7 +1139,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
@@ -1175,7 +1178,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetingshome.aspx"
@@ -1294,7 +1297,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1333,7 +1336,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1453,7 +1456,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1527,7 +1530,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "format": "Online",
       "tier": "Training",
@@ -1558,7 +1561,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "submissionState": "not-open",
       "fullName": "Analysis and integration of transcriptome and proteome data",
@@ -1571,7 +1574,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Applications are not yet open and no application deadline is published. The course covers computational analysis and integration of transcriptome and proteome data."
     },
     {
       "id": "embl-aibio-2027",
@@ -1595,9 +1599,16 @@
           "date": null,
           "zone": null,
           "time": null
+        },
+        {
+          "label": "Workshop / tutorial facilitator proposal",
+          "date": "2026-11-16",
+          "zone": null,
+          "time": null,
+          "actionable": false
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1609,7 +1620,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Main symposium registration and abstract submission are not yet open. The 16 November call is specifically for proposing and facilitating a workshop or tutorial, not for a symposium research abstract or paper. Participant applications for the selected sessions remain TBA."
     },
     {
       "id": "embl-dl-2027",
@@ -1633,7 +1645,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Training",
@@ -1645,7 +1657,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Applications are not yet open and no application deadline is published."
     },
     {
       "id": "ebi-proteomics-2027",
@@ -1669,7 +1682,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -1707,7 +1720,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Training",
@@ -1719,7 +1732,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Applications are not yet open and no application deadline is published. This is an experimental/practical spatial-omics course with image processing and basic data analysis."
     },
     {
       "id": "embl-structural-2027",
@@ -1744,7 +1758,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Workshop",
@@ -1756,7 +1770,8 @@
         "lon": 8.67,
         "label": "Heidelberg",
         "precision": "city"
-      }
+      },
+      "notes": "Registration and abstract submission are not yet open; no deadline is published. The programme explicitly includes all-atom and integrative modelling, nucleic acids, ML dynamics, biomolecular design and drug discovery."
     },
     {
       "id": "ebi-variants-2026",
@@ -1818,7 +1833,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -1859,7 +1874,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2375,7 +2390,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -2582,9 +2597,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "verification": "needs-review",
-      "notes": "Conference and accepted-paper program announced. The homepage retains a call-for-submissions banner but no verified author cutoff; check the organizer rather than treating that banner as an open call.",
+      "notes": "The 2026 meeting remains confirmed for 21–24 October in Taiwan. Its author submission route is closed. An official APBC 2027 domain is live but currently exposes no readable dates, location or deadline, so no 2027 record is added.",
       "tier": "T3",
       "tierField": "Structural bioinformatics",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2666,7 +2681,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "notes": "Satellite conference with its own call; the main RECOMB abstract deadline must not be applied here.",
       "tier": "T2",
@@ -2778,7 +2793,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-13",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3072,7 +3087,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-11: organizer page again returned no usable event or deadline text; prior facts and checkedAt retained."
+      "checkError": "2026-10-13: the official Medical Imaging page exposed only an iframe and no readable next-edition dates or deadline text. Prior facts and checkedAt retained."
     },
     {
       "id": "icml-bio-workshops",
@@ -3487,7 +3502,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-13",
       "verification": "needs-review",
       "notes": "Course dates and application date agree between the detailed page and current calendar. Detailed page nevertheless displays a stale 'past event' banner; confirm application availability. Applicants should plan to apply cryo-EM directly in a suitable research environment. Cutoff time and timezone unverified."
     }
@@ -3504,52 +3519,71 @@
   },
   "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: 11 existing records rechecked, 1 conference added (85 total), 2 partial source checks and 71 existing records not reviewed. Added AOHUPO & APS 2027; published exact ESHG and ASMS abstract deadlines. ISBI's four-page paper is due 26 October; PSB travel support closes 15 October but is not a submission route.",
-    "reviewedAt": "2026-10-12T00:45:07Z",
+    "summary": "Partial catalogue review: 27 existing records rechecked, no records added, 2 partial source checks and 56 records not reviewed. Added the distinct 16 November facilitator-proposal deadline for EMBO–EMBL AI and Biology and strengthened ACL's explicit biomedical-route evidence. ISBI's four-page paper is due 26 October; PSB travel support closes 15 October but is not a submission route.",
+    "reviewedAt": "2026-10-13T00:19:43Z",
     "partial": true,
-    "reviewedExistingCount": 11,
-    "addedCount": 1,
+    "reviewedExistingCount": 27,
+    "addedCount": 0,
     "partialRecordCount": 2,
     "failedRecordCount": 0,
-    "notReviewedCount": 71,
+    "notReviewedCount": 56,
     "reviewedIds": [
-      "eshg-2027",
-      "asms-2027",
-      "aime-2027",
-      "iscbuk-2027",
-      "ai4x-2027",
-      "apbjc-2027",
-      "mlhc-2027",
-      "wabi-2027",
-      "protein-society-2027",
-      "rna-2027",
-      "embc-2027"
+      "acl-2027",
+      "emnlp-2027",
+      "isbi-2027",
+      "psb-2027",
+      "recomb-2027",
+      "ismrm-2027",
+      "apbc-2026",
+      "acmbcb-next",
+      "recombseq-2027",
+      "ebi-multiomics-2027",
+      "ebi-proteomics-2027",
+      "ebi-structural-2027",
+      "ebi-sc-2027",
+      "embl-integrate-2027",
+      "embl-aibio-2027",
+      "embl-dl-2027",
+      "embl-spatial-2027",
+      "embl-structural-2027",
+      "embl-insitu-2027",
+      "embl-predictive-2027",
+      "cshl-probgen",
+      "cshl-network",
+      "cshl-genome",
+      "cshl-singlecell",
+      "cshl-course-c-data",
+      "cshl-course-c-qicm",
+      "cshl-course-cryoem-2027"
     ],
-    "addedIds": [
-      "aohupo-aps-2027"
-    ],
+    "addedIds": [],
     "changedIds": [
-      "eshg-2027",
-      "asms-2027",
-      "aohupo-aps-2027"
+      "acl-2027",
+      "embl-aibio-2027",
+      "miccai-2027"
     ],
     "partialIds": [
-      "ashg-2027",
-      "hupo-2027"
+      "miccai-2027",
+      "spie-mi-next"
     ],
     "failedIds": [],
-    "unresolvedConflictIds": [],
+    "unresolvedConflictIds": [
+      "miccai-2027",
+      "cshl-course-c-data",
+      "cshl-course-c-qicm",
+      "cshl-course-cryoem-2027"
+    ],
     "failedSources": [
       {
-        "url": "https://www.ashg.org/membership/annual-meeting/abstracts/",
-        "reason": "The abstract-information page was not retrievable. Prior deadline state and checkedAt retained; the official future-meetings page still confirms dates and city."
+        "url": "https://conferences.miccai.org/2027/en/PAPER-SUBMISSION.html",
+        "reason": "Direct retrieval returned HTTP 520. Official indexed pages still confirm dates and city, but submission deadlines remain unavailable; prior facts and checkedAt retained."
       },
       {
-        "url": "https://2027.hupo.org/",
-        "reason": "Direct retrieval failed. Prior facts and checkedAt retained; dates and city remain supported by the official 2026 congress page."
+        "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
+        "reason": "The page exposed only an iframe with no readable next-edition dates or deadlines. Prior facts and checkedAt retained."
       }
     ],
-    "discoveryNotes": "Official organizer pages for human genetics, mass spectrometry, proteomics, biomedical AI, bioinformatics, medical imaging and biomedical engineering were checked. Indexed public X searches produced no usable new deadline evidence; organizer pages remained authoritative. No broad-AI archive entries were re-added.",
+    "discoveryNotes": "Official EMBL/EMBL-EBI, CSHL, IEEE, ISCB/RECOMB, ACL, ACM-BCB and APBC sources were checked. The APBC 2027 domain is live but contains no readable date, location or call, so it was not added. Indexed public X searches yielded no usable new deadline evidence. No broad-AI archive entries were re-added.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
