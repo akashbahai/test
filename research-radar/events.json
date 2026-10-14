@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-13T00:19:43Z",
+  "updatedAt": "2026-10-14T00:07:08Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -46,7 +46,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The October abstract deadline is mandatory for the proceedings track. The separate poster call has no announced deadline.",
@@ -91,7 +91,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -103,7 +103,11 @@
         "lon": -122.33,
         "label": "Seattle",
         "precision": "city"
-      }
+      },
+      "sources": [
+        "https://cvpr.thecvf.com/Conferences/2027/CallForPapers"
+      ],
+      "notes": "The official CFP explicitly includes medical and biological vision, cell microscopy, and AI for science; retain this broad CV venue only for a clearly biomedical or biological methods contribution."
     },
     {
       "id": "midl-2027",
@@ -141,7 +145,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -248,7 +252,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -550,7 +554,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-13: official indexed pages reconfirm Auckland and 27 September–1 October 2027, but the paper-submission page returned a 520 retrieval error and the calls page remains under construction. Prior facts and checkedAt retained."
+      "checkError": "2026-10-14: official indexed pages reconfirm Auckland and 27 September–1 October 2027, but direct retrieval of the paper-submission page failed and the calls page remains under construction. Prior facts and checkedAt retained."
     },
     {
       "id": "emnlp-2027",
@@ -748,7 +752,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -806,7 +810,7 @@
         "label": "Milan",
         "precision": "city"
       },
-      "checkError": "The official 2026 congress page still supports Milan, 11–15 October 2027, but the linked 2027 site was not retrievable. Prior facts and checkedAt retained."
+      "checkError": "2026-10-14: the official 2027 site was not accessible; the only indexed result was a default WordPress comments feed with no event facts. Prior organizer-supported dates, location and checkedAt retained."
     },
     {
       "id": "ashg-2027",
@@ -844,7 +848,7 @@
         "label": "Nashville",
         "precision": "city"
       },
-      "checkError": "The official future-meetings page reconfirmed Nashville, 26–30 October 2027, but the abstract-information page was not retrievable. Prior deadline state and checkedAt retained."
+      "checkError": "2026-10-14: the official future-meetings page reconfirmed Nashville, 26–30 October 2027, but no 2027 abstract deadline is published. Prior deadline state and checkedAt retained."
     },
     {
       "id": "eshg-2027",
@@ -1060,7 +1064,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1100,7 +1104,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
@@ -1139,7 +1143,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
@@ -1178,7 +1182,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetingshome.aspx"
@@ -1297,7 +1301,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1336,7 +1340,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1456,7 +1460,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1608,7 +1612,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1682,7 +1686,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -1796,7 +1800,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "submissionState": "waitlist",
       "format": "Online",
@@ -1833,7 +1837,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -1874,7 +1878,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2353,7 +2357,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -2390,7 +2394,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -2793,7 +2797,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3087,7 +3091,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-13: the official Medical Imaging page exposed only an iframe and no readable next-edition dates or deadline text. Prior facts and checkedAt retained."
+      "checkError": "2026-10-14: the official Medical Imaging page exposed only an iframe and no readable next-edition dates or deadline text. Prior facts and checkedAt retained."
     },
     {
       "id": "icml-bio-workshops",
@@ -3502,9 +3506,158 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-14",
       "verification": "needs-review",
       "notes": "Course dates and application date agree between the detailed page and current calendar. Detailed page nevertheless displays a stale 'past event' banner; confirm application availability. Applicants should plan to apply cryo-EM directly in a suitable research environment. Cutoff time and timezone unverified."
+    },
+    {
+      "id": "ebi-aibio-metabolomics-2026",
+      "name": "EMBL-EBI × AIBIO-UK · AI in metabolomics workshop",
+      "type": "Workshop",
+      "topics": [
+        "AI & ML",
+        "Multi-omics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Direct AI × biology fit: AI-ready public metabolomics data, interoperability, reuse and cross-community infrastructure.",
+      "location": "Hinxton, UK · hybrid",
+      "country": "Multiple / online",
+      "geo": null,
+      "tier": "Workshop",
+      "tierField": "AI × metabolomics",
+      "tierReason": "Workshop; conference prestige tiers do not apply.",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "source": "https://www.ebi.ac.uk/about/events/events/public-event/2026/ebi-13/",
+      "sources": [
+        "https://aibio.ac.uk/events/ai-in-metabolomics-workshop-with-ebi-metabolights/"
+      ],
+      "deadlines": [
+        {
+          "label": "Registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "verification": "official",
+      "notes": "Registration is free but essential for onsite or online participation. The organizers warn that registration may close early; no fixed closing date is published."
+    },
+    {
+      "id": "ebi-datascience-2027",
+      "name": "EMBL-EBI · Hands-on machine learning for biological data",
+      "type": "Course",
+      "topics": [
+        "AI & ML",
+        "Bioinformatics",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Practical Python, preprocessing, deep learning, transformers and LLM applications using real biological datasets.",
+      "location": "Hinxton, UK",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "AI × biology training",
+      "tierReason": "Course; conference prestige tiers do not apply.",
+      "start": "2027-06-14",
+      "end": "2027-06-18",
+      "source": "https://www.ebi.ac.uk/training/events/data-science-life-scientists-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-02-28",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "opens": "2026-11-30",
+      "checkedAt": "2026-10-14",
+      "verification": "official",
+      "notes": "Beginner-level Python is required; no prior machine-learning experience is expected. Applications open 30 November 2026."
+    },
+    {
+      "id": "ebi-variants-2027",
+      "name": "EMBL-EBI · Variant effects on protein structure 2027",
+      "type": "Course",
+      "topics": [
+        "Structural bioinformatics",
+        "Genomics",
+        "Protein & RNA",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Hands-on use of VEP, UniProt, PDBe-KB and AlphaFoldDB to interpret how genetic variants affect protein structure and function.",
+      "location": "Online",
+      "country": "Online",
+      "geo": null,
+      "tier": "Training",
+      "tierField": "Structural bioinformatics training",
+      "tierReason": "Course; conference prestige tiers do not apply.",
+      "start": "2027-09-22",
+      "end": "2027-09-22",
+      "source": "https://www.ebi.ac.uk/training/events/interpreting-effects-genetic-variants-2027/",
+      "deadlines": [
+        {
+          "label": "Registration close",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "opens": "2027-06-21",
+      "checkedAt": "2026-10-14",
+      "verification": "official",
+      "notes": "Six-hour virtual workshop. Registration opens 21 June 2027 and is first come, first served; no closing date is published."
+    },
+    {
+      "id": "isbi-ai-workshops-2027",
+      "name": "ISBI 2027 · AI-focused workshops",
+      "type": "Workshop",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "Foundation models",
+        "Structural bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Official ISBI workshop programme spanning AI for electron microscopy, medical-video AI, longitudinal imaging, trustworthy multimodal AI, pediatric foundation models and multimodal clinical agents.",
+      "location": "Lausanne, Switzerland",
+      "country": "Switzerland",
+      "geo": {
+        "lat": 46.52,
+        "lon": 6.63,
+        "label": "Lausanne",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Biomedical imaging AI",
+      "tierReason": "Workshop programme; the host conference's standing is not assigned to individual workshops.",
+      "start": null,
+      "end": null,
+      "source": "https://biomedicalimaging.org/2027/workshops/",
+      "sources": [
+        "https://biomedicalimaging.org/2027/"
+      ],
+      "deadlines": [
+        {
+          "label": "Host-listed workshop paper submission",
+          "date": "2027-01-26",
+          "zone": "EDT as published",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "verification": "needs-review",
+      "watchlist": true,
+      "notes": "The workshops are officially announced, but individual workshop dates and track-specific calls are not yet published. ISBI lists a generic workshop-paper deadline of 26 January at 23:59 'USA (EDT)'; verify each workshop's own call before submitting."
     }
   ],
   "tierPolicy": {
@@ -3517,37 +3670,31 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Indexed X results were sparse/login-gated and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
+  "researchNotes": "Organizer sites and society calendars were checked, alongside public web and indexed X searches. Newly published EMBL-EBI AI × biology training and workshop pages and ISBI's AI-workshop programme were incorporated. Indexed X results were sparse or irrelevant and supplied no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: 27 existing records rechecked, no records added, 2 partial source checks and 56 records not reviewed. Added the distinct 16 November facilitator-proposal deadline for EMBO–EMBL AI and Biology and strengthened ACL's explicit biomedical-route evidence. ISBI's four-page paper is due 26 October; PSB travel support closes 15 October but is not a submission route.",
-    "reviewedAt": "2026-10-13T00:19:43Z",
+    "summary": "Partial catalogue review: 21 existing records rechecked, 4 relevant records added, 4 partial source checks and 60 records not reviewed. Added an imminent EMBL-EBI/AIBIO-UK AI-in-metabolomics workshop, a 2027 EMBL-EBI hands-on biological ML course, a 2027 protein-variant structure workshop, and ISBI's newly announced AI-focused workshop programme. CVPR's official CFP now explicitly confirms medical and biological vision scope.",
+    "reviewedAt": "2026-10-14T00:07:08Z",
     "partial": true,
-    "reviewedExistingCount": 27,
-    "addedCount": 0,
-    "partialRecordCount": 2,
+    "reviewedExistingCount": 21,
+    "addedCount": 4,
+    "partialRecordCount": 4,
     "failedRecordCount": 0,
-    "notReviewedCount": 56,
+    "notReviewedCount": 60,
     "reviewedIds": [
-      "acl-2027",
-      "emnlp-2027",
+      "recomb-2027",
+      "cvpr-2027",
+      "midl-2027",
       "isbi-2027",
       "psb-2027",
-      "recomb-2027",
       "ismrm-2027",
-      "apbc-2026",
-      "acmbcb-next",
-      "recombseq-2027",
+      "ipmi-2027",
       "ebi-multiomics-2027",
       "ebi-proteomics-2027",
       "ebi-structural-2027",
-      "ebi-sc-2027",
-      "embl-integrate-2027",
+      "ebi-variants-2026",
       "embl-aibio-2027",
-      "embl-dl-2027",
-      "embl-spatial-2027",
-      "embl-structural-2027",
-      "embl-insitu-2027",
       "embl-predictive-2027",
+      "embl-insitu-2027",
       "cshl-probgen",
       "cshl-network",
       "cshl-genome",
@@ -3556,14 +3703,27 @@
       "cshl-course-c-qicm",
       "cshl-course-cryoem-2027"
     ],
-    "addedIds": [],
+    "addedIds": [
+      "ebi-aibio-metabolomics-2026",
+      "ebi-datascience-2027",
+      "ebi-variants-2027",
+      "isbi-ai-workshops-2027"
+    ],
     "changedIds": [
-      "acl-2027",
-      "embl-aibio-2027",
-      "miccai-2027"
+      "cvpr-2027",
+      "miccai-2027",
+      "hupo-2027",
+      "ashg-2027",
+      "spie-mi-next",
+      "ebi-aibio-metabolomics-2026",
+      "ebi-datascience-2027",
+      "ebi-variants-2027",
+      "isbi-ai-workshops-2027"
     ],
     "partialIds": [
       "miccai-2027",
+      "hupo-2027",
+      "ashg-2027",
       "spie-mi-next"
     ],
     "failedIds": [],
@@ -3576,14 +3736,18 @@
     "failedSources": [
       {
         "url": "https://conferences.miccai.org/2027/en/PAPER-SUBMISSION.html",
-        "reason": "Direct retrieval returned HTTP 520. Official indexed pages still confirm dates and city, but submission deadlines remain unavailable; prior facts and checkedAt retained."
+        "reason": "Direct retrieval failed; the official calls page is under construction and no submission deadlines are available. Prior facts and checkedAt retained."
+      },
+      {
+        "url": "https://2027.hupo.org/",
+        "reason": "The site was inaccessible and the only indexed page contained no usable event facts. Prior facts and checkedAt retained."
       },
       {
         "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
         "reason": "The page exposed only an iframe with no readable next-edition dates or deadlines. Prior facts and checkedAt retained."
       }
     ],
-    "discoveryNotes": "Official EMBL/EMBL-EBI, CSHL, IEEE, ISCB/RECOMB, ACL, ACM-BCB and APBC sources were checked. The APBC 2027 domain is live but contains no readable date, location or call, so it was not added. Indexed public X searches yielded no usable new deadline evidence. No broad-AI archive entries were re-added.",
+    "discoveryNotes": "Official IEEE/ISBI, CVF, MIDL, IPMI, ISMRM, RECOMB, PSB, EMBL-EBI, EMBL and CSHL sources were checked. ISBI's official workshop page now lists several strong medical-imaging and AI × biology themes; these are represented as an unranked programme entry because individual calls and dates are not yet published. Indexed public X searches yielded no usable new deadline evidence. No broad-AI archive entries were re-added.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
@@ -3603,6 +3767,14 @@
         "zone": "America/Los_Angeles",
         "singapore": "2026-10-16T14:59:00+08:00",
         "eligibility": "Registered attendees; reimbursement only."
+      },
+      {
+        "eventId": "ebi-variants-2026",
+        "label": "Listed registration deadline (course is currently full; waiting list only)",
+        "date": "2026-10-25",
+        "time": null,
+        "zone": null,
+        "singapore": null
       }
     ]
   }
