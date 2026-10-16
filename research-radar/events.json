@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-15T00:15:54Z",
+  "updatedAt": "2026-10-16T00:19:55Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -153,7 +153,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -562,7 +562,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-15: official indexed pages reconfirm Auckland and 27 September–1 October 2027, but the calls page remains under construction and no paper deadlines are published. Prior facts and checkedAt retained."
+      "checkError": "2026-10-16: both the official 2027 calls page and paper-submission page were inaccessible; no paper deadlines could be verified. Prior facts and checkedAt retained."
     },
     {
       "id": "emnlp-2027",
@@ -760,7 +760,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -818,7 +818,55 @@
         "label": "Milan",
         "precision": "city"
       },
-      "checkError": "2026-10-15: the official 2027 site was inaccessible; the only indexed result was a default WordPress comments feed with no event facts. Prior organizer-supported dates, location and checkedAt retained."
+      "checkError": "2026-10-16: the official HUPO 2027 site remained inaccessible. Prior organizer-supported dates, location and checkedAt retained."
+    },
+    {
+      "id": "ushupo-2027",
+      "name": "US HUPO 2027",
+      "fullName": "23rd Annual US HUPO Conference & Tradeshow",
+      "type": "Conference",
+      "topics": [
+        "Proteomics",
+        "Multi-omics",
+        "AI & ML",
+        "Biomedical AI",
+        "Structural bioinformatics",
+        "Drug discovery"
+      ],
+      "fit": "High",
+      "relevance": "Direct fit for AI and bioinformatics in proteomics, high-throughput plasma proteomics, biomarkers, multi-omics, spatial proteomics, structural proteomics and drug discovery.",
+      "location": "Albuquerque, New Mexico, USA",
+      "start": "2027-03-06",
+      "end": "2027-03-10",
+      "source": "https://www.ushupoconference.org/abstract-submissions",
+      "deadlines": [
+        {
+          "label": "Scientific abstract",
+          "date": "2026-11-20",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Travel award application · requires abstract",
+          "date": "2026-11-20",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-16",
+      "verification": "official",
+      "notes": "The organizer publishes no cutoff time or timezone. Ordinarily the abstract portal link is supplied after conference registration; authors needing to submit before registering are directed to contact the organizer. Travel-award applicants must also submit an abstract by the same date.",
+      "tier": "T3",
+      "tierField": "Proteomics",
+      "tierReason": "Editorial assessment: a major national and regional proteomics meeting with strong topical relevance; its regional scope is reflected in T3 rather than the global field-flagship tier.",
+      "country": "United States",
+      "geo": {
+        "lat": 35.08,
+        "lon": -106.65,
+        "label": "Albuquerque",
+        "precision": "city"
+      }
     },
     {
       "id": "ashg-2027",
@@ -1468,7 +1516,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1808,7 +1856,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "submissionState": "waitlist",
       "format": "Online",
@@ -1845,7 +1893,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -1886,7 +1934,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2060,7 +2108,7 @@
           "time": "00:00"
         }
       ],
-      "checkedAt": "2026-10-12",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "notes": "The organizer publishes the cutoff as 12:00am on 14 November 2026 AEDT; this is transcribed exactly and means midnight at the start of 14 November. Confirm the portal cutoff rather than assuming end-of-day. Accepted oral and poster presentations are in person."
     },
@@ -2402,7 +2450,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -2551,29 +2599,51 @@
       "topics": [
         "Bioinformatics",
         "Biomedical AI",
-        "Multi-omics"
+        "AI & ML",
+        "Foundation models",
+        "Genomics",
+        "Multi-omics",
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Drug discovery"
       ],
       "fit": "High",
-      "relevance": "Strong local opportunity connecting Asia-Pacific bioinformatics communities; convenient for NTU-based participation.",
+      "relevance": "High-value local opportunity for AI and generative models in biology, multi-omics, protein/RNA structure and design, genomics, precision medicine and drug discovery.",
       "location": "Singapore",
       "start": "2027-09-28",
       "end": "2027-10-01",
       "source": "https://apbjc.iscb.org/",
       "deadlines": [
         {
-          "label": "Abstract / paper submission",
-          "date": null,
-          "zone": null,
-          "time": null
+          "label": "Proceedings paper",
+          "date": "2027-05-03",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Talk / poster abstract",
+          "date": "2027-06-14",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Late poster abstract",
+          "date": "2027-08-09",
+          "zone": "AoE",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-12",
+      "checkedAt": "2026-10-16",
       "verification": "official",
       "sources": [
-        "https://www.iscb.org/component/content/article/home-uk-2027"
+        "https://www.iscb.org/component/content/article/home-uk-2027",
+        "https://ezgi-iscb.github.io/apbjc2027/",
+        "https://ezgi-iscb.github.io/apbjc2027/important_dates",
+        "https://ezgi-iscb.github.io/apbjc2027/call_for_papers",
+        "https://ezgi-iscb.github.io/apbjc2027/call_for_abstracts"
       ],
       "fullName": "Asia & Pacific Bioinformatics Joint Conference",
-      "notes": "Suntec Convention Center and 28 September–1 October 2027 are confirmed. Exact abstract and paper deadlines are not yet published; APBC or InCoB 2026 deadlines are not carried forward.",
+      "notes": "Proceedings papers, talk/poster abstracts and late posters are separate submission routes. Accepted full papers are considered for a Bioinformatics Advances special issue after a separate journal review; this is not automatic publication. The published conference span is 28 September–1 October, and the Asian Student Council Symposium is on 28 September.",
       "tier": "T3",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2622,7 +2692,7 @@
         "label": "Hsinchu",
         "precision": "city"
       },
-      "checkError": "2026-10-15: no readable official APBC 2027 dates, location or submission deadline were found. The confirmed APBC 2026 record and checkedAt were retained; no 2027 record was added."
+      "checkError": "2026-10-16: the APBC 2027 site exposed only an image and no readable dates, location or call. The confirmed APBC 2026 record and checkedAt were retained."
     },
     {
       "id": "iscbuk-2027",
@@ -2685,18 +2755,32 @@
       "location": "Toronto, Canada",
       "start": "2027-05-15",
       "end": "2027-05-16",
-      "source": "https://recomb-seq.github.io/",
+      "source": "https://recomb-seq.github.io/seq2027/call_for_papers",
       "deadlines": [
         {
-          "label": "Abstract / paper submission",
+          "label": "Abstract registration · proceedings / overlay",
+          "date": "2027-01-25",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper · proceedings / overlay",
+          "date": "2027-01-30",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        },
+        {
+          "label": "Short-talk / poster abstract",
           "date": null,
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
-      "verification": "official",
-      "notes": "Satellite conference with its own call; the main RECOMB abstract deadline must not be applied here.",
+      "checkedAt": "2026-10-16",
+      "verification": "needs-review",
+      "notes": "The 25 January abstract registration is mandatory for the proceedings and overlay paper tracks; no new paper submission may be created afterward. Short-talk/poster abstracts have no announced deadline. The 2027 overview and parent RECOMB calendar confirm 15–16 May 2027, but two RECOMB-Seq date blocks mistakenly print 2026; the event dates therefore remain flagged for organizer correction.",
       "tier": "T2",
       "tierField": "Bioinformatics & molecular biology",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -2706,7 +2790,11 @@
         "lon": -79.38,
         "label": "Toronto",
         "precision": "city"
-      }
+      },
+      "sources": [
+        "https://recomb-seq.github.io/seq2027/keydates_and_deadlines",
+        "https://recomb.org/recomb2027/keydates_and_deadlines.html"
+      ]
     },
     {
       "id": "recombccb-next",
@@ -2746,7 +2834,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-11: dedicated https://recomb.org/recomb-ccb2027 returned an internal retrieval error. Main RECOMB calendar still confirms 15–16 May 2027; submission deadline remains unverified. Prior facts and checkedAt retained."
+      "checkError": "2026-10-16: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -3105,7 +3193,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-15: the official Medical Imaging page still exposed no readable next-edition dates or deadline text. Prior watchlist facts and checkedAt retained."
+      "checkError": "2026-10-16: the official Medical Imaging page still exposed only an iframe and no readable next-edition facts. Prior watchlist facts and checkedAt retained."
     },
     {
       "id": "icml-bio-workshops",
@@ -3684,52 +3772,56 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Organizer pages for RECOMB, ISBI, ISMRM, PSB, AIME, EMBC, EMBL-EBI, EMBL and CSHL were checked alongside public web and indexed X discovery. RECOMB's official 2027 call now supplies explicit structural-biology, biomolecular generative-model, proteomics, drug-discovery and AI-for-biology scope plus its publication policy. Indexed X results provided no independently usable deadline evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
+  "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: 16 existing records rechecked, no records added, 4 partial source checks and 69 records not reviewed. RECOMB's official 2027 scope was expanded to cover structural bioinformatics, protein/RNA modelling, proteomics, biomolecular generative models and drug discovery; its record now clarifies that accepted papers are published on the conference site and indexed in DBLP without a separate proceedings volume. AIME's topic tags were aligned with its explicit 2027 call.",
-    "reviewedAt": "2026-10-15T00:15:54Z",
+    "summary": "Partial catalogue review: 13 existing records rechecked, 1 relevant conference added, 5 partial source checks and 71 records not reviewed. APBJC now has separate proceedings-paper, talk/poster and late-poster deadlines; RECOMB-Seq now has a mandatory abstract gate and full-paper cutoff. US HUPO 2027 was added with its official proteomics/AI abstract call.",
+    "reviewedAt": "2026-10-16T00:19:55Z",
     "partial": true,
-    "reviewedExistingCount": 16,
-    "addedCount": 0,
-    "partialRecordCount": 4,
+    "reviewedExistingCount": 13,
+    "addedCount": 1,
+    "partialRecordCount": 5,
     "failedRecordCount": 0,
-    "notReviewedCount": 69,
+    "notReviewedCount": 71,
     "reviewedIds": [
-      "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
-      "psb-2027",
-      "aime-2027",
-      "embc-2027",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-genome",
-      "cshl-singlecell",
-      "cshl-course-c-data",
-      "cshl-course-c-qicm",
-      "ebi-structural-2027",
-      "ebi-proteomics-2027",
-      "ebi-datascience-2027",
-      "embl-aibio-2027"
-    ],
-    "addedIds": [],
-    "changedIds": [
       "recomb-2027",
-      "aime-2027",
+      "cvpr-2027",
+      "embl-insitu-2027",
+      "embl-predictive-2027",
+      "aohupo-aps-2027",
+      "ebi-multiomics-2027",
+      "midl-2027",
+      "psb-2027",
+      "ebi-variants-2026",
+      "apbjc-2027",
+      "recombseq-2027"
+    ],
+    "addedIds": [
+      "ushupo-2027"
+    ],
+    "changedIds": [
+      "apbjc-2027",
+      "recombseq-2027",
+      "ushupo-2027",
       "miccai-2027",
       "hupo-2027",
       "spie-mi-next",
-      "apbc-2026"
+      "apbc-2026",
+      "recombccb-next"
     ],
     "partialIds": [
       "miccai-2027",
       "hupo-2027",
       "spie-mi-next",
-      "apbc-2026"
+      "apbc-2026",
+      "recombccb-next"
     ],
     "failedIds": [],
     "unresolvedConflictIds": [
       "miccai-2027",
+      "recombseq-2027",
+      "recombccb-next",
       "cshl-course-c-data",
       "cshl-course-c-qicm",
       "cshl-course-cryoem-2027"
@@ -3737,22 +3829,26 @@
     "failedSources": [
       {
         "url": "https://conferences.miccai.org/2027/en/PAPER-SUBMISSION.html",
-        "reason": "The official calls page remains under construction and no paper deadlines are available. Prior facts and checkedAt retained."
+        "reason": "The official calls and paper pages were inaccessible; no 2027 paper deadlines are available. Prior facts and checkedAt retained."
       },
       {
         "url": "https://2027.hupo.org/",
-        "reason": "The site was inaccessible and indexed content contained no usable event facts. Prior facts and checkedAt retained."
+        "reason": "The official site remained inaccessible. Prior organizer-supported dates, location and checkedAt retained."
       },
       {
         "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
-        "reason": "The page exposed no readable next-edition dates or deadline text. Prior watchlist facts and checkedAt retained."
+        "reason": "The page exposed only an iframe with no readable next-edition facts. Prior watchlist facts and checkedAt retained."
       },
       {
-        "url": "https://www.apbc2026.com/",
-        "reason": "No readable official APBC 2027 facts were found. The confirmed 2026 record and checkedAt were retained; no 2027 record was added."
+        "url": "https://www.apbc2027.org/",
+        "reason": "The page exposed only an image and no readable dates, location or call. The confirmed 2026 record and checkedAt were retained."
+      },
+      {
+        "url": "https://recomb.org/recomb-ccb2027",
+        "reason": "The dedicated 2027 satellite page returned 404. Parent-conference dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official RECOMB, ISBI, ISMRM, PSB, AIME, EMBC, EMBL-EBI, EMBL and CSHL sources were checked. No newly announced venue met the catalog's scope and verification bar. Indexed public X searches yielded no usable deadline evidence. No broad-AI archive entry was re-added.",
+    "discoveryNotes": "Official APBJC, RECOMB-Seq and US HUPO calls supplied material new data. Other checked organizer pages retained their published dates. Indexed public X searches yielded no usable deadline evidence. A lower-tier generic BIOINFORMATICS/BIOSTEC call was discovered but not added because it did not meet the catalog's major-venue inclusion threshold. No broad-AI archive entry was re-added.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
@@ -3783,7 +3879,7 @@
       },
       {
         "eventId": "ebi-variants-2026",
-        "label": "Listed registration deadline (course is currently full; waiting list only)",
+        "label": "Listed registration deadline (course is full; waiting list only)",
         "date": "2026-10-25",
         "time": null,
         "zone": null,
