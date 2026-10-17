@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T00:19:55Z",
+  "updatedAt": "2026-10-17T00:35:46Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-17",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-17",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -546,9 +546,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-17",
       "verification": "needs-review",
-      "notes": "The event homepage gives 27 September–1 October 2027; an earlier society listing included 26 September, likely for satellite planning. Paper and abstract deadlines remain unannounced and the submission page could not be retrieved.",
+      "notes": "The official 2027 paper-submission page is now reachable and confirms the 27 September–1 October event dates at the New Zealand International Convention Centre, but it publishes no paper dates yet. An earlier society listing included 26 September, likely for satellite planning; submission deadlines remain unannounced.",
       "sources": [
         "https://miccai.org/upcoming-conferences/"
       ],
@@ -562,7 +562,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-16: both the official 2027 calls page and paper-submission page were inaccessible; no paper deadlines could be verified. Prior facts and checkedAt retained."
+      "checkError": "2026-10-17: the official paper-submission page was reachable but contained no paper or abstract deadlines. The event page confirms 27 September–1 October; the society listing's 26 September start remains an unresolved schedule discrepancy."
     },
     {
       "id": "emnlp-2027",
@@ -792,7 +792,7 @@
       "location": "Milan, Italy",
       "start": "2027-10-11",
       "end": "2027-10-15",
-      "source": "https://2026.hupo.org/",
+      "source": "https://2027.hupo.org/",
       "deadlines": [
         {
           "label": "Abstract submission",
@@ -801,13 +801,13 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "needs-review",
+      "checkedAt": "2026-10-17",
+      "verification": "official",
       "fullName": "Human Proteome Organization World Congress",
       "sources": [
-        "https://2027.hupo.org/"
+        "https://2026.hupo.org/"
       ],
-      "notes": "Dates are announced on the 2026 organizer site. The 2027 site could not be retrieved during this check; abstract deadline is unverified.",
+      "notes": "The official 2027 site is now live and says abstract submissions, registration, travel awards and other opportunities will open in January 2027. Exact opening and abstract deadline dates are not yet published.",
       "tier": "T1",
       "tierField": "Proteomics",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -818,7 +818,7 @@
         "label": "Milan",
         "precision": "city"
       },
-      "checkError": "2026-10-16: the official HUPO 2027 site remained inaccessible. Prior organizer-supported dates, location and checkedAt retained."
+      "submissionState": "not-open"
     },
     {
       "id": "ushupo-2027",
@@ -1800,12 +1800,16 @@
       "name": "EMBO | EMBL · Computational structural biology",
       "type": "Workshop",
       "topics": [
+        "Structural bioinformatics",
+        "Protein & RNA",
         "RNA & structure",
+        "AI & ML",
         "Foundation models",
+        "Drug discovery",
         "Bioinformatics"
       ],
       "fit": "High",
-      "relevance": "Protein and nucleic-acid modelling, machine-learned dynamics and biomolecular design.",
+      "relevance": "Focused computational structural-biology meeting spanning all-atom and integrative modelling, protein/nucleic-acid structure, ML for dynamics and ensembles, biomolecular design and drug discovery.",
       "location": "Heidelberg, Germany · hybrid",
       "start": "2027-10-26",
       "end": "2027-10-29",
@@ -1818,7 +1822,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-17",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Workshop",
@@ -1831,7 +1835,97 @@
         "label": "Heidelberg",
         "precision": "city"
       },
-      "notes": "Registration and abstract submission are not yet open; no deadline is published. The programme explicitly includes all-atom and integrative modelling, nucleic acids, ML dynamics, biomolecular design and drug discovery."
+      "notes": "Registration and abstract submission are not yet open; no deadline is published. The 2027 programme explicitly moves beyond static structure prediction to all-atom/integrative models, classical and ML dynamics, nucleic acids, biomolecular design and drug discovery."
+    },
+    {
+      "id": "embl-transcriptome-proteome-2027",
+      "name": "EMBL · Transcriptome and proteome integration",
+      "type": "Course",
+      "topics": [
+        "Proteomics",
+        "Multi-omics",
+        "Bioinformatics",
+        "Statistical methods",
+        "Genomics"
+      ],
+      "fit": "High",
+      "relevance": "Hands-on integration of RNA-seq and proteomics data, including quantification, statistical analysis, annotation and network interpretation with Cytoscape.",
+      "location": "Heidelberg, Germany",
+      "start": "2027-04-25",
+      "end": "2027-04-30",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/pro27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-17",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Applications are not yet open and no application deadline is published. EMBL currently offers a register-interest route only.",
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "embl-rbp-2027",
+      "name": "EMBO | EMBL · RNA-binding proteins and riboregulation",
+      "type": "Workshop",
+      "topics": [
+        "Protein & RNA",
+        "RNA & structure"
+      ],
+      "fit": "Relevant",
+      "relevance": "RNA-binding protein structure/function, RNA-protein interactions and post-transcriptional regulation; useful for RNA-modelling context, though not primarily an AI meeting.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-03-15",
+      "end": "2027-03-18",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/rbp27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2026-12-06",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "On-site registration",
+          "date": "2027-02-01",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2027-03-08",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-17",
+      "verification": "official",
+      "notes": "The organizer publishes date-only cutoffs without a cutoff time or timezone. Oral and poster abstract routes are available; the meeting is hybrid.",
+      "tier": "Workshop",
+      "tierField": "RNA biology",
+      "tierReason": "Workshop or workshop watchlist; no inherited tier from its host conference.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-variants-2026",
@@ -2450,7 +2544,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-17",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -3164,7 +3258,7 @@
     },
     {
       "id": "spie-mi-next",
-      "name": "SPIE Medical Imaging · next call",
+      "name": "SPIE Medical Imaging 2027",
       "type": "Conference",
       "topics": [
         "Imaging",
@@ -3172,28 +3266,47 @@
       ],
       "fit": "High",
       "relevance": "Established medical image-processing, computer-aided diagnosis and image-guided intervention community.",
-      "location": "To be announced",
-      "start": null,
-      "end": null,
+      "location": "Vancouver, Canada",
+      "start": "2027-02-14",
+      "end": "2027-02-18",
       "source": "https://spie.org/conferences-and-exhibitions/medical-imaging",
       "deadlines": [
         {
-          "label": "Abstract / paper submission",
-          "date": null,
+          "label": "Abstract submission",
+          "date": "2026-08-05",
           "zone": null,
           "time": null
+        },
+        {
+          "label": "Poster PDF — accepted posters only",
+          "date": "2027-01-20",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Manuscript — accepted abstracts only",
+          "date": "2027-01-27",
+          "zone": null,
+          "time": null,
+          "actionable": false
         }
       ],
-      "checkedAt": "2026-10-09",
-      "verification": "needs-review",
-      "watchlist": true,
-      "notes": "The official event page could not be read reliably during this review. Kept as a series watchlist; next-edition dates and abstract cutoff require organizer confirmation.",
+      "checkedAt": "2026-10-17",
+      "verification": "official",
+      "watchlist": false,
+      "notes": "The general abstract deadline was 5 August 2026; SPIE kept the portal open through a two-week grace period ending 19 August at 23:59 PDT, so new submissions are closed. Poster-PDF and manuscript dates apply only to accepted contributions. The 2027 programme includes an explicit AI/ML application track.",
       "tier": "T2",
       "tierField": "Medical imaging AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
-      "country": "To be announced",
-      "geo": null,
-      "checkError": "2026-10-16: the official Medical Imaging page still exposed only an iframe and no readable next-edition facts. Prior watchlist facts and checkedAt retained."
+      "country": "Canada",
+      "geo": {
+        "lat": 49.28,
+        "lon": -123.12,
+        "label": "Vancouver",
+        "precision": "city"
+      },
+      "submissionState": "closed"
     },
     {
       "id": "icml-bio-workshops",
@@ -3774,53 +3887,45 @@
   },
   "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Partial catalogue review: 13 existing records rechecked, 1 relevant conference added, 5 partial source checks and 71 records not reviewed. APBJC now has separate proceedings-paper, talk/poster and late-poster deadlines; RECOMB-Seq now has a mandatory abstract gate and full-paper cutoff. US HUPO 2027 was added with its official proteomics/AI abstract call.",
-    "reviewedAt": "2026-10-16T00:19:55Z",
+    "summary": "Material catalogue update: 7 existing records rechecked, 2 relevant EMBL events added, and 2 unresolved source checks retained. SPIE Medical Imaging 2027 now has confirmed Vancouver dates and post-acceptance deadlines; HUPO's 2027 site is live with calls opening in January; MICCAI's paper page is reachable but still has no submission dates.",
+    "reviewedAt": "2026-10-17T00:35:46Z",
     "partial": true,
-    "reviewedExistingCount": 13,
-    "addedCount": 1,
-    "partialRecordCount": 5,
+    "reviewedExistingCount": 7,
+    "addedCount": 2,
+    "partialRecordCount": 3,
     "failedRecordCount": 0,
-    "notReviewedCount": 71,
+    "notReviewedCount": 83,
     "reviewedIds": [
+      "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
-      "recomb-2027",
-      "cvpr-2027",
-      "embl-insitu-2027",
-      "embl-predictive-2027",
-      "aohupo-aps-2027",
-      "ebi-multiomics-2027",
-      "midl-2027",
-      "psb-2027",
-      "ebi-variants-2026",
-      "apbjc-2027",
-      "recombseq-2027"
-    ],
-    "addedIds": [
-      "ushupo-2027"
-    ],
-    "changedIds": [
-      "apbjc-2027",
-      "recombseq-2027",
-      "ushupo-2027",
       "miccai-2027",
       "hupo-2027",
       "spie-mi-next",
+      "embl-structural-2027"
+    ],
+    "addedIds": [
+      "embl-transcriptome-proteome-2027",
+      "embl-rbp-2027"
+    ],
+    "changedIds": [
+      "spie-mi-next",
+      "hupo-2027",
+      "miccai-2027",
+      "embl-structural-2027",
+      "embl-transcriptome-proteome-2027",
+      "embl-rbp-2027",
       "apbc-2026",
       "recombccb-next"
     ],
     "partialIds": [
       "miccai-2027",
-      "hupo-2027",
-      "spie-mi-next",
       "apbc-2026",
       "recombccb-next"
     ],
     "failedIds": [],
     "unresolvedConflictIds": [
       "miccai-2027",
-      "recombseq-2027",
       "recombccb-next",
       "cshl-course-c-data",
       "cshl-course-c-qicm",
@@ -3828,27 +3933,15 @@
     ],
     "failedSources": [
       {
-        "url": "https://conferences.miccai.org/2027/en/PAPER-SUBMISSION.html",
-        "reason": "The official calls and paper pages were inaccessible; no 2027 paper deadlines are available. Prior facts and checkedAt retained."
-      },
-      {
-        "url": "https://2027.hupo.org/",
-        "reason": "The official site remained inaccessible. Prior organizer-supported dates, location and checkedAt retained."
-      },
-      {
-        "url": "https://spie.org/conferences-and-exhibitions/medical-imaging",
-        "reason": "The page exposed only an iframe with no readable next-edition facts. Prior watchlist facts and checkedAt retained."
-      },
-      {
         "url": "https://www.apbc2027.org/",
-        "reason": "The page exposed only an image and no readable dates, location or call. The confirmed 2026 record and checkedAt were retained."
+        "reason": "The official page again exposed unreadable binary/image content and no verifiable dates, location or call. The confirmed 2026 record and checkedAt were retained."
       },
       {
         "url": "https://recomb.org/recomb-ccb2027",
-        "reason": "The dedicated 2027 satellite page returned 404. Parent-conference dates were retained; location and author deadline remain unverified."
+        "reason": "The dedicated 2027 satellite page still returned 404. Parent-conference dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official APBJC, RECOMB-Seq and US HUPO calls supplied material new data. Other checked organizer pages retained their published dates. Indexed public X searches yielded no usable deadline evidence. A lower-tier generic BIOINFORMATICS/BIOSTEC call was discovered but not added because it did not meet the catalog's major-venue inclusion threshold. No broad-AI archive entry was re-added.",
+    "discoveryNotes": "Official EMBL pages supplied two new relevant training/workshop entries. SPIE Medical Imaging, HUPO and MICCAI pages now resolve; only SPIE exposed a complete 2027 event identity and published deadlines. Indexed public X discovery surfaced ISCB-UK, ISBI and RECOMB announcements already represented in the catalog; no unverified social-only facts were added. No broad-AI archive entry was re-added.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
@@ -3865,18 +3958,17 @@
         "time": "23:59",
         "zone": "UTC",
         "singapore": "2026-10-29T07:59:00+08:00"
+      },
+      {
+        "eventId": "recomb-2027",
+        "label": "Mandatory abstract registration",
+        "date": "2026-10-28",
+        "time": "23:59",
+        "zone": "AoE",
+        "singapore": "2026-10-29T19:59:00+08:00"
       }
     ],
     "otherHighRelevanceDeadlinesWithin14Days": [
-      {
-        "eventId": "psb-2027",
-        "label": "Travel support application (not a submission route)",
-        "date": "2026-10-15",
-        "time": "23:59",
-        "zone": "America/Los_Angeles",
-        "singapore": "2026-10-16T14:59:00+08:00",
-        "eligibility": "Registered attendees; reimbursement only."
-      },
       {
         "eventId": "ebi-variants-2026",
         "label": "Listed registration deadline (course is full; waiting list only)",
