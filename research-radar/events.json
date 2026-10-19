@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-18T00:08:11Z",
+  "updatedAt": "2026-10-19T00:36:26Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -546,7 +546,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "needs-review",
       "notes": "The official 2027 paper-submission page is reachable but remains under construction and publishes no paper dates. It confirms 27 September–1 October at the New Zealand International Convention Centre. The MICCAI Society listing still starts on 26 September, likely including satellite planning; submission deadlines remain unannounced.",
       "sources": [
@@ -562,7 +562,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-18: the official paper-submission page remains under construction with no paper or abstract deadlines. Event-page dates are 27 September–1 October; the society listing's 26 September start remains an unresolved schedule discrepancy."
+      "checkError": "2026-10-19: the official paper-submission page remains under construction with no paper or abstract deadlines. Event-page dates are 27 September–1 October; the society listing's 26 September start remains an unresolved schedule discrepancy."
     },
     {
       "id": "emnlp-2027",
@@ -801,7 +801,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "fullName": "Human Proteome Organization World Congress",
       "sources": [
@@ -1516,7 +1516,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1719,6 +1719,82 @@
         "precision": "city"
       },
       "notes": "Applications are not yet open and no application deadline is published."
+    },
+    {
+      "id": "embl-multicellular-modelling-2027",
+      "name": "EMBL · Computational modelling of multicellular systems",
+      "type": "Course",
+      "topics": [
+        "Bioinformatics",
+        "Statistical methods",
+        "Imaging"
+      ],
+      "fit": "Relevant",
+      "relevance": "Hands-on vertex, finite-element and agent-based modelling of gene-regulatory patterning, multicellular mechanics, organoids and 2D/3D tissue organisation.",
+      "location": "Barcelona, Spain",
+      "start": "2027-06-12",
+      "end": "2027-06-18",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/mmc27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-19",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Applications are not yet open and no application deadline is published. The practical course is introductory and devotes most of its time to hands-on computational modelling.",
+      "tier": "Training",
+      "tierField": "Computational biology training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Spain",
+      "geo": {
+        "lat": 41.39,
+        "lon": 2.17,
+        "label": "Barcelona",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "embl-bioimage-analysis-2027",
+      "name": "EMBL · Advanced methods in bioimage analysis",
+      "type": "Course",
+      "topics": [
+        "Imaging",
+        "AI & ML",
+        "NLP & LLMs"
+      ],
+      "fit": "High",
+      "relevance": "Advanced quantitative bioimage analysis covering AI/NLP, 3D segmentation, image registration, OME-Zarr data management and research integrity in AI.",
+      "location": "Heidelberg, Germany · hybrid",
+      "start": "2027-10-24",
+      "end": "2027-10-29",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/bia27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-19",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Applications are not yet open and no application deadline is published. This is an advanced practical course for bioimage analysts and facility staff.",
+      "tier": "Training",
+      "tierField": "Bioimage analysis training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      }
     },
     {
       "id": "ebi-proteomics-2027",
@@ -2544,7 +2620,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -2775,7 +2851,7 @@
       ],
       "checkedAt": "2026-10-13",
       "verification": "needs-review",
-      "notes": "The 2026 meeting remains confirmed for 21–24 October in Taiwan. Its author submission route is closed. An official APBC 2027 domain is live but currently exposes no readable dates, location or deadline, so no 2027 record is added.",
+      "notes": "The 2026 Asia-Pacific Bioinformatics Conference remains confirmed for 21–24 October in Taiwan and its author route is closed. The similarly named apbc2027.org domain belongs to the unrelated Asia Pacific Burn Conference; it must not be used for this bioinformatics series. No verified APBC bioinformatics 2027 edition has been added.",
       "tier": "T3",
       "tierField": "Structural bioinformatics",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2786,7 +2862,7 @@
         "label": "Hsinchu",
         "precision": "city"
       },
-      "checkError": "2026-10-16: the APBC 2027 site exposed only an image and no readable dates, location or call. The confirmed APBC 2026 record and checkedAt were retained."
+      "checkError": "2026-10-19: apbc2027.org resolves to the unrelated Asia Pacific Burn Conference in Bangkok, not the Asia-Pacific Bioinformatics Conference. No official bioinformatics 2027 organizer page, dates, location or call were verified; the confirmed APBC 2026 record and checkedAt were retained."
     },
     {
       "id": "iscbuk-2027",
@@ -3060,7 +3136,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "submissionState": "not-open",
       "opens": "2027-03-08",
@@ -3070,6 +3146,81 @@
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
       "country": "Online",
       "geo": null
+    },
+    {
+      "id": "ebi-infectious-models-2027",
+      "name": "EMBL-EBI · Infectious-disease modelling with genomics",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "Statistical methods"
+      ],
+      "fit": "Relevant",
+      "relevance": "Transmission and pathogen-evolution modelling combining compartmental models, population genetics, timed phylogenies and genomic phylodynamics.",
+      "location": "Hinxton, UK",
+      "start": "2027-10-11",
+      "end": "2027-10-15",
+      "source": "https://www.ebi.ac.uk/training/events/methods-infectious-disease-modelling-using-genomics-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-06-27",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-19",
+      "verification": "official",
+      "opens": "2027-03-30",
+      "notes": "Applications open 30 March 2027. Selection-based course requiring basic R, command-line and biostatistics knowledge.",
+      "tier": "Training",
+      "tierField": "Genomics & epidemiological modelling training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      }
+    },
+    {
+      "id": "ebi-genome-bioinformatics-2027",
+      "name": "EMBL-EBI · Genome bioinformatics: short- to long-read sequencing",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Bioinformatics"
+      ],
+      "fit": "High",
+      "relevance": "Human-genomics workflows spanning short- and long-read analysis, variant calling, pipeline automation and scaling of sequencing analyses.",
+      "location": "Hinxton, UK",
+      "start": "2027-11-15",
+      "end": "2027-11-19",
+      "source": "https://www.ebi.ac.uk/training/events/genome-bioinformatics-short-long-read-sequencing-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-08-01",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-19",
+      "verification": "official",
+      "opens": "2027-05-04",
+      "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
+      "tier": "Training",
+      "tierField": "Genomics training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      }
     },
     {
       "id": "protein-society-2027",
@@ -3918,7 +4069,7 @@
         }
       ],
       "opens": "2026-11-30",
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-19",
       "verification": "official",
       "notes": "Beginner-level Python is required; no prior machine-learning experience is expected. Applications open 30 November 2026."
     },
@@ -4011,29 +4162,29 @@
   },
   "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Material catalogue update: 9 existing records rechecked and 3 relevant events added. Two EMBL-EBI courses now have confirmed 2027 dates and opening states; Wellcome Sanger announced a hybrid organoid conference with an explicit AI/imaging route and a 26 July abstract cutoff. Three organizer records remain unresolved, and the new Wellcome page carries a separate administrative-text conflict.",
-    "reviewedAt": "2026-10-18T00:08:11Z",
+    "summary": "Material catalogue update: 8 existing records rechecked and 4 official advanced-training entries added across bioimage AI, genome bioinformatics, genomics-informed infectious-disease modelling and multicellular computational modelling. The apparent APBC 2027 domain was identified as an unrelated burn conference and excluded.",
+    "reviewedAt": "2026-10-19T00:36:26Z",
     "partial": true,
-    "reviewedExistingCount": 9,
-    "addedCount": 3,
+    "reviewedExistingCount": 8,
+    "addedCount": 4,
     "partialRecordCount": 4,
     "failedRecordCount": 0,
-    "notReviewedCount": 83,
+    "notReviewedCount": 87,
     "reviewedIds": [
       "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
       "miccai-2027",
       "hupo-2027",
-      "embl-dl-2027",
-      "ebi-proteomics-2027",
+      "ebi-datascience-2027",
       "ebi-multiomics-2027",
-      "wellcome-watch"
+      "ebi-sequences-structures-2027"
     ],
     "addedIds": [
-      "ebi-metabolomics-2027",
-      "ebi-sequences-structures-2027",
-      "sanger-organoids-2027"
+      "embl-multicellular-modelling-2027",
+      "ebi-infectious-models-2027",
+      "embl-bioimage-analysis-2027",
+      "ebi-genome-bioinformatics-2027"
     ],
     "changedIds": [
       "recomb-2027",
@@ -4041,13 +4192,13 @@
       "ismrm-2027",
       "miccai-2027",
       "hupo-2027",
-      "embl-dl-2027",
-      "ebi-proteomics-2027",
+      "ebi-datascience-2027",
       "ebi-multiomics-2027",
-      "wellcome-watch",
-      "ebi-metabolomics-2027",
       "ebi-sequences-structures-2027",
-      "sanger-organoids-2027",
+      "embl-multicellular-modelling-2027",
+      "ebi-infectious-models-2027",
+      "embl-bioimage-analysis-2027",
+      "ebi-genome-bioinformatics-2027",
       "apbc-2026",
       "recombccb-next"
     ],
@@ -4069,14 +4220,14 @@
     "failedSources": [
       {
         "url": "https://www.apbc2027.org/",
-        "reason": "The official page again exposed unreadable binary/image content and no verifiable dates, location or call. The confirmed 2026 record and checkedAt were retained."
+        "reason": "This domain now resolves to the unrelated Asia Pacific Burn Conference, not the Asia-Pacific Bioinformatics Conference. No official APBC bioinformatics 2027 source was verified; the 2026 record and checkedAt were retained."
       },
       {
         "url": "https://recomb.org/recomb-ccb2027",
         "reason": "The dedicated 2027 satellite page still returned 404. Parent-conference dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official EMBL-EBI and Wellcome Sanger pages supplied three new relevant records. HUPO's official 2027 page reconfirmed an explicit AI/multi-omics scope but still gives only January 2027 as the opening month. Indexed public X surfaced no new in-scope venue requiring addition; ISCB-UK, ISBI and RECOMB announcements were already represented. No broad-AI archive entry was re-added.",
+    "discoveryNotes": "Official EMBL and EMBL-EBI pages supplied four new relevant advanced-training records. Indexed public X surfaced no new in-scope venue requiring addition. ISCB, ISBI and other returned calls were already represented. Generic or unrelated conference-alert entries were excluded, and no broad-AI archive entry was re-added.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
