@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-19T00:36:26Z",
+  "updatedAt": "2026-10-20T00:07:37Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-20",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-20",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -1120,7 +1120,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-20",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1160,7 +1160,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-20",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
@@ -1199,7 +1199,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-20",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
@@ -1357,7 +1357,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-20",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -2620,7 +2620,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-20",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -4148,6 +4148,134 @@
       "verification": "needs-review",
       "watchlist": true,
       "notes": "The workshops are officially announced, but individual workshop dates and track-specific calls are not yet published. ISBI lists a generic workshop-paper deadline of 26 January at 23:59 'USA (EDT)'; verify each workshop's own call before submitting."
+    },
+    {
+      "id": "embl-mutations-space-2027",
+      "name": "EMBL · Mutations in time and space",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "Multi-omics",
+        "Statistical methods"
+      ],
+      "fit": "High",
+      "relevance": "Computational genomics of mutational processes across cells, tissues, populations and species, with sequencing, multi-omic endpoints and advanced computational analysis.",
+      "location": "Heidelberg, Germany · hybrid",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.3988,
+        "lon": 8.6724,
+        "label": "Heidelberg",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "Computational genomics & mutation biology",
+      "tierReason": "Editorial assessment: a focused EMBL meeting spanning mutation biology and computational genomics; valuable specialist access, with a newer/narrower track record than field flagships.",
+      "start": "2027-06-15",
+      "end": "2027-06-18",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/mts27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-03-09",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "On-site registration",
+          "date": "2027-05-04",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2027-06-08",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "verification": "official",
+      "notes": "Only on-site participants may submit an abstract. EMBL publishes calendar dates but no cutoff times or timezones."
+    },
+    {
+      "id": "embl-cancer-genomics-2027",
+      "name": "EMBL · Cancer genomics",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "Multi-omics",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Cancer genome projects, functional genomics, systems biology, immunogenomics, epigenomics and precision-medicine translation; the organizer highlights AI applications in the meeting's scope and participant feedback.",
+      "location": "Heidelberg, Germany · hybrid",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.3988,
+        "lon": 8.6724,
+        "label": "Heidelberg",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "Cancer genomics & bioinformatics",
+      "tierReason": "Editorial assessment: an established international specialist meeting connecting cancer genomics, bioinformatics and clinical translation; it is not treated as a broad genomics flagship.",
+      "start": "2027-11-09",
+      "end": "2027-11-12",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/can27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Registration is not yet open. EMBL has confirmed the event dates and hybrid venue but has not published an abstract or registration deadline."
+    },
+    {
+      "id": "embl-ai-medicine-2027",
+      "name": "EMBL · AI in medicine: will it work or will it hurt?",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "Selective",
+      "relevance": "Direct AI × medicine relevance through ethical, legal and social implications; useful for responsible biomedical-AI strategy, though the technical programme is not yet published.",
+      "location": "Heidelberg, Germany",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.3988,
+        "lon": 8.6724,
+        "label": "Heidelberg",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "Biomedical AI policy & society",
+      "tierReason": "Editorial assessment: an interdisciplinary EMBL Science and Society meeting; relevant for responsible AI, but not ranked as a technical biomedical-AI flagship.",
+      "start": "2027-11-30",
+      "end": "2027-12-01",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/sns27-01/",
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-20",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Registration, speakers and programme are not yet announced. The organizer has not yet stated whether abstracts will be accepted or published any submission deadline."
     }
   ],
   "tierPolicy": {
@@ -4162,51 +4290,43 @@
   },
   "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Material catalogue update: 8 existing records rechecked and 4 official advanced-training entries added across bioimage AI, genome bioinformatics, genomics-informed infectious-disease modelling and multicellular computational modelling. The apparent APBC 2027 domain was identified as an unrelated burn conference and excluded.",
-    "reviewedAt": "2026-10-19T00:36:26Z",
+    "summary": "Material catalogue update: 7 existing records rechecked and 3 official EMBL conferences added across computational mutation genomics, cancer genomics and responsible AI in medicine.",
+    "reviewedAt": "2026-10-20T00:07:37Z",
     "partial": true,
-    "reviewedExistingCount": 8,
-    "addedCount": 4,
-    "partialRecordCount": 4,
+    "reviewedExistingCount": 7,
+    "addedCount": 3,
+    "partialRecordCount": 2,
     "failedRecordCount": 0,
-    "notReviewedCount": 87,
+    "notReviewedCount": 92,
     "reviewedIds": [
       "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
-      "miccai-2027",
-      "hupo-2027",
-      "ebi-datascience-2027",
-      "ebi-multiomics-2027",
-      "ebi-sequences-structures-2027"
+      "cshl-probgen",
+      "cshl-network",
+      "cshl-genome",
+      "cshl-course-c-data"
     ],
     "addedIds": [
-      "embl-multicellular-modelling-2027",
-      "ebi-infectious-models-2027",
-      "embl-bioimage-analysis-2027",
-      "ebi-genome-bioinformatics-2027"
+      "embl-mutations-space-2027",
+      "embl-cancer-genomics-2027",
+      "embl-ai-medicine-2027"
     ],
     "changedIds": [
       "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
-      "miccai-2027",
-      "hupo-2027",
-      "ebi-datascience-2027",
-      "ebi-multiomics-2027",
-      "ebi-sequences-structures-2027",
-      "embl-multicellular-modelling-2027",
-      "ebi-infectious-models-2027",
-      "embl-bioimage-analysis-2027",
-      "ebi-genome-bioinformatics-2027",
-      "apbc-2026",
-      "recombccb-next"
+      "cshl-probgen",
+      "cshl-network",
+      "cshl-genome",
+      "cshl-course-c-data",
+      "embl-mutations-space-2027",
+      "embl-cancer-genomics-2027",
+      "embl-ai-medicine-2027"
     ],
     "partialIds": [
-      "miccai-2027",
-      "sanger-organoids-2027",
-      "apbc-2026",
-      "recombccb-next"
+      "embl-cancer-genomics-2027",
+      "embl-ai-medicine-2027"
     ],
     "failedIds": [],
     "unresolvedConflictIds": [
@@ -4215,19 +4335,12 @@
       "recombccb-next",
       "cshl-course-c-data",
       "cshl-course-c-qicm",
-      "cshl-course-cryoem-2027"
+      "cshl-course-cryoem-2027",
+      "embl-cancer-genomics-2027",
+      "embl-ai-medicine-2027"
     ],
-    "failedSources": [
-      {
-        "url": "https://www.apbc2027.org/",
-        "reason": "This domain now resolves to the unrelated Asia Pacific Burn Conference, not the Asia-Pacific Bioinformatics Conference. No official APBC bioinformatics 2027 source was verified; the 2026 record and checkedAt were retained."
-      },
-      {
-        "url": "https://recomb.org/recomb-ccb2027",
-        "reason": "The dedicated 2027 satellite page still returned 404. Parent-conference dates were retained; location and author deadline remain unverified."
-      }
-    ],
-    "discoveryNotes": "Official EMBL and EMBL-EBI pages supplied four new relevant advanced-training records. Indexed public X surfaced no new in-scope venue requiring addition. ISCB, ISBI and other returned calls were already represented. Generic or unrelated conference-alert entries were excluded, and no broad-AI archive entry was re-added.",
+    "failedSources": [],
+    "discoveryNotes": "Official EMBL pages supplied three new in-scope conference records. The CSHL calendar reconfirmed tracked 2027 genomics meetings and training. Indexed public X produced no new in-scope call that could be verified through a primary organizer; broad NLP, robotics and unrelated medical events were excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
