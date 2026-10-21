@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-20T00:07:37Z",
+  "updatedAt": "2026-10-21T00:43:15Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -891,7 +891,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-09",
+      "checkedAt": "2026-10-21",
       "verification": "needs-review",
       "fullName": "American Society of Human Genetics Annual Meeting",
       "tier": "T1",
@@ -904,7 +904,7 @@
         "label": "Nashville",
         "precision": "city"
       },
-      "checkError": "2026-10-14: the official future-meetings page reconfirmed Nashville, 26–30 October 2027, but no 2027 abstract deadline is published. Prior deadline state and checkedAt retained."
+      "notes": "The official future-meetings page confirms Nashville and 26–30 October 2027. ASHG says its abstract deadline is generally in early June, but no 2027 date or cutoff has been published; no date is inferred."
     },
     {
       "id": "eshg-2027",
@@ -1120,7 +1120,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1160,7 +1160,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=network"
@@ -1199,7 +1199,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=genome"
@@ -1238,7 +1238,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetingshome.aspx"
@@ -1277,7 +1277,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=rnapr"
@@ -2620,7 +2620,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-21",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -2837,7 +2837,7 @@
       ],
       "fit": "High",
       "relevance": "Established Asia-Pacific bioinformatics meeting explicitly covering AI, multi-omics, proteomics and structural modelling.",
-      "location": "Hsinchu, Taiwan",
+      "location": "Hsinchu, Taiwan · 21–22 Oct onsite; 23–24 Oct online",
       "start": "2026-10-21",
       "end": "2026-10-24",
       "source": "https://www.apbc2026.com/",
@@ -2849,9 +2849,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-21",
       "verification": "needs-review",
-      "notes": "The 2026 Asia-Pacific Bioinformatics Conference remains confirmed for 21–24 October in Taiwan and its author route is closed. The similarly named apbc2027.org domain belongs to the unrelated Asia Pacific Burn Conference; it must not be used for this bioinformatics series. No verified APBC bioinformatics 2027 edition has been added.",
+      "notes": "The organizer moved all scientific sessions on 23–24 October online because of the approaching typhoon; 21–22 October remain onsite at NYCU Bo’ai Campus. Venue access on 23 October is conditional, but scientific sessions are online regardless. The author route is closed. The similarly named apbc2027.org domain belongs to the unrelated Asia Pacific Burn Conference; no verified APBC bioinformatics 2027 edition has been added.",
       "tier": "T3",
       "tierField": "Structural bioinformatics",
       "tierReason": "Editorial assessment: an established regional or emerging focused venue; useful fit and community access, with a different scale or track record from field flagships.",
@@ -2862,7 +2862,8 @@
         "label": "Hsinchu",
         "precision": "city"
       },
-      "checkError": "2026-10-19: apbc2027.org resolves to the unrelated Asia Pacific Burn Conference in Bangkok, not the Asia-Pacific Bioinformatics Conference. No official bioinformatics 2027 organizer page, dates, location or call were verified; the confirmed APBC 2026 record and checkedAt were retained."
+      "checkError": "2026-10-19: apbc2027.org resolves to the unrelated Asia Pacific Burn Conference in Bangkok, not the Asia-Pacific Bioinformatics Conference. No official bioinformatics 2027 organizer page, dates, location or call were verified; the confirmed APBC 2026 record and checkedAt were retained.",
+      "submissionState": "closed"
     },
     {
       "id": "iscbuk-2027",
@@ -4276,6 +4277,100 @@
       "verification": "official",
       "submissionState": "not-open",
       "notes": "Registration, speakers and programme are not yet announced. The organizer has not yet stated whether abstracts will be accepted or published any submission deadline."
+    },
+    {
+      "id": "cshl-naisys-2027",
+      "name": "CSHL · From Neuroscience to Artificially Intelligent Systems (NAISys)",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Biomedical AI"
+      ],
+      "fit": "Relevant",
+      "relevance": "Explicit NeuroAI route linking biological intelligence to architectures, spiking networks, learning rules, continual learning, interpretability and cognitive models.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "NeuroAI & biologically inspired machine learning",
+      "tierReason": "Editorial assessment: an established specialist CSHL meeting at the neuroscience–AI interface; leading for its focused community, not a broad AI flagship.",
+      "start": "2027-09-27",
+      "end": "2027-10-01",
+      "source": "https://meetings.cshl.edu/meetings.aspx?meet=naisys",
+      "sources": [
+        "https://meetings.cshl.edu/meetings"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-07-09",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Late virtual-registration threshold",
+          "date": "2027-09-23",
+          "zone": "America/New_York",
+          "time": "17:00",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-21",
+      "verification": "needs-review",
+      "notes": "The official event page and current CSHL calendar agree on the dates and abstract deadline, but the detail page incorrectly displays a stale 'past event' banner. Abstract cutoff time and timezone are not published."
+    },
+    {
+      "id": "cshl-genome-informatics-2027",
+      "name": "CSHL · Genome Informatics 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Genomics",
+        "AI & ML",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Core genome informatics spanning pangenomes, assembly algorithms, evolutionary and microbial genomics, single-cell/spatial omics, AI/ML and integrative omics.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "Genome informatics",
+      "tierReason": "Editorial assessment: a long-running leading specialist meeting in genome algorithms and informatics, alternating with the related Hinxton meeting; below broad field flagships such as ISMB and RECOMB.",
+      "start": "2027-11-03",
+      "end": "2027-11-06",
+      "source": "https://meetings.cshl.edu/meetings.aspx?meet=info",
+      "sources": [
+        "https://meetings.cshl.edu/meetings"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-08-13",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "James P. Taylor scholarship application",
+          "date": "2027-09-15",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-21",
+      "verification": "needs-review",
+      "notes": "The current CSHL calendar lists 3–6 November. The detail-page header prints 3–5 November and its narrative calls 5 November a Saturday, although 5 November 2027 is Friday; the intended Saturday close is therefore recorded as 6 November but explicitly flagged. The abstract date is consistent; cutoff time and timezone are unverified."
     }
   ],
   "tierPolicy": {
@@ -4290,45 +4385,56 @@
   },
   "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
   "lastRun": {
-    "summary": "Material catalogue update: 7 existing records rechecked and 3 official EMBL conferences added across computational mutation genomics, cancer genomics and responsible AI in medicine.",
-    "reviewedAt": "2026-10-20T00:07:37Z",
+    "summary": "Material catalogue update: 10 existing records rechecked, APBC's typhoon-driven format change recorded, and two official CSHL conferences added for NeuroAI and genome informatics.",
+    "reviewedAt": "2026-10-21T00:43:15Z",
     "partial": true,
-    "reviewedExistingCount": 7,
-    "addedCount": 3,
-    "partialRecordCount": 2,
-    "failedRecordCount": 0,
+    "reviewedExistingCount": 10,
+    "addedCount": 2,
+    "partialRecordCount": 5,
+    "failedRecordCount": 3,
     "notReviewedCount": 92,
     "reviewedIds": [
-      "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
+      "recomb-2027",
+      "ashg-2027",
+      "apbc-2026",
       "cshl-probgen",
       "cshl-network",
       "cshl-genome",
-      "cshl-course-c-data"
+      "cshl-singlecell",
+      "cshl-rnapr"
     ],
     "addedIds": [
-      "embl-mutations-space-2027",
-      "embl-cancer-genomics-2027",
-      "embl-ai-medicine-2027"
+      "cshl-naisys-2027",
+      "cshl-genome-informatics-2027"
     ],
     "changedIds": [
-      "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
+      "recomb-2027",
+      "ashg-2027",
+      "apbc-2026",
       "cshl-probgen",
       "cshl-network",
       "cshl-genome",
-      "cshl-course-c-data",
-      "embl-mutations-space-2027",
-      "embl-cancer-genomics-2027",
-      "embl-ai-medicine-2027"
+      "cshl-singlecell",
+      "cshl-rnapr",
+      "cshl-naisys-2027",
+      "cshl-genome-informatics-2027"
     ],
     "partialIds": [
-      "embl-cancer-genomics-2027",
-      "embl-ai-medicine-2027"
+      "cshl-naisys-2027",
+      "cshl-genome-informatics-2027",
+      "miccai-2027",
+      "hupo-2027",
+      "recombccb-next"
     ],
-    "failedIds": [],
+    "failedIds": [
+      "miccai-2027",
+      "hupo-2027",
+      "recombccb-next"
+    ],
     "unresolvedConflictIds": [
       "miccai-2027",
       "sanger-organoids-2027",
@@ -4337,10 +4443,25 @@
       "cshl-course-c-qicm",
       "cshl-course-cryoem-2027",
       "embl-cancer-genomics-2027",
-      "embl-ai-medicine-2027"
+      "embl-ai-medicine-2027",
+      "cshl-naisys-2027",
+      "cshl-genome-informatics-2027"
     ],
-    "failedSources": [],
-    "discoveryNotes": "Official EMBL pages supplied three new in-scope conference records. The CSHL calendar reconfirmed tracked 2027 genomics meetings and training. Indexed public X produced no new in-scope call that could be verified through a primary organizer; broad NLP, robotics and unrelated medical events were excluded.",
+    "failedSources": [
+      {
+        "url": "https://conferences.miccai.org/2027/en/",
+        "reason": "The official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; submission dates remain unannounced."
+      },
+      {
+        "url": "https://2027.hupo.org/",
+        "reason": "The official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+      },
+      {
+        "url": "https://recomb.org/recomb-ccb2027",
+        "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
+      }
+    ],
+    "discoveryNotes": "Official CSHL pages supplied two new in-scope conferences. The EMBL, EMBL-EBI, Wellcome Sanger and CSHL calendars were searched; a basic introductory RNA-seq course was not added because the dashboard prioritizes advanced training. Indexed public X produced no new in-scope call that could be verified through a primary organizer. Broad NLP and unrelated AI entries were excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "isbi-2027",
@@ -4365,6 +4486,14 @@
         "time": "23:59",
         "zone": "AoE",
         "singapore": "2026-10-29T19:59:00+08:00"
+      },
+      {
+        "eventId": "recomb-2027",
+        "label": "Full paper (existing abstract registrations only)",
+        "date": "2026-11-04",
+        "time": "23:59",
+        "zone": "AoE",
+        "singapore": "2026-11-05T19:59:00+08:00"
       }
     ],
     "otherHighRelevanceDeadlinesWithin14Days": [
@@ -4372,6 +4501,14 @@
         "eventId": "ebi-variants-2026",
         "label": "Listed registration deadline (course is full; waiting list only)",
         "date": "2026-10-25",
+        "time": null,
+        "zone": null,
+        "singapore": null
+      },
+      {
+        "eventId": "embl-insitu-2027",
+        "label": "Abstract submission (on-site participants only)",
+        "date": "2026-11-03",
         "time": null,
         "zone": null,
         "singapore": null
