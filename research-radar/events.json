@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-21T00:43:15Z",
+  "updatedAt": "2026-10-22T00:50:06Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -260,7 +260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -546,9 +546,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-22",
       "verification": "needs-review",
-      "notes": "The official 2027 paper-submission page is reachable but remains under construction and publishes no paper dates. It confirms 27 September–1 October at the New Zealand International Convention Centre. The MICCAI Society listing still starts on 26 September, likely including satellite planning; submission deadlines remain unannounced.",
+      "notes": "The official 2027 conference site confirms 27 September–1 October 2027 in Auckland but still publishes no paper deadlines. The MICCAI Society listing starts on 26 September, likely including satellite planning; the one-day schedule discrepancy remains unresolved.",
       "sources": [
         "https://miccai.org/upcoming-conferences/"
       ],
@@ -561,8 +561,7 @@
         "lon": 174.76,
         "label": "Auckland",
         "precision": "city"
-      },
-      "checkError": "2026-10-19: the official paper-submission page remains under construction with no paper or abstract deadlines. Event-page dates are 27 September–1 October; the society listing's 26 September start remains an unresolved schedule discrepancy."
+      }
     },
     {
       "id": "emnlp-2027",
@@ -818,7 +817,8 @@
         "label": "Milan",
         "precision": "city"
       },
-      "submissionState": "not-open"
+      "submissionState": "not-open",
+      "checkError": "2026-10-22: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
     },
     {
       "id": "ushupo-2027",
@@ -1516,7 +1516,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-22",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -2583,7 +2583,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-14",
+      "checkedAt": "2026-10-22",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -2620,7 +2620,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-22",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -3005,7 +3005,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-16: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
+      "checkError": "2026-10-22: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -4371,6 +4371,199 @@
       "checkedAt": "2026-10-21",
       "verification": "needs-review",
       "notes": "The current CSHL calendar lists 3–6 November. The detail-page header prints 3–5 November and its narrative calls 5 November a Saturday, although 5 November 2027 is Friday; the intended Saturday close is therefore recorded as 6 November but explicitly flagged. The abstract date is consistent; cutoff time and timezone are unverified."
+    },
+    {
+      "id": "ipcai-2027",
+      "name": "IPCAI 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Peer-reviewed machine learning, medical imaging, surgical data science and robotics for computer-assisted interventions.",
+      "location": "Berlin, Germany",
+      "country": "Germany",
+      "geo": {
+        "lat": 52.52,
+        "lon": 13.405,
+        "label": "Berlin",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "Computer-assisted intervention",
+      "tierReason": "Editorial assessment: an established leading specialist venue for computer-assisted surgery and interventional imaging; narrower than the field-wide MICCAI flagship.",
+      "start": "2027-06-28",
+      "end": "2027-06-30",
+      "source": "https://sites.google.com/view/ipcai2027/call-for-papers-and-long-abstracts",
+      "sources": [
+        "https://miccai.org/2026/09/09/ipcai-2027/"
+      ],
+      "deadlines": [
+        {
+          "label": "Regular-paper submission registration",
+          "date": "2026-10-23",
+          "zone": null,
+          "time": null,
+          "id": "abstract"
+        },
+        {
+          "label": "Full regular paper",
+          "date": "2026-10-30",
+          "zone": null,
+          "time": null,
+          "requires": "abstract"
+        },
+        {
+          "label": "Long abstract",
+          "date": "2027-01-15",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-22",
+      "verification": "official",
+      "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
+      "notes": "The initial registration is a required submission-creation gate. The organizer states that the 30 October regular-paper deadline will not be extended. Cutoff times and timezones are not published."
+    },
+    {
+      "id": "aiinrt-2027",
+      "name": "AIinRT 2027",
+      "type": "Conference",
+      "topics": [
+        "Imaging",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Focused, peer-reviewed medical AI meeting spanning radiotherapy segmentation, reconstruction, foundation models, clinical prediction and deployment.",
+      "location": "Utrecht, Netherlands",
+      "country": "Netherlands",
+      "geo": {
+        "lat": 52.09,
+        "lon": 5.12,
+        "label": "Utrecht",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "AI in radiotherapy",
+      "tierReason": "Editorial assessment: a focused emerging specialist symposium with MICCAI endorsement and peer review; not yet a broad medical-imaging flagship.",
+      "start": "2027-04-01",
+      "end": "2027-04-02",
+      "source": "https://aiinrt.org/",
+      "sources": [
+        "https://miccai.org/2026/09/19/aiinrt-2027-copy/",
+        "https://dlinrt.eu/news/aiinrt-2027-support"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2026-12-01",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-22",
+      "verification": "official",
+      "fullName": "International Symposium on Artificial Intelligence in Radiotherapy",
+      "opens": "2026-09-01",
+      "notes": "The MICCAI-endorsed call specifies a one-page, anonymised abstract and double-blind review. Cutoff time and timezone are not published. Organizer history identifies AIinRT 2027 as formerly DLinRT 2027."
+    },
+    {
+      "id": "embl-gene-regulation-2027",
+      "name": "EMBL · Gene regulation: one molecule at a time",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Imaging",
+        "AI & ML",
+        "RNA & structure"
+      ],
+      "fit": "High",
+      "relevance": "Single-molecule genomics and imaging integrated with quantitative theory, AI and computational analysis across chromatin, transcription, RNA processing and translation.",
+      "location": "Heidelberg, Germany · hybrid",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      },
+      "tier": "T2",
+      "tierField": "Single-molecule genomics & imaging",
+      "tierReason": "Editorial assessment: an established EMBL specialist meeting integrating single-molecule genomics, imaging and quantitative or AI methods; not a broad genomics or AI flagship.",
+      "start": "2027-07-13",
+      "end": "2027-07-16",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/grg27-01/",
+      "sources": [
+        "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/GRG27-01_Gene-Regulation_Poster_20260807_SCREEN.pdf"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-04-06",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "On-site registration",
+          "date": "2027-04-06",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "General registration (official poster)",
+          "date": "2027-06-01",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2027-07-06",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-22",
+      "verification": "needs-review",
+      "notes": "The official poster labels 6 April as the abstract deadline and 1 June as the registration deadline, while the current event page labels 6 April as on-site registration and 6 July as virtual registration. These distinct published labels are retained without inferring cutoff times or timezones."
+    },
+    {
+      "id": "ebi-metagenomics-2027",
+      "name": "EMBL-EBI · Metagenomics bioinformatics",
+      "type": "Course",
+      "topics": [
+        "Bioinformatics",
+        "Genomics",
+        "Multi-omics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Practical genome-resolved metagenomics, including quality control, assembly, MAG generation, functional annotation and public microbial-community resources.",
+      "location": "Online",
+      "country": "Online",
+      "geo": null,
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "start": "2027-06-27",
+      "end": "2027-07-01",
+      "source": "https://www.ebi.ac.uk/training/events/metagenomics-bioinformatics-2027/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-03-28",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-10-22",
+      "verification": "needs-review",
+      "opens": "2026-12-14",
+      "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
     }
   ],
   "tierPolicy": {
@@ -4383,55 +4576,52 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official APBJC, RECOMB-Seq, US HUPO, ISBI, ISMRM, RECOMB, CVPR, MIDL, PSB, EMBL and EMBL-EBI sources were checked alongside provider discovery and indexed X. Newly published route-specific APBJC and RECOMB-Seq calls were incorporated, and US HUPO 2027 was added for its explicit AI/proteomics, multi-omics, structural proteomics and drug-discovery scope. Indexed X results supplied no independently usable conference evidence; organizer pages remain authoritative. Tiers are editorial assessments, not social-media rankings.",
+  "researchNotes": "Official ISBI, ISMRM, RECOMB, MICCAI, IPMI, EMBL and EMBL-EBI sources were checked alongside indexed X discovery. Newly published or previously missing official routes for IPCAI, AIinRT, EMBL single-molecule gene regulation and EMBL-EBI metagenomics were added. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. HUPO 2027 was inaccessible and the dedicated RECOMB-CCB 2027 page still returned 404, so their prior facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
   "lastRun": {
-    "summary": "Material catalogue update: 10 existing records rechecked, APBC's typhoon-driven format change recorded, and two official CSHL conferences added for NeuroAI and genome informatics.",
-    "reviewedAt": "2026-10-21T00:43:15Z",
+    "summary": "Material catalogue update: 6 existing records rechecked and four official in-scope events added, including the imminent IPCAI regular-paper gate.",
+    "reviewedAt": "2026-10-22T00:50:06Z",
     "partial": true,
-    "reviewedExistingCount": 10,
-    "addedCount": 2,
+    "reviewedExistingCount": 6,
+    "addedCount": 4,
     "partialRecordCount": 5,
-    "failedRecordCount": 3,
-    "notReviewedCount": 92,
+    "failedRecordCount": 2,
+    "notReviewedCount": 98,
     "reviewedIds": [
       "isbi-2027",
       "ismrm-2027",
       "recomb-2027",
-      "ashg-2027",
-      "apbc-2026",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-genome",
-      "cshl-singlecell",
-      "cshl-rnapr"
+      "miccai-2027",
+      "ipmi-2027",
+      "ebi-multiomics-2027"
     ],
     "addedIds": [
-      "cshl-naisys-2027",
-      "cshl-genome-informatics-2027"
+      "ipcai-2027",
+      "aiinrt-2027",
+      "embl-gene-regulation-2027",
+      "ebi-metagenomics-2027"
     ],
     "changedIds": [
       "isbi-2027",
       "ismrm-2027",
       "recomb-2027",
-      "ashg-2027",
-      "apbc-2026",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-genome",
-      "cshl-singlecell",
-      "cshl-rnapr",
-      "cshl-naisys-2027",
-      "cshl-genome-informatics-2027"
+      "miccai-2027",
+      "ipmi-2027",
+      "ebi-multiomics-2027",
+      "ipcai-2027",
+      "aiinrt-2027",
+      "embl-gene-regulation-2027",
+      "ebi-metagenomics-2027",
+      "hupo-2027",
+      "recombccb-next"
     ],
     "partialIds": [
-      "cshl-naisys-2027",
-      "cshl-genome-informatics-2027",
+      "embl-gene-regulation-2027",
+      "ebi-metagenomics-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "failedIds": [
-      "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
@@ -4445,13 +4635,11 @@
       "embl-cancer-genomics-2027",
       "embl-ai-medicine-2027",
       "cshl-naisys-2027",
-      "cshl-genome-informatics-2027"
+      "cshl-genome-informatics-2027",
+      "embl-gene-regulation-2027",
+      "ebi-metagenomics-2027"
     ],
     "failedSources": [
-      {
-        "url": "https://conferences.miccai.org/2027/en/",
-        "reason": "The official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; submission dates remain unannounced."
-      },
       {
         "url": "https://2027.hupo.org/",
         "reason": "The official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
@@ -4461,8 +4649,16 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official CSHL pages supplied two new in-scope conferences. The EMBL, EMBL-EBI, Wellcome Sanger and CSHL calendars were searched; a basic introductory RNA-seq course was not added because the dashboard prioritizes advanced training. Indexed public X produced no new in-scope call that could be verified through a primary organizer. Broad NLP and unrelated AI entries were excluded.",
+    "discoveryNotes": "Official EMBL and EMBL-EBI pages supplied a single-molecule gene-regulation conference with an explicit AI theme and a genome-resolved metagenomics course. MICCAI-endorsed and organizer pages supplied IPCAI and AIinRT. Indexed public X produced no additional in-scope call that could be verified through a primary organizer. Broad AI-only entries remained excluded.",
     "highRelevanceWithin14Days": [
+      {
+        "eventId": "ipcai-2027",
+        "label": "Regular-paper submission registration",
+        "date": "2026-10-23",
+        "time": null,
+        "zone": null,
+        "singapore": null
+      },
       {
         "eventId": "isbi-2027",
         "label": "Four-page paper",
@@ -4486,6 +4682,14 @@
         "time": "23:59",
         "zone": "AoE",
         "singapore": "2026-10-29T19:59:00+08:00"
+      },
+      {
+        "eventId": "ipcai-2027",
+        "label": "Full regular paper (registered submissions only)",
+        "date": "2026-10-30",
+        "time": null,
+        "zone": null,
+        "singapore": null
       },
       {
         "eventId": "recomb-2027",
