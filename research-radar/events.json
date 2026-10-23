@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-22T00:50:06Z",
+  "updatedAt": "2026-10-23T00:37:27Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -258,9 +258,15 @@
           "date": "2027-01-26",
           "zone": "EDT as published",
           "time": "23:59"
+        },
+        {
+          "label": "Challenge paper",
+          "date": "2027-02-26",
+          "zone": "EDT as published",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
@@ -561,7 +567,8 @@
         "lon": 174.76,
         "label": "Auckland",
         "precision": "city"
-      }
+      },
+      "checkError": "2026-10-23: the official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -818,7 +825,7 @@
         "precision": "city"
       },
       "submissionState": "not-open",
-      "checkError": "2026-10-22: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+      "checkError": "2026-10-23: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
     },
     {
       "id": "ushupo-2027",
@@ -2620,7 +2627,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/"
@@ -3005,7 +3012,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-22: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
+      "checkError": "2026-10-23: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -4368,7 +4375,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-23",
       "verification": "needs-review",
       "notes": "The current CSHL calendar lists 3–6 November. The detail-page header prints 3–5 November and its narrative calls 5 November a Saturday, although 5 November 2027 is Friday; the intended Saturday close is therefore recorded as 6 November but explicitly flagged. The abstract date is consistent; cutoff time and timezone are unverified."
     },
@@ -4404,28 +4411,28 @@
         {
           "label": "Regular-paper submission registration",
           "date": "2026-10-23",
-          "zone": null,
-          "time": null,
+          "zone": "America/Los_Angeles",
+          "time": "23:59",
           "id": "abstract"
         },
         {
           "label": "Full regular paper",
           "date": "2026-10-30",
-          "zone": null,
-          "time": null,
+          "zone": "America/Los_Angeles",
+          "time": "23:59",
           "requires": "abstract"
         },
         {
           "label": "Long abstract",
           "date": "2027-01-15",
-          "zone": null,
-          "time": null
+          "zone": "America/Los_Angeles",
+          "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-23",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
-      "notes": "The initial registration is a required submission-creation gate. The organizer states that the 30 October regular-paper deadline will not be extended. Cutoff times and timezones are not published."
+      "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
     },
     {
       "id": "aiinrt-2027",
@@ -4576,52 +4583,42 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official ISBI, ISMRM, RECOMB, MICCAI, IPMI, EMBL and EMBL-EBI sources were checked alongside indexed X discovery. Newly published or previously missing official routes for IPCAI, AIinRT, EMBL single-molecule gene regulation and EMBL-EBI metagenomics were added. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. HUPO 2027 was inaccessible and the dedicated RECOMB-CCB 2027 page still returned 404, so their prior facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
+  "researchNotes": "Official IPCAI, ISBI, ISMRM, RECOMB and CSHL sources were rechecked alongside EMBL, EMBL-EBI, Wellcome Sanger and indexed X discovery. IPCAI's previously unknown cutoff precision was resolved as 23:59 Pacific Time, and ISBI's distinct challenge-paper deadline was added. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
   "lastRun": {
-    "summary": "Material catalogue update: 6 existing records rechecked and four official in-scope events added, including the imminent IPCAI regular-paper gate.",
-    "reviewedAt": "2026-10-22T00:50:06Z",
+    "summary": "Material catalogue correction: IPCAI cutoff times and timezone verified, and ISBI's distinct challenge-paper deadline added.",
+    "reviewedAt": "2026-10-23T00:37:27Z",
     "partial": true,
-    "reviewedExistingCount": 6,
-    "addedCount": 4,
-    "partialRecordCount": 5,
-    "failedRecordCount": 2,
-    "notReviewedCount": 98,
+    "reviewedExistingCount": 5,
+    "addedCount": 0,
+    "partialRecordCount": 4,
+    "failedRecordCount": 3,
+    "notReviewedCount": 103,
     "reviewedIds": [
+      "ipcai-2027",
       "isbi-2027",
       "ismrm-2027",
       "recomb-2027",
-      "miccai-2027",
-      "ipmi-2027",
-      "ebi-multiomics-2027"
+      "cshl-genome-informatics-2027"
     ],
-    "addedIds": [
-      "ipcai-2027",
-      "aiinrt-2027",
-      "embl-gene-regulation-2027",
-      "ebi-metagenomics-2027"
-    ],
+    "addedIds": [],
     "changedIds": [
+      "ipcai-2027",
       "isbi-2027",
       "ismrm-2027",
       "recomb-2027",
+      "cshl-genome-informatics-2027",
       "miccai-2027",
-      "ipmi-2027",
-      "ebi-multiomics-2027",
-      "ipcai-2027",
-      "aiinrt-2027",
-      "embl-gene-regulation-2027",
-      "ebi-metagenomics-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "partialIds": [
-      "embl-gene-regulation-2027",
-      "ebi-metagenomics-2027",
+      "cshl-genome-informatics-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "failedIds": [
+      "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
@@ -4641,6 +4638,10 @@
     ],
     "failedSources": [
       {
+        "url": "https://conferences.miccai.org/2027/en/",
+        "reason": "The official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      },
+      {
         "url": "https://2027.hupo.org/",
         "reason": "The official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
       },
@@ -4649,15 +4650,15 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official EMBL and EMBL-EBI pages supplied a single-molecule gene-regulation conference with an explicit AI theme and a genome-resolved metagenomics course. MICCAI-endorsed and organizer pages supplied IPCAI and AIinRT. Indexed public X produced no additional in-scope call that could be verified through a primary organizer. Broad AI-only entries remained excluded.",
+    "discoveryNotes": "Official EMBL, EMBL-EBI, Wellcome Sanger and CSHL calendars were searched; no new edition cleared the existing scope and verification threshold. The CSHL Genome Informatics page still conflicts with its calendar on the closing date, so the uncertainty remains flagged. Indexed public X produced no additional call verifiable through a primary organizer. Broad AI-only entries remained excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "ipcai-2027",
         "label": "Regular-paper submission registration",
         "date": "2026-10-23",
-        "time": null,
-        "zone": null,
-        "singapore": null
+        "time": "23:59",
+        "zone": "America/Los_Angeles",
+        "singapore": "2026-10-24T14:59:00+08:00"
       },
       {
         "eventId": "isbi-2027",
@@ -4687,9 +4688,9 @@
         "eventId": "ipcai-2027",
         "label": "Full regular paper (registered submissions only)",
         "date": "2026-10-30",
-        "time": null,
-        "zone": null,
-        "singapore": null
+        "time": "23:59",
+        "zone": "America/Los_Angeles",
+        "singapore": "2026-10-31T14:59:00+08:00"
       },
       {
         "eventId": "recomb-2027",
