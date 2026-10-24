@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-23T00:37:27Z",
+  "updatedAt": "2026-10-24T00:54:00Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -249,7 +249,7 @@
         },
         {
           "label": "Four-page paper",
-          "date": "2026-10-26",
+          "date": "2026-11-02",
           "zone": "EDT",
           "time": "23:59"
         },
@@ -266,10 +266,10 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
-      "notes": "One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone needs organizer confirmation.",
+      "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026. One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone wording still needs organizer confirmation.",
       "tier": "T2",
       "tierField": "Medical imaging AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -568,7 +568,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-23: the official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-10-24: the official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -825,7 +825,7 @@
         "precision": "city"
       },
       "submissionState": "not-open",
-      "checkError": "2026-10-23: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+      "checkError": "2026-10-24: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
     },
     {
       "id": "ushupo-2027",
@@ -2625,14 +2625,22 @@
           "date": "2026-10-28",
           "zone": "UTC",
           "time": "23:59"
+        },
+        {
+          "label": "Educational stipend application",
+          "date": "2026-10-28",
+          "zone": "UTC",
+          "time": "23:59",
+          "actionable": false
         }
       ],
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "verification": "official",
       "sources": [
-        "https://www.ismrm.org/27m/"
+        "https://www.ismrm.org/27m/",
+        "https://www.ismrm.org/27m/stipends/educational-program/"
       ],
-      "notes": "Tracks ISMRM scientific abstracts, not the separate ISMRT track. Organizer CFP indexed text specifies 28 October 2026 at 23:59 UTC. In-person presentation is required; the date-only important-dates list independently confirms 28 October.",
+      "notes": "Tracks ISMRM scientific abstracts, not the separate ISMRT track. The scientific abstract and educational-stipend applications close 28 October 2026 at 23:59 UTC. The stipend is administrative rather than a separate research-submission route, is integrated into ECHO, requires 2027 membership, and limits postdoctoral eligibility to doctorates received after 31 July 2023.",
       "tier": "T1",
       "tierField": "Magnetic resonance imaging",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -3012,7 +3020,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-23: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
+      "checkError": "2026-10-24: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -4429,7 +4437,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-24",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
       "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
@@ -4583,22 +4591,21 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official IPCAI, ISBI, ISMRM, RECOMB and CSHL sources were rechecked alongside EMBL, EMBL-EBI, Wellcome Sanger and indexed X discovery. IPCAI's previously unknown cutoff precision was resolved as 23:59 Pacific Time, and ISBI's distinct challenge-paper deadline was added. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
+  "researchNotes": "Official IPCAI, ISBI, ISMRM and RECOMB sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed X discovery. ISBI's four-page deadline changed from 26 October to 2 November 2026, and ISMRM's postdoctoral educational-stipend deadline was recorded separately as an administrative opportunity. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
   "lastRun": {
-    "summary": "Material catalogue correction: IPCAI cutoff times and timezone verified, and ISBI's distinct challenge-paper deadline added.",
-    "reviewedAt": "2026-10-23T00:37:27Z",
+    "summary": "Material deadline update: ISBI extended its four-page paper deadline to 2 November, and ISMRM's educational-stipend deadline was added separately.",
+    "reviewedAt": "2026-10-24T00:54:00Z",
     "partial": true,
-    "reviewedExistingCount": 5,
+    "reviewedExistingCount": 4,
     "addedCount": 0,
-    "partialRecordCount": 4,
+    "partialRecordCount": 3,
     "failedRecordCount": 3,
-    "notReviewedCount": 103,
+    "notReviewedCount": 104,
     "reviewedIds": [
       "ipcai-2027",
       "isbi-2027",
       "ismrm-2027",
-      "recomb-2027",
-      "cshl-genome-informatics-2027"
+      "recomb-2027"
     ],
     "addedIds": [],
     "changedIds": [
@@ -4606,13 +4613,11 @@
       "isbi-2027",
       "ismrm-2027",
       "recomb-2027",
-      "cshl-genome-informatics-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "partialIds": [
-      "cshl-genome-informatics-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
@@ -4650,7 +4655,7 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official EMBL, EMBL-EBI, Wellcome Sanger and CSHL calendars were searched; no new edition cleared the existing scope and verification threshold. The CSHL Genome Informatics page still conflicts with its calendar on the closing date, so the uncertainty remains flagged. Indexed public X produced no additional call verifiable through a primary organizer. Broad AI-only entries remained excluded.",
+    "discoveryNotes": "Official provider calendars were searched; no new edition cleared the scope and verification threshold. ISBI's official home page supplied the changed deadline, and ISMRM's official stipend page supplied the separate administrative opportunity. Indexed public X produced no additional call verifiable through a primary organizer. Broad AI-only entries remained excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "ipcai-2027",
@@ -4659,14 +4664,6 @@
         "time": "23:59",
         "zone": "America/Los_Angeles",
         "singapore": "2026-10-24T14:59:00+08:00"
-      },
-      {
-        "eventId": "isbi-2027",
-        "label": "Four-page paper",
-        "date": "2026-10-26",
-        "time": "23:59",
-        "zone": "EDT",
-        "singapore": "2026-10-27T11:59:00+08:00"
       },
       {
         "eventId": "ismrm-2027",
@@ -4693,6 +4690,14 @@
         "singapore": "2026-10-31T14:59:00+08:00"
       },
       {
+        "eventId": "isbi-2027",
+        "label": "Four-page paper (extended)",
+        "date": "2026-11-02",
+        "time": "23:59",
+        "zone": "EDT",
+        "singapore": "2026-11-03T11:59:00+08:00"
+      },
+      {
         "eventId": "recomb-2027",
         "label": "Full paper (existing abstract registrations only)",
         "date": "2026-11-04",
@@ -4709,6 +4714,14 @@
         "time": null,
         "zone": null,
         "singapore": null
+      },
+      {
+        "eventId": "ismrm-2027",
+        "label": "Educational stipend application (administrative; eligibility restrictions)",
+        "date": "2026-10-28",
+        "time": "23:59",
+        "zone": "UTC",
+        "singapore": "2026-10-29T07:59:00+08:00"
       },
       {
         "eventId": "embl-insitu-2027",
