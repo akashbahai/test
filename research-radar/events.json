@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-24T00:54:00Z",
+  "updatedAt": "2026-10-26T00:13:10Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -266,7 +266,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-26",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026. One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone wording still needs organizer confirmation.",
@@ -1523,7 +1523,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1573,6 +1573,43 @@
         "label": "Heidelberg",
         "precision": "city"
       }
+    },
+    {
+      "id": "embl-quant-proteomics-2027",
+      "name": "EMBO · Quantitative proteomics",
+      "type": "Course",
+      "topics": [
+        "Proteomics",
+        "Bioinformatics",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Hands-on quantitative proteomics covering FragPipe, DIA-NN, MSstats, statistical interpretation, single-cell proteomics and practical use of AI in proteomics.",
+      "location": "Heidelberg, Germany",
+      "country": "Germany",
+      "geo": {
+        "lat": 49.4,
+        "lon": 8.67,
+        "label": "Heidelberg",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "Advanced research training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "start": "2027-03-07",
+      "end": "2027-03-12",
+      "source": "https://www.embl.org/about/info/course-and-conference-office/events/qpr27-01/",
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-11-23",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "verification": "needs-review",
+      "notes": "Selected-entry EMBO Practical Course limited to 24 participants; a motivation letter is required. The event header and programme consistently give 7–12 March 2027, but one accommodation paragraph mistakenly says 7–12 March 2026; the 2027 dates are retained and the source conflict is flagged. The application cutoff time and timezone are not published."
     },
     {
       "id": "ebi-sc-2027",
@@ -1675,7 +1712,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1825,7 +1862,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2070,7 +2107,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2111,7 +2148,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2634,7 +2671,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/",
@@ -3080,7 +3117,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3152,7 +3189,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "submissionState": "not-open",
       "opens": "2027-03-08",
@@ -3223,7 +3260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "opens": "2027-05-04",
       "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
@@ -4383,9 +4420,50 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-23",
+      "checkedAt": "2026-10-26",
       "verification": "needs-review",
       "notes": "The current CSHL calendar lists 3–6 November. The detail-page header prints 3–5 November and its narrative calls 5 November a Saturday, although 5 November 2027 is Friday; the intended Saturday close is therefore recorded as 6 November but explicitly flagged. The abstract date is consistent; cutoff time and timezone are unverified."
+    },
+    {
+      "id": "cshl-biology-genomes-2027",
+      "name": "CSHL · Biology of Genomes 2027",
+      "type": "Conference",
+      "topics": [
+        "Genomics",
+        "Bioinformatics",
+        "Multi-omics",
+        "Genomic medicine"
+      ],
+      "fit": "High",
+      "relevance": "Major genomics meeting spanning computational and statistical genomics, population and cancer genomics, functional genomics, complex traits and emerging methods.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      },
+      "tier": "T1",
+      "tierField": "Genomics",
+      "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields.",
+      "start": "2027-05-11",
+      "end": "2027-05-15",
+      "source": "https://meetings.cshl.edu/meetings.aspx?meet=genome",
+      "sources": [
+        "https://meetings.cshl.edu/genetics-meetings"
+      ],
+      "deadlines": [
+        {
+          "label": "Abstract submission",
+          "date": "2027-02-19",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-26",
+      "verification": "needs-review",
+      "notes": "The official event header and CSHL genetics calendar agree on 11–15 May 2027 and the 19 February abstract deadline. The detail page also displays a stale 'past event' banner, calls the meeting '2026' in one paragraph and uses #BOG26; these template inconsistencies are flagged. No cutoff time or timezone is published."
     },
     {
       "id": "ipcai-2027",
@@ -4437,7 +4515,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-10-26",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
       "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
@@ -4575,7 +4653,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-10-26",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -4591,33 +4669,60 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official IPCAI, ISBI, ISMRM and RECOMB sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed X discovery. ISBI's four-page deadline changed from 26 October to 2 November 2026, and ISMRM's postdoctoral educational-stipend deadline was recorded separately as an administrative opportunity. Indexed X supplied no independently usable in-scope call; organizer pages remain authoritative. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
+  "researchNotes": "Official IPCAI, ISBI, ISMRM and RECOMB sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed X discovery. Added CSHL Biology of Genomes 2027 and an EMBL quantitative-proteomics course with explicit computational, statistical and AI content. Their organizer pages contain documented stale-year/template text, so both are marked needs-review while only mutually corroborated dates are recorded. Urgent submission deadlines were unchanged. Indexed X supplied no independently usable in-scope call. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
   "lastRun": {
-    "summary": "Material deadline update: ISBI extended its four-page paper deadline to 2 November, and ISMRM's educational-stipend deadline was added separately.",
-    "reviewedAt": "2026-10-24T00:54:00Z",
+    "summary": "Added CSHL Biology of Genomes 2027 and EMBL quantitative-proteomics training; urgent ISMRM, RECOMB, IPCAI and ISBI deadlines were reverified without changes.",
+    "reviewedAt": "2026-10-26T00:13:10Z",
     "partial": true,
-    "reviewedExistingCount": 4,
-    "addedCount": 0,
-    "partialRecordCount": 3,
+    "reviewedExistingCount": 14,
+    "addedCount": 2,
+    "partialRecordCount": 5,
     "failedRecordCount": 3,
-    "notReviewedCount": 104,
+    "notReviewedCount": 94,
     "reviewedIds": [
-      "ipcai-2027",
-      "isbi-2027",
-      "ismrm-2027",
-      "recomb-2027"
-    ],
-    "addedIds": [],
-    "changedIds": [
-      "ipcai-2027",
-      "isbi-2027",
-      "ismrm-2027",
       "recomb-2027",
+      "isbi-2027",
+      "ismrm-2027",
+      "ipcai-2027",
+      "ebi-structural-2027",
+      "ebi-proteomics-2027",
+      "ebi-metagenomics-2027",
+      "ebi-genome-bioinformatics-2027",
+      "ebi-sequences-structures-2027",
+      "ebi-multiomics-2027",
+      "embl-aibio-2027",
+      "embl-predictive-2027",
+      "embl-insitu-2027",
+      "cshl-genome-informatics-2027"
+    ],
+    "addedIds": [
+      "embl-quant-proteomics-2027",
+      "cshl-biology-genomes-2027"
+    ],
+    "changedIds": [
+      "recomb-2027",
+      "isbi-2027",
+      "ismrm-2027",
+      "ipcai-2027",
+      "ebi-structural-2027",
+      "ebi-proteomics-2027",
+      "ebi-metagenomics-2027",
+      "ebi-genome-bioinformatics-2027",
+      "ebi-sequences-structures-2027",
+      "ebi-multiomics-2027",
+      "embl-aibio-2027",
+      "embl-predictive-2027",
+      "embl-insitu-2027",
+      "cshl-genome-informatics-2027",
+      "embl-quant-proteomics-2027",
+      "cshl-biology-genomes-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "partialIds": [
+      "embl-quant-proteomics-2027",
+      "cshl-biology-genomes-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
@@ -4639,32 +4744,26 @@
       "cshl-naisys-2027",
       "cshl-genome-informatics-2027",
       "embl-gene-regulation-2027",
-      "ebi-metagenomics-2027"
+      "ebi-metagenomics-2027",
+      "embl-quant-proteomics-2027",
+      "cshl-biology-genomes-2027"
     ],
     "failedSources": [
       {
         "url": "https://conferences.miccai.org/2027/en/",
-        "reason": "The official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+        "reason": "The official MICCAI 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
       },
       {
         "url": "https://2027.hupo.org/",
-        "reason": "The official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+        "reason": "The official HUPO 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
       },
       {
         "url": "https://recomb.org/recomb-ccb2027",
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official provider calendars were searched; no new edition cleared the scope and verification threshold. ISBI's official home page supplied the changed deadline, and ISMRM's official stipend page supplied the separate administrative opportunity. Indexed public X produced no additional call verifiable through a primary organizer. Broad AI-only entries remained excluded.",
+    "discoveryNotes": "Official EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were searched. CSHL Biology of Genomes and EMBL quantitative proteomics cleared the scope and primary-source threshold. Indexed public X remained sparse and produced no independent call suitable for inclusion; broad AI-only entries stayed excluded. Two newly added organizer pages contain clearly documented year/template inconsistencies, so their verification is marked needs-review without inventing corrections.",
     "highRelevanceWithin14Days": [
-      {
-        "eventId": "ipcai-2027",
-        "label": "Regular-paper submission registration",
-        "date": "2026-10-23",
-        "time": "23:59",
-        "zone": "America/Los_Angeles",
-        "singapore": "2026-10-24T14:59:00+08:00"
-      },
       {
         "eventId": "ismrm-2027",
         "label": "Scientific abstract",
@@ -4683,7 +4782,7 @@
       },
       {
         "eventId": "ipcai-2027",
-        "label": "Full regular paper (registered submissions only)",
+        "label": "Full regular paper (registration gate has closed)",
         "date": "2026-10-30",
         "time": "23:59",
         "zone": "America/Los_Angeles",
@@ -4707,14 +4806,6 @@
       }
     ],
     "otherHighRelevanceDeadlinesWithin14Days": [
-      {
-        "eventId": "ebi-variants-2026",
-        "label": "Listed registration deadline (course is full; waiting list only)",
-        "date": "2026-10-25",
-        "time": null,
-        "zone": null,
-        "singapore": null
-      },
       {
         "eventId": "ismrm-2027",
         "label": "Educational stipend application (administrative; eligibility restrictions)",
