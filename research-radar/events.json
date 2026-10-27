@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-26T00:13:10Z",
+  "updatedAt": "2026-10-27T00:22:13Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -153,7 +153,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -266,7 +266,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026. One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone wording still needs organizer confirmation.",
@@ -1127,7 +1127,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-21",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1364,7 +1364,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-27",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1403,7 +1403,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-27",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1523,7 +1523,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1607,7 +1607,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "needs-review",
       "notes": "Selected-entry EMBO Practical Course limited to 24 participants; a motivation letter is required. The event header and programme consistently give 7–12 March 2027, but one accommodation paragraph mistakenly says 7–12 March 2026; the 2027 dates are retained and the source conflict is flagged. The application cutoff time and timezone are not published."
     },
@@ -1712,7 +1712,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1862,7 +1862,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -1977,15 +1977,15 @@
       "deadlines": [
         {
           "label": "Course application",
-          "date": null,
+          "date": "2027-01-17",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-10-17",
-      "verification": "official",
+      "checkedAt": "2026-10-27",
+      "verification": "needs-review",
       "submissionState": "not-open",
-      "notes": "Applications are not yet open and no application deadline is published. EMBL currently offers a register-interest route only.",
+      "notes": "Selected-entry course limited to 24 participants; a motivation letter is required. The official page publishes a 17 January 2027 application deadline and an “Apply now” link, but its banner still says applications are not open. The state is therefore retained as not-open and the inconsistency flagged. Cutoff time and timezone are not published.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -2107,7 +2107,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2148,7 +2148,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2671,7 +2671,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/",
@@ -3117,7 +3117,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3189,7 +3189,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "submissionState": "not-open",
       "opens": "2027-03-08",
@@ -3260,7 +3260,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "opens": "2027-05-04",
       "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
@@ -3432,7 +3432,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "sources": [
         "https://aime27.aimedicine.info/"
@@ -3516,7 +3516,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-15",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "sources": [
         "https://embc.embs.org/2027/"
@@ -4122,7 +4122,7 @@
         }
       ],
       "opens": "2026-11-30",
-      "checkedAt": "2026-10-19",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "notes": "Beginner-level Python is required; no prior machine-learning experience is expected. Applications open 30 November 2026."
     },
@@ -4325,7 +4325,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-20",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "submissionState": "not-open",
       "notes": "Registration, speakers and programme are not yet announced. The organizer has not yet stated whether abstracts will be accepted or published any submission deadline."
@@ -4515,7 +4515,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
       "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
@@ -4653,7 +4653,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-27",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -4669,16 +4669,16 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official IPCAI, ISBI, ISMRM and RECOMB sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed X discovery. Added CSHL Biology of Genomes 2027 and an EMBL quantitative-proteomics course with explicit computational, statistical and AI content. Their organizer pages contain documented stale-year/template text, so both are marked needs-review while only mutually corroborated dates are recorded. Urgent submission deadlines were unchanged. Indexed X supplied no independently usable in-scope call. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
+  "researchNotes": "Official ISMRM, RECOMB, ISBI, IPCAI, CVPR, AIME, EMBC and MIDL sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed X discovery. EMBL now publishes a 17 January 2027 application deadline for transcriptome–proteome integration, while the same page still says applications are not open; the deadline is recorded, the state remains not-open and the conflict is explicit. Other urgent deadlines were unchanged. Indexed X supplied no independently usable in-scope call. MICCAI 2027 and HUPO 2027 were inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Tiers remain editorial, field-specific assessments.",
   "lastRun": {
-    "summary": "Added CSHL Biology of Genomes 2027 and EMBL quantitative-proteomics training; urgent ISMRM, RECOMB, IPCAI and ISBI deadlines were reverified without changes.",
-    "reviewedAt": "2026-10-26T00:13:10Z",
+    "summary": "Added EMBL's 17 January 2027 application deadline for transcriptome–proteome integration; urgent conference deadlines were reverified without changes.",
+    "reviewedAt": "2026-10-27T00:22:13Z",
     "partial": true,
-    "reviewedExistingCount": 14,
-    "addedCount": 2,
-    "partialRecordCount": 5,
+    "reviewedExistingCount": 24,
+    "addedCount": 0,
+    "partialRecordCount": 4,
     "failedRecordCount": 3,
-    "notReviewedCount": 94,
+    "notReviewedCount": 86,
     "reviewedIds": [
       "recomb-2027",
       "isbi-2027",
@@ -4688,18 +4688,26 @@
       "ebi-proteomics-2027",
       "ebi-metagenomics-2027",
       "ebi-genome-bioinformatics-2027",
-      "ebi-sequences-structures-2027",
+      "ebi-datascience-2027",
       "ebi-multiomics-2027",
+      "ebi-sequences-structures-2027",
       "embl-aibio-2027",
+      "embl-ai-medicine-2027",
+      "embl-quant-proteomics-2027",
+      "embl-transcriptome-proteome-2027",
       "embl-predictive-2027",
       "embl-insitu-2027",
-      "cshl-genome-informatics-2027"
+      "cshl-course-c-qicm",
+      "cshl-course-c-data",
+      "cshl-probgen",
+      "cvpr-2027",
+      "aime-2027",
+      "embc-2027",
+      "midl-2027"
     ],
-    "addedIds": [
-      "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027"
-    ],
+    "addedIds": [],
     "changedIds": [
+      "embl-transcriptome-proteome-2027",
       "recomb-2027",
       "isbi-2027",
       "ismrm-2027",
@@ -4708,21 +4716,27 @@
       "ebi-proteomics-2027",
       "ebi-metagenomics-2027",
       "ebi-genome-bioinformatics-2027",
-      "ebi-sequences-structures-2027",
+      "ebi-datascience-2027",
       "ebi-multiomics-2027",
+      "ebi-sequences-structures-2027",
       "embl-aibio-2027",
+      "embl-ai-medicine-2027",
+      "embl-quant-proteomics-2027",
       "embl-predictive-2027",
       "embl-insitu-2027",
-      "cshl-genome-informatics-2027",
-      "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027",
+      "cshl-course-c-qicm",
+      "cshl-course-c-data",
+      "cshl-probgen",
+      "cvpr-2027",
+      "aime-2027",
+      "embc-2027",
+      "midl-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
     ],
     "partialIds": [
-      "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027",
+      "embl-transcriptome-proteome-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
@@ -4746,7 +4760,8 @@
       "embl-gene-regulation-2027",
       "ebi-metagenomics-2027",
       "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027"
+      "cshl-biology-genomes-2027",
+      "embl-transcriptome-proteome-2027"
     ],
     "failedSources": [
       {
@@ -4762,7 +4777,7 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were searched. CSHL Biology of Genomes and EMBL quantitative proteomics cleared the scope and primary-source threshold. Indexed public X remained sparse and produced no independent call suitable for inclusion; broad AI-only entries stayed excluded. Two newly added organizer pages contain clearly documented year/template inconsistencies, so their verification is marked needs-review without inventing corrections.",
+    "discoveryNotes": "Official EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were searched, as were current biomedical AI, imaging and bioinformatics conference calls. EMBL's transcriptome–proteome integration course supplied a newly published application deadline, but its registration-state text conflicts with its application link and is flagged. Indexed public X remained sparse and supplied no independent in-scope call that cleared primary-source verification. Broad AI-only entries stayed excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "ismrm-2027",
@@ -4803,6 +4818,14 @@
         "time": "23:59",
         "zone": "AoE",
         "singapore": "2026-11-05T19:59:00+08:00"
+      },
+      {
+        "eventId": "embl-predictive-2027",
+        "label": "Abstract submission (on-site participants only)",
+        "date": "2026-11-10",
+        "time": null,
+        "zone": null,
+        "singapore": null
       }
     ],
     "otherHighRelevanceDeadlinesWithin14Days": [
