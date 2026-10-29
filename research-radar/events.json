@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-28T00:29:44.584Z",
+  "updatedAt": "2026-10-29T00:12:26.276Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The 28 October abstract registration is mandatory for the main peer-reviewed paper track; no new submission may be created afterward. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -250,7 +250,7 @@
         {
           "label": "Four-page paper",
           "date": "2026-11-02",
-          "zone": "EDT",
+          "zone": "EDT as published",
           "time": "23:59"
         },
         {
@@ -266,10 +266,10 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "needs-review",
       "fullName": "International Symposium on Biomedical Imaging",
-      "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026. One-page abstracts are poster-only and are not in the proceedings. The site says EDT for all deadlines, including winter dates; winter deadline timezone wording still needs organizer confirmation.",
+      "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026. One-page abstracts are poster-only and are not in the proceedings. The site labels all deadlines “EDT,” including winter dates when North American civil time would normally be EST; the wording is retained as published and no definitive Singapore conversion is asserted.",
       "tier": "T2",
       "tierField": "Medical imaging AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -568,7 +568,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-24: the official MICCAI 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-10-29: the official MICCAI 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -825,7 +825,7 @@
         "precision": "city"
       },
       "submissionState": "not-open",
-      "checkError": "2026-10-24: the official HUPO 2027 site was inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+      "checkError": "2026-10-29: the official HUPO 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
     },
     {
       "id": "ushupo-2027",
@@ -1127,7 +1127,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1364,7 +1364,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1523,7 +1523,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1862,7 +1862,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2107,7 +2107,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2148,7 +2148,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2671,13 +2671,13 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "sources": [
         "https://www.ismrm.org/27m/",
         "https://www.ismrm.org/27m/stipends/educational-program/"
       ],
-      "notes": "Tracks ISMRM scientific abstracts, not the separate ISMRT track. The scientific abstract and educational-stipend applications close 28 October 2026 at 23:59 UTC. The stipend is administrative rather than a separate research-submission route, is integrated into ECHO, requires 2027 membership, and limits postdoctoral eligibility to doctorates received after 31 July 2023.",
+      "notes": "Tracks ISMRM scientific abstracts, not the separate ISMRT track. The scientific abstract and educational-stipend deadlines passed on 29 October 2026 at 07:59 Singapore time (28 October, 23:59 UTC); no extension is published. The stipend was administrative rather than a separate research-submission route, required 2027 membership, and limited postdoctoral eligibility to doctorates received after 31 July 2023.",
       "tier": "T1",
       "tierField": "Magnetic resonance imaging",
       "tierReason": "Editorial assessment: a flagship or central international meeting in the stated field. This does not imply equal selectivity across fields or tracks.",
@@ -2688,7 +2688,8 @@
         "label": "Vancouver",
         "precision": "city"
       },
-      "opens": "2026-10-01"
+      "opens": "2026-10-01",
+      "submissionState": "closed"
     },
     {
       "id": "ohbm-2027",
@@ -3057,7 +3058,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-24: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
+      "checkError": "2026-10-29: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -3117,7 +3118,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3189,7 +3190,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "submissionState": "not-open",
       "opens": "2027-03-08",
@@ -3260,7 +3261,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "opens": "2027-05-04",
       "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
@@ -4122,7 +4123,7 @@
         }
       ],
       "opens": "2026-11-30",
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "notes": "Beginner-level Python is required; no prior machine-learning experience is expected. Applications open 30 November 2026."
     },
@@ -4461,7 +4462,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-26",
+      "checkedAt": "2026-10-29",
       "verification": "needs-review",
       "notes": "The official event header and CSHL genetics calendar agree on 11–15 May 2027 and the 19 February abstract deadline. The detail page also displays a stale 'past event' banner, calls the meeting '2026' in one paragraph and uses #BOG26; these template inconsistencies are flagged. No cutoff time or timezone is published."
     },
@@ -4515,7 +4516,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
       "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
@@ -4653,7 +4654,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-29",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -4784,6 +4785,55 @@
         "label": "Orlando",
         "precision": "city"
       }
+    },
+    {
+      "id": "mie-2027",
+      "name": "MIE 2027 · Medical Informatics Europe",
+      "fullName": "European Federation for Medical Informatics Conference on Medical Informatics Europe",
+      "type": "Conference",
+      "topics": [
+        "Biomedical AI",
+        "NLP & LLMs",
+        "Foundation models",
+        "AI & ML"
+      ],
+      "fit": "High",
+      "relevance": "Established medical-informatics conference with explicit tracks on trustworthy clinical AI, generative and agentic systems, multimodal models, risk prediction, knowledge graphs and privacy-preserving learning.",
+      "location": "Tallinn, Estonia",
+      "start": "2027-04-26",
+      "end": "2027-04-30",
+      "source": "https://mie2027.efmi.org/call-for-papers",
+      "sources": [
+        "https://mie2027.efmi.org/programme/key-dates"
+      ],
+      "deadlines": [
+        {
+          "label": "Full paper / short communication / poster (extended)",
+          "date": "2026-11-03",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Panel / workshop / tutorial / demonstration proposal",
+          "date": "2027-01-26",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "verification": "official",
+      "notes": "The main research-submission deadline was extended from 20 October to 3 November 2026. The organizer does not publish a cutoff time or timezone, so no Singapore-time conversion is inferred. Accepted full papers, short communications and posters are published in the indexed IOS Press Studies in Health Technology and Informatics series.",
+      "tier": "T2",
+      "tierField": "Medical informatics & clinical AI",
+      "tierReason": "Editorial assessment: a leading European specialist conference in medical informatics and digital health; not a universal venue ranking.",
+      "country": "Estonia",
+      "geo": {
+        "lat": 59.44,
+        "lon": 24.75,
+        "label": "Tallinn",
+        "precision": "city"
+      }
     }
   ],
   "tierPolicy": {
@@ -4796,21 +4846,23 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official ISMRM, RECOMB, ISBI, IPCAI and CVPR sources were rechecked alongside EMBL, EMBL-EBI, CSHL, Wellcome Sanger and indexed-web/X discovery. Three primary-source additions cleared scope review: EMBL’s selected-entry microbial metagenomics course, the fourth SciFM conference with an explicit therapeutics/biology/medicine focus, and FABRIC’s WACV biomedical foundation-AI workshop. The EMBL course’s official event card and programme support 5–12 April 2027, while its day-1 line contains a 2026 typo; the record is therefore flagged needs-review. FABRIC’s submission route has closed, and SciFM has not announced a poster/research-submission deadline. Indexed X supplied no independently usable in-scope call; the additions were verified on organizer sites. MICCAI 2027 and HUPO 2027 remained inaccessible, while the dedicated RECOMB-CCB page still returned 404; prior verified facts and checkedAt values were preserved. Broad AI-only entries stayed excluded. Tiers remain editorial, field-specific assessments.",
+  "researchNotes": "Official ISMRM, RECOMB, IPCAI, ISBI, CVPR, EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were reviewed alongside broader biomedical-AI and bioinformatics discovery. MIE 2027 was added from the official EFMI call because its extended 3 November deadline and explicit trustworthy, agentic and multimodal clinical-AI track meet scope. ISMRM’s abstract/stipend window has passed with no extension announced. ISBI’s four-page-paper timezone is now recorded as “EDT as published”; the organizer uses that label for winter dates, so the dashboard no longer asserts a definitive Singapore conversion. Indexed X returned no usable results. MICCAI 2027 and HUPO 2027 remained inaccessible, while the dedicated RECOMB-CCB page still returned 404; previous facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
   "lastRun": {
-    "summary": "Added three primary-source records: EMBL microbial metagenomics training, SciFM 2027 and FABRIC 2027; urgent submission gates were reverified without date changes.",
-    "reviewedAt": "2026-10-28T00:29:44.584Z",
+    "summary": "Added MIE 2027 with its extended 3 November research deadline; closed the passed ISMRM route and clarified ISBI’s organizer-published timezone ambiguity.",
+    "reviewedAt": "2026-10-29T00:12:26.276Z",
     "partial": true,
-    "reviewedExistingCount": 21,
-    "addedCount": 3,
+    "reviewedExistingCount": 17,
+    "addedCount": 1,
     "partialRecordCount": 4,
     "failedRecordCount": 3,
-    "notReviewedCount": 89,
+    "notReviewedCount": 96,
     "reviewedIds": [
-      "recomb-2027",
-      "isbi-2027",
       "ismrm-2027",
+      "recomb-2027",
       "ipcai-2027",
+      "isbi-2027",
+      "embl-insitu-2027",
+      "embl-predictive-2027",
       "cvpr-2027",
       "ebi-structural-2027",
       "ebi-proteomics-2027",
@@ -4819,29 +4871,21 @@
       "ebi-datascience-2027",
       "ebi-multiomics-2027",
       "ebi-sequences-structures-2027",
-      "embl-aibio-2027",
-      "embl-ai-medicine-2027",
-      "embl-quant-proteomics-2027",
-      "embl-transcriptome-proteome-2027",
-      "embl-predictive-2027",
-      "embl-insitu-2027",
-      "cshl-course-c-qicm",
       "cshl-course-c-data",
       "cshl-probgen",
-      "embl-microbial-metagenomics-2027",
-      "scifm-2027",
-      "fabric-wacv-2027"
+      "cshl-biology-genomes-2027",
+      "mie-2027"
     ],
     "addedIds": [
-      "embl-microbial-metagenomics-2027",
-      "scifm-2027",
-      "fabric-wacv-2027"
+      "mie-2027"
     ],
     "changedIds": [
-      "recomb-2027",
-      "isbi-2027",
       "ismrm-2027",
+      "recomb-2027",
       "ipcai-2027",
+      "isbi-2027",
+      "embl-insitu-2027",
+      "embl-predictive-2027",
       "cvpr-2027",
       "ebi-structural-2027",
       "ebi-proteomics-2027",
@@ -4850,21 +4894,16 @@
       "ebi-datascience-2027",
       "ebi-multiomics-2027",
       "ebi-sequences-structures-2027",
-      "embl-aibio-2027",
-      "embl-ai-medicine-2027",
-      "embl-quant-proteomics-2027",
-      "embl-transcriptome-proteome-2027",
-      "embl-predictive-2027",
-      "embl-insitu-2027",
-      "cshl-course-c-qicm",
       "cshl-course-c-data",
       "cshl-probgen",
-      "embl-microbial-metagenomics-2027",
-      "scifm-2027",
-      "fabric-wacv-2027"
+      "cshl-biology-genomes-2027",
+      "mie-2027",
+      "miccai-2027",
+      "hupo-2027",
+      "recombccb-next"
     ],
     "partialIds": [
-      "embl-microbial-metagenomics-2027",
+      "isbi-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
@@ -4890,32 +4929,25 @@
       "embl-quant-proteomics-2027",
       "cshl-biology-genomes-2027",
       "embl-transcriptome-proteome-2027",
-      "embl-microbial-metagenomics-2027"
+      "embl-microbial-metagenomics-2027",
+      "isbi-2027"
     ],
     "failedSources": [
       {
         "url": "https://conferences.miccai.org/2027/en/",
-        "reason": "The official MICCAI 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+        "reason": "The official MICCAI 2027 site remained inaccessible. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
       },
       {
         "url": "https://2027.hupo.org/",
-        "reason": "The official HUPO 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+        "reason": "The official HUPO 2027 site remained inaccessible. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
       },
       {
         "url": "https://recomb.org/recomb-ccb2027",
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official organizer calendars and calls were searched for AI × biology, structural bioinformatics, protein/RNA modelling, genomics, proteomics, multi-omics, biomedical foundation models, medical imaging and advanced training. Three newly announced in-scope records passed primary-source verification. Indexed public X remained sparse and produced no standalone call that could be verified independently. Broad AI-only events and previously archived entries were not reintroduced.",
+    "discoveryNotes": "Official provider calendars and conference calls were searched for AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics, protein/RNA and structural bioinformatics. MIE 2027 passed the explicit-biomedical-route and primary-source tests. Indexed public X returned no results. Broad AI-only and archived entries were excluded.",
     "highRelevanceWithin14Days": [
-      {
-        "eventId": "ismrm-2027",
-        "label": "Scientific abstract",
-        "date": "2026-10-28",
-        "time": "23:59",
-        "zone": "UTC",
-        "singapore": "2026-10-29T07:59:00+08:00"
-      },
       {
         "eventId": "recomb-2027",
         "label": "Mandatory abstract registration",
@@ -4934,11 +4966,19 @@
       },
       {
         "eventId": "isbi-2027",
-        "label": "Four-page paper (extended)",
+        "label": "Four-page paper (extended; timezone wording ambiguous)",
         "date": "2026-11-02",
         "time": "23:59",
         "zone": "EDT as published",
-        "singapore": "2026-11-03T11:59:00+08:00"
+        "singapore": null
+      },
+      {
+        "eventId": "mie-2027",
+        "label": "Full paper / short communication / poster (extended)",
+        "date": "2026-11-03",
+        "time": null,
+        "zone": null,
+        "singapore": null
       },
       {
         "eventId": "embl-insitu-2027",
@@ -4963,17 +5003,16 @@
         "time": null,
         "zone": null,
         "singapore": null
+      },
+      {
+        "eventId": "cvpr-2027",
+        "label": "Paper / abstract registration",
+        "date": "2026-11-10",
+        "time": "23:59",
+        "zone": "AoE",
+        "singapore": "2026-11-11T19:59:00+08:00"
       }
     ],
-    "otherHighRelevanceDeadlinesWithin14Days": [
-      {
-        "eventId": "ismrm-2027",
-        "label": "Educational stipend application (administrative; eligibility restrictions)",
-        "date": "2026-10-28",
-        "time": "23:59",
-        "zone": "UTC",
-        "singapore": "2026-10-29T07:59:00+08:00"
-      }
-    ]
+    "otherHighRelevanceDeadlinesWithin14Days": []
   }
 }
