@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-30T00:56:24.901Z",
+  "updatedAt": "2026-10-31T00:34:28.592Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The mandatory abstract-registration gate has closed; no new main-track paper submission can now be created. Existing abstract registrations may update the full paper until 4 November 2026 at 23:59 AoE. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA.",
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -266,7 +266,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "The official home page moved the four-page paper deadline from 26 October to 2 November 2026 and now states that all deadlines are 23:59 USA Eastern Time (ET). The IANA timezone America/New_York is recorded so daylight-saving changes are handled correctly; the four-page deadline converts to 3 November at 12:59 Singapore time. One-page abstracts are poster-only and do not appear in the proceedings.",
@@ -571,7 +571,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-10-30: the official MICCAI 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-10-31: the official MICCAI 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -828,7 +828,7 @@
         "precision": "city"
       },
       "submissionState": "not-open",
-      "checkError": "2026-10-30: the official HUPO 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
+      "checkError": "2026-10-31: the official HUPO 2027 site remained inaccessible to the checker. Previously verified dates, venue and checkedAt were preserved; exact submission dates remain unannounced."
     },
     {
       "id": "ushupo-2027",
@@ -1637,7 +1637,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-13",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "format": "Online",
       "tier": "Training",
@@ -1715,7 +1715,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-28",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "T2",
@@ -1865,7 +1865,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2110,7 +2110,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2151,7 +2151,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2325,7 +2325,7 @@
           "time": "00:00"
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "notes": "The organizer publishes the cutoff as 12:00am on 14 November 2026 AEDT; this is transcribed exactly and means midnight at the start of 14 November. Confirm the portal cutoff rather than assuming end-of-day. Accepted oral and poster presentations are in person."
     },
@@ -3061,7 +3061,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-10-30: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
+      "checkError": "2026-10-31: the dedicated RECOMB-CCB 2027 URL still returned 404. Parent RECOMB dates were retained, but the satellite location and submission deadline remain unverified; checkedAt preserved."
     },
     {
       "id": "bionlp-next",
@@ -3121,7 +3121,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3193,7 +3193,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "submissionState": "not-open",
       "opens": "2027-03-08",
@@ -3264,7 +3264,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "opens": "2027-05-04",
       "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
@@ -3909,7 +3909,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. Cutoff time and timezone are unverified."
     },
@@ -3950,7 +3950,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-18",
+      "checkedAt": "2026-10-31",
       "verification": "needs-review",
       "notes": "The event dates, hybrid venue and 26 July abstract deadline are consistent across the organizer page. The same page contains stale/conflicting administrative text: one paragraph says the bursary deadline is 16 November 2026 while its deadline summary says 28 June 2027, and an accommodation paragraph incorrectly references 1–2 March 2027. Those conflicting bursary/accommodation facts are not catalogued.",
       "tier": "T3",
@@ -4012,7 +4012,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-10",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "submissionState": "closed",
       "notes": "Abstract submissions are closed. Attendance registration remains available but is not a new abstract route. Header and programme confirm 2–4 December; an accommodation paragraph mistakenly says November, so confirm lodging dates separately."
@@ -4126,7 +4126,7 @@
         }
       ],
       "opens": "2026-11-30",
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "notes": "Beginner-level Python is required; no prior machine-learning experience is expected. Applications open 30 November 2026."
     },
@@ -4519,7 +4519,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "fullName": "International Conference on Information Processing in Computer-Assisted Interventions",
       "notes": "The initial registration is a required submission-creation gate. The organizer states that the 23 October registration and 30 October regular-paper deadlines will not be extended; all timeline deadlines are end-of-day Pacific Time (23:59 PT)."
@@ -4657,7 +4657,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-29",
+      "checkedAt": "2026-10-31",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -4824,7 +4824,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-10-30",
+      "checkedAt": "2026-10-31",
       "verification": "official",
       "notes": "The main research-submission deadline was extended from 20 October to 3 November 2026. The organizer does not publish a cutoff time or timezone, so no Singapore-time conversion is inferred. Accepted full papers, short communications and posters are published in the indexed IOS Press Studies in Health Technology and Informatics series.",
       "tier": "T2",
@@ -4837,6 +4837,117 @@
         "label": "Tallinn",
         "precision": "city"
       }
+    },
+    {
+      "id": "sanger-virus-genomics-2026",
+      "name": "Wellcome Sanger · Virus Genomics, Evolution and Bioinformatics 2026",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Genomics",
+        "AI & ML",
+        "Public health"
+      ],
+      "fit": "High",
+      "relevance": "Focused viral-genomics meeting with explicit bioinformatics, machine-learning and AI themes spanning evolution, metagenomics, microbiomes and public health.",
+      "location": "Hinxton, UK · hybrid",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "Viral genomics & public-health bioinformatics",
+      "tierReason": "Editorial assessment: an established focused international series with a narrower remit than field-wide genomics or bioinformatics flagships; not a universal venue ranking.",
+      "start": "2026-11-11",
+      "end": "2026-11-13",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/event/virus-genomics-evolution-and-bioinformatics-20261111/",
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2026-09-14",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2026-11-02",
+          "zone": "Europe/London",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-31",
+      "verification": "official",
+      "submissionState": "closed",
+      "notes": "The abstract route has closed. Virtual attendance registration remains available until 2 November 2026 at 23:59 UK time; in-person registration is closed. The organizer explicitly lists bioinformatics, machine learning and AI among the scientific themes."
+    },
+    {
+      "id": "sanger-applied-bioinfo-2027",
+      "name": "Wellcome Sanger · Applied Bioinformatics & Public Health Microbiology 2027",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Genomics",
+        "AI & ML",
+        "Public health"
+      ],
+      "fit": "Relevant",
+      "relevance": "Established specialist forum for microbial and viral genomics, applied bioinformatics, data science and sequencing methods in public-health settings.",
+      "location": "Venue to be announced · hybrid",
+      "country": "Multiple / online",
+      "geo": null,
+      "tier": "T2",
+      "tierField": "Public-health bioinformatics & microbial genomics",
+      "tierReason": "Editorial assessment: an established specialist series for applied bioinformatics and public-health microbiology; not a universal venue ranking.",
+      "start": "2027-06-16",
+      "end": "2027-06-18",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/our-events/conferences/",
+      "sources": [
+        "https://coursesandconferences.wellcomeconnectingscience.org/event/applied-bioinformatics-public-health-microbiology-20250521/"
+      ],
+      "deadlines": [
+        {
+          "label": "Talk / poster abstract",
+          "date": "2027-04-19",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Bursary application",
+          "date": "2027-03-22",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Early-bird in-person registration",
+          "date": "2027-03-22",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "In-person registration",
+          "date": "2027-05-17",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        },
+        {
+          "label": "Virtual registration",
+          "date": "2027-06-07",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-10-31",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "The official 2027 conference listing confirms the dates and deadlines but links only to the 2025 edition. The 2027 venue, city, deadline cutoff times and timezones are not yet published, so they are not inferred and map metadata remains null."
     }
   ],
   "tierPolicy": {
@@ -4849,16 +4960,16 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official RECOMB, IPCAI, ISBI, MIE, CVPR, EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were reviewed. No new event cleared the catalog’s relevance and advanced-training threshold today. RECOMB’s mandatory abstract-registration gate has closed and only updates to existing paper submissions remain available. ISBI’s official home page now says all deadlines are 23:59 USA Eastern Time, resolving the earlier “EDT” wording ambiguity; its deadline zones are stored as America/New_York and the four-page paper converts to 3 November at 12:59 Singapore time. Indexed X returned only unrelated results. MICCAI 2027 and HUPO 2027 remained inaccessible, while the dedicated RECOMB-CCB page still returned 404; previous facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
+  "researchNotes": "Official RECOMB, IPCAI, ISBI, MIE, CVPR, AOHUPO, EMBL, EMBL-EBI, CSHL and Wellcome Sanger sources were reviewed. Two relevant Wellcome Sanger meetings were added: the imminent Virus Genomics, Evolution and Bioinformatics 2026 meeting and the announced Applied Bioinformatics & Public Health Microbiology 2027 conference. No existing organizer deadline changed. IPCAI’s regular-paper deadline remains 30 October at 23:59 Pacific Time, which is 31 October at 14:59 Singapore time, and its required registration gate is closed. Indexed X returned no independently verifiable new call. MICCAI 2027 and HUPO 2027 remained inaccessible, while the dedicated RECOMB-CCB page still returned 404; previous facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
   "lastRun": {
-    "summary": "Resolved ISBI’s timezone ambiguity to America/New_York and recorded the closed RECOMB abstract gate; no new event met the inclusion threshold.",
-    "reviewedAt": "2026-10-30T00:56:24.901Z",
+    "summary": "Added two relevant Wellcome Sanger meetings; no existing deadline changed.",
+    "reviewedAt": "2026-10-31T00:34:28.592Z",
     "partial": true,
-    "reviewedExistingCount": 14,
-    "addedCount": 0,
+    "reviewedExistingCount": 19,
+    "addedCount": 2,
     "partialRecordCount": 3,
     "failedRecordCount": 3,
-    "notReviewedCount": 100,
+    "notReviewedCount": 95,
     "reviewedIds": [
       "recomb-2027",
       "ipcai-2027",
@@ -4867,15 +4978,23 @@
       "embl-insitu-2027",
       "embl-predictive-2027",
       "cvpr-2027",
-      "ebi-multiomics-2027",
-      "embl-quant-proteomics-2027",
-      "embl-microbial-metagenomics-2027",
-      "embl-transcriptome-proteome-2027",
-      "cshl-course-c-qicm",
-      "cshl-course-c-data",
-      "cshl-probgen"
+      "embl-aibio-2027",
+      "ebi-proteomics-2027",
+      "ebi-structural-2027",
+      "ebi-sequences-structures-2027",
+      "ebi-datascience-2027",
+      "ebi-metagenomics-2027",
+      "ebi-genome-bioinformatics-2027",
+      "ebi-sc-2027",
+      "sanger-cancer-epidemiology-2027",
+      "sanger-organoids-2027",
+      "sanger-genome-informatics-2026",
+      "aohupo-aps-2027"
     ],
-    "addedIds": [],
+    "addedIds": [
+      "sanger-virus-genomics-2026",
+      "sanger-applied-bioinfo-2027"
+    ],
     "changedIds": [
       "recomb-2027",
       "ipcai-2027",
@@ -4884,13 +5003,20 @@
       "embl-insitu-2027",
       "embl-predictive-2027",
       "cvpr-2027",
-      "ebi-multiomics-2027",
-      "embl-quant-proteomics-2027",
-      "embl-microbial-metagenomics-2027",
-      "embl-transcriptome-proteome-2027",
-      "cshl-course-c-qicm",
-      "cshl-course-c-data",
-      "cshl-probgen",
+      "embl-aibio-2027",
+      "ebi-proteomics-2027",
+      "ebi-structural-2027",
+      "ebi-sequences-structures-2027",
+      "ebi-datascience-2027",
+      "ebi-metagenomics-2027",
+      "ebi-genome-bioinformatics-2027",
+      "ebi-sc-2027",
+      "sanger-cancer-epidemiology-2027",
+      "sanger-organoids-2027",
+      "sanger-genome-informatics-2026",
+      "aohupo-aps-2027",
+      "sanger-virus-genomics-2026",
+      "sanger-applied-bioinfo-2027",
       "miccai-2027",
       "hupo-2027",
       "recombccb-next"
@@ -4937,7 +5063,7 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official provider calendars and conference calls were searched for AI × biology, biomedical foundation models, imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. No new event met the scope and advanced-training threshold. Indexed X returned only unrelated calls. Broad AI-only and archived entries stayed excluded.",
+    "discoveryNotes": "Official provider calendars and conference calls were searched for AI × biology, biomedical foundation models, imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. Two Wellcome Sanger meetings cleared the scope threshold. A newly listed long-read sequencing course was not added because its organizer describes it as primarily laboratory training with only introductory bioinformatics. Indexed X returned no independently verifiable new call. Broad AI-only and archived entries stayed excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "ipcai-2027",
@@ -4994,8 +5120,35 @@
         "time": "23:59",
         "zone": "AoE",
         "singapore": "2026-11-11T19:59:00+08:00"
+      },
+      {
+        "eventId": "aohupo-aps-2027",
+        "label": "Oral / poster abstract",
+        "date": "2026-11-14",
+        "time": "00:00",
+        "zone": "Australia/Melbourne",
+        "singapore": "2026-11-13T21:00:00+08:00"
       }
     ],
-    "otherHighRelevanceDeadlinesWithin14Days": []
+    "otherHighRelevanceDeadlinesWithin14Days": [
+      {
+        "eventId": "sanger-virus-genomics-2026",
+        "label": "Virtual registration (abstract route closed)",
+        "date": "2026-11-02",
+        "time": "23:59",
+        "zone": "Europe/London",
+        "singapore": "2026-11-03T07:59:00+08:00",
+        "actionable": false
+      },
+      {
+        "eventId": "sanger-genome-informatics-2026",
+        "label": "Late in-person registration (abstract route closed)",
+        "date": "2026-11-02",
+        "time": "23:59",
+        "zone": "Europe/London",
+        "singapore": "2026-11-03T07:59:00+08:00",
+        "actionable": false
+      }
+    ]
   }
 }
