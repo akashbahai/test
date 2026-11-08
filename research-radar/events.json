@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-07T00:54:02.916Z",
+  "updatedAt": "2026-11-08T00:23:49.237Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -153,7 +153,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-10-27",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -571,7 +571,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-11-07: the official MICCAI 2027 site returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-11-08: the official MICCAI 2027 site again returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -871,7 +871,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "notes": "The organizer publishes no cutoff time or timezone. Ordinarily the abstract portal link is supplied after conference registration; authors needing to submit before registering are directed to contact the organizer. Travel-award applicants must also submit an abstract by the same date.",
       "tier": "T3",
@@ -1405,7 +1405,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-08",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1564,7 +1564,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1983,7 +1983,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-03",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "submissionState": "not-open",
       "tier": "Workshop",
@@ -2148,7 +2148,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2184,12 +2184,12 @@
       "deadlines": [
         {
           "label": "Abstract submission",
-          "date": "2026-11-03",
+          "date": "2026-11-10",
           "zone": null,
           "time": null
         }
       ],
-      "checkedAt": "2026-11-05",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2204,8 +2204,7 @@
         "label": "Heidelberg",
         "precision": "city"
       },
-      "notes": "Only on-site participants were eligible to submit abstracts; virtual attendance does not provide an abstract route. The official page now explicitly marks abstract submission closed. It does not publish the cutoff time or timezone. On-site registration remains separate through 5 January 2027 and virtual registration through 2 February 2027.",
-      "submissionState": "closed"
+      "notes": "Only on-site participants are eligible to submit abstracts; virtual attendance does not provide an abstract route. The official page now lists 10 November 2026, replacing its earlier 3 November listing and removing the prior closed state. It does not publish a cutoff time or timezone. On-site registration remains separate through 5 January 2027 and virtual registration through 2 February 2027."
     },
     {
       "id": "wellcome-watch",
@@ -2364,7 +2363,7 @@
           "time": "00:00"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "notes": "The organizer publishes the cutoff as 12:00am on 14 November 2026 AEDT; this is transcribed exactly and means midnight at the start of 14 November. Confirm the portal cutoff rather than assuming end-of-day. Accepted oral and poster presentations are in person."
     },
@@ -2990,7 +2989,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-12",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "sources": [
         "https://www.iscb.org/uk2027/home"
@@ -3100,7 +3099,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-11-07: the dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
+      "checkError": "2026-11-08: the dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
     },
     {
       "id": "bionlp-next",
@@ -3474,7 +3473,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-27",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "sources": [
         "https://aime27.aimedicine.info/"
@@ -3955,7 +3954,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. Cutoff time and timezone are unverified."
     },
@@ -5080,7 +5079,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "notes": "First in-person, non-archival workshop held with AAAI-27. The exact half-day is still TBA within 22–23 February, so the official two-day range is retained. Accepted work may also be under review elsewhere; no virtual presentation option is offered."
     },
@@ -5151,7 +5150,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "official",
       "notes": "Virtual, selection-based course. The listed cutoff is a course-application deadline, not an abstract or paper deadline."
     },
@@ -5258,10 +5257,301 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-08",
       "verification": "needs-review",
       "submissionState": "closed",
       "notes": "The organizer page and its detailed schedule place the in-person workshop on 11 December 2026, while the NeurIPS OpenReview group metadata currently displays 10 December. The organizer's scheduled date is retained, but the one-day conflict remains flagged. The new-submission route closed on 2 September; the 11 November camera-ready/poster deadline applies only to accepted papers. This is a non-archival, unranked workshop."
+    },
+    {
+      "id": "cshl-course-c-single-2027",
+      "name": "CSHL · Single Cell & Spatial Transcriptomics Analysis",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Multi-omics",
+        "Bioinformatics",
+        "Imaging"
+      ],
+      "fit": "Relevant",
+      "relevance": "Intensive single-cell and spatial-transcriptomics training with RNA/DNA analysis, spatial data analysis, single-cell proteomics and mass spectrometry alongside wet-lab methods.",
+      "location": "Cold Spring Harbor, New York, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 40.87,
+        "lon": -73.46,
+        "label": "Cold Spring Harbor",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "Single-cell & spatial-omics training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "start": "2027-07-01",
+      "end": "2027-07-19",
+      "source": "https://meetings.cshl.edu/courses.aspx?course=C-SINGLE",
+      "sources": [
+        "https://meetings.cshl.edu/courses"
+      ],
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-03-12",
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "official",
+      "notes": "Residential CSHL course with a strong wet-lab component and introductory bioinformatics. The organizer publishes no application cutoff time or timezone."
+    },
+    {
+      "id": "sanger-long-read-2027",
+      "name": "Wellcome Sanger · Long read sequencing 2027",
+      "fullName": "Long read sequencing: platforms approaches and applications",
+      "type": "Course",
+      "topics": [
+        "Genomics",
+        "Bioinformatics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Hands-on long-read sequencing course covering platform selection, library preparation, quality control, command-line analysis and interpretation of genomic data.",
+      "location": "Hinxton, UK",
+      "country": "United Kingdom",
+      "geo": {
+        "lat": 52.08,
+        "lon": 0.19,
+        "label": "Hinxton",
+        "precision": "city"
+      },
+      "tier": "Training",
+      "tierField": "Sequencing & genomics training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "start": "2027-03-14",
+      "end": "2027-03-19",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/event/long-read-sequencing-platforms-approaches-and-applications-20270314/",
+      "sources": [
+        "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/"
+      ],
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2026-11-23",
+          "zone": "Europe/London",
+          "time": "23:59"
+        },
+        {
+          "label": "Bursary application · with course application",
+          "date": "2026-11-23",
+          "zone": "Europe/London",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "official",
+      "notes": "Selection-based residential course. It is primarily laboratory training with introductory bioinformatics, not a specialist sequence-analysis course. A sponsor recommendation is required."
+    },
+    {
+      "id": "neurips-gem-bio-2026",
+      "name": "NeurIPS 2026 · GEM Bio",
+      "fullName": "Generative and Experimental Perspectives for Biomolecular Design",
+      "type": "Workshop",
+      "topics": [
+        "AI & ML",
+        "Structural bioinformatics",
+        "Protein & RNA",
+        "Drug discovery",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Generative biomolecular design workshop bridging dry-lab ML with experimental validation across proteins, nucleic acids and other molecules.",
+      "location": "Atlanta, Georgia, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 33.75,
+        "lon": -84.39,
+        "label": "Atlanta",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Generative biomolecular design",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS host conference.",
+      "start": "2026-12-13",
+      "end": "2026-12-13",
+      "source": "https://www.gembio.ai/",
+      "sources": [
+        "https://openreview.net/group?id=NeurIPS.cc%2F2026%2FWorkshop%2FGEM_Bio"
+      ],
+      "deadlines": [
+        {
+          "label": "Short paper / wet-lab extended abstract (extended)",
+          "date": "2026-09-06",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Camera-ready · accepted papers only",
+          "date": "2026-11-25",
+          "zone": "AoE",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "needs-review",
+      "submissionState": "closed",
+      "notes": "Organizer page shows the final extended submission date after struck-through earlier dates and places the workshop on 13 December in Atlanta. OpenReview metadata incorrectly displays 3 August as the venue date, so the organizer date is retained and the discrepancy is flagged. Non-archival workshop."
+    },
+    {
+      "id": "neurips-genai4health-2026",
+      "name": "NeurIPS 2026 · GenAI4Health",
+      "fullName": "Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "Foundation models",
+        "AI & ML",
+        "Imaging"
+      ],
+      "fit": "High",
+      "relevance": "Generative and agentic AI for healthcare, including multimodal clinical models, medical imaging, longitudinal patient modelling, safety and human–AI collaboration.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Generative AI for health",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS host conference.",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "source": "https://genai4health.github.io/2026-NeurIPS/",
+      "sources": [
+        "https://openreview.net/group?id=NeurIPS.cc%2F2026%2FWorkshop%2FGenAI4Health"
+      ],
+      "deadlines": [
+        {
+          "label": "Research / demonstration / position paper (extended)",
+          "date": "2026-09-09",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Camera-ready · accepted papers only",
+          "date": "2026-10-25",
+          "zone": "AoE",
+          "time": "23:59",
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "needs-review",
+      "submissionState": "closed",
+      "notes": "Third edition; non-archival workshop. The organizer page gives 12 December in Sydney, while OpenReview metadata shows 11 December; the organizer date is displayed and the one-day conflict is documented."
+    },
+    {
+      "id": "neurips-brainbodyfm-2026",
+      "name": "NeurIPS 2026 · Foundation Models for the Brain and Body",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "Foundation models",
+        "AI & ML",
+        "Neuroimaging",
+        "Imaging"
+      ],
+      "fit": "High",
+      "relevance": "Foundation models for neural, physiological and behavioural signals, including EEG, EMG, ECG, wearables, neural decoding and brain–computer interfaces.",
+      "location": "Sydney, Australia",
+      "country": "Australia",
+      "geo": {
+        "lat": -33.87,
+        "lon": 151.21,
+        "label": "Sydney",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Biomedical foundation models & biosignals",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS host conference.",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "source": "https://brainbodyfm-workshop.github.io/",
+      "sources": [
+        "https://brainbodyfm-workshop.github.io/call-for-papers",
+        "https://openreview.net/group?id=NeurIPS.cc%2F2026%2FWorkshop%2FBrainBodyFM"
+      ],
+      "deadlines": [
+        {
+          "label": "Workshop paper",
+          "date": "2026-09-05",
+          "zone": "AoE",
+          "time": "23:59"
+        },
+        {
+          "label": "Demo submission",
+          "date": "2026-09-19",
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Camera-ready · accepted papers only",
+          "date": "2026-11-06",
+          "zone": null,
+          "time": null,
+          "actionable": false
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "needs-review",
+      "submissionState": "closed",
+      "notes": "Second edition; non-archival workshop. The organizer page and schedule give 12 December in Sydney, while OpenReview metadata displays 10 December; the organizer date is displayed and the conflict is documented."
+    },
+    {
+      "id": "neurips-ml4spatialbio-2026",
+      "name": "NeurIPS 2026 · ML4SpatialBio",
+      "fullName": "Machine Learning for Spatially Resolved High-dimensional Biology",
+      "type": "Workshop",
+      "topics": [
+        "AI & ML",
+        "Multi-omics",
+        "Genomics",
+        "Proteomics",
+        "Imaging",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Dedicated ML venue for spatial transcriptomics, spatial proteomics, multiplex imaging, tissue-scale multimodal integration and spatial foundation models.",
+      "location": "Paris, France",
+      "country": "France",
+      "geo": {
+        "lat": 48.86,
+        "lon": 2.35,
+        "label": "Paris",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Machine learning for spatial biology",
+      "tierReason": "Unranked workshop; its standing is not equated with the NeurIPS host conference.",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "source": "https://imsb-uke.github.io/ml4spatialbio-2026/",
+      "sources": [
+        "https://openreview.net/group?id=NeurIPS.cc%2F2026%2FWorkshop%2FML4SpatialBio"
+      ],
+      "deadlines": [
+        {
+          "label": "Workshop paper (extended)",
+          "date": "2026-09-04",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-11-08",
+      "verification": "needs-review",
+      "submissionState": "closed",
+      "notes": "The organizer page confirms Paris but still labels the December day TBA and gives an extended 4 September AoE deadline. OpenReview metadata lists 12 December and a conflicting 6 September 16:00 UTC deadline. The OpenReview event date is displayed while the discrepancies remain flagged."
     }
   ],
   "tierPolicy": {
@@ -5274,17 +5564,18 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official EMBL, CVPR, AOHUPO, MedWM, US HUPO, Wellcome Sanger, EMBL-EBI and CSHL sources were reviewed, alongside public and indexed-X discovery. Added the confirmed NeurIPS 2026 ICBINB-BIO workshop because its organizer page explicitly covers failure modes and robustness in genomic, cellular, structural and therapeutic AI, including foundation and agentic models. The workshop is unranked and its submission route is closed; its accepted-paper camera-ready/poster date remains separate. The organizer schedule says 11 December in Sydney, while OpenReview metadata shows 10 December, so the record is needs-review and documents the conflict. No other new top or strongly in-scope venue was independently verified. The proposed ICLR 2027 Scientific World Models workshop remains excluded until the host decision. MICCAI 2027 remained inaccessible and RECOMB-CCB still returned 404, so their prior facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
+  "researchNotes": "Official EMBL, CSHL, Wellcome Sanger, CVPR, AOHUPO, MedWM, US HUPO, EMBL-EBI, MIDL, AIME, ISCB-UK and NeurIPS workshop sources were reviewed, alongside public and indexed-X discovery. EMBL's in-situ structural-biology abstract date moved from 3 to 10 November and the prior closed state was cleared. Added two relevant training editions (CSHL single-cell/spatial transcriptomics and Sanger long-read sequencing) and four confirmed AI × biology or health NeurIPS workshops: GEM Bio, GenAI4Health, Foundation Models for the Brain and Body, and ML4SpatialBio. Workshops remain unranked and do not inherit NeurIPS standing; source conflicts in OpenReview date metadata or submission dates are documented as needs-review. The proposed ICLR 2027 Scientific World Models workshop remains excluded until the host decision. MICCAI 2027 remained inaccessible and RECOMB-CCB still returned 404, so their verified facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
   "lastRun": {
-    "summary": "Added the confirmed ICBINB-BIO NeurIPS workshop with its closed submission route, accepted-paper deadline and documented date conflict; rechecked imminent deadlines and provider calendars.",
-    "reviewedAt": "2026-11-07T00:54:02.916Z",
+    "summary": "Extended EMBL in-situ structural-biology abstracts to the newly published 10 November date; added two training courses and four confirmed AI × biology/health NeurIPS workshops; rechecked imminent deadlines and provider calendars.",
+    "reviewedAt": "2026-11-08T00:23:49.237Z",
     "partial": true,
-    "reviewedExistingCount": 11,
-    "addedCount": 1,
-    "partialRecordCount": 2,
+    "reviewedExistingCount": 15,
+    "addedCount": 6,
+    "partialRecordCount": 7,
     "failedRecordCount": 2,
-    "notReviewedCount": 108,
+    "notReviewedCount": 105,
     "reviewedIds": [
+      "embl-insitu-2027",
       "embl-predictive-2027",
       "cvpr-2027",
       "aohupo-aps-2027",
@@ -5292,15 +5583,24 @@
       "sanger-cancer-epidemiology-2027",
       "ushupo-2027",
       "ebi-multiomics-2027",
-      "ebi-structural-2027",
-      "ebi-proteomics-2027",
       "ebi-rnaseq-2027",
-      "cshl-probgen"
+      "embl-structural-2027",
+      "aime-2027",
+      "midl-2027",
+      "iscbuk-2027",
+      "neurips-icbinb-bio-2026",
+      "cshl-course-c-data"
     ],
     "addedIds": [
-      "neurips-icbinb-bio-2026"
+      "cshl-course-c-single-2027",
+      "sanger-long-read-2027",
+      "neurips-gem-bio-2026",
+      "neurips-genai4health-2026",
+      "neurips-brainbodyfm-2026",
+      "neurips-ml4spatialbio-2026"
     ],
     "changedIds": [
+      "embl-insitu-2027",
       "embl-predictive-2027",
       "cvpr-2027",
       "aohupo-aps-2027",
@@ -5308,15 +5608,28 @@
       "sanger-cancer-epidemiology-2027",
       "ushupo-2027",
       "ebi-multiomics-2027",
-      "ebi-structural-2027",
-      "ebi-proteomics-2027",
       "ebi-rnaseq-2027",
-      "cshl-probgen",
+      "embl-structural-2027",
+      "aime-2027",
+      "midl-2027",
+      "iscbuk-2027",
       "neurips-icbinb-bio-2026",
+      "cshl-course-c-data",
+      "cshl-course-c-single-2027",
+      "sanger-long-read-2027",
+      "neurips-gem-bio-2026",
+      "neurips-genai4health-2026",
+      "neurips-brainbodyfm-2026",
+      "neurips-ml4spatialbio-2026",
       "miccai-2027",
       "recombccb-next"
     ],
     "partialIds": [
+      "neurips-icbinb-bio-2026",
+      "neurips-gem-bio-2026",
+      "neurips-genai4health-2026",
+      "neurips-brainbodyfm-2026",
+      "neurips-ml4spatialbio-2026",
       "miccai-2027",
       "recombccb-next"
     ],
@@ -5341,7 +5654,11 @@
       "cshl-biology-genomes-2027",
       "embl-transcriptome-proteome-2027",
       "embl-microbial-metagenomics-2027",
-      "neurips-icbinb-bio-2026"
+      "neurips-icbinb-bio-2026",
+      "neurips-gem-bio-2026",
+      "neurips-genai4health-2026",
+      "neurips-brainbodyfm-2026",
+      "neurips-ml4spatialbio-2026"
     ],
     "failedSources": [
       {
@@ -5353,8 +5670,16 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official organizer calendars and calls were searched for AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. Indexed X led to ICBINB-BIO, which was verified on its organizer site, detailed schedule and NeurIPS OpenReview venue before inclusion. The pending ICLR Scientific World Models proposal was not added before its host decision. Current provider results were otherwise already catalogued; broad/commercial series and archived AI-only entries stayed excluded.",
+    "discoveryNotes": "Official organizer calendars and calls were searched for AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. Four NeurIPS workshops with direct biological or biomedical scope and two advanced/relevant training editions were added from primary organizer pages. Indexed X returned no usable, independently verifiable addition. The pending ICLR Scientific World Models proposal was not added before its host decision; broad/commercial series and archived AI-only entries stayed excluded.",
     "highRelevanceWithin14Days": [
+      {
+        "eventId": "embl-insitu-2027",
+        "label": "Abstract submission (on-site participants only)",
+        "date": "2026-11-10",
+        "time": null,
+        "zone": null,
+        "singapore": null
+      },
       {
         "eventId": "embl-predictive-2027",
         "label": "Abstract submission (on-site participants only)",
