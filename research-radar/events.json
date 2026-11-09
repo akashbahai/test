@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-08T00:23:49.237Z",
+  "updatedAt": "2026-11-09T00:55:04.894Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The mandatory abstract-registration gate and the main-track full-paper update window have closed; no new or updated main-track paper submissions remain available. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA, so the event is not marked globally closed.",
@@ -99,7 +99,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -153,7 +153,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -571,7 +571,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-11-08: the official MICCAI 2027 site again returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-11-09: the official MICCAI 2027 site again returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -871,7 +871,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "The organizer publishes no cutoff time or timezone. Ordinarily the abstract portal link is supplied after conference registration; authors needing to submit before registering are directed to contact the organizer. Travel-award applicants must also submit an abstract by the same date.",
       "tier": "T3",
@@ -1088,7 +1088,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "Research-track deadlines are 23:59 Anywhere on Earth. The workshop-proposal date is an organizer deadline, not an author paper or abstract route; individual workshop calls are due to be released 5 March 2027.",
       "tier": "T2",
@@ -1903,7 +1903,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2148,7 +2148,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "fullName": "From molecules to the future of predictive biology: memorial symposium for Peer Bork",
       "sources": [
@@ -2189,7 +2189,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "sources": [
         "https://www.embl.org/events/"
@@ -2363,7 +2363,7 @@
           "time": "00:00"
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "The organizer publishes the cutoff as 12:00am on 14 November 2026 AEDT; this is transcribed exactly and means midnight at the start of 14 November. Confirm the portal cutoff rather than assuming end-of-day. Accepted oral and poster presentations are in person."
     },
@@ -2668,7 +2668,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-10-22",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -2897,7 +2897,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "sources": [
         "https://www.iscb.org/component/content/article/home-uk-2027",
@@ -3099,7 +3099,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-11-08: the dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
+      "checkError": "2026-11-09: the dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
     },
     {
       "id": "bionlp-next",
@@ -3159,7 +3159,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-07",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3301,7 +3301,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-01",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "opens": "2027-05-04",
       "notes": "Applications open 4 May 2027. Selection-based course emphasizing higher-eukaryote and human-genomics analysis.",
@@ -3954,7 +3954,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. Cutoff time and timezone are unverified."
     },
@@ -4702,7 +4702,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-06",
+      "checkedAt": "2026-11-09",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -5079,7 +5079,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "First in-person, non-archival workshop held with AAAI-27. The exact half-day is still TBA within 22–23 February, so the official two-day range is retained. Accepted work may also be under review elsewhere; no virtual presentation option is offered."
     },
@@ -5299,7 +5299,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-08",
+      "checkedAt": "2026-11-09",
       "verification": "official",
       "notes": "Residential CSHL course with a strong wet-lab component and introductory bioinformatics. The organizer publishes no application cutoff time or timezone."
     },
@@ -5552,6 +5552,47 @@
       "verification": "needs-review",
       "submissionState": "closed",
       "notes": "The organizer page confirms Paris but still labels the December day TBA and gives an extended 4 September AoE deadline. OpenReview metadata lists 12 December and a conflicting 6 September 16:00 UTC deadline. The OpenReview event date is displayed while the discrepancies remain flagged."
+    },
+    {
+      "id": "aaai-making-sense-2027",
+      "name": "AAAI-27 · Making Sense: Foundation Models for Multisensory Intelligence",
+      "type": "Workshop",
+      "topics": [
+        "Biomedical AI",
+        "Foundation models",
+        "AI & ML"
+      ],
+      "fit": "Selective",
+      "relevance": "Relevant for wearable and biosignal foundation models, including PPG, ECG, EEG and EMG, sensor-language models, personal-health agents, clinical validation, privacy and on-body safety; broader non-health sensing work is outside this dashboard's focus.",
+      "location": "Montréal, Canada",
+      "country": "Canada",
+      "geo": {
+        "lat": 45.5,
+        "lon": -73.57,
+        "label": "Montréal",
+        "precision": "city"
+      },
+      "tier": "Workshop",
+      "tierField": "Biomedical sensing & foundation models",
+      "tierReason": "Unranked workshop; its standing is not equated with the AAAI host conference.",
+      "start": "2027-02-22",
+      "end": "2027-02-23",
+      "source": "https://making-sense-workshop.github.io/",
+      "sources": [
+        "https://aaai.org/conference/aaai/aaai-27/aaai-27-workshop-program/",
+        "https://openreview.net/group?id=AAAI.org%2F2027%2FWorkshop%2FMakingSense"
+      ],
+      "deadlines": [
+        {
+          "label": "Research / demo / dataset paper",
+          "date": "2026-11-20",
+          "zone": "AoE",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-11-09",
+      "verification": "needs-review",
+      "notes": "Non-archival, in-person half-day workshop. The organizer and AAAI program confirm the 22–23 February workshop window, but the exact half-day is still TBA; OpenReview metadata currently displays 21 February. The range is retained and the discrepancy is flagged. This selective record applies only to health sensing, biosignals and personal-health or clinical-validation work."
     }
   ],
   "tierPolicy": {
@@ -5564,16 +5605,16 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official EMBL, CSHL, Wellcome Sanger, CVPR, AOHUPO, MedWM, US HUPO, EMBL-EBI, MIDL, AIME, ISCB-UK and NeurIPS workshop sources were reviewed, alongside public and indexed-X discovery. EMBL's in-situ structural-biology abstract date moved from 3 to 10 November and the prior closed state was cleared. Added two relevant training editions (CSHL single-cell/spatial transcriptomics and Sanger long-read sequencing) and four confirmed AI × biology or health NeurIPS workshops: GEM Bio, GenAI4Health, Foundation Models for the Brain and Body, and ML4SpatialBio. Workshops remain unranked and do not inherit NeurIPS standing; source conflicts in OpenReview date metadata or submission dates are documented as needs-review. The proposed ICLR 2027 Scientific World Models workshop remains excluded until the host decision. MICCAI 2027 remained inaccessible and RECOMB-CCB still returned 404, so their verified facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
+  "researchNotes": "Official EMBL, EMBL-EBI, CSHL, Wellcome Sanger, CVPR, AOHUPO, MedWM, US HUPO, MIDL, IPMI, ACM-BCB, APBJC, RECOMB and AAAI workshop sources were reviewed, alongside public and indexed-X discovery. Added the non-archival AAAI-27 Making Sense workshop only for its explicit health-sensing and biosignal foundation-model route; broader sensing work is outside scope. The workshop remains unranked and does not inherit AAAI standing. Its organizer and AAAI confirm the 22–23 February workshop window, while OpenReview metadata displays 21 February, so the record is needs-review and retains the official range. Newly indexed EMBL-EBI course details already matched the catalog, including the corrected 12–16 July Proteomics Bioinformatics dates. The proposed ICLR 2027 Scientific World Models workshop remains excluded until the host decision. MICCAI 2027 remained inaccessible and RECOMB-CCB still returned 404, so their verified facts and checkedAt values were preserved. Broad AI-only and archived entries were not reintroduced. Tiers remain editorial and field-specific.",
   "lastRun": {
-    "summary": "Extended EMBL in-situ structural-biology abstracts to the newly published 10 November date; added two training courses and four confirmed AI × biology/health NeurIPS workshops; rechecked imminent deadlines and provider calendars.",
-    "reviewedAt": "2026-11-08T00:23:49.237Z",
+    "summary": "Added the selectively in-scope AAAI-27 Making Sense workshop for health-sensing and biosignal foundation models; rechecked imminent deadlines, provider calendars and major bioinformatics/medical-imaging calls.",
+    "reviewedAt": "2026-11-09T00:55:04.894Z",
     "partial": true,
-    "reviewedExistingCount": 15,
-    "addedCount": 6,
-    "partialRecordCount": 7,
+    "reviewedExistingCount": 17,
+    "addedCount": 1,
+    "partialRecordCount": 3,
     "failedRecordCount": 2,
-    "notReviewedCount": 105,
+    "notReviewedCount": 109,
     "reviewedIds": [
       "embl-insitu-2027",
       "embl-predictive-2027",
@@ -5582,22 +5623,19 @@
       "medwm-aaai-2027",
       "sanger-cancer-epidemiology-2027",
       "ushupo-2027",
-      "ebi-multiomics-2027",
-      "ebi-rnaseq-2027",
-      "embl-structural-2027",
-      "aime-2027",
+      "ebi-proteomics-2027",
+      "ebi-metagenomics-2027",
+      "ebi-structural-2027",
+      "ebi-genome-bioinformatics-2027",
+      "cshl-course-c-single-2027",
+      "ipmi-2027",
+      "apbjc-2027",
       "midl-2027",
-      "iscbuk-2027",
-      "neurips-icbinb-bio-2026",
-      "cshl-course-c-data"
+      "acmbcb-next",
+      "recomb-2027"
     ],
     "addedIds": [
-      "cshl-course-c-single-2027",
-      "sanger-long-read-2027",
-      "neurips-gem-bio-2026",
-      "neurips-genai4health-2026",
-      "neurips-brainbodyfm-2026",
-      "neurips-ml4spatialbio-2026"
+      "aaai-making-sense-2027"
     ],
     "changedIds": [
       "embl-insitu-2027",
@@ -5607,29 +5645,22 @@
       "medwm-aaai-2027",
       "sanger-cancer-epidemiology-2027",
       "ushupo-2027",
-      "ebi-multiomics-2027",
-      "ebi-rnaseq-2027",
-      "embl-structural-2027",
-      "aime-2027",
-      "midl-2027",
-      "iscbuk-2027",
-      "neurips-icbinb-bio-2026",
-      "cshl-course-c-data",
+      "ebi-proteomics-2027",
+      "ebi-metagenomics-2027",
+      "ebi-structural-2027",
+      "ebi-genome-bioinformatics-2027",
       "cshl-course-c-single-2027",
-      "sanger-long-read-2027",
-      "neurips-gem-bio-2026",
-      "neurips-genai4health-2026",
-      "neurips-brainbodyfm-2026",
-      "neurips-ml4spatialbio-2026",
+      "ipmi-2027",
+      "apbjc-2027",
+      "midl-2027",
+      "acmbcb-next",
+      "recomb-2027",
+      "aaai-making-sense-2027",
       "miccai-2027",
       "recombccb-next"
     ],
     "partialIds": [
-      "neurips-icbinb-bio-2026",
-      "neurips-gem-bio-2026",
-      "neurips-genai4health-2026",
-      "neurips-brainbodyfm-2026",
-      "neurips-ml4spatialbio-2026",
+      "aaai-making-sense-2027",
       "miccai-2027",
       "recombccb-next"
     ],
@@ -5658,7 +5689,8 @@
       "neurips-gem-bio-2026",
       "neurips-genai4health-2026",
       "neurips-brainbodyfm-2026",
-      "neurips-ml4spatialbio-2026"
+      "neurips-ml4spatialbio-2026",
+      "aaai-making-sense-2027"
     ],
     "failedSources": [
       {
@@ -5670,7 +5702,7 @@
         "reason": "The dedicated RECOMB-CCB 2027 page still returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official organizer calendars and calls were searched for AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. Four NeurIPS workshops with direct biological or biomedical scope and two advanced/relevant training editions were added from primary organizer pages. Indexed X returned no usable, independently verifiable addition. The pending ICLR Scientific World Models proposal was not added before its host decision; broad/commercial series and archived AI-only entries stayed excluded.",
+    "discoveryNotes": "Official organizer calendars and calls were searched for AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. The AAAI-27 Making Sense workshop was added only because its official call explicitly includes wearable and biosignal foundation models, personal-health agents and clinical validation. Indexed X returned no usable, independently verifiable addition. The pending ICLR Scientific World Models proposal was not added before its host decision; broad/commercial series and archived AI-only entries stayed excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "embl-insitu-2027",
@@ -5735,6 +5767,14 @@
         "time": null,
         "zone": null,
         "singapore": null
+      },
+      {
+        "eventId": "ebi-multiomics-2027",
+        "label": "Course application",
+        "date": "2026-11-22",
+        "time": "23:59",
+        "zone": "Europe/London",
+        "singapore": "2026-11-23T07:59:00+08:00"
       }
     ],
     "otherHighRelevanceDeadlinesWithin14Days": [
@@ -5757,6 +5797,14 @@
         "actionable": false
       },
       {
+        "eventId": "aaai-making-sense-2027",
+        "label": "Research / demo / dataset paper",
+        "date": "2026-11-20",
+        "time": "23:59",
+        "zone": "AoE",
+        "singapore": "2026-11-21T19:59:00+08:00"
+      },
+      {
         "eventId": "fabric-wacv-2027",
         "label": "Camera-ready · accepted papers only",
         "date": "2026-11-20",
@@ -5773,6 +5821,14 @@
         "zone": null,
         "singapore": null,
         "actionable": false
+      },
+      {
+        "eventId": "ebi-rnaseq-2027",
+        "label": "Course application",
+        "date": "2026-11-22",
+        "time": "23:59",
+        "zone": "Europe/London",
+        "singapore": "2026-11-23T07:59:00+08:00"
       }
     ]
   }
