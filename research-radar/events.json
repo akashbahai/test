@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T00:35:34.614Z",
+  "updatedAt": "2026-11-14T00:53:08.219Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -51,7 +51,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "Research in Computational Molecular Biology",
       "notes": "The mandatory abstract-registration gate and the main-track full-paper update window have closed; no new or updated main-track paper submissions remain available. Accepted papers will appear on the conference website and in DBLP, with no separate proceedings volume. The separate poster deadline remains TBA, so the event is not marked globally closed.",
@@ -107,7 +107,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
       "tier": "T1",
@@ -161,7 +161,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -274,7 +274,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "International Symposium on Biomedical Imaging",
       "notes": "The four-page paper route closed on 2 November 2026 at 23:59 USA Eastern Time. Separate routes remain: workshop papers on 26 January, one-page non-proceedings abstracts on 1 February, and challenge papers on 26 February 2027, all at 23:59 America/New_York.",
@@ -579,7 +579,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-11-13: the official MICCAI 2027 site again returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
+      "checkError": "2026-11-14: the official MICCAI 2027 site again returned a 520 access error. Previously verified dates, venue and checkedAt were preserved; paper deadlines remain unannounced."
     },
     {
       "id": "emnlp-2027",
@@ -777,7 +777,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -879,7 +879,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "notes": "The organizer publishes no cutoff time or timezone. Ordinarily the abstract portal link is supplied after conference registration; authors needing to submit before registering are directed to contact the organizer. Travel-award applicants must also submit an abstract by the same date.",
       "tier": "T3",
@@ -1096,7 +1096,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "notes": "Research-track deadlines are 23:59 Anywhere on Earth. The workshop-proposal date is an organizer deadline, not an author paper or abstract route; individual workshop calls are due to be released 5 March 2027.",
       "tier": "T2",
@@ -1533,7 +1533,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "tier": "Training",
       "tierField": "Advanced research training",
@@ -1662,7 +1662,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "tier": "T2",
       "tierField": "Bioinformatics & molecular biology",
@@ -1814,7 +1814,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2268,14 +2268,14 @@
       "deadlines": [
         {
           "label": "Oral / poster abstract",
-          "date": "2026-11-15",
+          "date": "2026-11-22",
           "zone": "Australia/Melbourne",
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
-      "notes": "The official abstract page now states that oral and poster abstracts close at 11:59pm on 15 November 2026 AEDT, superseding the previously listed earlier cutoff."
+      "notes": "The organizer labels 22 November 2026 at 11:59pm AEDT as the final extension for oral and poster abstracts. Late-breaking poster abstracts may still be submitted through the registration dashboard after that date, but no cutoff is published for that separate route, so no deadline is inferred."
     },
     {
       "id": "mlcb-2026",
@@ -2578,7 +2578,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -3009,7 +3009,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-11-13: the dedicated RECOMB-CCB 2027 page again returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
+      "checkError": "2026-11-14: the dedicated RECOMB-CCB 2027 page again returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
     },
     {
       "id": "bionlp-next",
@@ -3871,9 +3871,9 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "needs-review",
-      "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. The year-specific page says 16 November 2026 in its application and bursary sections, while the current organizer course index says 23 November. The catalog retains the earlier 16 November date as the safe deadline and flags the conflict; cutoff time and timezone remain unverified.",
+      "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. The year-specific page still says 16 November 2026 in its application and bursary sections, while the same page's deadline panel says 23 November. The catalog retains the earlier 16 November date as the safe deadline and flags the conflict; cutoff time and timezone remain unverified.",
       "sources": [
         "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/"
       ]
@@ -4624,7 +4624,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-12",
+      "checkedAt": "2026-11-14",
       "verification": "needs-review",
       "opens": "2026-12-14",
       "notes": "Virtual selected-entry course with 35 places. The application deadline is explicit, but the organizer page currently gives the application outcome as 8 April 2026, an apparent year typo; no corrected outcome date is inferred."
@@ -4917,7 +4917,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "submissionState": "not-open",
       "notes": "The year-specific organizer page now confirms the Wellcome Genome Campus, UK and virtual format. Registration deadlines are explicitly 23:59 UK time. The abstract deadline is 19 April 2027, but no abstract-specific cutoff time or timezone is stated near that call, so those fields remain unassigned. The page currently labels the submission and registration routes as opening soon, so submissionState remains not-open."
@@ -5001,7 +5001,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "notes": "First in-person, non-archival workshop held with AAAI-27. The exact half-day is still TBA within 22–23 February, so the official two-day range is retained. Accepted work may also be under review elsewhere; no virtual presentation option is offered."
     },
@@ -5221,7 +5221,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "notes": "Residential CSHL course with a strong wet-lab component and introductory bioinformatics. The organizer publishes no application cutoff time or timezone."
     },
@@ -5268,7 +5268,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "official",
       "notes": "Selection-based residential course. It is primarily laboratory training with introductory bioinformatics, not a specialist sequence-analysis course. A sponsor recommendation is required."
     },
@@ -5512,7 +5512,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-13",
+      "checkedAt": "2026-11-14",
       "verification": "needs-review",
       "notes": "Non-archival, in-person half-day workshop. The organizer and AAAI program confirm the 22–23 February workshop window, but the exact half-day is still TBA; OpenReview metadata currently displays 21 February. The range is retained and the discrepancy is flagged. This selective record applies only to health sensing, biosignals and personal-health or clinical-validation work."
     },
@@ -5681,17 +5681,17 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official organizer sources were rechecked for urgent AI × biology, proteomics, multi-omics, genomics and medical-imaging deadlines, together with EMBL, EMBL-EBI, CSHL and Wellcome Sanger calendars. AOHUPO extended oral/poster abstracts to 15 November 2026 at 23:59 AEDT. Warwick now confirms MIUA 2027 for 7–9 July and publishes a separate special-session proposal deadline; the main paper call remains unopened. Duplicate cards for CSHL Biology of Genomes and the EMBO quantitative-proteomics course were consolidated into their richer canonical records without changing the field-specific T1 or unranked-training assessments. The Sanger Cancer Genomic Epidemiology page still conflicts between 16 and 23 November, so the safer earlier date remains needs-review. MICCAI remained inaccessible and RECOMB-CCB returned 404; verified facts and checkedAt values were preserved. Indexed X produced no independently verifiable addition, and archived broad-AI entries were not reintroduced.",
+  "researchNotes": "Official organizer sources were rechecked for urgent AI × biology, proteomics, multi-omics, genomics and medical-imaging deadlines, together with EMBL, EMBL-EBI, CSHL and Wellcome Sanger calendars. AOHUPO issued a final extension for oral/poster abstracts to 22 November 2026 at 23:59 AEDT; its undated late-breaking-poster route is noted without inventing a cutoff. The Sanger Cancer Genomic Epidemiology page still conflicts between 16 and 23 November, so the safer earlier date remains needs-review. MICCAI remained inaccessible and RECOMB-CCB returned 404; previously verified facts and checkedAt values were preserved. No new event instance met the scope and primary-source threshold; indexed X produced no independently verifiable addition, and archived broad-AI entries were not reintroduced.",
   "lastRun": {
-    "summary": "Extended the AOHUPO abstract deadline, confirmed MIUA 2027 dates and its separate special-session proposal deadline, and consolidated duplicate CSHL Biology of Genomes and EMBO quantitative-proteomics cards.",
-    "reviewedAt": "2026-11-13T00:35:34.614Z",
+    "summary": "Moved the AOHUPO oral/poster abstract deadline to the organizer's final 22 November extension and refreshed verified urgent records without adding unverified venues.",
+    "reviewedAt": "2026-11-14T00:53:08.219Z",
     "partial": true,
-    "reviewedExistingCount": 32,
+    "reviewedExistingCount": 19,
     "addedCount": 0,
-    "removedDuplicateCount": 2,
-    "partialRecordCount": 7,
+    "removedDuplicateCount": 0,
+    "partialRecordCount": 4,
     "failedRecordCount": 2,
-    "notReviewedCount": 95,
+    "notReviewedCount": 110,
     "reviewedIds": [
       "aohupo-aps-2027",
       "medwm-aaai-2027",
@@ -5700,26 +5700,13 @@
       "ushupo-2027",
       "aaai-making-sense-2027",
       "ebi-multiomics-2027",
-      "ebi-rnaseq-2027",
       "sanger-long-read-2027",
       "embl-aibio-2027",
-      "embl-quant-proteomics-2027",
-      "embl-microbial-metagenomics-2027",
-      "embl-rbp-2027",
-      "midl-2027",
-      "miua-2027",
       "ebi-proteomics-2027",
-      "ebi-structural-2027",
-      "ebi-genome-bioinformatics-2027",
+      "ebi-metagenomics-2027",
       "sanger-applied-bioinfo-2027",
-      "sanger-genome-informatics-2026",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-singlecell",
-      "cshl-course-c-data",
-      "cshl-genome-informatics-2027",
-      "cshl-biology-genomes-2027",
       "cshl-course-c-single-2027",
+      "midl-2027",
       "isbi-2027",
       "ipmi-2027",
       "acmbcb-next",
@@ -5727,10 +5714,7 @@
       "psb-2027"
     ],
     "addedIds": [],
-    "removedDuplicateIds": [
-      "embl-proteomics-2027",
-      "cshl-genome"
-    ],
+    "removedDuplicateIds": [],
     "changedIds": [
       "aohupo-aps-2027",
       "medwm-aaai-2027",
@@ -5739,41 +5723,23 @@
       "ushupo-2027",
       "aaai-making-sense-2027",
       "ebi-multiomics-2027",
-      "ebi-rnaseq-2027",
       "sanger-long-read-2027",
       "embl-aibio-2027",
-      "embl-quant-proteomics-2027",
-      "embl-microbial-metagenomics-2027",
-      "embl-rbp-2027",
-      "midl-2027",
-      "miua-2027",
       "ebi-proteomics-2027",
-      "ebi-structural-2027",
-      "ebi-genome-bioinformatics-2027",
+      "ebi-metagenomics-2027",
       "sanger-applied-bioinfo-2027",
-      "sanger-genome-informatics-2026",
-      "cshl-probgen",
-      "cshl-network",
-      "cshl-singlecell",
-      "cshl-course-c-data",
-      "cshl-genome-informatics-2027",
-      "cshl-biology-genomes-2027",
       "cshl-course-c-single-2027",
+      "midl-2027",
       "isbi-2027",
       "ipmi-2027",
       "acmbcb-next",
       "recomb-2027",
       "psb-2027",
-      "embl-proteomics-2027",
-      "cshl-genome",
       "miccai-2027",
       "recombccb-next"
     ],
     "partialIds": [
       "sanger-cancer-epidemiology-2027",
-      "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027",
-      "miua-2027",
       "aaai-making-sense-2027",
       "miccai-2027",
       "recombccb-next"
@@ -5816,16 +5782,8 @@
         "reason": "The dedicated RECOMB-CCB 2027 page returned 404. Parent-conference satellite dates were retained; location and author deadline remain unverified."
       }
     ],
-    "discoveryNotes": "Official organizer calendars and calls were searched across AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. Warwick's primary MIUA page now supplied dates and a special-session route, so the previously withheld secondary date was replaced by primary evidence. No genuinely new event instance was found. Indexed X returned no independently verifiable addition; broad commercial series and archived AI-only entries stayed excluded.",
+    "discoveryNotes": "Official organizer calendars and calls were searched across AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics and structural biology. The reviewed 2027 calls for MIDL, ISBI, IPMI, ACM-BCB, RECOMB and PSB match existing records; no new event instance met both scope and primary-source requirements. Indexed X produced no independently verifiable addition, and archived AI-only entries stayed excluded.",
     "highRelevanceWithin14Days": [
-      {
-        "eventId": "aohupo-aps-2027",
-        "label": "Oral / poster abstract",
-        "date": "2026-11-15",
-        "time": "23:59",
-        "zone": "Australia/Melbourne",
-        "singapore": "2026-11-15T20:59:00+08:00"
-      },
       {
         "eventId": "medwm-aaai-2027",
         "label": "Full / short / poster / position paper",
@@ -5867,6 +5825,14 @@
         "singapore": "2026-11-21T19:59:00+08:00"
       },
       {
+        "eventId": "aohupo-aps-2027",
+        "label": "Oral / poster abstract · final extension",
+        "date": "2026-11-22",
+        "time": "23:59",
+        "zone": "Australia/Melbourne",
+        "singapore": "2026-11-22T20:59:00+08:00"
+      },
+      {
         "eventId": "ebi-multiomics-2027",
         "label": "Course application",
         "date": "2026-11-22",
@@ -5897,71 +5863,6 @@
         "time": "23:59",
         "zone": "Europe/London",
         "singapore": "2026-11-24T07:59:00+08:00"
-      }
-    ],
-    "otherHighRelevanceDeadlinesWithin14Days": [
-      {
-        "eventId": "embl-aibio-2027",
-        "label": "Workshop / tutorial facilitator proposal",
-        "date": "2026-11-16",
-        "time": null,
-        "zone": null,
-        "singapore": null,
-        "actionable": false
-      },
-      {
-        "eventId": "sanger-cancer-epidemiology-2027",
-        "label": "Bursary application · with course application",
-        "date": "2026-11-16",
-        "time": null,
-        "zone": null,
-        "singapore": null,
-        "actionable": false
-      },
-      {
-        "eventId": "fabric-wacv-2027",
-        "label": "Camera-ready · accepted papers only",
-        "date": "2026-11-20",
-        "time": null,
-        "zone": null,
-        "singapore": null,
-        "actionable": false
-      },
-      {
-        "eventId": "ushupo-2027",
-        "label": "Travel award application · requires abstract",
-        "date": "2026-11-20",
-        "time": null,
-        "zone": null,
-        "singapore": null,
-        "actionable": false
-      },
-      {
-        "eventId": "sanger-genome-informatics-2026",
-        "label": "Virtual registration",
-        "date": "2026-11-23",
-        "time": "23:59",
-        "zone": "Europe/London",
-        "singapore": "2026-11-24T07:59:00+08:00",
-        "actionable": false
-      },
-      {
-        "eventId": "sanger-long-read-2027",
-        "label": "Bursary application · with course application",
-        "date": "2026-11-23",
-        "time": "23:59",
-        "zone": "Europe/London",
-        "singapore": "2026-11-24T07:59:00+08:00",
-        "actionable": false
-      },
-      {
-        "eventId": "cvpr-2027",
-        "label": "Supplementary materials · registered submissions only",
-        "date": "2026-11-23",
-        "time": "23:59",
-        "zone": "AoE",
-        "singapore": "2026-11-24T19:59:00+08:00",
-        "actionable": false
       }
     ]
   }
