@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T00:09:40.242Z",
+  "updatedAt": "2026-11-26T00:13:52.128Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -149,7 +149,7 @@
         },
         {
           "label": "Full paper",
-          "date": "2026-12-04",
+          "date": "2026-12-11",
           "zone": "AoE",
           "time": "23:59",
           "requires": "abstract"
@@ -161,10 +161,10 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
-      "notes": "Doctoral symposium is 13 July; main conference is 14–16 July.",
+      "notes": "The mandatory abstract-registration gate remains 30 November 2026 at 23:59 AoE. The organizer extended the full-paper deadline from 4 to 11 December 2026 at 23:59 AoE; a paper still requires timely abstract registration. Short-paper dates remain TBA. Doctoral symposium is 13 July; main conference is 14–16 July.",
       "tier": "T2",
       "tierField": "Medical imaging AI",
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
@@ -579,7 +579,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-11-25: the official MICCAI 2027 conference site returned HTTP 520 again. No main-paper deadline could be verified; previously verified dates, venue and checkedAt were preserved."
+      "checkError": "2026-11-26: the official MICCAI 2027 conference site returned HTTP 520 again. No main-paper deadline could be verified; previously verified dates, venue and checkedAt were preserved."
     },
     {
       "id": "emnlp-2027",
@@ -786,7 +786,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -1185,7 +1185,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-24",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "sources": [
         "https://meetings.cshl.edu/meetings.aspx?meet=probgen"
@@ -1383,7 +1383,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1422,7 +1422,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "sources": [
         "https://meetings.cshl.edu/courses"
@@ -1828,7 +1828,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2000,7 +2000,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "notes": "The official organizer page labels this an EMBL-KAUST Conference, not a workshop. Only on-site participants may submit oral/poster abstracts; virtual participation remains available without an abstract route. EMBL’s FAQ states that listed cutoffs close at midnight CET; Europe/Berlin and 23:59 are stored.",
       "tier": "T3",
@@ -2598,7 +2598,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -3029,7 +3029,7 @@
       "tierReason": "Editorial assessment: a leading specialist or well-established focused venue with strong scientific fit; not a universal conference ranking.",
       "country": "To be announced",
       "geo": null,
-      "checkError": "2026-11-25: the dedicated RECOMB-CCB 2027 page again returned 404. No satellite author deadline or venue could be verified; previously verified facts and checkedAt were preserved."
+      "checkError": "2026-11-26: the dedicated RECOMB-CCB 2027 page again returned 404. No satellite author deadline or venue could be verified; previously verified facts and checkedAt were preserved."
     },
     {
       "id": "bionlp-next",
@@ -3089,7 +3089,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -3149,8 +3149,8 @@
       "fit": "Relevant",
       "relevance": "Python and REST-API workflow for retrieving protein sequences, finding homologs, annotating domains and integrating functional and structural data.",
       "location": "Online",
-      "start": "2027-06-10",
-      "end": "2027-06-10",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
       "source": "https://www.ebi.ac.uk/training/events/sequences-structures-2027/",
       "deadlines": [
         {
@@ -3160,16 +3160,19 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-02",
-      "verification": "official",
+      "checkedAt": "2026-11-26",
+      "verification": "needs-review",
       "submissionState": "not-open",
       "opens": "2027-03-08",
-      "notes": "Registration opens 8 March 2027 and is first-come, first-served for 35 places. No registration closing date is published.",
+      "notes": "One-day virtual workshop using Python and EMBL-EBI APIs, including experimentally solved structures and AlphaFoldDB models. The year-specific page and EMBL-EBI public-events listing now agree on 9 June 2027, correcting the previously stored 10 June date. The event page says registration opens 8 March 2027, while the public-events listing currently labels registration 'Open'; the more specific future opening date and submissionState not-open are retained, and the status conflict is flagged. No closing date is published.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
       "country": "Online",
-      "geo": null
+      "geo": null,
+      "sources": [
+        "https://www.ebi.ac.uk/about/events/"
+      ]
     },
     {
       "id": "ebi-infectious-models-2027",
@@ -3670,7 +3673,7 @@
       "sources": [
         "https://miccai.org/upcoming-conferences/"
       ],
-      "checkError": "2026-11-25: the MICCAI Society call remained the latest accessible source, but the dedicated satellite-event templates and submission page were inaccessible. Prior organizer-proposal facts and checkedAt were preserved; these are not author-submission deadlines."
+      "checkError": "2026-11-26: the dedicated MICCAI 2027 satellite-event templates and submission page remained inaccessible. Prior organizer-proposal facts and checkedAt were preserved; these are not author-submission deadlines."
     },
     {
       "id": "neurips-ai4dd-2026",
@@ -3903,7 +3906,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "Sponsor recommendation required with the application. Guided data exercises focus on genomic epidemiology; the organizer explicitly says this is not advanced computational/bioinformatics training. The year-specific page and current provider calendar agree on 23 November 2026; an older indexed provider result had displayed 16 November, so the record remains needs-review. The provider-wide FAQ states that deadlines close at 23:59 UK time and that late course applications are not accepted, so the application and linked bursary route are marked closed.",
       "sources": [
@@ -3949,7 +3952,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "The event dates, hybrid venue and 26 July abstract deadline are consistent across the organizer page. The same page contains stale/conflicting administrative text: one paragraph says the bursary deadline is 16 November 2026 while its deadline summary says 28 June 2027, and an accommodation paragraph incorrectly references 1–2 March 2027. Those conflicting bursary/accommodation facts are not catalogued.",
       "tier": "T3",
@@ -4052,7 +4055,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "Course dates and application date agree between the detailed page and current calendar. Detailed page nevertheless displays a stale 'past event' banner; confirm application availability. Applicants should plan to apply cryo-EM directly in a suitable research environment. Cutoff time and timezone unverified."
     },
@@ -4562,7 +4565,7 @@
           "time": "12:00"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "fullName": "International Symposium on Artificial Intelligence in Radiotherapy",
       "opens": "2026-09-01",
@@ -4680,7 +4683,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "EMBO Practical Course limited to 20 selected participants. The official event card, accommodation dates and programme after day 1 support 5–12 April 2027, but the day-1 programme line mistakenly says 5 April 2026. The record uses the organizer's event-card dates and flags the conflict. EMBL’s participant FAQ states that applications and motivation letters close at midnight CET on the listed date; Europe/Berlin and 23:59 are stored.",
       "tier": "Training",
@@ -4947,7 +4950,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "submissionState": "not-open",
       "notes": "The year-specific organizer page now confirms the Wellcome Genome Campus, UK and virtual format. Registration deadlines are explicitly 23:59 UK time. The abstract deadline is 19 April 2027, but no abstract-specific cutoff time or timezone is stated near that call, so those fields remain unassigned. The page currently labels the submission and registration routes as opening soon, so submissionState remains not-open."
@@ -5252,7 +5255,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "notes": "Residential CSHL course with a strong wet-lab component and introductory bioinformatics. The organizer publishes no application cutoff time or timezone."
     },
@@ -5299,7 +5302,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "notes": "Selection-based residential course. It is primarily laboratory training with introductory bioinformatics, not a specialist sequence-analysis course. A sponsor recommendation is required. The application and linked bursary route closed after the published 23 November 2026, 23:59 Europe/London cutoff.",
       "submissionState": "closed"
@@ -5544,7 +5547,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "Non-archival, in-person half-day workshop. The organizer extended the research, demo and dataset paper deadline from 20 to 26 November 2026 at 23:59 AoE. The organizer and AAAI program confirm the 22–23 February workshop window, but the exact half-day is still TBA; OpenReview metadata previously displayed 21 February. The range is retained and the discrepancy is flagged. This selective record applies only to health sensing, biosignals and personal-health or clinical-validation work."
     },
@@ -5812,7 +5815,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "notes": "Developed with the Open Rosetta Project / Open Molecular Software Foundation. The program explicitly covers computational protein design, deep learning, hybrid AI–physics modelling and an AI model-fine-tuning tutorial. In-person, livestream and on-demand formats are listed. The organizer's detailed deadline page states that every listed cutoff ends at 23:59 US Mountain time; America/Denver is used for the meeting's December, January and March deadlines."
     },
@@ -5860,7 +5863,7 @@
         "source": "https://x.com/workshopmlbio"
       },
       "notes": "Indexed announcements from the organizer account identify a first workshop in 2027, but the official MLBio site was inaccessible during this check and publishes no verifiable date, location or author deadline through the available index. No unannounced details are inferred.",
-      "checkError": "2026-11-25: the official MLBio site remained inaccessible. Indexed X/public-web discovery produced no independently verifiable date, location or author deadline, so the watchlist and checkedAt were preserved."
+      "checkError": "2026-11-26: the official MLBio site remained inaccessible. Indexed X/public-web discovery produced no independently verifiable date, location or author deadline, so the watchlist and checkedAt were preserved."
     },
     {
       "id": "gemaihc-2027",
@@ -5960,7 +5963,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "submissionState": "not-open",
       "notes": "The third annual AIxBIO conference is hosted at the Wellcome Genome Campus with virtual participation. Registration is required before the abstract-portal link is issued; oral presenters must attend on site, while posters may be presented in person or virtually. The deadline summary and provider calendar give 31 May for virtual registration, although one registration paragraph contains the impossible typo '31 June'; 31 May is retained and the conflict is flagged. No cutoff times or timezones are published."
@@ -6108,7 +6111,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "The current organizer landing page and its linked EasyChair CFP agree on the conference dates and author deadlines; the linked CFP supplies Philadelphia as the venue. A stale alternate /home/ endpoint still shows TBD placeholders, so the record is flagged for recheck. The listed conference workshops are invitation-only and are not treated as open author routes."
     },
@@ -6149,7 +6152,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "official",
       "notes": "Residential, selection-based CSHL course with strong laboratory and data-analysis components. The application requires a personal statement and recommendation letter; an optional financial-aid request is submitted with the application. The organizer does not publish a cutoff time or timezone."
     },
@@ -6244,9 +6247,46 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-25",
+      "checkedAt": "2026-11-26",
       "verification": "needs-review",
       "notes": "Residential CSHL course combining laboratory and computational instruction, including predicted models and protein structure prediction. The official detail page and course calendar agree on the 2027 dates and application deadline, but the detail page simultaneously displays a generic “past event” banner; no cutoff time or timezone is published."
+    },
+    {
+      "id": "sanger-fungal-genomics-2027",
+      "name": "Wellcome Sanger · Fungal Pathogen Genomics 2027",
+      "fullName": "Fungal Pathogen Genomics (Virtual)",
+      "type": "Course",
+      "topics": [
+        "Bioinformatics",
+        "Genomics",
+        "Multi-omics"
+      ],
+      "fit": "Relevant",
+      "relevance": "Hands-on fungal-pathogen genomics training using public resources to query genomes, identify orthologs, explore transcriptomic/proteomic and variation data, assess gene models and perform enrichment analyses.",
+      "location": "Online",
+      "country": "Online",
+      "geo": null,
+      "tier": "Training",
+      "tierField": "Pathogen genomics training",
+      "tierReason": "Training opportunity; conference prestige tiers do not apply.",
+      "start": "2027-06-07",
+      "end": "2027-06-11",
+      "source": "https://coursesandconferences.wellcomeconnectingscience.org/event/fungal-pathogen-genomics-virtual-20270607/",
+      "sources": [
+        "https://coursesandconferences.wellcomeconnectingscience.org/our-events/courses/"
+      ],
+      "deadlines": [
+        {
+          "label": "Course application",
+          "date": "2027-04-05",
+          "zone": "Europe/London",
+          "time": "23:59"
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "submissionState": "not-open",
+      "notes": "Selection-based virtual computational course using web resources including FungiDB/VEuPathDB, Ensembl, SGD/CGD and JGI MycoCosm. No coding is required; the course does not cover command-line analysis or participants’ own datasets. Applications are announced as opening soon, with a sponsor recommendation required."
     }
   ],
   "tierPolicy": {
@@ -6259,17 +6299,17 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. The concrete CSHL Macromolecular Crystallography 2027 course was added. EMBL’s RNA-binding-protein event was corrected from an unranked workshop to the organizer’s actual EMBL-KAUST Conference classification and assigned a cautious emerging-specialist tier. Provider-wide FAQs supplied the previously missing UK/CET cutoff rules for the Sanger Cancer Genomic Epidemiology, EMBL Quantitative Proteomics, EMBL Microbial Metagenomics, EMBL RBP and EMBL Protein Synthesis records; the two elapsed course-application routes were marked closed. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.",
+  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. MIDL extended its full-paper deadline from 4 to 11 December 2026 while retaining the mandatory 30 November abstract-registration gate. The Wellcome Sanger Fungal Pathogen Genomics virtual course was added with its confirmed 7–11 June 2027 dates and 5 April application deadline. EMBL-EBI corrected From Sequences to Structures from 10 to 9 June 2027; its registration-status conflict is documented without guessing. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.",
   "lastRun": {
-    "summary": "Added CSHL Macromolecular Crystallography 2027, corrected the EMBL-KAUST RBP event from workshop to conference, populated official provider-wide cutoff rules and marked two elapsed course-application routes closed.",
-    "reviewedAt": "2026-11-25T00:09:40.242Z",
+    "summary": "Extended the MIDL full-paper deadline to 11 December, added Wellcome Sanger Fungal Pathogen Genomics 2027, and corrected the EMBL-EBI From Sequences to Structures course date to 9 June.",
+    "reviewedAt": "2026-11-26T00:13:52.128Z",
     "partial": true,
-    "reviewedExistingCount": 29,
+    "reviewedExistingCount": 24,
     "addedCount": 1,
     "removedDuplicateCount": 0,
-    "partialRecordCount": 10,
+    "partialRecordCount": 11,
     "failedRecordCount": 3,
-    "notReviewedCount": 110,
+    "notReviewedCount": 116,
     "reviewedIds": [
       "aaai-making-sense-2027",
       "midl-2027",
@@ -6280,29 +6320,24 @@
       "iccabs-2027",
       "embl-rbp-2027",
       "ipmi-2027",
-      "sanger-cancer-epidemiology-2027",
-      "embl-quant-proteomics-2027",
+      "cshl-course-proteomics-2027",
       "cshl-course-cryoem-2027",
       "cshl-course-c-qicm",
       "cshl-course-c-data",
       "cshl-course-c-single-2027",
-      "cshl-course-proteomics-2027",
-      "embl-protein-synthesis-2027",
-      "embl-dl-2027",
-      "embl-bioimage-analysis-2027",
-      "embl-structural-2027",
-      "embl-aibio-2027",
-      "ebi-proteomics-2027",
+      "cshl-course-crystallography-2027",
+      "cshl-probgen",
       "ebi-structural-2027",
-      "ebi-genome-bioinformatics-2027",
-      "ebi-metagenomics-2027",
+      "ebi-proteomics-2027",
+      "ebi-sequences-structures-2027",
       "sanger-aixbio-2027",
       "sanger-applied-bioinfo-2027",
       "sanger-organoids-2027",
-      "sanger-long-read-2027"
+      "sanger-long-read-2027",
+      "sanger-cancer-epidemiology-2027"
     ],
     "addedIds": [
-      "cshl-course-crystallography-2027"
+      "sanger-fungal-genomics-2027"
     ],
     "removedDuplicateIds": [],
     "changedIds": [
@@ -6315,36 +6350,32 @@
       "iccabs-2027",
       "embl-rbp-2027",
       "ipmi-2027",
-      "sanger-cancer-epidemiology-2027",
-      "embl-quant-proteomics-2027",
+      "cshl-course-proteomics-2027",
       "cshl-course-cryoem-2027",
       "cshl-course-c-qicm",
       "cshl-course-c-data",
       "cshl-course-c-single-2027",
-      "cshl-course-proteomics-2027",
-      "embl-protein-synthesis-2027",
-      "embl-dl-2027",
-      "embl-bioimage-analysis-2027",
-      "embl-structural-2027",
-      "embl-aibio-2027",
-      "ebi-proteomics-2027",
+      "cshl-course-crystallography-2027",
+      "cshl-probgen",
       "ebi-structural-2027",
-      "ebi-genome-bioinformatics-2027",
-      "ebi-metagenomics-2027",
+      "ebi-proteomics-2027",
+      "ebi-sequences-structures-2027",
       "sanger-aixbio-2027",
       "sanger-applied-bioinfo-2027",
       "sanger-organoids-2027",
       "sanger-long-read-2027",
-      "cshl-course-crystallography-2027",
+      "sanger-cancer-epidemiology-2027",
+      "sanger-fungal-genomics-2027",
       "miccai-workshops",
       "miccai-2027",
       "recombccb-next",
       "mlbio-2027"
     ],
     "partialIds": [
+      "aaai-making-sense-2027",
       "embl-microbial-metagenomics-2027",
-      "embl-quant-proteomics-2027",
-      "ebi-metagenomics-2027",
+      "ebi-sequences-structures-2027",
+      "sanger-cancer-epidemiology-2027",
       "sanger-aixbio-2027",
       "iccabs-2027",
       "cshl-course-crystallography-2027",
@@ -6383,7 +6414,8 @@
       "neurips-ml4spatialbio-2026",
       "aaai-making-sense-2027",
       "mlbio-2027",
-      "iccabs-2027"
+      "iccabs-2027",
+      "ebi-sequences-structures-2027"
     ],
     "failedSources": [
       {
@@ -6403,7 +6435,7 @@
         "reason": "The official MLBio site remained inaccessible. Indexed X/public-web discovery yielded no primary-source date, location or deadline; the watchlist and checkedAt were preserved."
       }
     ],
-    "discoveryNotes": "Primary organizer calendars and calls were searched across AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics, RNA/protein modelling and structural biology. CSHL’s current course calendar and year-specific detail page supported adding Macromolecular Crystallography 2027. EMBL, EMBL-EBI and Sanger provider calendars were rechecked; no other untracked high-priority concrete edition was found. Indexed X/public-web discovery supplied no independently verifiable event beyond primary organizer sources; archived AI-only entries stayed excluded.",
+    "discoveryNotes": "Primary organizer calendars and calls were searched across AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics, RNA/protein modelling and structural biology. Sanger’s current course calendar and year-specific page supported adding Fungal Pathogen Genomics 2027. CSHL, EMBL and EMBL-EBI calendars were rechecked; no other untracked high-priority edition with sufficient confirmed metadata was found. Indexed X searches supplied no independently verifiable event beyond primary organizer sources; archived AI-only entries stayed excluded.",
     "highRelevanceWithin14Days": [
       {
         "eventId": "aaai-making-sense-2027",
@@ -6456,14 +6488,6 @@
       {
         "eventId": "iccabs-2027",
         "label": "Title and abstract registration",
-        "date": "2026-12-04",
-        "time": "23:59",
-        "zone": "AoE",
-        "singapore": "2026-12-05T19:59:00+08:00"
-      },
-      {
-        "eventId": "midl-2027",
-        "label": "Full paper · requires abstract registration",
         "date": "2026-12-04",
         "time": "23:59",
         "zone": "AoE",
