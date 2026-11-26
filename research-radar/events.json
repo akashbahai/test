@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T00:13:52.128Z",
-  "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory.",
+  "updatedAt": "2026-11-26T16:53:03.048Z",
+  "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory. Explicit user additions on 26 November 2026 also include UAI, AISTATS, COLT, AAAI, KDD, JMLR and TMLR; their relevance remains distinct from their field tiers.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
     "enabled": true,
@@ -6287,6 +6287,301 @@
       "verification": "official",
       "submissionState": "not-open",
       "notes": "Selection-based virtual computational course using web resources including FungiDB/VEuPathDB, Ensembl, SGD/CGD and JGI MycoCosm. No coding is required; the course does not cover command-line analysis or participants’ own datasets. Applications are announced as opening soon, with a sponsor recommendation required."
+    },
+    {
+      "id": "aistats-2027",
+      "name": "AISTATS 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Relevant",
+      "relevance": "Strong fit for statistical ML, uncertainty, causal methods and rigorous cohort modelling.",
+      "location": "Montréal, Canada",
+      "start": "2027-05-03",
+      "end": "2027-05-06",
+      "source": "https://virtual.aistats.org/Conferences/2027/CallForPapers",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-09-29",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-10-06",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "fullName": "Artificial Intelligence and Statistics",
+      "notes": "Main submissions are closed. The CFP's October workshop date is a workshop-proposal deadline, not an attendee paper deadline.",
+      "country": "Canada",
+      "geo": {
+        "lat": 45.5,
+        "lon": -73.57,
+        "label": "Montréal",
+        "precision": "city"
+      },
+      "tier": "T1",
+      "tierField": "Statistical machine learning",
+      "tierReason": "Editorial assessment: a central international conference at the intersection of statistics and machine learning; tier is within this field, not a universal ranking.",
+      "submissionState": "closed",
+      "inclusionReason": "Explicit user request on 2026-11-26; overrides earlier broad-AI archive exclusion for this named venue only."
+    },
+    {
+      "id": "aaai-2027",
+      "name": "AAAI 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML"
+      ],
+      "fit": "Relevant",
+      "relevance": "Broad AI methods and applications; relevant when the contribution generalizes beyond a single biomedical task.",
+      "location": "Montréal, Canada",
+      "start": "2027-02-16",
+      "end": "2027-02-23",
+      "source": "https://aaai.org/conference/aaai/aaai-27/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-07-21",
+          "zone": "AoE",
+          "time": "23:59",
+          "id": "abstract"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-07-28",
+          "zone": "AoE",
+          "time": "23:59",
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "sources": [
+        "https://openreview.net/group?id=AAAI.org/2027/Conference"
+      ],
+      "country": "Canada",
+      "geo": {
+        "lat": 45.5,
+        "lon": -73.57,
+        "label": "Montréal",
+        "precision": "city"
+      },
+      "tier": "T1",
+      "tierField": "Artificial intelligence",
+      "tierReason": "Editorial assessment: a longstanding flagship general-AI conference; main-conference standing does not transfer to workshops.",
+      "submissionState": "closed",
+      "notes": "Main-track submissions are closed. Retained by explicit user request; workshop and other track deadlines must be verified separately.",
+      "inclusionReason": "Explicit user request on 2026-11-26; overrides earlier broad-AI archive exclusion for this named venue only."
+    },
+    {
+      "id": "kdd-2027",
+      "name": "KDD 2027 · cycle 2",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Biomedical AI",
+        "Foundation models"
+      ],
+      "fit": "High",
+      "relevance": "Large-scale data science and an AI for Sciences track are relevant to population-scale biomedical modelling.",
+      "location": "San Jose, USA",
+      "start": "2027-08-01",
+      "end": "2027-08-05",
+      "source": "https://kdd2027.kdd.org/research-track-call-for-papers/",
+      "deadlines": [
+        {
+          "label": "Cycle 2 abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null,
+          "id": "abstract"
+        },
+        {
+          "label": "Cycle 2 full paper",
+          "date": null,
+          "zone": null,
+          "time": null,
+          "requires": "abstract"
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "notes": "Cycle 1 closed in July 2026. Official calls checked on 26 November still detail Cycle 1; Cycle 2 dates remain unverified. The AI for Sciences track explicitly includes bioinformatics, healthcare, systems biology, multiomics and scientific foundation models. Track-specific calls must be checked separately.",
+      "sources": [
+        "https://kdd2027.kdd.org/",
+        "https://kdd2027.kdd.org/ai-for-sciences-track-call-for-papers/"
+      ],
+      "country": "United States",
+      "geo": {
+        "lat": 37.34,
+        "lon": -121.89,
+        "label": "San Jose",
+        "precision": "city"
+      },
+      "tier": "T1",
+      "tierField": "Data mining & data science",
+      "tierReason": "Editorial assessment: a flagship research conference for knowledge discovery and data mining.",
+      "inclusionReason": "Explicit user request on 2026-11-26; overrides earlier broad-AI archive exclusion for this named venue only."
+    },
+    {
+      "id": "uai-next",
+      "name": "UAI · next edition",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Relevant",
+      "relevance": "Uncertainty, probabilistic modelling and causal inference for biomedical prediction.",
+      "location": "To be announced",
+      "start": null,
+      "end": null,
+      "source": "https://www.auai.org/uai2026/",
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": null,
+          "zone": null,
+          "time": null
+        },
+        {
+          "label": "Full paper",
+          "date": null,
+          "zone": null,
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-10-09",
+      "verification": "needs-review",
+      "notes": "Next-edition dates, venue and submission format are not verified. Do not transfer the 2026 Amsterdam venue or deadlines to the next edition. Included by explicit user request.",
+      "country": "To be announced",
+      "geo": null,
+      "tier": "T1",
+      "tierField": "Probabilistic ML & uncertainty",
+      "tierReason": "Editorial assessment: a central international conference for probabilistic modelling and learning/reasoning under uncertainty, assessed within that specialist field.",
+      "watchlist": true,
+      "checkError": "2026-11-26: https://www.auai.org/uai2027/ was inaccessible. AUAI and the 2026 site were accessible but did not establish next-edition dates, city or deadlines. Prior checkedAt retained.",
+      "sources": [
+        "https://auai.org/",
+        "https://www.auai.org/uai2026/"
+      ],
+      "inclusionReason": "Explicit user request on 2026-11-26; overrides earlier broad-AI archive exclusion for this named venue only."
+    },
+    {
+      "id": "colt-2027",
+      "name": "COLT 2027",
+      "type": "Conference",
+      "topics": [
+        "AI & ML",
+        "Statistical methods"
+      ],
+      "fit": "Selective",
+      "relevance": "Best for a theory-led contribution with proofs or new statistical learning guarantees.",
+      "location": "Tokyo, Japan",
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "source": "https://learningtheory.org/colt2027/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": "2027-01-29",
+          "zone": "AoE",
+          "time": null
+        }
+      ],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "fullName": "Conference on Learning Theory",
+      "country": "Japan",
+      "geo": {
+        "lat": 35.68,
+        "lon": 139.69,
+        "label": "Tokyo",
+        "precision": "city"
+      },
+      "tier": "T1",
+      "tierField": "Learning theory",
+      "tierReason": "Editorial assessment: a flagship conference in theoretical machine learning and computational learning theory.",
+      "sources": [
+        "https://learningtheory.org/colt2027/",
+        "https://learningtheory.org/colt2027/cfp.html"
+      ],
+      "abstractNote": "No separate abstract-registration gate published",
+      "notes": "Official homepage and CFP agree on 29 January 2027 Anywhere on Earth. Exact cutoff clock time is not specified. A theory-led contribution is needed; applying an existing ML model to biological data alone is not sufficient.",
+      "inclusionReason": "Explicit user request on 2026-11-26; overrides earlier broad-AI archive exclusion for this named venue only."
+    },
+    {
+      "id": "jmlr",
+      "name": "JMLR · journal",
+      "fullName": "Journal of Machine Learning Research",
+      "tier": "T1",
+      "fit": "Selective",
+      "tierReason": "Editorial assessment: an established flagship machine-learning journal. This journal tier is not an acceptance-rate comparison with conferences.",
+      "source": "https://jmlr.org/author-info.html",
+      "sources": [
+        "https://jmlr.org/"
+      ],
+      "relevance": "For substantial ML theory or methods contributions motivated by biological data, not application-only biomedical studies. JMLR explicitly excludes applications of ML to other domains without a methods contribution.",
+      "notes": "Journal, not a conference: no event dates or host city. The standard author instructions describe manuscript submission without a fixed annual deadline. Check current submission availability and special-issue calls separately.",
+      "abstractNote": "Journal manuscript submission · no fixed annual deadline",
+      "type": "Journal",
+      "topics": [
+        "AI & ML",
+        "Journal submissions"
+      ],
+      "tierField": "Machine learning journals",
+      "location": "Online publication · no event venue",
+      "country": "Online",
+      "geo": null,
+      "start": null,
+      "end": null,
+      "deadlines": [],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "submissionMode": "rolling",
+      "inclusionReason": "Explicit user request on 2026-11-26; journal entry, not a conference."
+    },
+    {
+      "id": "tmlr",
+      "name": "TMLR · journal",
+      "fullName": "Transactions on Machine Learning Research",
+      "tier": "T2",
+      "fit": "Relevant",
+      "tierReason": "Editorial assessment: a leading peer-reviewed ML journal with rolling review; newer than JMLR. Not a conference ranking or an inference from its journal-to-conference partnerships.",
+      "source": "https://jmlr.org/tmlr/",
+      "sources": [
+        "https://jmlr.org/tmlr/submissions.html",
+        "https://jmlr.org/tmlr/editorial-policies.html"
+      ],
+      "relevance": "ML methods and empirical research with broader learning relevance, including biomedical foundation-model work; technical correctness and supported claims are central.",
+      "notes": "Rolling-submission journal, not a conference. No conference dates, host city or fixed annual abstract deadline. Organizer pauses or submission restrictions may apply; check the current submission policy. Journal-to-conference certification is a separate route, not automatic conference acceptance.",
+      "abstractNote": "Rolling journal submissions · no fixed annual deadline",
+      "type": "Journal",
+      "topics": [
+        "AI & ML",
+        "Journal submissions"
+      ],
+      "tierField": "Machine learning journals",
+      "location": "Online publication · no event venue",
+      "country": "Online",
+      "geo": null,
+      "start": null,
+      "end": null,
+      "deadlines": [],
+      "checkedAt": "2026-11-26",
+      "verification": "official",
+      "submissionMode": "rolling",
+      "inclusionReason": "Explicit user request on 2026-11-26; journal entry, not a conference."
     }
   ],
   "tierPolicy": {
@@ -6299,7 +6594,7 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. MIDL extended its full-paper deadline from 4 to 11 December 2026 while retaining the mandatory 30 November abstract-registration gate. The Wellcome Sanger Fungal Pathogen Genomics virtual course was added with its confirmed 7–11 June 2027 dates and 5 April application deadline. EMBL-EBI corrected From Sequences to Structures from 10 to 9 June 2027; its registration-status conflict is documented without guessing. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.",
+  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. MIDL extended its full-paper deadline from 4 to 11 December 2026 while retaining the mandatory 30 November abstract-registration gate. The Wellcome Sanger Fungal Pathogen Genomics virtual course was added with its confirmed 7–11 June 2027 dates and 5 April application deadline. EMBL-EBI corrected From Sequences to Structures from 10 to 9 June 2027; its registration-status conflict is documented without guessing. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.\n\nUser-requested scope expansion (26 November 2026): retain ICML, NeurIPS, ICLR, UAI, AISTATS, COLT, JMLR, TMLR, ACL, EMNLP, CVPR, AAAI and KDD. This supersedes the earlier archive exclusion for these names only. Five conference entries were restored and two journal entries added; the six already-tracked series were not duplicated or reverified. Journal records use type Journal, null event dates/geo, no dated deadlines, and explanatory notes. The existing UI does not yet have a Journal type filter or rolling-submission status; generic awaiting-date text does not imply that a journal deadline is pending.",
   "lastRun": {
     "summary": "Extended the MIDL full-paper deadline to 11 December, added Wellcome Sanger Fungal Pathogen Genomics 2027, and corrected the EMBL-EBI From Sequences to Structures course date to 9 June.",
     "reviewedAt": "2026-11-26T00:13:52.128Z",
@@ -6510,5 +6805,80 @@
         "singapore": "2026-12-08T19:59:00+08:00"
       }
     ]
+  },
+  "scopeOverrides": {
+    "explicitUserVenues": {
+      "requestedAt": "2026-11-26",
+      "venues": [
+        "ICML",
+        "NeurIPS",
+        "ICLR",
+        "UAI",
+        "AISTATS",
+        "COLT",
+        "JMLR",
+        "TMLR",
+        "ACL",
+        "EMNLP",
+        "CVPR",
+        "AAAI",
+        "KDD"
+      ],
+      "reason": "The user explicitly requested these venues. Retain them even where the earlier AI × biology-only exclusion or archived-events.json excluded a broad-AI venue. Other archived exclusions remain unchanged.",
+      "restoredIds": [
+        "aistats-2027",
+        "aaai-2027",
+        "kdd-2027",
+        "uai-next",
+        "colt-2027"
+      ],
+      "journalIds": [
+        "jmlr",
+        "tmlr"
+      ]
+    }
+  },
+  "lastUserUpdate": {
+    "reviewedAt": "2026-11-26T16:53:03.048Z",
+    "summary": "Added seven requested venues; retained six already tracked without duplicates. This was a scoped addition, not a full catalog refresh.",
+    "addedIds": [
+      "aistats-2027",
+      "aaai-2027",
+      "kdd-2027",
+      "uai-next",
+      "colt-2027",
+      "jmlr",
+      "tmlr"
+    ],
+    "alreadyTracked": [
+      "ICML",
+      "NeurIPS",
+      "ICLR",
+      "ACL",
+      "EMNLP",
+      "CVPR"
+    ],
+    "verifiedAddedIds": [
+      "aistats-2027",
+      "aaai-2027",
+      "kdd-2027",
+      "colt-2027",
+      "jmlr",
+      "tmlr"
+    ],
+    "partialIds": [
+      "uai-next"
+    ],
+    "failedSources": [
+      {
+        "url": "https://www.auai.org/uai2027/",
+        "reason": "Inaccessible; AUAI only exposed the 2026 edition. No next-edition dates or location inferred."
+      }
+    ],
+    "uiLimitations": [
+      "Journal entries are searchable in All opportunities but no dedicated Journal filter exists.",
+      "Generic awaiting-date/status text remains for journals; notes specify no fixed annual deadline."
+    ],
+    "dataOnly": true
   }
 }
