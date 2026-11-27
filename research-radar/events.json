@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T16:53:03.048Z",
+  "updatedAt": "2026-11-27T00:39:07.865Z",
   "coverage": "Curated AI × biology, structural bioinformatics, genomics/proteomics and medical-imaging venues, plus advanced training. Major ML/CV/NLP conferences are included only with a specific biomedical research route. Future editions and workshop discovery entries are labelled; not an exhaustive worldwide directory. Explicit user additions on 26 November 2026 also include UAI, AISTATS, COLT, AAAI, KDD, JMLR and TMLR; their relevance remains distinct from their field tiers.",
   "timezone": "Asia/Singapore",
   "updatePolicy": {
@@ -161,7 +161,7 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "fullName": "Medical Imaging with Deep Learning",
       "notes": "The mandatory abstract-registration gate remains 30 November 2026 at 23:59 AoE. The organizer extended the full-paper deadline from 4 to 11 December 2026 at 23:59 AoE; a paper still requires timely abstract registration. Short-paper dates remain TBA. Doctoral symposium is 13 July; main conference is 14–16 July.",
@@ -579,7 +579,7 @@
         "label": "Auckland",
         "precision": "city"
       },
-      "checkError": "2026-11-26: the official MICCAI 2027 conference site returned HTTP 520 again. No main-paper deadline could be verified; previously verified dates, venue and checkedAt were preserved."
+      "checkError": "2026-11-27: Official site returned HTTP 520. Prior facts and checkedAt retained."
     },
     {
       "id": "emnlp-2027",
@@ -786,7 +786,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "fullName": "Pacific Symposium on Biocomputing",
       "notes": "One poster is accepted per paid participant. The proceedings paper deadline is already past. Travel support requires registration, is reimbursement only, and is separate from the poster submission route.",
@@ -1828,7 +1828,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "opens": "2026-12-14",
       "notes": "Applications open 14 December 2026. Organizer moved the course from 5–9 July to 12–16 July.",
@@ -2000,7 +2000,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "notes": "The official organizer page labels this an EMBL-KAUST Conference, not a workshop. Only on-site participants may submit oral/poster abstracts; virtual participation remains available without an abstract route. EMBL’s FAQ states that listed cutoffs close at midnight CET; Europe/Berlin and 23:59 are stored.",
       "tier": "T3",
@@ -2598,7 +2598,7 @@
           "requires": "abstract"
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "fullName": "Information Processing in Medical Imaging",
       "notes": "Current official important-dates block separates abstract registration (7 December, end of day AoE) from full paper (14 December). Older announcements describing 7 December as the full-paper deadline are superseded; full-paper cutoff time is not independently specified.",
@@ -3089,7 +3089,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "opens": "2027-03-02",
       "notes": "Virtual course; opens for applications on 2 March 2027.",
@@ -4569,7 +4569,8 @@
       "verification": "official",
       "fullName": "International Symposium on Artificial Intelligence in Radiotherapy",
       "opens": "2026-09-01",
-      "notes": "The organizer specifies a one-page, anonymised abstract and double-blind review. The live submission page now gives the cutoff as 1 December 2026 at 12:00 Amsterdam time. Organizer history identifies AIinRT 2027 as formerly DLinRT 2027."
+      "notes": "The organizer specifies a one-page, anonymised abstract and double-blind review. The live submission page now gives the cutoff as 1 December 2026 at 12:00 Amsterdam time. Organizer history identifies AIinRT 2027 as formerly DLinRT 2027.",
+      "checkError": "2026-11-27: Official page had no readable body; indexed organizer result corroborated 1 December 2026 at 12:00 Amsterdam time, but full current-page verification was unavailable. Prior facts and checkedAt retained."
     },
     {
       "id": "embl-gene-regulation-2027",
@@ -4683,9 +4684,9 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "needs-review",
-      "notes": "EMBO Practical Course limited to 20 selected participants. The official event card, accommodation dates and programme after day 1 support 5–12 April 2027, but the day-1 programme line mistakenly says 5 April 2026. The record uses the organizer's event-card dates and flags the conflict. EMBL’s participant FAQ states that applications and motivation letters close at midnight CET on the listed date; Europe/Berlin and 23:59 are stored.",
+      "notes": "EMBO Practical Course limited to 20 selected participants. The official event card, accommodation dates and programme after day 1 support 5–12 April 2027, but the day-1 programme line mistakenly says 5 April 2026. The record uses the organizer's event-card dates and flags the conflict. The current on-site participant FAQ explicitly specifies 23:59 Europe/Berlin for motivation letters; that exact cutoff is retained.",
       "tier": "Training",
       "tierField": "Advanced research training",
       "tierReason": "Training opportunity; conference prestige tiers do not apply.",
@@ -5815,7 +5816,7 @@
           "actionable": false
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "official",
       "notes": "Developed with the Open Rosetta Project / Open Molecular Software Foundation. The program explicitly covers computational protein design, deep learning, hybrid AI–physics modelling and an AI model-fine-tuning tutorial. In-person, livestream and on-demand formats are listed. The organizer's detailed deadline page states that every listed cutoff ends at 23:59 US Mountain time; America/Denver is used for the meeting's December, January and March deadlines."
     },
@@ -6111,7 +6112,7 @@
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-26",
+      "checkedAt": "2026-11-27",
       "verification": "needs-review",
       "notes": "The current organizer landing page and its linked EasyChair CFP agree on the conference dates and author deadlines; the linked CFP supplies Philadelphia as the venue. A stale alternate /home/ endpoint still shows TBD placeholders, so the record is flagged for recheck. The listed conference workshops are invitation-only and are not treated as open author routes."
     },
@@ -6152,9 +6153,9 @@
           "time": null
         }
       ],
-      "checkedAt": "2026-11-26",
-      "verification": "official",
-      "notes": "Residential, selection-based CSHL course with strong laboratory and data-analysis components. The application requires a personal statement and recommendation letter; an optional financial-aid request is submitted with the application. The organizer does not publish a cutoff time or timezone."
+      "checkedAt": "2026-11-27",
+      "verification": "needs-review",
+      "notes": "Residential, selection-based CSHL course with strong laboratory and data-analysis components. The application requires a personal statement and recommendation letter; an optional financial-aid request is submitted with the application. The organizer does not publish a cutoff time or timezone. The page also displays a generic past-event banner despite its future 2027 dates; explicit dates retained, registration availability needs confirmation."
     },
     {
       "id": "embl-protein-synthesis-2027",
@@ -6279,14 +6280,14 @@
         {
           "label": "Course application",
           "date": "2027-04-05",
-          "zone": "Europe/London",
+          "zone": "Etc/GMT",
           "time": "23:59"
         }
       ],
-      "checkedAt": "2026-11-26",
-      "verification": "official",
+      "checkedAt": "2026-11-27",
+      "verification": "needs-review",
       "submissionState": "not-open",
-      "notes": "Selection-based virtual computational course using web resources including FungiDB/VEuPathDB, Ensembl, SGD/CGD and JGI MycoCosm. No coding is required; the course does not cover command-line analysis or participants’ own datasets. Applications are announced as opening soon, with a sponsor recommendation required."
+      "notes": "Selection-based virtual computational course using web resources including FungiDB/VEuPathDB, Ensembl, SGD/CGD and JGI MycoCosm. No coding is required; the course does not cover command-line analysis or participants’ own datasets. Applications are announced as opening soon, with a sponsor recommendation required. Verified cutoff is explicitly 23:59 GMT on 5 April 2027, not UK daylight-saving time; stored as Etc/GMT. The application button/current opening state was not confirmed in this check."
     },
     {
       "id": "aistats-2027",
@@ -6582,6 +6583,47 @@
       "verification": "official",
       "submissionMode": "rolling",
       "inclusionReason": "Explicit user request on 2026-11-26; journal entry, not a conference."
+    },
+    {
+      "id": "bicob-2027",
+      "name": "BICOB 2027",
+      "fullName": "International Conference on Bioinformatics and Computational Biology",
+      "type": "Conference",
+      "topics": [
+        "Bioinformatics",
+        "Structural bioinformatics",
+        "Proteomics",
+        "Biomedical AI",
+        "Multi-omics"
+      ],
+      "fit": "High",
+      "relevance": "Explicit scope includes ML for disease, precision medicine, computational proteomics, multi-omics integration, structural prediction and protein design.",
+      "location": "New Orleans, Louisiana, USA",
+      "country": "United States",
+      "geo": {
+        "lat": 29.95,
+        "lon": -90.07,
+        "label": "New Orleans",
+        "precision": "city"
+      },
+      "tier": "T3",
+      "tierField": "Bioinformatics & computational biology",
+      "tierReason": "Editorial assessment: an established smaller specialist meeting, not a field flagship such as ISMB or RECOMB.",
+      "start": "2027-03-22",
+      "end": "2027-03-23",
+      "source": "https://cseweb.uhcl.edu/bicob27/",
+      "deadlines": [
+        {
+          "label": "Full paper",
+          "date": "2026-11-30",
+          "time": null,
+          "zone": null
+        }
+      ],
+      "checkedAt": "2026-11-27",
+      "verification": "official",
+      "abstractNote": "No separate abstract-registration gate published",
+      "notes": "Official call gives the paper deadline but no cutoff time or timezone. Dates and host city are confirmed; no precise venue is inferred. Full-paper submission is distinct from an abstract-only route."
     }
   ],
   "tierPolicy": {
@@ -6594,215 +6636,143 @@
       "Training": "Training · unranked"
     }
   },
-  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. MIDL extended its full-paper deadline from 4 to 11 December 2026 while retaining the mandatory 30 November abstract-registration gate. The Wellcome Sanger Fungal Pathogen Genomics virtual course was added with its confirmed 7–11 June 2027 dates and 5 April application deadline. EMBL-EBI corrected From Sequences to Structures from 10 to 9 June 2027; its registration-status conflict is documented without guessing. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.\n\nUser-requested scope expansion (26 November 2026): retain ICML, NeurIPS, ICLR, UAI, AISTATS, COLT, JMLR, TMLR, ACL, EMNLP, CVPR, AAAI and KDD. This supersedes the earlier archive exclusion for these names only. Five conference entries were restored and two journal entries added; the six already-tracked series were not duplicated or reverified. Journal records use type Journal, null event dates/geo, no dated deadlines, and explanatory notes. The existing UI does not yet have a Journal type filter or rolling-submission status; generic awaiting-date text does not imply that a journal deadline is pending.",
+  "researchNotes": "Official organizer sources were rechecked for imminent AI × biology, medical-imaging, genomics, proteomics, RNA/structural-biology and advanced-training deadlines. MIDL extended its full-paper deadline from 4 to 11 December 2026 while retaining the mandatory 30 November abstract-registration gate. The Wellcome Sanger Fungal Pathogen Genomics virtual course was added with its confirmed 7–11 June 2027 dates and 5 April application deadline. EMBL-EBI corrected From Sequences to Structures from 10 to 9 June 2027; its registration-status conflict is documented without guessing. Other near-term deadlines remained unchanged. MICCAI, RECOMB-CCB and MLBio checks failed again, so prior facts and checkedAt values were preserved. Indexed X/public-web discovery produced no additional independently verifiable event facts, and archived broad-AI entries were not reintroduced.\n\nUser-requested scope expansion (26 November 2026): retain ICML, NeurIPS, ICLR, UAI, AISTATS, COLT, JMLR, TMLR, ACL, EMNLP, CVPR, AAAI and KDD. This supersedes the earlier archive exclusion for these names only. Five conference entries were restored and two journal entries added; the six already-tracked series were not duplicated or reverified. Journal records use type Journal, null event dates/geo, no dated deadlines, and explanatory notes. The existing UI does not yet have a Journal type filter or rolling-submission status; generic awaiting-date text does not imply that a journal deadline is pending.\n\n27 November review: BICOB 2027 added (30 November full-paper deadline, cutoff unverified). Sanger Fungal Pathogen Genomics timezone corrected to the explicitly published GMT. Near-term MIDL, PSB, IPMI, ICCABS, EMBL and Keystone dates were reconfirmed. MICCAI failed and AIinRT was only partially accessible; prior verified facts preserved. This was a partial catalog review; recent explicit user scope overrides and journal entries were retained.",
   "lastRun": {
-    "summary": "Extended the MIDL full-paper deadline to 11 December, added Wellcome Sanger Fungal Pathogen Genomics 2027, and corrected the EMBL-EBI From Sequences to Structures course date to 9 June.",
-    "reviewedAt": "2026-11-26T00:13:52.128Z",
+    "reviewedAt": "2026-11-27T00:39:07.865Z",
     "partial": true,
-    "reviewedExistingCount": 24,
-    "addedCount": 1,
-    "removedDuplicateCount": 0,
-    "partialRecordCount": 11,
-    "failedRecordCount": 3,
-    "notReviewedCount": 116,
+    "summary": "Added BICOB 2027 and corrected Sanger fungal-genomics cutoff timezone. Rechecked 11 existing records; two additional checks failed or were partial.",
+    "reviewedExistingCount": 11,
     "reviewedIds": [
-      "aaai-making-sense-2027",
       "midl-2027",
-      "embl-microbial-metagenomics-2027",
-      "aiinrt-2027",
       "psb-2027",
-      "keystone-computational-biomolecules-2027",
-      "iccabs-2027",
-      "embl-rbp-2027",
       "ipmi-2027",
+      "iccabs-2027",
+      "embl-microbial-metagenomics-2027",
+      "embl-rbp-2027",
+      "keystone-computational-biomolecules-2027",
       "cshl-course-proteomics-2027",
-      "cshl-course-cryoem-2027",
-      "cshl-course-c-qicm",
-      "cshl-course-c-data",
-      "cshl-course-c-single-2027",
-      "cshl-course-crystallography-2027",
-      "cshl-probgen",
-      "ebi-structural-2027",
       "ebi-proteomics-2027",
-      "ebi-sequences-structures-2027",
-      "sanger-aixbio-2027",
-      "sanger-applied-bioinfo-2027",
-      "sanger-organoids-2027",
-      "sanger-long-read-2027",
-      "sanger-cancer-epidemiology-2027"
-    ],
-    "addedIds": [
+      "ebi-structural-2027",
       "sanger-fungal-genomics-2027"
     ],
-    "removedDuplicateIds": [],
+    "addedCount": 1,
+    "addedIds": [
+      "bicob-2027"
+    ],
     "changedIds": [
-      "aaai-making-sense-2027",
       "midl-2027",
-      "embl-microbial-metagenomics-2027",
-      "aiinrt-2027",
       "psb-2027",
-      "keystone-computational-biomolecules-2027",
-      "iccabs-2027",
-      "embl-rbp-2027",
       "ipmi-2027",
+      "iccabs-2027",
+      "embl-microbial-metagenomics-2027",
+      "embl-rbp-2027",
+      "keystone-computational-biomolecules-2027",
       "cshl-course-proteomics-2027",
-      "cshl-course-cryoem-2027",
-      "cshl-course-c-qicm",
-      "cshl-course-c-data",
-      "cshl-course-c-single-2027",
-      "cshl-course-crystallography-2027",
-      "cshl-probgen",
-      "ebi-structural-2027",
       "ebi-proteomics-2027",
-      "ebi-sequences-structures-2027",
-      "sanger-aixbio-2027",
-      "sanger-applied-bioinfo-2027",
-      "sanger-organoids-2027",
-      "sanger-long-read-2027",
-      "sanger-cancer-epidemiology-2027",
+      "ebi-structural-2027",
       "sanger-fungal-genomics-2027",
-      "miccai-workshops",
       "miccai-2027",
-      "recombccb-next",
-      "mlbio-2027"
+      "aiinrt-2027",
+      "bicob-2027"
+    ],
+    "failedRecordCount": 1,
+    "failedIds": [
+      "miccai-2027"
     ],
     "partialIds": [
-      "aaai-making-sense-2027",
-      "embl-microbial-metagenomics-2027",
-      "ebi-sequences-structures-2027",
-      "sanger-cancer-epidemiology-2027",
-      "sanger-aixbio-2027",
+      "aiinrt-2027",
+      "sanger-fungal-genomics-2027",
+      "cshl-course-proteomics-2027",
       "iccabs-2027",
-      "cshl-course-crystallography-2027",
-      "miccai-workshops",
-      "miccai-2027",
-      "recombccb-next",
-      "mlbio-2027"
+      "embl-microbial-metagenomics-2027"
     ],
-    "failedIds": [
-      "miccai-2027",
-      "recombccb-next",
-      "mlbio-2027"
-    ],
-    "unresolvedConflictIds": [
-      "miccai-2027",
-      "sanger-cancer-epidemiology-2027",
-      "sanger-organoids-2027",
-      "sanger-aixbio-2027",
-      "recombccb-next",
-      "cshl-course-c-data",
-      "cshl-course-c-qicm",
-      "cshl-course-cryoem-2027",
-      "cshl-course-crystallography-2027",
-      "embl-cancer-genomics-2027",
-      "embl-ai-medicine-2027",
-      "cshl-naisys-2027",
-      "cshl-genome-informatics-2027",
-      "ebi-metagenomics-2027",
-      "embl-quant-proteomics-2027",
-      "cshl-biology-genomes-2027",
-      "embl-microbial-metagenomics-2027",
-      "neurips-icbinb-bio-2026",
-      "neurips-gem-bio-2026",
-      "neurips-genai4health-2026",
-      "neurips-brainbodyfm-2026",
-      "neurips-ml4spatialbio-2026",
-      "aaai-making-sense-2027",
-      "mlbio-2027",
-      "iccabs-2027",
-      "ebi-sequences-structures-2027"
-    ],
+    "notReviewedCount": 135,
     "failedSources": [
       {
         "url": "https://conferences.miccai.org/2027/en/",
-        "reason": "The official MICCAI 2027 site returned HTTP 520; no main-paper deadline was available, so verified facts and checkedAt were preserved."
+        "reason": "Official site returned HTTP 520."
       },
       {
-        "url": "https://conferences.miccai.org/2027/en/CALL-FOR-SATELLITE-EVENTS.html",
-        "reason": "The dedicated satellite-event templates and submission page were inaccessible; prior organizer-proposal dates and checkedAt were preserved."
-      },
-      {
-        "url": "https://recomb.org/recomb-ccb2027",
-        "reason": "The dedicated RECOMB-CCB 2027 page returned 404. No author deadline or venue was available; verified facts and checkedAt were preserved."
-      },
-      {
-        "url": "https://mlbio.org/",
-        "reason": "The official MLBio site remained inaccessible. Indexed X/public-web discovery yielded no primary-source date, location or deadline; the watchlist and checkedAt were preserved."
+        "url": "https://aiinrt.org/",
+        "reason": "Official page had no readable body; indexed organizer result corroborated 1 December 2026 at 12:00 Amsterdam time, but full current-page verification was unavailable."
       }
     ],
-    "discoveryNotes": "Primary organizer calendars and calls were searched across AI × biology, biomedical foundation models, medical imaging, bioinformatics, genomics, proteomics, multi-omics, RNA/protein modelling and structural biology. Sanger’s current course calendar and year-specific page supported adding Fungal Pathogen Genomics 2027. CSHL, EMBL and EMBL-EBI calendars were rechecked; no other untracked high-priority edition with sufficient confirmed metadata was found. Indexed X searches supplied no independently verifiable event beyond primary organizer sources; archived AI-only entries stayed excluded.",
+    "discoveryNotes": "Searched organizer sources covering CSHL proteomics, EMBL metagenomics/RNA, EMBL-EBI structural/proteomics training, Sanger genomics/AI x BIO and computational biology conferences. Added independently verified BICOB. Indexed X queries returned no usable X sources; no social-only facts added. Other discovery candidates were not exhaustively assessed.",
     "highRelevanceWithin14Days": [
       {
-        "eventId": "aaai-making-sense-2027",
-        "label": "Research / demo / dataset paper · extended",
-        "date": "2026-11-26",
-        "time": "23:59",
+        "eventId": "midl-2027",
+        "label": "Abstract registration",
+        "date": "2026-11-30",
         "zone": "AoE",
-        "singapore": "2026-11-27T19:59:00+08:00"
+        "time": "23:59",
+        "id": "abstract"
       },
       {
-        "eventId": "embl-microbial-metagenomics-2027",
-        "label": "Course application / motivation letter",
-        "date": "2026-11-30",
+        "eventId": "midl-2027",
+        "label": "Full paper",
+        "date": "2026-12-11",
+        "zone": "AoE",
         "time": "23:59",
-        "zone": "Europe/Berlin",
-        "singapore": "2026-12-01T06:59:00+08:00"
+        "requires": "abstract"
+      },
+      {
+        "eventId": "psb-2027",
+        "label": "Poster abstract",
+        "date": "2026-12-01",
+        "zone": "America/Los_Angeles",
+        "time": "23:59"
+      },
+      {
+        "eventId": "ipmi-2027",
+        "label": "Abstract registration",
+        "date": "2026-12-07",
+        "zone": "AoE",
+        "time": "23:59",
+        "id": "abstract"
       },
       {
         "eventId": "aiinrt-2027",
         "label": "Abstract submission",
         "date": "2026-12-01",
-        "time": "12:00",
         "zone": "Europe/Amsterdam",
-        "singapore": "2026-12-01T19:00:00+08:00"
+        "time": "12:00"
       },
       {
-        "eventId": "midl-2027",
-        "label": "Abstract registration",
+        "eventId": "embl-microbial-metagenomics-2027",
+        "label": "Course application / motivation letter",
         "date": "2026-11-30",
-        "time": "23:59",
-        "zone": "AoE",
-        "singapore": "2026-12-01T19:59:00+08:00"
-      },
-      {
-        "eventId": "psb-2027",
-        "label": "Poster abstract · no extensions",
-        "date": "2026-12-01",
-        "time": "23:59",
-        "zone": "America/Los_Angeles",
-        "singapore": "2026-12-02T15:59:00+08:00"
+        "zone": "Europe/Berlin",
+        "time": "23:59"
       },
       {
         "eventId": "keystone-computational-biomolecules-2027",
         "label": "Short-talk abstract",
         "date": "2026-12-03",
-        "time": "23:59",
         "zone": "America/Denver",
-        "singapore": "2026-12-04T14:59:00+08:00"
+        "time": "23:59"
       },
       {
         "eventId": "iccabs-2027",
         "label": "Title and abstract registration",
         "date": "2026-12-04",
-        "time": "23:59",
         "zone": "AoE",
-        "singapore": "2026-12-05T19:59:00+08:00"
+        "time": "23:59",
+        "id": "abstract"
       },
       {
-        "eventId": "embl-rbp-2027",
-        "label": "Abstract submission · on-site participants only",
-        "date": "2026-12-06",
+        "eventId": "iccabs-2027",
+        "label": "Full paper",
+        "date": "2026-12-11",
+        "zone": "AoE",
         "time": "23:59",
-        "zone": "Europe/Berlin",
-        "singapore": "2026-12-07T06:59:00+08:00"
+        "requires": "abstract"
       },
       {
-        "eventId": "ipmi-2027",
-        "label": "Paper abstract registration",
-        "date": "2026-12-07",
-        "time": "23:59",
-        "zone": "AoE",
-        "singapore": "2026-12-08T19:59:00+08:00"
+        "eventId": "bicob-2027",
+        "label": "Full paper",
+        "date": "2026-11-30",
+        "time": null,
+        "zone": null
       }
     ]
   },
